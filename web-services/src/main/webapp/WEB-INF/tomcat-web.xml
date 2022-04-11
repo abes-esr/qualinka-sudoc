@@ -1,0 +1,16 @@
+<!DOCTYPE web-app PUBLIC
+ "-//Sun Microsystems, Inc.//DTD Web Application 2.3//EN"
+ "http://java.sun.com/dtd/web-app_2_3.dtd" >
+
+<web-app>
+	<servlet>
+		<servlet-name>default</servlet-name>
+		<servlet-class>
+			org.apache.catalina.servlets.DefaultServlet
+		</servlet-class>
+		<init-param>
+			<param-name>fileEncoding</param-name>
+			<param-value>UTF-8</param-value>
+		</init-param>
+	</servlet>
+</web-app>	

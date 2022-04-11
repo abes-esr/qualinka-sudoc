@@ -1,0 +1,1359 @@
+{
+	"features": {
+		"http:\/\/www.idref.fr\/182083799\/id": {
+			"personName": [
+				{
+					"person": "http:\/\/www.idref.fr\/182083799\/id",
+					"last_name": "Cross",
+					"first_name": "David"
+				}
+			],
+			"rc": [
+				"http:\/\/www.sudoc.abes.fr\/053163680-1",
+				"http:\/\/www.sudoc.abes.fr\/182083152-3"
+			],
+			"source": [
+				"Cornford & Cross [Texte imprimé] \/ essays by John Roberts, Rachel Withers, 2009"
+			],
+			"dateCreationNotice":"20141128"
+			
+		},
+		"http:\/\/www.sudoc.abes.fr\/150808437-1": {
+			"role": [
+				"author"
+			],
+			"rameau": [
+				"Création collective (art)",
+				"Art public"
+			],
+			"title": [
+				"Cornford & Cross"
+			],
+			"type": [
+				"http:\/\/www.sudoc.abes.fr\/Bibliographie"
+			],
+			"pubDate":"2009"
+			,
+			"expLanguage": [
+				"eng"
+			],
+			"personName": [
+				{
+					"person": "http:\/\/www.sudoc.abes.fr\/150808437-1",
+					"appellation": "Cross, David"
+				}
+			],
+			"cocontributor": [
+				{
+					"cocontributor": "Robinson, Alistair",
+					"person": "http:\/\/www.sudoc.abes.fr\/150808437-1",
+					"idcocontrib": "http:\/\/www.sudoc.abes.fr\/150808437-5"
+				},
+				{
+					"cocontributor": "Withers, Rachel",
+					"person": "http:\/\/www.sudoc.abes.fr\/150808437-1",
+					"idcocontrib": "http:\/\/www.sudoc.abes.fr\/150808437-4"
+				},
+				{
+					"cocontributor": "Roberts, John",
+					"person": "http:\/\/www.sudoc.abes.fr\/150808437-1",
+					"idcocontrib": "http:\/\/www.sudoc.abes.fr\/150808437-3"
+				},
+				{
+					"cocontributor": "Cornford, Matthew",
+					"person": "http:\/\/www.sudoc.abes.fr\/150808437-1",
+					"idcocontrib": "http:\/\/www.sudoc.abes.fr\/150808437-2"
+				},
+				{
+					"cocontributor": "Cross, David",
+					"person": "http:\/\/www.sudoc.abes.fr\/150808437-1",
+					"idcocontrib": "http:\/\/www.sudoc.abes.fr\/150808437-1"
+				}
+			],
+			"domain": [
+				"350",
+				"700"
+			],
+			"genre":"http:\/\/www.sudoc.abes.fr\/Texte_non_litteraire"
+			,
+			"publisher": [
+				"Black Dog Pub."
+			],
+			"dewey": [
+				"709.41"
+			],
+			"keyword": [
+				"Artists and community",
+				"Cornford & Cross"
+			],
+			"assertedLink": [
+				"http:\/\/www.idref.fr\/150810105\/id"
+			],
+			"dateCreationNotice":"20110317"
+			
+		},
+		"http:\/\/www.sudoc.abes.fr\/145401812-7": {
+			"expLanguage": [
+				"fre",
+				"eng"
+			],
+			"personName": [
+				{
+					"person": "http:\/\/www.sudoc.abes.fr\/145401812-7",
+					"appellation": "Cross, David"
+				}
+			],
+			"role": [
+				"actor"
+			],
+			"cocontributor": [
+				{
+					"cocontributor": "Newman, David",
+					"person": "http:\/\/www.sudoc.abes.fr\/145401812-7",
+					"idcocontrib": "http:\/\/www.sudoc.abes.fr\/145401812-5"
+				},
+				{
+					"cocontributor": "Thomas, Betty",
+					"person": "http:\/\/www.sudoc.abes.fr\/145401812-7",
+					"idcocontrib": "http:\/\/www.sudoc.abes.fr\/145401812-1"
+				},
+				{
+					"cocontributor": "Seville, David",
+					"person": "http:\/\/www.sudoc.abes.fr\/145401812-7",
+					"idcocontrib": "http:\/\/www.sudoc.abes.fr\/145401812-2"
+				},
+				{
+					"cocontributor": "Aibel, Jonathan",
+					"person": "http:\/\/www.sudoc.abes.fr\/145401812-7",
+					"idcocontrib": "http:\/\/www.sudoc.abes.fr\/145401812-4"
+				},
+				{
+					"cocontributor": "Lee, Jason",
+					"person": "http:\/\/www.sudoc.abes.fr\/145401812-7",
+					"idcocontrib": "http:\/\/www.sudoc.abes.fr\/145401812-6"
+				},
+				{
+					"cocontributor": "Cross, David",
+					"person": "http:\/\/www.sudoc.abes.fr\/145401812-7",
+					"idcocontrib": "http:\/\/www.sudoc.abes.fr\/145401812-7"
+				},
+				{
+					"cocontributor": "Long, Justin",
+					"person": "http:\/\/www.sudoc.abes.fr\/145401812-7",
+					"idcocontrib": "http:\/\/www.sudoc.abes.fr\/145401812-8"
+				},
+				{
+					"cocontributor": "Vitti, Jon",
+					"person": "http:\/\/www.sudoc.abes.fr\/145401812-7",
+					"idcocontrib": "http:\/\/www.sudoc.abes.fr\/145401812-3"
+				}
+			],
+			"publisher": [
+				"Fox Pathé Europa [éd., distrib.]"
+			],
+			"title": [
+				"Alvin et les Chipmunks 2"
+			],
+			"pubDate":"2010"
+			,
+			"assertedLink": [
+			],
+			"dateCreationNotice":"20100629"
+			,
+			"firstExpLanguage": [
+				"eng"
+			]
+		},
+		"http:\/\/www.idref.fr\/15012533X\/id": {
+			"personName": [
+				{
+					"person": "http:\/\/www.idref.fr\/15012533X\/id",
+					"last_name": "Cross",
+					"first_name": "David"
+				}
+			],
+			"rc": [
+				"http:\/\/www.sudoc.abes.fr\/155154761-1"
+			],
+			"birth":"1980"
+			,
+			"source": [
+				"Les connaissances professionnelles de l\u2019enseignant : Reconstruction à partir d\u2019un corpus vidéo de situations de classe de chimie\/ David Cross, 2009"
+			],
+			"dateCreationNotice":"20110216"
+			
+		},
+		"http:\/\/www.sudoc.abes.fr\/130437557-1": {
+			"expLanguage": [
+				"eng"
+			],
+			"personName": [
+				{
+					"person": "http:\/\/www.sudoc.abes.fr\/130437557-1",
+					"appellation": "Cross, David"
+				}
+			],
+			"role": [
+				"author"
+			],
+			"cocontributor": [
+				{
+					"cocontributor": "Cross, David",
+					"person": "http:\/\/www.sudoc.abes.fr\/130437557-1",
+					"idcocontrib": "http:\/\/www.sudoc.abes.fr\/130437557-1"
+				}
+			],
+			"domain": [
+				"621",
+				"510"
+			],
+			"genre":"http:\/\/www.sudoc.abes.fr\/Texte_non_litteraire"
+			,
+			"rameau": [
+				"Données -- Transmission",
+				"Structures de données (informatique)",
+				"Perl (langage de programmation)"
+			],
+			"publisher": [
+				"Manning Publications"
+			],
+			"title": [
+				"Data munging with Perl"
+			],
+			"pubDate":"2001"
+			,
+			"assertedLink": [
+				"http:\/\/www.idref.fr\/130442658\/id"
+			],
+			"dateCreationNotice":"20090115"
+			
+		},
+		"http:\/\/www.idref.fr\/130442658\/id": {
+			"personName": [
+				{
+					"person": "http:\/\/www.idref.fr\/130442658\/id",
+					"last_name": "Cross",
+					"first_name": "David"
+				}
+			],
+			"rc": [
+				"http:\/\/www.sudoc.abes.fr\/005934079-2",
+				"http:\/\/www.sudoc.abes.fr\/130437557-1"
+			],
+			"source": [
+				"Data munging with Perl \/ David Cross, 2001",
+				"Internet, http:\/\/www.manning.com\/cross\/ - 21k , 2009\/01\/15"
+			],
+			"dateCreationNotice":"20090115"
+			
+		},
+		"http:\/\/www.sudoc.abes.fr\/005934079-2": {
+			"expLanguage": [
+				"eng"
+			],
+			"personName": [
+				{
+					"person": "http:\/\/www.sudoc.abes.fr\/005934079-2",
+					"appellation": "Cross, David"
+				}
+			],
+			"role": [
+				"author"
+			],
+			"cocontributor": [
+				{
+					"cocontributor": "Bartsch, Karen",
+					"person": "http:\/\/www.sudoc.abes.fr\/005934079-2",
+					"idcocontrib": "http:\/\/www.sudoc.abes.fr\/005934079-3"
+				},
+				{
+					"cocontributor": "Cross, David",
+					"person": "http:\/\/www.sudoc.abes.fr\/005934079-2",
+					"idcocontrib": "http:\/\/www.sudoc.abes.fr\/005934079-2"
+				},
+				{
+					"cocontributor": "Wellman, Henry M",
+					"person": "http:\/\/www.sudoc.abes.fr\/005934079-2",
+					"idcocontrib": "http:\/\/www.sudoc.abes.fr\/005934079-1"
+				}
+			],
+			"domain": [
+				"300",
+				"150"
+			],
+			"rameau": [
+				"Enfants -- Psychologie -- Recherche",
+				"Cognition chez l'enfant"
+			],
+			"publisher": [
+				"Chicago of University press"
+			],
+			"collection": [
+				"Monographs of the Society for Research in Child Development (Print)"
+			],
+			"title": [
+				"Infant search and object permanence : a meta-analysis of the A-not-B error"
+			],
+			"pubDate":"1986"
+			,
+			"assertedLink": [
+				"http:\/\/www.idref.fr\/130442658\/id"
+			],
+			"dateCreationNotice":"19881013"
+			
+		},
+		"http:\/\/www.idref.fr\/190901764\/id": {
+			"personName": [
+				{
+					"person": "http:\/\/www.idref.fr\/190901764\/id",
+					"last_name": "Cross",
+					"first_name": "David"
+				}
+			],
+			"rc": [
+				"http:\/\/www.sudoc.abes.fr\/190901861-1"
+			],
+			"source": [
+				"A practical handbook of language teaching \/ David Cross, edited by C. Vaughan James"
+			],
+			"dateCreationNotice":"20160125"
+			
+		},
+		"http:\/\/www.sudoc.abes.fr\/176822763-5": {
+			"expLanguage": [
+				"fre",
+				"eng"
+			],
+			"personName": [
+				{
+					"person": "http:\/\/www.sudoc.abes.fr\/176822763-5",
+					"appellation": "Cross, David"
+				}
+			],
+			"role": [
+				"actor"
+			],
+			"cocontributor": [
+				{
+					"cocontributor": "Penn, Zak",
+					"person": "http:\/\/www.sudoc.abes.fr\/176822763-5",
+					"idcocontrib": "http:\/\/www.sudoc.abes.fr\/176822763-1"
+				},
+				{
+					"cocontributor": "Endelman, Stephen",
+					"person": "http:\/\/www.sudoc.abes.fr\/176822763-5",
+					"idcocontrib": "http:\/\/www.sudoc.abes.fr\/176822763-2"
+				},
+				{
+					"cocontributor": "Harrelson, Woody",
+					"person": "http:\/\/www.sudoc.abes.fr\/176822763-5",
+					"idcocontrib": "http:\/\/www.sudoc.abes.fr\/176822763-3"
+				},
+				{
+					"cocontributor": "Farina, Dennis",
+					"person": "http:\/\/www.sudoc.abes.fr\/176822763-5",
+					"idcocontrib": "http:\/\/www.sudoc.abes.fr\/176822763-4"
+				},
+				{
+					"cocontributor": "Cross, David",
+					"person": "http:\/\/www.sudoc.abes.fr\/176822763-5",
+					"idcocontrib": "http:\/\/www.sudoc.abes.fr\/176822763-5"
+				}
+			],
+			"publisher": [
+				"First international production [éd.]",
+				"Sony pictures home entertainment [distrib.]"
+			],
+			"title": [
+				"Very bad strip"
+			],
+			"pubDate":"2013"
+			,
+			"assertedLink": [
+			],
+			"dateCreationNotice":"20140311"
+			
+		},
+		"http:\/\/www.sudoc.abes.fr\/155154761-1": {
+			"role": [
+				"author"
+			],
+			"rameau": [
+				"Langage scientifique et technique -- Thèses et écrits académiques",
+				"Vidéos -- Thèses et écrits académiques",
+				"Chimie -- Étude et enseignement -- Thèses et écrits académiques",
+				"Didactique -- Thèses et écrits académiques"
+			],
+			"title": [
+				"Les connaissances professionnelles de l'enseignant : reconstruction a partir d'un corpus vidéo de situations de classe de chimie"
+			],
+			"type": [
+				"http:\/\/www.sudoc.abes.fr\/Bibliographie",
+				"http:\/\/www.sudoc.abes.fr\/These"
+			],
+			"pubDate":"2009"
+			,
+			"scientificWork": [
+				"http:\/\/www.sudoc.abes.fr\/TheseDeDoctorat"
+			],
+			"expLanguage": [
+				"fre"
+			],
+			"personName": [
+				{
+					"person": "http:\/\/www.sudoc.abes.fr\/155154761-1",
+					"appellation": "Cross, David"
+				}
+			],
+			"cocontributor": [
+				{
+					"cocontributor": "Le Maréchal, Jean-François",
+					"person": "http:\/\/www.sudoc.abes.fr\/155154761-1",
+					"idcocontrib": "http:\/\/www.sudoc.abes.fr\/155154761-3"
+				},
+				{
+					"cocontributor": "Tiberghien, Andrée",
+					"person": "http:\/\/www.sudoc.abes.fr\/155154761-1",
+					"idcocontrib": "http:\/\/www.sudoc.abes.fr\/155154761-2"
+				},
+				{
+					"cocontributor": "Cross, David",
+					"person": "http:\/\/www.sudoc.abes.fr\/155154761-1",
+					"idcocontrib": "http:\/\/www.sudoc.abes.fr\/155154761-1"
+				}
+			],
+			"domain": [
+				"600",
+				"540",
+				"370",
+				"401",
+				"500",
+				"791"
+			],
+			"genre":"http:\/\/www.sudoc.abes.fr\/Texte_non_litteraire"
+			,
+			"keyword": [
+				"Professionnalisation enseignante"
+			],
+			"corporateBody": [
+				"École doctorale Sciences de l'éducation, psychologie, information et communication",
+				"Université Lumière"
+			],
+			"assertedLink": [
+				"http:\/\/www.idref.fr\/15012533X\/id"
+			],
+			"dateCreationNotice":"20110927"
+			
+		},
+		"http:\/\/www.sudoc.abes.fr\/182083152-3": {
+			"role": [
+				"author"
+			],
+			"rameau": [
+				"Art -- 1990-.... -- Australie -- Catalogues d'exposition"
+			],
+			"title": [
+				"Objectified : [exhibition] 3 April - 4 May 2012, SASA Gallery"
+			],
+			"type": [
+				"http:\/\/www.sudoc.abes.fr\/Catalogue"
+			],
+			"pubDate":"2012"
+			,
+			"expLanguage": [
+				"eng"
+			],
+			"personName": [
+				{
+					"person": "http:\/\/www.sudoc.abes.fr\/182083152-3",
+					"appellation": "Cross, David"
+				}
+			],
+			"cocontributor": [
+				{
+					"cocontributor": "Giles, Keith",
+					"person": "http:\/\/www.sudoc.abes.fr\/182083152-3",
+					"idcocontrib": "http:\/\/www.sudoc.abes.fr\/182083152-4"
+				},
+				{
+					"cocontributor": "Paris, Karen",
+					"person": "http:\/\/www.sudoc.abes.fr\/182083152-3",
+					"idcocontrib": "http:\/\/www.sudoc.abes.fr\/182083152-2"
+				},
+				{
+					"cocontributor": "Knights, Mary",
+					"person": "http:\/\/www.sudoc.abes.fr\/182083152-3",
+					"idcocontrib": "http:\/\/www.sudoc.abes.fr\/182083152-1"
+				},
+				{
+					"cocontributor": "Cross, David",
+					"person": "http:\/\/www.sudoc.abes.fr\/182083152-3",
+					"idcocontrib": "http:\/\/www.sudoc.abes.fr\/182083152-3"
+				}
+			],
+			"domain": [
+				"700"
+			],
+			"genre":"http:\/\/www.sudoc.abes.fr\/Texte_non_litteraire"
+			,
+			"publisher": [
+				"SASA Gallery"
+			],
+			"corporateBody": [
+				"SASA Gallery. University of south Australia"
+			],
+			"assertedLink": [
+				"http:\/\/www.idref.fr\/182083799\/id"
+			],
+			"dateCreationNotice":"20141128"
+			
+		},
+		"http:\/\/www.idref.fr\/150810105\/id": {
+			"personName": [
+				{
+					"person": "http:\/\/www.idref.fr\/150810105\/id",
+					"last_name": "Cross",
+					"first_name": "David"
+				}
+			],
+			"rc": [
+				"http:\/\/www.sudoc.abes.fr\/150808437-1",
+				"http:\/\/www.sudoc.abes.fr\/176134905-3"
+			],
+			"birth":"1964"
+			,
+			"source": [
+				"Cornford & Cross [Texte imprimé] \/ essays by John Roberts, Rachel Withers, 2009"
+			],
+			"dateCreationNotice":"20110317"
+			
+		},
+		"http:\/\/www.sudoc.abes.fr\/053163680-1": {
+			"role": [
+				"author"
+			],
+			"title": [
+				"A Striking likeness : the life of George Romney"
+			],
+			"type": [
+				"http:\/\/www.sudoc.abes.fr\/Bibliographie"
+			],
+			"pubDate":"2000"
+			,
+			"expLanguage": [
+				"eng"
+			],
+			"personName": [
+				{
+					"person": "http:\/\/www.sudoc.abes.fr\/053163680-1",
+					"appellation": "Cross, David"
+				}
+			],
+			"cocontributor": [
+				{
+					"cocontributor": "Cross, David",
+					"person": "http:\/\/www.sudoc.abes.fr\/053163680-1",
+					"idcocontrib": "http:\/\/www.sudoc.abes.fr\/053163680-1"
+				}
+			],
+			"genre":"http:\/\/www.sudoc.abes.fr\/Texte_non_litteraire"
+			,
+			"publisher": [
+				"Ashgate"
+			],
+			"dewey": [
+				"759.2"
+			],
+			"keyword": [
+				"Biography",
+				"England",
+				"Portrait painters",
+				"Romney"
+			],
+			"assertedLink": [
+				"http:\/\/www.idref.fr\/182083799\/id"
+			],
+			"dateCreationNotice":"19981130"
+			
+		},
+		"http:\/\/www.sudoc.abes.fr\/176134905-3": {
+			"role": [
+				"author_of_introduction_etc."
+			],
+			"rameau": [
+				"Tatouage -- États-Unis -- Aspect psychologique",
+				"Tatouage -- États-Unis -- Ouvrages humoristiques",
+				"Tatouage -- États-Unis -- Ouvrages illustrés"
+			],
+			"title": [
+				"No regrets : the best, worst, and most #$$%*ing ridiculous tattoos ever"
+			],
+			"type": [
+				"http:\/\/www.sudoc.abes.fr\/Autres"
+			],
+			"pubDate":"2008"
+			,
+			"expLanguage": [
+				"eng"
+			],
+			"personName": [
+				{
+					"person": "http:\/\/www.sudoc.abes.fr\/176134905-3",
+					"appellation": "Cross, David"
+				}
+			],
+			"cocontributor": [
+				{
+					"cocontributor": "Cross, David",
+					"person": "http:\/\/www.sudoc.abes.fr\/176134905-3",
+					"idcocontrib": "http:\/\/www.sudoc.abes.fr\/176134905-3"
+				},
+				{
+					"cocontributor": "Chen, P.M.",
+					"person": "http:\/\/www.sudoc.abes.fr\/176134905-3",
+					"idcocontrib": "http:\/\/www.sudoc.abes.fr\/176134905-2"
+				},
+				{
+					"cocontributor": "Yael, Aviva",
+					"person": "http:\/\/www.sudoc.abes.fr\/176134905-3",
+					"idcocontrib": "http:\/\/www.sudoc.abes.fr\/176134905-1"
+				}
+			],
+			"domain": [
+				"391"
+			],
+			"genre":"http:\/\/www.sudoc.abes.fr\/Texte_non_litteraire"
+			,
+			"publisher": [
+				"Grand Central Pub."
+			],
+			"dewey": [
+				"391.650207"
+			],
+			"keyword": [
+				"Pictorial works",
+				"United States",
+				"Humor",
+				"Psychological aspects",
+				"Tattooing"
+			],
+			"assertedLink": [
+				"http:\/\/www.idref.fr\/150810105\/id"
+			],
+			"dateCreationNotice":"20140205"
+			
+		},
+		"http:\/\/www.sudoc.abes.fr\/195081099-4": {
+			"expLanguage": [
+				"fre",
+				"eng"
+			],
+			"personName": [
+				{
+					"person": "http:\/\/www.sudoc.abes.fr\/195081099-4",
+					"appellation": "Cross, David"
+				}
+			],
+			"role": [
+				"actor"
+			],
+			"cocontributor": [
+				{
+					"cocontributor": "Vitti, Jon",
+					"person": "http:\/\/www.sudoc.abes.fr\/195081099-4",
+					"idcocontrib": "http:\/\/www.sudoc.abes.fr\/195081099-2"
+				},
+				{
+					"cocontributor": "Bagdasarian, Ross",
+					"person": "http:\/\/www.sudoc.abes.fr\/195081099-4",
+					"idcocontrib": "http:\/\/www.sudoc.abes.fr\/195081099-1"
+				},
+				{
+					"cocontributor": "Cross, David",
+					"person": "http:\/\/www.sudoc.abes.fr\/195081099-4",
+					"idcocontrib": "http:\/\/www.sudoc.abes.fr\/195081099-4"
+				},
+				{
+					"cocontributor": "Lee, Jason",
+					"person": "http:\/\/www.sudoc.abes.fr\/195081099-4",
+					"idcocontrib": "http:\/\/www.sudoc.abes.fr\/195081099-3"
+				}
+			],
+			"publisher": [
+				"Fox Pathé Europa [distrib.]",
+				"Twentieth century Fox [éd.]"
+			],
+			"title": [
+				"Alvin et les Chipmunks : l'intégrale des 4 films"
+			],
+			"pubDate":"2016"
+			,
+			"assertedLink": [
+			],
+			"dateCreationNotice":"20160916"
+			,
+			"firstExpLanguage": [
+				"eng"
+			]
+		},
+		"http:\/\/www.sudoc.abes.fr\/175255121-8": {
+			"expLanguage": [
+				"fre",
+				"eng"
+			],
+			"personName": [
+				{
+					"person": "http:\/\/www.sudoc.abes.fr\/175255121-8",
+					"appellation": "Cross, David"
+				}
+			],
+			"role": [
+				"actor"
+			],
+			"cocontributor": [
+				{
+					"cocontributor": "Lennertz, Christopher",
+					"person": "http:\/\/www.sudoc.abes.fr\/175255121-8",
+					"idcocontrib": "http:\/\/www.sudoc.abes.fr\/175255121-6"
+				},
+				{
+					"cocontributor": "Hill, Tim",
+					"person": "http:\/\/www.sudoc.abes.fr\/175255121-8",
+					"idcocontrib": "http:\/\/www.sudoc.abes.fr\/175255121-1"
+				},
+				{
+					"cocontributor": "Bagdasarian, Ross",
+					"person": "http:\/\/www.sudoc.abes.fr\/175255121-8",
+					"idcocontrib": "http:\/\/www.sudoc.abes.fr\/175255121-2"
+				},
+				{
+					"cocontributor": "Viscardi, Chris",
+					"person": "http:\/\/www.sudoc.abes.fr\/175255121-8",
+					"idcocontrib": "http:\/\/www.sudoc.abes.fr\/175255121-5"
+				},
+				{
+					"cocontributor": "McRobb, Will",
+					"person": "http:\/\/www.sudoc.abes.fr\/175255121-8",
+					"idcocontrib": "http:\/\/www.sudoc.abes.fr\/175255121-4"
+				},
+				{
+					"cocontributor": "Cross, David",
+					"person": "http:\/\/www.sudoc.abes.fr\/175255121-8",
+					"idcocontrib": "http:\/\/www.sudoc.abes.fr\/175255121-8"
+				},
+				{
+					"cocontributor": "Lee, Jason",
+					"person": "http:\/\/www.sudoc.abes.fr\/175255121-8",
+					"idcocontrib": "http:\/\/www.sudoc.abes.fr\/175255121-7"
+				},
+				{
+					"cocontributor": "Richardson, Cameron",
+					"person": "http:\/\/www.sudoc.abes.fr\/175255121-8",
+					"idcocontrib": "http:\/\/www.sudoc.abes.fr\/175255121-9"
+				},
+				{
+					"cocontributor": "Vitti, Jon",
+					"person": "http:\/\/www.sudoc.abes.fr\/175255121-8",
+					"idcocontrib": "http:\/\/www.sudoc.abes.fr\/175255121-3"
+				}
+			],
+			"publisher": [
+				"Twentieth century Fox home entertainment [éd.]",
+				"Fox Pathé Europa [distrib.]"
+			],
+			"title": [
+				"Alvin et les Chipmunks"
+			],
+			"pubDate":"2013"
+			,
+			"assertedLink": [
+			],
+			"dateCreationNotice":"20140107"
+			,
+			"firstExpLanguage": [
+				"eng"
+			]
+		},
+		"http:\/\/www.sudoc.abes.fr\/167217747-3": {
+			"expLanguage": [
+				"mul"
+			],
+			"personName": [
+				{
+					"person": "http:\/\/www.sudoc.abes.fr\/167217747-3",
+					"appellation": "Cross, David"
+				}
+			],
+			"role": [
+				"actor"
+			],
+			"cocontributor": [
+				{
+					"cocontributor": "Seville, David",
+					"person": "http:\/\/www.sudoc.abes.fr\/167217747-3",
+					"idcocontrib": "http:\/\/www.sudoc.abes.fr\/167217747-1"
+				},
+				{
+					"cocontributor": "Cross, David",
+					"person": "http:\/\/www.sudoc.abes.fr\/167217747-3",
+					"idcocontrib": "http:\/\/www.sudoc.abes.fr\/167217747-3"
+				},
+				{
+					"cocontributor": "Lee, Jason",
+					"person": "http:\/\/www.sudoc.abes.fr\/167217747-3",
+					"idcocontrib": "http:\/\/www.sudoc.abes.fr\/167217747-2"
+				}
+			],
+			"publisher": [
+				"Fox Pathé Europa [distrib.]",
+				"Twentieth century Fox home entertainment [éd.]"
+			],
+			"title": [
+				"Alvin et les Chipmunks 1 & 2"
+			],
+			"pubDate":"2012"
+			,
+			"assertedLink": [
+			],
+			"dateCreationNotice":"20130205"
+			
+		},
+		"http:\/\/www.sudoc.abes.fr\/139991956-1": {
+			"role": [
+				"author"
+			],
+			"rameau": [
+				"Christianisme -- Aspect psychologique",
+				"Relations humaines -- Aspect religieux -- Églises protestantes"
+			],
+			"collection": [
+				"Série Vérité et liberté"
+			],
+			"title": [
+				"Liens d'âme : les liens invisibles des relations humaines"
+			],
+			"type": [
+				"http:\/\/www.sudoc.abes.fr\/Autres"
+			],
+			"pubDate":"2009"
+			,
+			"firstExpLanguage": [
+				"eng"
+			],
+			"expLanguage": [
+				"fre"
+			],
+			"personName": [
+				{
+					"person": "http:\/\/www.sudoc.abes.fr\/139991956-1",
+					"appellation": "Cross, David"
+				}
+			],
+			"cocontributor": [
+				{
+					"cocontributor": "Cross, David",
+					"person": "http:\/\/www.sudoc.abes.fr\/139991956-1",
+					"idcocontrib": "http:\/\/www.sudoc.abes.fr\/139991956-1"
+				}
+			],
+			"domain": [
+				"200",
+				"300",
+				"150"
+			],
+			"genre":"http:\/\/www.sudoc.abes.fr\/Texte_non_litteraire"
+			,
+			"publisher": [
+				"l'Oasis éd."
+			],
+			"dewey": [
+				"261.515"
+			],
+			"assertedLink": [
+			],
+			"dateCreationNotice":"20100126"
+			
+		},
+		"http:\/\/www.sudoc.abes.fr\/194403181-1": {
+			"role": [
+				"author"
+			],
+			"rameau": [
+				"Contrôle (psychologie) -- Aspect religieux -- Églises protestantes",
+				"Domination -- Aspect religieux -- Églises protestantes",
+				"Relations humaines -- Aspect religieux -- Églises protestantes"
+			],
+			"collection": [
+				"Série Vérité et liberté"
+			],
+			"title": [
+				"Prisonnier du contrôle : comment trouver la liberté"
+			],
+			"type": [
+				"http:\/\/www.sudoc.abes.fr\/Autres"
+			],
+			"pubDate":"2016"
+			,
+			"firstExpLanguage": [
+				"eng"
+			],
+			"expLanguage": [
+				"fre"
+			],
+			"personName": [
+				{
+					"person": "http:\/\/www.sudoc.abes.fr\/194403181-1",
+					"appellation": "Cross, David"
+				}
+			],
+			"cocontributor": [
+				{
+					"cocontributor": "Cross, David",
+					"person": "http:\/\/www.sudoc.abes.fr\/194403181-1",
+					"idcocontrib": "http:\/\/www.sudoc.abes.fr\/194403181-1"
+				}
+			],
+			"domain": [
+				"300",
+				"100",
+				"150",
+				"320"
+			],
+			"genre":"http:\/\/www.sudoc.abes.fr\/Texte_non_litteraire"
+			,
+			"publisher": [
+				"Ellel ministries France"
+			],
+			"dewey": [
+				"241.67"
+			],
+			"assertedLink": [
+			],
+			"dateCreationNotice":"20160720"
+			
+		},
+		"http:\/\/www.sudoc.abes.fr\/150950454-8": {
+			"expLanguage": [
+				"dut",
+				"fre",
+				"eng"
+			],
+			"personName": [
+				{
+					"person": "http:\/\/www.sudoc.abes.fr\/150950454-8",
+					"appellation": "Cross, David"
+				}
+			],
+			"role": [
+				"actor"
+			],
+			"cocontributor": [
+				{
+					"cocontributor": "Lennertz, Christopher",
+					"person": "http:\/\/www.sudoc.abes.fr\/150950454-8",
+					"idcocontrib": "http:\/\/www.sudoc.abes.fr\/150950454-6"
+				},
+				{
+					"cocontributor": "Hill, Tim",
+					"person": "http:\/\/www.sudoc.abes.fr\/150950454-8",
+					"idcocontrib": "http:\/\/www.sudoc.abes.fr\/150950454-1"
+				},
+				{
+					"cocontributor": "McRobb, Will",
+					"person": "http:\/\/www.sudoc.abes.fr\/150950454-8",
+					"idcocontrib": "http:\/\/www.sudoc.abes.fr\/150950454-4"
+				},
+				{
+					"cocontributor": "Seville, David",
+					"person": "http:\/\/www.sudoc.abes.fr\/150950454-8",
+					"idcocontrib": "http:\/\/www.sudoc.abes.fr\/150950454-2"
+				},
+				{
+					"cocontributor": "Viscardi, Chris",
+					"person": "http:\/\/www.sudoc.abes.fr\/150950454-8",
+					"idcocontrib": "http:\/\/www.sudoc.abes.fr\/150950454-5"
+				},
+				{
+					"cocontributor": "Vitti, Jon",
+					"person": "http:\/\/www.sudoc.abes.fr\/150950454-8",
+					"idcocontrib": "http:\/\/www.sudoc.abes.fr\/150950454-3"
+				},
+				{
+					"cocontributor": "Cross, David",
+					"person": "http:\/\/www.sudoc.abes.fr\/150950454-8",
+					"idcocontrib": "http:\/\/www.sudoc.abes.fr\/150950454-8"
+				},
+				{
+					"cocontributor": "Richardson, Cameron",
+					"person": "http:\/\/www.sudoc.abes.fr\/150950454-8",
+					"idcocontrib": "http:\/\/www.sudoc.abes.fr\/150950454-9"
+				},
+				{
+					"cocontributor": "Lee, Jason",
+					"person": "http:\/\/www.sudoc.abes.fr\/150950454-8",
+					"idcocontrib": "http:\/\/www.sudoc.abes.fr\/150950454-7"
+				}
+			],
+			"publisher": [
+				"Fox Pathé Europa [distrib.]",
+				"Twentieth century Fox home entertainment [éd.]"
+			],
+			"title": [
+				"Alvin et les Chipmunks"
+			],
+			"pubDate":"2011"
+			,
+			"assertedLink": [
+			],
+			"dateCreationNotice":"20110323"
+			,
+			"firstExpLanguage": [
+				"eng"
+			]
+		},
+		"http:\/\/www.sudoc.abes.fr\/189121203-1": {
+			"role": [
+				"author"
+			],
+			"rameau": [
+				"Dieu -- Gouvernement -- Églises protestantes",
+				"Guérison par la foi -- Églises protestantes",
+				"Combat spirituel -- Églises protestantes"
+			],
+			"collection": [
+				"Série Vérité et liberté"
+			],
+			"title": [
+				"La  couverture de Dieu : un lieu de guérison"
+			],
+			"type": [
+				"http:\/\/www.sudoc.abes.fr\/Autres"
+			],
+			"pubDate":"2015"
+			,
+			"firstExpLanguage": [
+				"eng"
+			],
+			"expLanguage": [
+				"fre"
+			],
+			"personName": [
+				{
+					"person": "http:\/\/www.sudoc.abes.fr\/189121203-1",
+					"appellation": "Cross, David"
+				}
+			],
+			"cocontributor": [
+				{
+					"cocontributor": "Cross, David",
+					"person": "http:\/\/www.sudoc.abes.fr\/189121203-1",
+					"idcocontrib": "http:\/\/www.sudoc.abes.fr\/189121203-1"
+				}
+			],
+			"domain": [
+				"200",
+				"150",
+				"610"
+			],
+			"genre":"http:\/\/www.sudoc.abes.fr\/Texte_non_litteraire"
+			,
+			"publisher": [
+				"Ellel ministries France"
+			],
+			"dewey": [
+				"231.7"
+			],
+			"assertedLink": [
+			],
+			"dateCreationNotice":"20151029"
+			
+		},
+		"http:\/\/www.sudoc.abes.fr\/082815143-2": {
+			"expLanguage": [
+				"fre"
+			],
+			"personName": [
+				{
+					"person": "http:\/\/www.sudoc.abes.fr\/082815143-2",
+					"appellation": "Cross, David"
+				}
+			],
+			"role": [
+				"author"
+			],
+			"cocontributor": [
+				{
+					"cocontributor": "Cross, David",
+					"person": "http:\/\/www.sudoc.abes.fr\/082815143-2",
+					"idcocontrib": "http:\/\/www.sudoc.abes.fr\/082815143-2"
+				},
+				{
+					"cocontributor": "Dahl, Inger-Lise",
+					"person": "http:\/\/www.sudoc.abes.fr\/082815143-2",
+					"idcocontrib": "http:\/\/www.sudoc.abes.fr\/082815143-1"
+				}
+			],
+			"publisher": [
+				"Office des publications officielles des Communautés européennes"
+			],
+			"title": [
+				"La pêche européenne en chiffres"
+			],
+			"type": [
+				"http:\/\/www.sudoc.abes.fr\/Autres"
+			],
+			"pubDate":"1998"
+			,
+			"assertedLink": [
+			],
+			"dateCreationNotice":"19991020"
+			
+		},
+		"http:\/\/www.sudoc.abes.fr\/190901861-1": {
+			"expLanguage": [
+				"eng"
+			],
+			"personName": [
+				{
+					"person": "http:\/\/www.sudoc.abes.fr\/190901861-1",
+					"appellation": "Cross, David"
+				}
+			],
+			"role": [
+				"author"
+			],
+			"cocontributor": [
+				{
+					"cocontributor": "James, C. V.",
+					"person": "http:\/\/www.sudoc.abes.fr\/190901861-1",
+					"idcocontrib": "http:\/\/www.sudoc.abes.fr\/190901861-2"
+				},
+				{
+					"cocontributor": "Cross, David",
+					"person": "http:\/\/www.sudoc.abes.fr\/190901861-1",
+					"idcocontrib": "http:\/\/www.sudoc.abes.fr\/190901861-1"
+				}
+			],
+			"genre":"http:\/\/www.sudoc.abes.fr\/Texte_non_litteraire"
+			,
+			"publisher": [
+				"Prentice Hall"
+			],
+			"dewey": [
+				"418.007"
+			],
+			"title": [
+				"A practical handbook of language teaching"
+			],
+			"keyword": [
+				"Study and teaching",
+				"Language and languages"
+			],
+			"pubDate":"1992"
+			,
+			"assertedLink": [
+				"http:\/\/www.idref.fr\/190901764\/id"
+			],
+			"dateCreationNotice":"20160125"
+			
+		},
+		"http:\/\/www.sudoc.abes.fr\/18523268X-1": {
+			"role": [
+				"author"
+			],
+			"rameau": [
+				"Médecine -- Aspect religieux -- Christianisme",
+				"Médecines parallèles"
+			],
+			"collection": [
+				"Série Vérité et liberté"
+			],
+			"title": [
+				"Les  dangers des méthodes de guérison alternatives : comment éviter les tromperies du Nouvel âge"
+			],
+			"type": [
+				"http:\/\/www.sudoc.abes.fr\/Autres"
+			],
+			"pubDate":"2015"
+			,
+			"firstExpLanguage": [
+				"eng"
+			],
+			"expLanguage": [
+				"fre"
+			],
+			"personName": [
+				{
+					"person": "http:\/\/www.sudoc.abes.fr\/18523268X-1",
+					"appellation": "Cross, David"
+				}
+			],
+			"cocontributor": [
+				{
+					"cocontributor": "Berry, John",
+					"person": "http:\/\/www.sudoc.abes.fr\/18523268X-1",
+					"idcocontrib": "http:\/\/www.sudoc.abes.fr\/18523268X-2"
+				},
+				{
+					"cocontributor": "Cross, David",
+					"person": "http:\/\/www.sudoc.abes.fr\/18523268X-1",
+					"idcocontrib": "http:\/\/www.sudoc.abes.fr\/18523268X-1"
+				}
+			],
+			"domain": [
+				"610",
+				"200"
+			],
+			"genre":"http:\/\/www.sudoc.abes.fr\/Texte_non_litteraire"
+			,
+			"publisher": [
+				"Ellel ministries France"
+			],
+			"dewey": [
+				"615.5"
+			],
+			"assertedLink": [
+			],
+			"dateCreationNotice":"20150429"
+			
+		},
+		"http:\/\/www.sudoc.abes.fr\/163796688-7": {
+			"expLanguage": [
+				"fre",
+				"eng"
+			],
+			"personName": [
+				{
+					"person": "http:\/\/www.sudoc.abes.fr\/163796688-7",
+					"appellation": "Cross, David"
+				}
+			],
+			"role": [
+				"actor"
+			],
+			"cocontributor": [
+				{
+					"cocontributor": "Kitay, David",
+					"person": "http:\/\/www.sudoc.abes.fr\/163796688-7",
+					"idcocontrib": "http:\/\/www.sudoc.abes.fr\/163796688-4"
+				},
+				{
+					"cocontributor": "Rogers, J. B.",
+					"person": "http:\/\/www.sudoc.abes.fr\/163796688-7",
+					"idcocontrib": "http:\/\/www.sudoc.abes.fr\/163796688-1"
+				},
+				{
+					"cocontributor": "Ellison, Adam",
+					"person": "http:\/\/www.sudoc.abes.fr\/163796688-7",
+					"idcocontrib": "http:\/\/www.sudoc.abes.fr\/163796688-2"
+				},
+				{
+					"cocontributor": "Callahan, Dan",
+					"person": "http:\/\/www.sudoc.abes.fr\/163796688-7",
+					"idcocontrib": "http:\/\/www.sudoc.abes.fr\/163796688-3"
+				},
+				{
+					"cocontributor": "Vartan, Michael",
+					"person": "http:\/\/www.sudoc.abes.fr\/163796688-7",
+					"idcocontrib": "http:\/\/www.sudoc.abes.fr\/163796688-6"
+				},
+				{
+					"cocontributor": "Cross, David",
+					"person": "http:\/\/www.sudoc.abes.fr\/163796688-7",
+					"idcocontrib": "http:\/\/www.sudoc.abes.fr\/163796688-7"
+				},
+				{
+					"cocontributor": "Astin, Sean",
+					"person": "http:\/\/www.sudoc.abes.fr\/163796688-7",
+					"idcocontrib": "http:\/\/www.sudoc.abes.fr\/163796688-5"
+				}
+			],
+			"publisher": [
+				"Seven sept [éd., distrib.]"
+			],
+			"title": [
+				"Bad boss"
+			],
+			"pubDate":"2012"
+			,
+			"assertedLink": [
+			],
+			"dateCreationNotice":"20120904"
+			,
+			"firstExpLanguage": [
+				"eng"
+			]
+		},
+		"http:\/\/www.sudoc.abes.fr\/094246122-1": {
+			"expLanguage": [
+				"eng"
+			],
+			"personName": [
+				{
+					"person": "http:\/\/www.sudoc.abes.fr\/094246122-1",
+					"appellation": "Cross, David"
+				}
+			],
+			"role": [
+				"author"
+			],
+			"cocontributor": [
+				{
+					"cocontributor": "Cross, David",
+					"person": "http:\/\/www.sudoc.abes.fr\/094246122-1",
+					"idcocontrib": "http:\/\/www.sudoc.abes.fr\/094246122-1"
+				},
+				{
+					"cocontributor": "James, C. V.",
+					"person": "http:\/\/www.sudoc.abes.fr\/094246122-1",
+					"idcocontrib": "http:\/\/www.sudoc.abes.fr\/094246122-2"
+				}
+			],
+			"publisher": [
+				"Prentice Hall"
+			],
+			"dewey": [
+				"428\/.007"
+			],
+			"title": [
+				"Large classes in action"
+			],
+			"keyword": [
+				"Class size",
+				"Study and teaching",
+				"English language"
+			],
+			"pubDate":"1995"
+			,
+			"assertedLink": [
+			],
+			"dateCreationNotice":"20051214"
+			
+		}
+	},
+	"sources": [
+		"http:\/\/www.sudoc.abes.fr\/150808437-1",
+		"http:\/\/www.sudoc.abes.fr\/182083152-3",
+		"http:\/\/www.sudoc.abes.fr\/053163680-1",
+		"http:\/\/www.sudoc.abes.fr\/145401812-7",
+		"http:\/\/www.sudoc.abes.fr\/176134905-3",
+		"http:\/\/www.sudoc.abes.fr\/195081099-4",
+		"http:\/\/www.sudoc.abes.fr\/175255121-8",
+		"http:\/\/www.sudoc.abes.fr\/194403181-1",
+		"http:\/\/www.sudoc.abes.fr\/167217747-3",
+		"http:\/\/www.sudoc.abes.fr\/139991956-1",
+		"http:\/\/www.sudoc.abes.fr\/130437557-1",
+		"http:\/\/www.sudoc.abes.fr\/189121203-1",
+		"http:\/\/www.sudoc.abes.fr\/150950454-8",
+		"http:\/\/www.sudoc.abes.fr\/082815143-2",
+		"http:\/\/www.sudoc.abes.fr\/18523268X-1",
+		"http:\/\/www.sudoc.abes.fr\/190901861-1",
+		"http:\/\/www.sudoc.abes.fr\/163796688-7",
+		"http:\/\/www.sudoc.abes.fr\/005934079-2",
+		"http:\/\/www.sudoc.abes.fr\/176822763-5",
+		"http:\/\/www.sudoc.abes.fr\/094246122-1",
+		"http:\/\/www.sudoc.abes.fr\/155154761-1"
+	],
+	"scenario": "sudoc-rc-rc",
+	"targets": "sources"
+}

@@ -1,0 +1,119 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
+
+	<modelVersion>4.0.0</modelVersion>
+
+	<parent>
+		<groupId>fr.abes.sudoqual</groupId>
+		<artifactId>sudoqual-sudoc</artifactId>
+		<version>1.14.1-SNAPSHOT</version>
+	</parent>
+
+	<artifactId>web-services</artifactId>
+	<name>SudoQual WS</name>
+	<packaging>war</packaging>
+
+	<dependencies>
+		<dependency>
+			<groupId>fr.abes.sudoqual</groupId>
+			<artifactId>linking-scenarios-sudoc</artifactId>
+			<version>${project.version}</version>
+		</dependency>
+		<dependency>
+			<groupId>fr.abes.sudoqual</groupId>
+			<artifactId>cli</artifactId>
+			<version>${sudoqual-framework.version}</version>
+		</dependency>
+		<dependency>
+			<groupId>fr.abes.sudoqual</groupId>
+			<artifactId>linking-module</artifactId>
+			<version>${sudoqual-framework.version}</version>
+		</dependency>
+		<dependency>
+			<groupId>fr.abes.sudoqual</groupId>
+			<artifactId>sudoqual-util</artifactId>
+			<version>${sudoqual-framework.version}</version>
+		</dependency>
+		<dependency>
+			<groupId>org.apache.commons</groupId>
+			<artifactId>commons-configuration2</artifactId>
+			<version>${commons-configuration2.version}</version>
+		</dependency>
+		<!-- JSON -->
+		<!-- https://github.com/stleary/JSON-java -->
+		<dependency>
+			<groupId>org.json</groupId>
+			<artifactId>json</artifactId>
+			<version>${org-json.version}</version>
+		</dependency>
+		<dependency>
+			<groupId>org.everit.json</groupId>
+			<artifactId>org.everit.json.schema</artifactId>
+			<version>${everit-json-schema.version}</version>
+		</dependency>
+		<!-- Dependency of org.everit.json.schema installed in local Artifactory
+			as Jar -->
+		<dependency>
+			<groupId>commons-validator</groupId>
+			<artifactId>commons-validator</artifactId>
+			<version>1.6</version>
+			<exclusions>
+				<exclusion>
+					<artifactId>commons-beanutils</artifactId>
+					<groupId>commons-beanutils</groupId>
+				</exclusion>
+			</exclusions>
+		</dependency>
+		<dependency>
+			<groupId>commons-beanutils</groupId>
+			<artifactId>commons-beanutils</artifactId>
+			<version>1.9.3</version>
+		</dependency>
+		<dependency>
+			<groupId>com.damnhandy</groupId>
+			<artifactId>handy-uri-templates</artifactId>
+			<version>2.1.6</version>
+		</dependency>
+		<dependency>
+			<groupId>com.google.re2j</groupId>
+			<artifactId>re2j</artifactId>
+			<version>1.1</version>
+		</dependency>
+		<!-- for web servlet -->
+		<dependency>
+			<groupId>javax.servlet</groupId>
+			<artifactId>javax.servlet-api</artifactId>
+			<version>3.1.0</version>
+			<scope>provided</scope>
+		</dependency>
+
+	</dependencies>
+
+	<repositories>
+		<repository>
+			<!-- provides com.github.everit-org.json-schema/org.everit.json.schema -->
+			<id>jitpack.io</id>
+			<url>https://jitpack.io</url>
+		</repository>
+	</repositories>
+
+	<build>
+		<finalName>sudoqualws</finalName>
+
+		<resources>
+			<resource>
+				<directory>src/main/resources</directory>
+				<targetPath>fr/abes/sudoqual/ws/resources/</targetPath>
+				<filtering>true</filtering>
+			</resource>
+		</resources>
+
+		<plugins>
+			<!-- http://www.eclipse.org/jetty/documentation/current/jetty-maven-plugin.html -->
+			<plugin>
+				<groupId>org.eclipse.jetty</groupId>
+				<artifactId>jetty-maven-plugin</artifactId>
+				<version>9.4.14.v20181114</version>
+			</plugin>
+		</plugins>
+	</build>
+</project>

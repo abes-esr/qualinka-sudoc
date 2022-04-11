@@ -1,0 +1,3113 @@
+{
+  "features": {
+  	"hal:170536": {
+      "personName": [
+        {
+          "first_name": "Thierry",
+          "last_name": "Garcia"
+        }
+      ]
+    },
+	"hal:12822": {
+      "personName": [
+        {
+          "first_name": "Thierry",
+          "last_name": "Garcia"
+        }
+      ]
+    },
+    "idref:078642426": {
+      "birth": "1968",
+      "dateCreationNotice": "20040526",
+      "personName": [
+        {
+          "first_name": "Thierry",
+          "last_name": "Garcia"
+        }
+      ],
+      "source": [
+        "Algorithmique parallèle du texte : du modèle systolique au modèle CGM / Thierry Garcia ; sous la dir. de David Semé [thèse. Amiens. 2003]"
+      ]
+    },
+    "idref:094187797": {
+      "birth": "1967",
+      "dateCreationNotice": "20051212",
+      "gender": "ba",
+      "personName": [
+        {
+          "first_name": "Thierry",
+          "last_name": "Garcia"
+        }
+      ],
+      "source": [
+        "Les entreprises multinationales et le droit de l'environnement. Thèse... Nice. Sous la direction de M. Thierry Garcia,....",
+        "L'action de l'ONU dans le domaine de la justice transitionnelle : Philippe Flory ; sous la direction de Karine Bannelier-Christakis. Thèse de doctorat  : Droit international : Grenoble Alpes : 2018",
+        "Politique et droit de la sécurité face au bioterrorisme  / Aïleen Fabre ; préface de Thierry Garcia, 2005",
+        "Internet, http://catalogue.bnf.fr, 08-07-2015"
+      ]
+    },
+    "idref:145268004": {
+      "birth": "1960",
+      "dateCreationNotice": "20100623",
+      "gender": "ba",
+      "personName": [
+        {
+          "first_name": "Thierry",
+          "last_name": "Garcia"
+        }
+      ],
+      "source": [
+        "Cystadénome et cystadénocarcinome mucineux primitifs des voies biliaires intra et extrahépatiques. Revue de la littérature à propos d'un cas/ Thierry Garcia, 1991 [Thèse]"
+      ]
+    },
+    "idref:155686259": {
+      "birth": "1965",
+      "dateCreationNotice": "20111017",
+      "gender": "ba",
+      "personName": [
+        {
+          "first_name": "Thierry",
+          "last_name": "Garcia"
+        }
+      ],
+      "source": [
+        "Les criques de rectification sur des pièces en acier 32CDV13 nitrure / Thierry Garcia, 1998",
+        "Fiche d'établissement du diplôme d'ingénieur"
+      ]
+    },
+    "sudoc:041548205-1": {
+      "cocontributor": [
+        {
+          "cocontributor": "Directeur de thèse inconnu",
+          "idcocontrib": "XXX",
+          "person": "sudoc:041548205-1"
+        }
+      ],
+      "corporateBody": [
+        "Université de Nice",
+        "Institut du droit de la paix et du développement"
+      ],
+      "dateCreationNotice": "19990313",
+      "dewey": [],
+      "domain": [
+        "320",
+        "340"
+      ],
+      "expLanguage": [
+        "fre"
+      ],
+      "keyword": [
+        "Organisations internationales",
+        "Droit international",
+        "Relations internationales"
+      ],
+      "mesh": [],
+      "personName": [
+        {
+          "appellation": "Garcia, Thierry"
+        }
+      ],
+      "pubDate": "1994",
+      "publisher": [
+      ],
+      "role": [
+        "author"
+      ],
+      "title": [
+        "Les observateurs auprès des organisations intergouvernementales"
+      ]
+    },
+    "sudoc:043461980-1": {
+      "cocontributor": [],
+      "corporateBody": [
+        "Université d'Aix-Marseille II"
+      ],
+      "dateCreationNotice": "19990313",
+      "dewey": [],
+      "domain": [
+        "610",
+        "570",
+        "610"
+      ],
+      "expLanguage": [
+        "fre"
+      ],
+      "keyword": [
+        "Cystadénome",
+        "Voies biliaires"
+      ],
+      "mesh": [],
+      "personName": [
+        {
+          "appellation": "Garcia, Thierry"
+        }
+      ],
+      "pubDate": "1991",
+      "publisher": [
+        "[s.n.]"
+      ],
+      "role": [
+        "author"
+      ],
+      "title": [
+        "Cystadénome et cystadénocarcinome mucineux primitifs des voies biliaires intra et extrahépatiques : revue de la littérature à propos d'un cas"
+      ]
+    },
+    "sudoc:078641497-1": {
+      "cocontributor": [
+        {
+          "cocontributor": "Semé, David",
+          "idcocontrib": "XXX",
+          "person": "sudoc:078641497-1"
+        }
+      ],
+      "corporateBody": [
+        "Université de Picardie Jules Verne"
+      ],
+      "dateCreationNotice": "20040526",
+      "dewey": [],
+      "domain": [
+        "510"
+      ],
+      "expLanguage": [
+        "fre"
+      ],
+      "keyword": [
+        "Algorithmes parallèles"
+      ],
+      "mesh": [],
+      "personName": [
+        {
+          "appellation": "Garcia, Thierry"
+        }
+      ],
+      "pubDate": "2003",
+      "publisher": [
+        "[s.n.]"
+      ],
+      "role": [
+        "author"
+      ],
+      "title": [
+        "Algorithmique parallèle du texte : du modèle systolique au modèle CGM"
+      ]
+    },
+    "sudoc:094186367-2": {
+      "cocontributor": [
+        {
+          "cocontributor": "Fabre, Aïleen",
+          "idcocontrib": "XXX",
+          "person": "sudoc:094186367-2"
+        }
+      ],
+      "corporateBody": [],
+      "dateCreationNotice": "20051212",
+      "dewey": [],
+      "domain": [
+        "320",
+        "355",
+        "320"
+      ],
+      "expLanguage": [
+        "fre"
+      ],
+      "keyword": [
+        "Bioterrorisme",
+        "Terrorisme"
+      ],
+      "mesh": [],
+      "personName": [
+        {
+          "appellation": "Garcia, Thierry"
+        }
+      ],
+      "pubDate": "2005",
+      "publisher": [
+        "L'Harmattan"
+      ],
+      "role": [
+        "author_of_introd"
+      ],
+      "title": [
+        "Politique et droit de la sécurité face au bioterrorisme"
+      ]
+    },
+    "sudoc:097096237-1": {
+      "cocontributor": [],
+      "corporateBody": [],
+      "dateCreationNotice": "19900101",
+      "dewey": [],
+      "domain": [],
+      "expLanguage": [
+        "fre"
+      ],
+      "keyword": [],
+      "mesh": [],
+      "personName": [
+        {
+          "appellation": "Garcia, Thierry"
+        }
+      ],
+      "pubDate": "1995",
+      "publisher": [
+        "Atelier reprod. th. Univ. Lille 3"
+      ],
+      "role": [
+        "author"
+      ],
+      "title": [
+        "Les observateurs auprès des organisations intergouvernementales"
+      ]
+    },
+    "sudoc:099275562-2": {
+      "cocontributor": [
+        {
+          "cocontributor": "Pellizza, Laurent",
+          "idcocontrib": "XXX",
+          "person": "sudoc:099275562-2"
+        }
+      ],
+      "corporateBody": [
+        "Université de Corse"
+      ],
+      "dateCreationNotice": "20060419",
+      "dewey": [],
+      "domain": [
+        "570",
+        "570",
+        "600",
+        "100"
+      ],
+      "expLanguage": [
+        "fre"
+      ],
+      "keyword": [
+        "Biotechnologie",
+        "Génie génétique",
+        "Bioéthique"
+      ],
+      "mesh": [],
+      "personName": [
+        {
+          "appellation": "Garcia, Thierry"
+        }
+      ],
+      "pubDate": "2005",
+      "publisher": [
+        "[s.n.]"
+      ],
+      "role": [
+        "thesis_advisor"
+      ],
+      "title": [
+        "La bioéthique saisie par le droit communautaire : Recherches sur un processus normatif"
+      ]
+    },
+    "sudoc:101872542-2": {
+      "cocontributor": [
+        {
+          "cocontributor": "Barkat, Vanina",
+          "idcocontrib": "XXX",
+          "person": "sudoc:101872542-2"
+        }
+      ],
+      "corporateBody": [
+        "Université de Nice"
+      ],
+      "dateCreationNotice": "20060517",
+      "dewey": [],
+      "domain": [
+        "340",
+        "577",
+        "340"
+      ],
+      "expLanguage": [
+        "fre"
+      ],
+      "keyword": [
+        "Environnement",
+        "Entreprises multinationales",
+        "Pays en voie de développement",
+        "Responsabilité (droit)"
+      ],
+      "mesh": [],
+      "personName": [
+        {
+          "appellation": "Garcia, Thierry"
+        }
+      ],
+      "pubDate": "2005",
+      "publisher": [
+        "[s.n.]"
+      ],
+      "role": [
+        "thesis_advisor"
+      ],
+      "title": [
+        "Les entreprises multinationales et le droit de l'environnement"
+      ]
+    },
+    "sudoc:102225982-2": {
+      "cocontributor": [
+        {
+          "cocontributor": "Rancurel, Alix",
+          "idcocontrib": "XXX",
+          "person": "sudoc:102225982-2"
+        }
+      ],
+      "corporateBody": [],
+      "dateCreationNotice": "20060523",
+      "dewey": [
+        "337.1"
+      ],
+      "domain": [
+        "330",
+        "330",
+        "330"
+      ],
+      "expLanguage": [
+        "fre"
+      ],
+      "keyword": [
+        "Commerce équitable",
+        "Relations économiques extérieures",
+        "Relations économiques extérieures"
+      ],
+      "mesh": [],
+      "personName": [
+        {
+          "appellation": "Garcia, Thierry"
+        }
+      ],
+      "pubDate": "2006",
+      "publisher": [
+        "L'Harmattan"
+      ],
+      "role": [
+        "author_of_introd"
+      ],
+      "title": [
+        "Le commerce équitable entre l'Europe et l'Amérique latine : vers un nouveau droit des relations Nord-Sud?"
+      ]
+    },
+    "sudoc:111204224-2": {
+      "cocontributor": [
+        {
+          "cocontributor": "Hoyami, Christel",
+          "idcocontrib": "XXX",
+          "person": "sudoc:111204224-2"
+        }
+      ],
+      "corporateBody": [
+        "Université de Nice",
+        "Institut du droit de la paix et du développement"
+      ],
+      "dateCreationNotice": "20061208",
+      "dewey": [],
+      "domain": [
+        "320",
+        "340"
+      ],
+      "expLanguage": [
+        "fre"
+      ],
+      "keyword": [
+        "Environnement",
+        "Règlement pacifique des conflits internationaux"
+      ],
+      "mesh": [],
+      "personName": [
+        {
+          "appellation": "Garcia, Thierry"
+        }
+      ],
+      "pubDate": "2006",
+      "publisher": [
+        "[s. n.]"
+      ],
+      "role": [
+        "thesis_advisor"
+      ],
+      "title": [
+        "L'application des principes du droit international de l'environnement par les juridictions internationales à vocation universelle"
+      ]
+    },
+    "sudoc:120892480-2": {
+      "cocontributor": [
+        {
+          "cocontributor": "Pellizza, Laurent",
+          "idcocontrib": "XXX",
+          "person": "sudoc:120892480-2"
+        }
+      ],
+      "corporateBody": [
+        "Université de Corse"
+      ],
+      "dateCreationNotice": "20080125",
+      "dewey": [],
+      "domain": [
+        "570",
+        "570",
+        "600",
+        "100"
+      ],
+      "expLanguage": [
+        "fre"
+      ],
+      "keyword": [
+        "Biotechnologie",
+        "Génie génétique",
+        "Bioéthique"
+      ],
+      "mesh": [],
+      "personName": [
+        {
+          "appellation": "Garcia, Thierry"
+        }
+      ],
+      "pubDate": "2007",
+      "publisher": [
+        "Atelier national de reproduction des thèses [diffusion/distribution]"
+      ],
+      "role": [
+        "thesis_advisor"
+      ],
+      "title": [
+        "La bioéthique saisie par le droit communautaire : Recherches sur un processus normatif"
+      ]
+    },
+    "sudoc:127433198-2": {
+      "cocontributor": [
+        {
+          "cocontributor": "Chaumont, Anne-Claire",
+          "idcocontrib": "XXX",
+          "person": "sudoc:127433198-2"
+        }
+      ],
+      "corporateBody": [],
+      "dateCreationNotice": "20080916",
+      "dewey": [
+        "343.07"
+      ],
+      "domain": [
+        "320",
+        "330",
+        "330",
+        "577"
+      ],
+      "expLanguage": [
+        "fre"
+      ],
+      "keyword": [
+        "Libre-échange",
+        "Développement durable",
+        "Droit international économique"
+      ],
+      "mesh": [],
+      "personName": [
+        {
+          "appellation": "Garcia, Thierry"
+        }
+      ],
+      "pubDate": "2008",
+      "publisher": [
+        "L'Harmattan"
+      ],
+      "role": [
+        "author_of_introd"
+      ],
+      "title": [
+        "L'objectif de développement durable de l'Organisation mondiale du Commerce"
+      ]
+    },
+    "sudoc:127490116-2": {
+      "cocontributor": [
+        {
+          "cocontributor": "Koundoul, Issa",
+          "idcocontrib": "XXX",
+          "person": "sudoc:127490116-2"
+        }
+      ],
+      "corporateBody": [
+        "Université de Nice",
+        "Institut du droit de la paix et du développement"
+      ],
+      "dateCreationNotice": "20080918",
+      "dewey": [],
+      "domain": [
+        "600"
+      ],
+      "expLanguage": [
+        "fre"
+      ],
+      "keyword": [
+        "Télécommunications"
+      ],
+      "mesh": [],
+      "personName": [
+        {
+          "appellation": "Garcia, Thierry"
+        }
+      ],
+      "pubDate": "2008",
+      "publisher": [
+        "[s.n.]"
+      ],
+      "role": [
+        "thesis_advisor"
+      ],
+      "title": [
+        "Les télécommunications en Afrique  : du sous développement à la libéralisation économique"
+      ]
+    },
+    "sudoc:129118508-2": {
+      "cocontributor": [
+        {
+          "cocontributor": "Mena, Walter",
+          "idcocontrib": "XXX",
+          "person": "sudoc:129118508-2"
+        }
+      ],
+      "corporateBody": [
+        "Université de Nice"
+      ],
+      "dateCreationNotice": "20081117",
+      "dewey": [],
+      "domain": [
+        "350",
+        "570"
+      ],
+      "expLanguage": [
+        "fre"
+      ],
+      "keyword": [
+        "Environnement",
+        "Politique de l'environnement"
+      ],
+      "mesh": [],
+      "personName": [
+        {
+          "appellation": "Garcia, Thierry"
+        }
+      ],
+      "pubDate": "2006",
+      "publisher": [
+        "[s.n.]"
+      ],
+      "role": [
+        "thesis_advisor"
+      ],
+      "title": [
+        "La prise en compte de l'environnement par les organisations américaines d'intégration économique régionale : ALENA, ALECA et MERCOSUR"
+      ]
+    },
+    "sudoc:150731671-2": {
+      "cocontributor": [
+        {
+          "cocontributor": "Rancurel, Alix",
+          "idcocontrib": "XXX",
+          "person": "sudoc:150731671-2"
+        }
+      ],
+      "corporateBody": [
+        "Université de Nice"
+      ],
+      "dateCreationNotice": "20110315",
+      "dewey": [],
+      "domain": [],
+      "expLanguage": [
+        "fre"
+      ],
+      "keyword": [
+        "Droit international",
+        "Organisation mondiale du commerce",
+        "Mercado común del Sur",
+        "Multilatéralisme (relations internationales)"
+      ],
+      "mesh": [],
+      "personName": [
+        {
+          "appellation": "Garcia, Thierry"
+        }
+      ],
+      "pubDate": "2011",
+      "publisher": [
+        "[s.n.]"
+      ],
+      "role": [
+        "thesis_advisor"
+      ],
+      "title": [
+        "Les relations  entre les intégrations régionales sud-américaines et l'Organisation mondiale du commerce : contribution à l'étude des rapports intersystémiques"
+      ]
+    },
+    "sudoc:155686313-1": {
+      "cocontributor": [],
+      "corporateBody": [
+        "Conservatoire national des arts et métiers. Centre régional"
+      ],
+      "dateCreationNotice": "20111017",
+      "dewey": [
+        "620.17"
+      ],
+      "domain": [],
+      "expLanguage": [
+        "fre"
+      ],
+      "keyword": [
+        "Meulage",
+        "Criques (métallurgie)",
+        "Métaux"
+      ],
+      "mesh": [],
+      "personName": [
+        {
+          "appellation": "Garcia, Thierry"
+        }
+      ],
+      "pubDate": "1998",
+      "publisher": [
+        "[s.n.]"
+      ],
+      "role": [
+        "author"
+      ],
+      "title": [
+        "Les criques de rectification sur des pièces en acier 32CDV13 nitrure"
+      ]
+    },
+    "sudoc:158805348-1": {
+      "cocontributor": [
+        {
+          "cocontributor": "Tomkiewicz, Vincent",
+          "idcocontrib": "XXX",
+          "person": "sudoc:158805348-1"
+        }
+      ],
+      "corporateBody": [
+        "Institut du droit de la paix et du développement",
+        "Centre d'études du droit des organisations européennes"
+      ],
+      "dateCreationNotice": "20120228",
+      "dewey": [],
+      "domain": [
+        "340",
+        "340"
+      ],
+      "expLanguage": [
+        "fre"
+      ],
+      "keyword": [
+        "Droit international",
+        "Droit international et droit interne",
+        "Personnes (droit international)"
+      ],
+      "mesh": [],
+      "personName": [
+        {
+          "appellation": "Garcia, Thierry"
+        }
+      ],
+      "pubDate": "2011",
+      "publisher": [
+        "Université Nice Sophia Antipolis"
+      ],
+      "role": [
+        "publishing_director"
+      ],
+      "title": [
+        "L'OMC et les sujets de droit : colloque de Nice des 24 et 25 juin 2009"
+      ]
+    },
+    "sudoc:158957997-1": {
+      "cocontributor": [
+        {
+          "cocontributor": "Boisson de Chazournes, Laurence",
+          "idcocontrib": "XXX",
+          "person": "sudoc:158957997-1"
+        },
+        {
+          "cocontributor": "Balmond, Louis",
+          "idcocontrib": "XXX",
+          "person": "sudoc:158957997-1"
+        }
+      ],
+      "corporateBody": [],
+      "dateCreationNotice": "20120305",
+      "dewey": [],
+      "domain": [
+        "320",
+        "340",
+        "320"
+      ],
+      "expLanguage": [
+        "fre"
+      ],
+      "keyword": [
+        "Organisations internationales",
+        "Droit international",
+        "Négociations diplomatiques",
+        "Nations unies et observateurs"
+      ],
+      "mesh": [],
+      "personName": [
+        {
+          "appellation": "Garcia, Thierry"
+        }
+      ],
+      "pubDate": "2012",
+      "publisher": [
+        "Bruylant"
+      ],
+      "role": [
+        "author"
+      ],
+      "title": [
+        "Les observateurs auprès des organisations intergouvernementales : contribution à l'étude du pouvoir en droit international"
+      ]
+    },
+    "sudoc:166532622-3": {
+      "cocontributor": [
+        {
+          "cocontributor": "Pavot, David",
+          "idcocontrib": "XXX",
+          "person": "sudoc:166532622-3"
+        },
+        {
+          "cocontributor": "Tomkiewicz, Vincent",
+          "idcocontrib": "XXX",
+          "person": "sudoc:166532622-3"
+        }
+      ],
+      "corporateBody": [
+        "Institut du droit de la paix et du développement",
+        "Groupement d'études et de recherches sur les évolutions du droit international et comparé"
+      ],
+      "dateCreationNotice": "20130107",
+      "dewey": [],
+      "domain": [
+        "340",
+        "340",
+        "340"
+      ],
+      "expLanguage": [
+        "fre"
+      ],
+      "keyword": [
+        "Droit international économique",
+        "Droit",
+        "Droit international et droit interne",
+        "Règle de droit"
+      ],
+      "mesh": [],
+      "personName": [
+        {
+          "appellation": "Garcia, Thierry"
+        }
+      ],
+      "pubDate": "2012",
+      "publisher": [
+        "Pedone"
+      ],
+      "role": [
+        "publishing_director"
+      ],
+      "title": [
+        "Les sources et les normes dans le droit de l'OMC"
+      ]
+    },
+    "sudoc:167473387-2": {
+      "cocontributor": [
+        {
+          "cocontributor": "Lagelle, Anaïs",
+          "idcocontrib": "XXX",
+          "person": "sudoc:167473387-2"
+        }
+      ],
+      "corporateBody": [
+        "Université de Nice",
+        "École doctorale Droit et sciences politiques, économiques et de gestion",
+        "Institut du droit de la paix et du développement"
+      ],
+      "dateCreationNotice": "20130215",
+      "dewey": [],
+      "domain": [
+        "340"
+      ],
+      "expLanguage": [
+        "fre"
+      ],
+      "keyword": [
+        "Standards juridiques",
+        "Droit international économique",
+        "Règle de droit",
+        "Commerce"
+      ],
+      "mesh": [],
+      "personName": [
+        {
+          "appellation": "Garcia, Thierry"
+        }
+      ],
+      "pubDate": "2012",
+      "publisher": [
+        "[s.n.]"
+      ],
+      "role": [
+        "thesis_advisor"
+      ],
+      "title": [
+        "Les standards en droit international économique"
+      ]
+    },
+    "sudoc:170584828-3": {
+      "cocontributor": [
+        {
+          "cocontributor": "Thiel, Meryl",
+          "idcocontrib": "XXX",
+          "person": "sudoc:170584828-3"
+        },
+        {
+          "cocontributor": "Balmond, Louis",
+          "idcocontrib": "XXX",
+          "person": "sudoc:170584828-3"
+        },
+        {
+          "cocontributor": "Gounelle, Max",
+          "idcocontrib": "XXX",
+          "person": "sudoc:170584828-3"
+        }
+      ],
+      "corporateBody": [
+        "Université de Nice",
+        "École doctorale Droit et sciences politiques, économiques et de gestion",
+        "Institut du droit de la paix et du développement"
+      ],
+      "dateCreationNotice": "20130711",
+      "dewey": [],
+      "domain": [],
+      "expLanguage": [
+        "fre"
+      ],
+      "keyword": [
+        "Droit commercial (droit international)",
+        "Organisations économiques internationales",
+        "ACP",
+        "Constructivisme",
+        "Groupes de Cancun",
+        "Groupe de Cairns"
+      ],
+      "mesh": [],
+      "personName": [
+        {
+          "appellation": "Garcia, Thierry"
+        }
+      ],
+      "pubDate": "2013",
+      "publisher": [
+      ],
+      "role": [
+        "praeses"
+      ],
+      "title": [
+        "Les groupes d'Etats et l'Organisation Mondiale du Commerce"
+      ]
+    },
+    "sudoc:17522921X-2": {
+      "cocontributor": [
+        {
+          "cocontributor": "Lagelle, Anaïs",
+          "idcocontrib": "XXX",
+          "person": "sudoc:17522921X-2"
+        }
+      ],
+      "corporateBody": [
+        "Université de Nice",
+        "École doctorale Droit et sciences politiques, économiques et de gestion",
+        "Institut du droit de la paix et du développement"
+      ],
+      "dateCreationNotice": "20140106",
+      "dewey": [],
+      "domain": [
+        "340"
+      ],
+      "expLanguage": [
+        "fre"
+      ],
+      "keyword": [
+        "Standards juridiques",
+        "Droit international économique",
+        "Règle de droit",
+        "Commerce"
+      ],
+      "mesh": [],
+      "personName": [
+        {
+          "appellation": "Garcia, Thierry"
+        }
+      ],
+      "pubDate": "2013",
+      "publisher": [
+        "Atelier national de reproduction des thèses"
+      ],
+      "role": [
+        "thesis_advisor"
+      ],
+      "title": [
+        "Les standards en droit international économique : contribution à l'étude de la normativité internationale"
+      ]
+    },
+    "sudoc:178934763-2": {
+      "cocontributor": [
+        {
+          "cocontributor": "Lagelle, Anaïs",
+          "idcocontrib": "XXX",
+          "person": "sudoc:178934763-2"
+        }
+      ],
+      "corporateBody": [],
+      "dateCreationNotice": "20140619",
+      "dewey": [
+        "341"
+      ],
+      "domain": [
+        "340"
+      ],
+      "expLanguage": [
+        "fre"
+      ],
+      "keyword": [
+        "Droit international économique",
+        "Standards juridiques",
+        "Règle de droit"
+      ],
+      "mesh": [],
+      "personName": [
+        {
+          "appellation": "Garcia, Thierry"
+        }
+      ],
+      "pubDate": "2014",
+      "publisher": [
+        "l'Harmattan"
+      ],
+      "role": [
+        "author_of_introd"
+      ],
+      "title": [
+        "Les standards en droit international économique : contribution à l'étude de la normativité internationale"
+      ]
+    },
+    "sudoc:190697016-6": {
+      "cocontributor": [
+        {
+          "cocontributor": "El Moukahal, Daria",
+          "idcocontrib": "XXX",
+          "person": "sudoc:190697016-6"
+        },
+        {
+          "cocontributor": "Geslin, Albane",
+          "idcocontrib": "XXX",
+          "person": "sudoc:190697016-6"
+        },
+        {
+          "cocontributor": "Sidorenko, Nadezhda",
+          "idcocontrib": "XXX",
+          "person": "sudoc:190697016-6"
+        },
+        {
+          "cocontributor": "Guilloud, Laetitia",
+          "idcocontrib": "XXX",
+          "person": "sudoc:190697016-6"
+        },
+        {
+          "cocontributor": "Brosset, Estelle",
+          "idcocontrib": "XXX",
+          "person": "sudoc:190697016-6"
+        }
+      ],
+      "corporateBody": [
+        "Communauté d'universités et d'établissements Université Grenoble Alpes",
+        "Université d'Etat Lobatchevski de Nijni Nogorod",
+        "École doctorale sciences juridiques",
+        "Centre d'études sur la sécurité internationale et les coopérations européennes"
+      ],
+      "dateCreationNotice": "20160114",
+      "dewey": [],
+      "domain": [
+        "320",
+        "330",
+        "340"
+      ],
+      "expLanguage": [
+        "fre"
+      ],
+      "keyword": [
+        "Droit commercial (droit international)",
+        "Droit commercial (droit européen)",
+        "Politique commerciale",
+        "Arbitrage commercial international",
+        "Communautés européennes",
+        "Politique commerciale commune",
+        "Union européenne",
+        "Organe de règlement des différends",
+        "Organisation mondiale du commerce",
+        "Litige commercial international"
+      ],
+      "mesh": [],
+      "personName": [
+        {
+          "appellation": "Garcia, Thierry"
+        }
+      ],
+      "pubDate": "2015",
+      "publisher": [
+      ],
+      "role": [
+        "thesis_reporter"
+      ],
+      "title": [
+        "Litiges de l'Union européenne devant l'Organe de règlement des différends"
+      ]
+    },
+    "sudoc:191623318-1": {
+      "cocontributor": [],
+      "corporateBody": [],
+      "dateCreationNotice": "20160225",
+      "dewey": [],
+      "domain": [
+        "340",
+        "340"
+      ],
+      "expLanguage": [
+        "fre"
+      ],
+      "keyword": [
+        "Droit",
+        "Droit"
+      ],
+      "mesh": [],
+      "personName": [
+        {
+          "appellation": "Garcia, Thierry"
+        }
+      ],
+      "pubDate": "2016",
+      "publisher": [
+        "l'Harmattan"
+      ],
+      "role": [
+        "publishing_director"
+      ],
+      "title": [
+        "Mélanges à la mémoire du professeur Biays : la Méditerranée : études juridiques et politiques"
+      ]
+    },
+    "sudoc:191793833-2": {
+      "cocontributor": [
+        {
+          "cocontributor": "Carreira da Cruz, Marc-Antoine",
+          "idcocontrib": "XXX",
+          "person": "sudoc:191793833-2"
+        },
+        {
+          "cocontributor": "Parachkevova, Irina",
+          "idcocontrib": "XXX",
+          "person": "sudoc:191793833-2"
+        },
+        {
+          "cocontributor": "Angelet, Nicolas",
+          "idcocontrib": "XXX",
+          "person": "sudoc:191793833-2"
+        },
+        {
+          "cocontributor": "Sueur, Jean-Jacques",
+          "idcocontrib": "XXX",
+          "person": "sudoc:191793833-2"
+        }
+      ],
+      "corporateBody": [
+        "Université de Nice",
+        "École doctorale Droit et sciences politiques, économiques et de gestion"
+      ],
+      "dateCreationNotice": "20160307",
+      "dewey": [],
+      "domain": [
+        "300",
+        "330",
+        "570"
+      ],
+      "expLanguage": [
+        "fre"
+      ],
+      "keyword": [
+        "Responsabilité sociétale",
+        "Droit commercial (droit international)",
+        "Standards",
+        "Responsabilité sociétale des entreprises",
+        "Droit international"
+      ],
+      "mesh": [],
+      "personName": [
+        {
+          "appellation": "Garcia, Thierry"
+        }
+      ],
+      "pubDate": "2015",
+      "publisher": [
+        
+      ],
+      "role": [
+        "thesis_advisor",
+        "opponent"
+      ],
+      "title": [
+        "La contribution de la standardisation à la cohérence entre la responsabilité sociétale des entreprises et l'espace normatif de l'OMC en droit international"
+      ]
+    },
+    "sudoc:191878987-2": {
+      "cocontributor": [
+        {
+          "cocontributor": "Hoeffner, Werner",
+          "idcocontrib": "XXX",
+          "person": "sudoc:191878987-2"
+        },
+        {
+          "cocontributor": "Geslin, Albane",
+          "idcocontrib": "XXX",
+          "person": "sudoc:191878987-2"
+        },
+        {
+          "cocontributor": "Boisson de Chazournes, Laurence",
+          "idcocontrib": "XXX",
+          "person": "sudoc:191878987-2"
+        },
+        {
+          "cocontributor": "Taxil, Bérangère",
+          "idcocontrib": "XXX",
+          "person": "sudoc:191878987-2"
+        },
+        {
+          "cocontributor": "Martin, Jean-Christophe",
+          "idcocontrib": "XXX",
+          "person": "sudoc:191878987-2"
+        }
+      ],
+      "corporateBody": [
+        "Université de Nice",
+        "École doctorale Droit et sciences politiques, économiques et de gestion",
+        "Groupement d'études et de recherches sur les évolutions du droit international et comparé"
+      ],
+      "dateCreationNotice": "20160311",
+      "dewey": [],
+      "domain": [
+        "350",
+        "690",
+        "720"
+      ],
+      "expLanguage": [
+        "fre"
+      ],
+      "keyword": [
+        "Bâtiments publics",
+        "Construction",
+        "Aménagement du territoire",
+        "Environnement",
+        "Aménagement du territoire",
+        "Souveraineté",
+        "Ouvrage public"
+      ],
+      "mesh": [],
+      "personName": [
+        {
+          "appellation": "Garcia, Thierry"
+        }
+      ],
+      "pubDate": "2015",
+      "publisher": [
+        
+      ],
+      "role": [
+        "thesis_advisor",
+        "opponent"
+      ],
+      "title": [
+        "L'ouvrage public et le droit international"
+      ]
+    },
+    "sudoc:193282747-2": {
+      "cocontributor": [
+        {
+          "cocontributor": "Lagelle, Anaïs",
+          "idcocontrib": "XXX",
+          "person": "sudoc:193282747-2"
+        }
+      ],
+      "corporateBody": [],
+      "dateCreationNotice": "20160524",
+      "dewey": [
+        "341"
+      ],
+      "domain": [
+        "340"
+      ],
+      "expLanguage": [
+        "fre"
+      ],
+      "keyword": [
+        "Droit international économique",
+        "Standards juridiques",
+        "Règle de droit"
+      ],
+      "mesh": [],
+      "personName": [
+        {
+          "appellation": "Garcia, Thierry"
+        }
+      ],
+      "pubDate": "2014",
+      "publisher": [
+        "L'Harmattan"
+      ],
+      "role": [
+        "author_of_introd"
+      ],
+      "title": [
+        "Les standards en droit international économique : contribution à l'étude de la normativité internationale"
+      ]
+    },
+    "sudoc:194963713-1": {
+      "cocontributor": [],
+      "corporateBody": [
+        "Laboratoire de droit international et européen"
+      ],
+      "dateCreationNotice": "20160909",
+      "dewey": [
+        "341.26"
+      ],
+      "domain": [
+        "340",
+        "320",
+        "340"
+      ],
+      "expLanguage": [
+        "fre"
+      ],
+      "keyword": [
+        "Reconnaissance (droit international)",
+        "Nations unies et observateurs",
+        "Droit international",
+        "Souveraineté"
+      ],
+      "mesh": [],
+      "personName": [
+        {
+          "appellation": "Garcia, Thierry"
+        }
+      ],
+      "pubDate": "2016",
+      "publisher": [
+        "Éditions Pedone"
+      ],
+      "role": [
+        "publishing_director"
+      ],
+      "title": [
+        "La Palestine : d'un État non membre de l'Organisation des Nations Unies à un État souverain ? : colloque international de Nice, 13 mars 2015"
+      ]
+    },
+    "sudoc:195971981-5": {
+      "cocontributor": [
+        {
+          "cocontributor": "Keza, Saint Cyr Rufin",
+          "idcocontrib": "XXX",
+          "person": "sudoc:195971981-5"
+        },
+        {
+          "cocontributor": "Philippe, Xavier",
+          "idcocontrib": "XXX",
+          "person": "sudoc:195971981-5"
+        },
+        {
+          "cocontributor": "Bruschi, Christian",
+          "idcocontrib": "XXX",
+          "person": "sudoc:195971981-5"
+        },
+        {
+          "cocontributor": "Brégi, Jean-François",
+          "idcocontrib": "XXX",
+          "person": "sudoc:195971981-5"
+        }
+      ],
+      "corporateBody": [
+        "Aix-Marseille Université",
+        "Ecole Doctorale Sciences Juridiques et Politiques",
+        "Centre d'études et de recherches d'histoire des idées et des institutions politiques",
+        "Laboratoire de théorie du droit"
+      ],
+      "dateCreationNotice": "20161021",
+      "dewey": [],
+      "domain": [
+        "340",
+        "350"
+      ],
+      "expLanguage": [
+        "fre"
+      ],
+      "keyword": [
+        "Guerre (droit international)",
+        "Sociétés militaires privées",
+        "Mercenaires",
+        "Crimes",
+        "États",
+        "Justice",
+        "Responsabilité",
+        "Souveraineté",
+        "Armées",
+        "Belligérants",
+        "Civils",
+        "Conflits",
+        "Conventions"
+      ],
+      "mesh": [],
+      "personName": [
+        {
+          "appellation": "Garcia, Thierry"
+        }
+      ],
+      "pubDate": "2015",
+      "publisher": [
+        "[s.n.]"
+      ],
+      "role": [
+        "thesis_reporter",
+        "opponent"
+      ],
+      "title": [
+        "Le droit face à l'utilisation des mercenaires dans les conflits armés"
+      ]
+    },
+    "sudoc:197907202-2": {
+      "cocontributor": [
+        {
+          "cocontributor": "Pavot, David",
+          "idcocontrib": "XXX",
+          "person": "sudoc:197907202-2"
+        },
+        {
+          "cocontributor": "Teller, Marina",
+          "idcocontrib": "XXX",
+          "person": "sudoc:197907202-2"
+        },
+        {
+          "cocontributor": "Balmond, Louis",
+          "idcocontrib": "XXX",
+          "person": "sudoc:197907202-2"
+        },
+        {
+          "cocontributor": "Mbengue, Makane Moïse",
+          "idcocontrib": "XXX",
+          "person": "sudoc:197907202-2"
+        },
+        {
+          "cocontributor": "Martin, Jean-Christophe",
+          "idcocontrib": "XXX",
+          "person": "sudoc:197907202-2"
+        }
+      ],
+      "corporateBody": [
+        "Université Côte d'Azur",
+        "École doctorale Droit et sciences politiques, économiques et de gestion",
+        "Université de Nice",
+        "Laboratoire de droit international et européen"
+      ],
+      "dateCreationNotice": "20170127",
+      "dewey": [],
+      "domain": [
+        "340",
+        "330",
+        "330"
+      ],
+      "expLanguage": [
+        "fre"
+      ],
+      "keyword": [
+        "Droit international",
+        "Risque financier",
+        "Libéralisme économique",
+        "Libéralisme",
+        "Commerce international",
+        "Investissement"
+      ],
+      "mesh": [],
+      "personName": [
+        {
+          "appellation": "Garcia, Thierry"
+        }
+      ],
+      "pubDate": "2016",
+      "publisher": [
+        
+      ],
+      "role": [
+        "thesis_advisor",
+        "opponent"
+      ],
+      "title": [
+        "L'anticipation du risque economique en droit international"
+      ]
+    },
+    "sudoc:198583109-2": {
+      "cocontributor": [
+        {
+          "cocontributor": "Achour, Hekma",
+          "idcocontrib": "XXX",
+          "person": "sudoc:198583109-2"
+        },
+        {
+          "cocontributor": "Moussa, Mohamed Larbi Fadhel",
+          "idcocontrib": "XXX",
+          "person": "sudoc:198583109-2"
+        },
+        {
+          "cocontributor": "Martin, Jean-Christophe",
+          "idcocontrib": "XXX",
+          "person": "sudoc:198583109-2"
+        },
+        {
+          "cocontributor": "Ferchichi, Wahid",
+          "idcocontrib": "XXX",
+          "person": "sudoc:198583109-2"
+        },
+        {
+          "cocontributor": "Mbengue, Makane Moïse",
+          "idcocontrib": "XXX",
+          "person": "sudoc:198583109-2"
+        }
+      ],
+      "corporateBody": [
+        "Université Côte d'Azur",
+        "Université de Carthage",
+        "École doctorale Droit et sciences politiques, économiques et de gestion",
+        "Université de Nice",
+        "Laboratoire de droit international et européen"
+      ],
+      "dateCreationNotice": "20170223",
+      "dewey": [],
+      "domain": [
+        "340",
+        "320",
+        "350",
+        "650"
+      ],
+      "expLanguage": [
+        "fre"
+      ],
+      "keyword": [
+        "Cours d'eau internationaux",
+        "Eau",
+        "Eau",
+        "Gouvernance",
+        "Gestion des ressources en eau",
+        "Gestion des ressources en eau",
+        "Droit à l'eau",
+        "Droit de l'eau",
+        "Utilisation et protection de l'eau"
+      ],
+      "mesh": [],
+      "personName": [
+        {
+          "appellation": "Garcia, Thierry"
+        }
+      ],
+      "pubDate": "2016",
+      "publisher": [
+        
+      ],
+      "role": [
+        "thesis_advisor",
+        "opponent"
+      ],
+      "title": [
+        "La gouvernance du Bassin du Nil entre confrontation et coopération. Contribution à l'étude du droit international fluvial"
+      ]
+    },
+    "sudoc:199611483-4": {
+      "cocontributor": [
+        {
+          "cocontributor": "Camara, Alpha Oumar",
+          "idcocontrib": "XXX",
+          "person": "sudoc:199611483-4"
+        },
+        {
+          "cocontributor": "Martin, Jean-Christophe",
+          "idcocontrib": "XXX",
+          "person": "sudoc:199611483-4"
+        },
+        {
+          "cocontributor": "Auvret-Finck, Josiane",
+          "idcocontrib": "XXX",
+          "person": "sudoc:199611483-4"
+        },
+        {
+          "cocontributor": "Lanfranchi, Marie-Pierre",
+          "idcocontrib": "XXX",
+          "person": "sudoc:199611483-4"
+        }
+      ],
+      "corporateBody": [
+        "Université Côte d'Azur",
+        "École doctorale Droit et sciences politiques, économiques et de gestion",
+        "Université de Nice",
+        "Laboratoire de droit international et européen"
+      ],
+      "dateCreationNotice": "20170327",
+      "dewey": [],
+      "domain": [
+        "320"
+      ],
+      "expLanguage": [
+        "fre"
+      ],
+      "keyword": [
+        "Fraude",
+        "Fraude (droit européen)",
+        "Infractions économiques et financières",
+        "Contrôle financier",
+        "Organisations internationales",
+        "Intérêts financiers",
+        "Irrégularités financières"
+      ],
+      "mesh": [],
+      "personName": [
+        {
+          "appellation": "Garcia, Thierry"
+        }
+      ],
+      "pubDate": "2017",
+      "publisher": [
+        
+      ],
+      "role": [
+        "thesis_reporter",
+        "opponent"
+      ],
+      "title": [
+        "La protection des intérêts financiers des organisations internationales"
+      ]
+    },
+    "sudoc:199702675-1": {
+      "cocontributor": [
+        {
+          "cocontributor": "Christakis, Théodore",
+          "idcocontrib": "XXX",
+          "person": "sudoc:199702675-1"
+        }
+      ],
+      "corporateBody": [],
+      "dateCreationNotice": "20170329",
+      "dewey": [],
+      "domain": [
+        "330",
+        "355",
+        "355"
+      ],
+      "expLanguage": [
+        "fre"
+      ],
+      "keyword": [
+        "Services privés de sécurité",
+        "Sociétés militaires privées",
+        "Sécurité",
+        "Défense"
+      ],
+      "mesh": [],
+      "personName": [
+        {
+          "appellation": "Garcia, Thierry"
+        }
+      ],
+      "pubDate": "2017",
+      "publisher": [
+        "mare & martin"
+      ],
+      "role": [
+        "author"
+      ],
+      "title": [
+        "Les entreprises militaires et de sécurité privées appréhendées par le droit"
+      ]
+    },
+    "sudoc:204677513-3": {
+      "cocontributor": [
+        {
+          "cocontributor": "Touzeil-Divina, Mathieu",
+          "idcocontrib": "XXX",
+          "person": "sudoc:204677513-3"
+        },
+        {
+          "cocontributor": "Espagno, Delphine",
+          "idcocontrib": "XXX",
+          "person": "sudoc:204677513-3"
+        }
+      ],
+      "corporateBody": [],
+      "dateCreationNotice": "20171013",
+      "dewey": [],
+      "domain": [],
+      "expLanguage": [
+        "fre"
+      ],
+      "keyword": [],
+      "mesh": [],
+      "personName": [
+        {
+          "appellation": "Garcia, Thierry"
+        }
+      ],
+      "pubDate": "2017",
+      "publisher": [
+        "éditions l'Épitoge"
+      ],
+      "role": [
+        "publishing_director"
+      ],
+      "title": [
+        "Les mots d'Annie Héritier : droit(s) au coeur et à la culture..."
+      ]
+    },
+    "sudoc:22013958X-4": {
+      "cocontributor": [
+        {
+          "cocontributor": "Jin, Xin",
+          "idcocontrib": "XXX",
+          "person": "sudoc:22013958X-4"
+        },
+        {
+          "cocontributor": "Jin, Banggui",
+          "idcocontrib": "XXX",
+          "person": "sudoc:22013958X-4"
+        },
+        {
+          "cocontributor": "Scoffoni, Guy",
+          "idcocontrib": "XXX",
+          "person": "sudoc:22013958X-4"
+        },
+        {
+          "cocontributor": "Carpano, Éric",
+          "idcocontrib": "XXX",
+          "person": "sudoc:22013958X-4"
+        }
+      ],
+      "corporateBody": [
+        "Aix-Marseille Université",
+        "Ecole Doctorale Sciences Juridiques et Politiques"
+      ],
+      "dateCreationNotice": "20171113",
+      "dewey": [],
+      "domain": [
+        "340"
+      ],
+      "expLanguage": [
+        "fre"
+      ],
+      "keyword": [
+        "Protectionnisme",
+        "Droits antidumping",
+        "Dumping",
+        "Dumping",
+        "Dumping",
+        "Antidumping",
+        "Libre échange",
+        "Valeur normale",
+        "Dommage du dumping",
+        "Réexamen administratif",
+        "Révision judiciaire"
+      ],
+      "mesh": [],
+      "personName": [
+        {
+          "appellation": "Garcia, Thierry"
+        }
+      ],
+      "pubDate": "2017",
+      "publisher": [
+        
+      ],
+      "role": [
+        "thesis_reporter",
+        "opponent"
+      ],
+      "title": [
+        "L'application de l'accord antidumping aux États-Unis, dans l'Union européenne et en Chine : une étude critique sous l'angle du protectionnisme"
+      ]
+    },
+    "sudoc:224528521-5": {
+      "cocontributor": [
+        {
+          "cocontributor": "Foury, Nazim Fouad",
+          "idcocontrib": "XXX",
+          "person": "sudoc:224528521-5"
+        },
+        {
+          "cocontributor": "Le Bot, Olivier",
+          "idcocontrib": "XXX",
+          "person": "sudoc:224528521-5"
+        },
+        {
+          "cocontributor": "Mamontoff, Catherine",
+          "idcocontrib": "XXX",
+          "person": "sudoc:224528521-5"
+        },
+        {
+          "cocontributor": "Ghaouti, Souâd",
+          "idcocontrib": "XXX",
+          "person": "sudoc:224528521-5"
+        }
+      ],
+      "corporateBody": [
+        "Aix-Marseille Université",
+        "Ecole Doctorale Sciences Juridiques et Politiques",
+        "Groupe d'études et de recherches sur la justice constitutionnelle"
+      ],
+      "dateCreationNotice": "20180227",
+      "dewey": [],
+      "domain": [
+        "330",
+        "577",
+        "710",
+        "340",
+        "350",
+        "570"
+      ],
+      "expLanguage": [
+        "fre"
+      ],
+      "keyword": [
+        "Littoraux",
+        "Développement durable",
+        "Urbanisation",
+        "Mer",
+        "Littoral",
+        "Zones côtières",
+        "Effectivité",
+        "Gestion intégrée des zones côtières",
+        "Aménagement",
+        "Urbanisme",
+        "Instruments",
+        "Environnement",
+        "Économie",
+        "Équilibre",
+        "Coordination",
+        "Gouvernance",
+        "Protection",
+        "Préservation",
+        "Dégradation",
+        "Algérie",
+        "France",
+        "Méditerranéen"
+      ],
+      "mesh": [],
+      "personName": [
+        {
+          "appellation": "Garcia, Thierry"
+        }
+      ],
+      "pubDate": "2017",
+      "publisher": [
+        
+      ],
+      "role": [
+        "thesis_reporter",
+        "opponent"
+      ],
+      "title": [
+        "L'effectivité des instruments de protection et d'aménagement du littoral méditerranéen : cas de l'Algérie"
+      ]
+    },
+    "sudoc:226377288-1": {
+      "cocontributor": [],
+      "corporateBody": [],
+      "dateCreationNotice": "20180427",
+      "dewey": [],
+      "domain": [
+        "510",
+        "621"
+      ],
+      "expLanguage": [
+        "fre"
+      ],
+      "keyword": [
+        "Algorithmes parallèles"
+      ],
+      "mesh": [],
+      "personName": [
+        {
+          "appellation": "Garcia, Thierry"
+        }
+      ],
+      "pubDate": "2005",
+      "publisher": [
+        "[CCSD] [diffusion/distribution]"
+      ],
+      "role": [
+        "author"
+      ],
+      "title": [
+        "Algorithmique parallèle du texte : du modèle systolique au modèle CGM"
+      ]
+    },
+    "sudoc:22887405X-8": {
+      "cocontributor": [
+        {
+          "cocontributor": "Partimbene, Vincent",
+          "idcocontrib": "XXX",
+          "person": "sudoc:22887405X-8"
+        },
+        {
+          "cocontributor": "Spitéri, Pierre",
+          "idcocontrib": "XXX",
+          "person": "sudoc:22887405X-8"
+        },
+        {
+          "cocontributor": "Marthon, Philippe",
+          "idcocontrib": "XXX",
+          "person": "sudoc:22887405X-8"
+        },
+        {
+          "cocontributor": "Gratton, Serge",
+          "idcocontrib": "XXX",
+          "person": "sudoc:22887405X-8"
+        },
+        {
+          "cocontributor": "Tromeur-Dervout, Damien",
+          "idcocontrib": "XXX",
+          "person": "sudoc:22887405X-8"
+        },
+        {
+          "cocontributor": "Magoulès, Frédéric",
+          "idcocontrib": "XXX",
+          "person": "sudoc:22887405X-8"
+        },
+        {
+          "cocontributor": "Couturier, Raphaël",
+          "idcocontrib": "XXX",
+          "person": "sudoc:22887405X-8"
+        },
+        {
+          "cocontributor": "Jacquet, Emmanuelle",
+          "idcocontrib": "XXX",
+          "person": "sudoc:22887405X-8"
+        },
+        {
+          "cocontributor": "Ratsifandrihana, Léon",
+          "idcocontrib": "XXX",
+          "person": "sudoc:22887405X-8"
+        }
+      ],
+      "corporateBody": [
+        "Institut national polytechnique",
+        "École Doctorale Mathématiques, Informatique et Télécommunications",
+        "Institut de Recherche en Informatique de Toulouse"
+      ],
+      "dateCreationNotice": "20180711",
+      "dewey": [],
+      "domain": [
+        "530",
+        "510",
+        "621",
+        "540",
+        "600",
+        "510"
+      ],
+      "expLanguage": [
+        "fre"
+      ],
+      "keyword": [
+        "Interaction fluide-structure",
+        "Algorithmes parallèles",
+        "Séparation (technologie)",
+        "Volumes finis, Méthodes de",
+        "Multi-splitting",
+        "Message Passing Interface"
+      ],
+      "mesh": [],
+      "personName": [
+        {
+          "appellation": "Garcia, Thierry"
+        }
+      ],
+      "pubDate": "2018",
+      "publisher": [
+        
+      ],
+      "role": [
+        "opponent"
+      ],
+      "title": [
+        "Calcul haute performance pour la simulation d'interactions fluide-structure"
+      ]
+    },
+    "sudoc:229736920-4": {
+      "cocontributor": [
+        {
+          "cocontributor": "Bergier, Charles",
+          "idcocontrib": "XXX",
+          "person": "sudoc:229736920-4"
+        },
+        {
+          "cocontributor": "Balmond, Louis",
+          "idcocontrib": "XXX",
+          "person": "sudoc:229736920-4"
+        },
+        {
+          "cocontributor": "Martin, Jean-Christophe",
+          "idcocontrib": "XXX",
+          "person": "sudoc:229736920-4"
+        },
+        {
+          "cocontributor": "Jacob, Patrick",
+          "idcocontrib": "XXX",
+          "person": "sudoc:229736920-4"
+        }
+      ],
+      "corporateBody": [
+        "Université Côte d'Azur",
+        "École doctorale Droit et sciences politiques, économiques et de gestion",
+        "Université de Nice",
+        "Laboratoire de droit international et européen"
+      ],
+      "dateCreationNotice": "20180828",
+      "dewey": [],
+      "domain": [
+        "340",
+        "330",
+        "340",
+        "330",
+        "340"
+      ],
+      "expLanguage": [
+        "fre"
+      ],
+      "keyword": [
+        "Agences de notation (finances)",
+        "Banques",
+        "Autorités de régulation et de surveillance financière",
+        "Contrôle prudentiel",
+        "Droit international économique",
+        "Notation financière",
+        "Contrôle international"
+      ],
+      "mesh": [],
+      "personName": [
+        {
+          "appellation": "Garcia, Thierry"
+        }
+      ],
+      "pubDate": "2018",
+      "publisher": [
+        
+      ],
+      "role": [
+        "praeses",
+        "thesis_reporter",
+        "opponent"
+      ],
+      "title": [
+        "Le contrôle international des agences de notation financières"
+      ]
+    },
+    "sudoc:230700659-1": {
+      "cocontributor": [],
+      "corporateBody": [
+        "Centre d'études sur la sécurité internationale et les coopérations européennes"
+      ],
+      "dateCreationNotice": "20181009",
+      "dewey": [],
+      "domain": [
+        "320",
+        "320",
+        "340",
+        "320",
+        "910",
+        "340"
+      ],
+      "expLanguage": [
+        "fre"
+      ],
+      "keyword": [
+        "Reconnaissance (droit international)",
+        "Souveraineté",
+        "Droit des peuples à disposer d'eux-mêmes",
+        "États non reconnus"
+      ],
+      "mesh": [],
+      "personName": [
+        {
+          "appellation": "Garcia, Thierry"
+        }
+      ],
+      "pubDate": "2018",
+      "publisher": [
+        "Éditions Pedone"
+      ],
+      "role": [
+        "publishing_director"
+      ],
+      "title": [
+        "La reconnaissance du statut d'État à des entités contestées : approches de droits international, régional et interne"
+      ]
+    },
+    "sudoc:233759921-2": {
+      "cocontributor": [
+        {
+          "cocontributor": "Fabre, Aïleen",
+          "idcocontrib": "XXX",
+          "person": "sudoc:233759921-2"
+        }
+      ],
+      "corporateBody": [],
+      "dateCreationNotice": "20190205",
+      "dewey": [],
+      "domain": [
+        "320",
+        "355",
+        "320"
+      ],
+      "expLanguage": [
+        "fre"
+      ],
+      "keyword": [
+        "Bioterrorisme",
+        "Terrorisme"
+      ],
+      "mesh": [],
+      "personName": [
+        {
+          "appellation": "Garcia, Thierry"
+        }
+      ],
+      "pubDate": "2005",
+      "publisher": [
+        "L'Harmattan"
+      ],
+      "role": [
+        "author_of_introd"
+      ],
+      "title": [
+        "Politique et droit de la sécurité face au bioterrorisme"
+      ]
+    },
+    "sudoc:234438991-1": {
+      "cocontributor": [
+        {
+          "cocontributor": "Tomkiewicz, Vincent",
+          "idcocontrib": "XXX",
+          "person": "sudoc:234438991-1"
+        }
+      ],
+      "corporateBody": [
+        "Institut du droit de la paix et du développement",
+        "Centre d'études du droit des organisations européennes"
+      ],
+      "dateCreationNotice": "20190307",
+      "dewey": [],
+      "domain": [
+        "340",
+        "340"
+      ],
+      "expLanguage": [
+        "fre"
+      ],
+      "keyword": [
+        "Droit international",
+        "Droit international et droit interne",
+        "Personnes (droit international)"
+      ],
+      "mesh": [],
+      "personName": [
+        {
+          "appellation": "Garcia, Thierry"
+        }
+      ],
+      "pubDate": "2011",
+      "publisher": [
+        "strada lex"
+      ],
+      "role": [
+        "publishing_director"
+      ],
+      "title": [
+        "L'OMC et les sujets de droit : colloque de Nice des 24 et 25 juin 2009"
+      ]
+    },
+    "sudoc:234462892-1": {
+      "cocontributor": [
+        {
+          "cocontributor": "Boisson de Chazournes, Laurence",
+          "idcocontrib": "XXX",
+          "person": "sudoc:234462892-1"
+        },
+        {
+          "cocontributor": "Balmond, Louis",
+          "idcocontrib": "XXX",
+          "person": "sudoc:234462892-1"
+        }
+      ],
+      "corporateBody": [],
+      "dateCreationNotice": "20190308",
+      "dewey": [],
+      "domain": [
+        "320",
+        "340",
+        "320"
+      ],
+      "expLanguage": [
+        "fre"
+      ],
+      "keyword": [
+        "Organisations internationales",
+        "Droit international",
+        "Négociations diplomatiques",
+        "Nations unies et observateurs"
+      ],
+      "mesh": [],
+      "personName": [
+        {
+          "appellation": "Garcia, Thierry"
+        }
+      ],
+      "pubDate": "2012",
+      "publisher": [
+        "Bruylant"
+      ],
+      "role": [
+        "author"
+      ],
+      "title": [
+        "Les observateurs auprès des organisations intergouvernementales : contribution à l'étude du pouvoir en droit international"
+      ]
+    },
+    "sudoc:235757411-3": {
+      "cocontributor": [
+        {
+          "cocontributor": "Flory, Philippe",
+          "idcocontrib": "XXX",
+          "person": "sudoc:235757411-3"
+        },
+        {
+          "cocontributor": "Christakis Mollard-Bannelier, Karine",
+          "idcocontrib": "XXX",
+          "person": "sudoc:235757411-3"
+        },
+        {
+          "cocontributor": "Scalia, Damien",
+          "idcocontrib": "XXX",
+          "person": "sudoc:235757411-3"
+        },
+        {
+          "cocontributor": "Philippe, Xavier",
+          "idcocontrib": "XXX",
+          "person": "sudoc:235757411-3"
+        },
+        {
+          "cocontributor": "Mégret, Frédéric",
+          "idcocontrib": "XXX",
+          "person": "sudoc:235757411-3"
+        }
+      ],
+      "corporateBody": [
+        "Communauté d'universités et d'établissements Université Grenoble Alpes",
+        "École doctorale sciences juridiques",
+        "Centre d'études sur la sécurité internationale et les coopérations européennes"
+      ],
+      "dateCreationNotice": "20190513",
+      "dewey": [
+        "340"
+      ],
+      "domain": [
+        "340",
+        "355"
+      ],
+      "expLanguage": [
+        "fre"
+      ],
+      "keyword": [
+        "Justice transitionnelle",
+        "Nations Unies",
+        "Guerre",
+        "Droit pénal international",
+        "Réconciliation",
+        "Conflits",
+        "Onu"
+      ],
+      "mesh": [],
+      "personName": [
+        {
+          "appellation": "Garcia, Thierry"
+        }
+      ],
+      "pubDate": "2018",
+      "publisher": [
+        
+      ],
+      "role": [
+        "praeses"
+      ],
+      "title": [
+        "L'action de l'ONU dans le domaine de la justice transitionnelle"
+      ]
+    },
+    "sudoc:237752387-2": {
+      "cocontributor": [
+        {
+          "cocontributor": "Nkoue, Éléazar Michel",
+          "idcocontrib": "XXX",
+          "person": "sudoc:237752387-2"
+        },
+        {
+          "cocontributor": "Njeufack Temgwa, René",
+          "idcocontrib": "XXX",
+          "person": "sudoc:237752387-2"
+        },
+        {
+          "cocontributor": "Maljean-Dubois, Sandrine",
+          "idcocontrib": "XXX",
+          "person": "sudoc:237752387-2"
+        },
+        {
+          "cocontributor": "Billet, Philippe",
+          "idcocontrib": "XXX",
+          "person": "sudoc:237752387-2"
+        },
+        {
+          "cocontributor": "Soh Fogno, Denis Roger",
+          "idcocontrib": "XXX",
+          "person": "sudoc:237752387-2"
+        },
+        {
+          "cocontributor": "Girard, Fabien",
+          "idcocontrib": "XXX",
+          "person": "sudoc:237752387-2"
+        }
+      ],
+      "corporateBody": [
+        "Communauté d'universités et d'établissements Université Grenoble Alpes",
+        "École doctorale sciences juridiques",
+        "Centre d'études sur la sécurité internationale et les coopérations européennes"
+      ],
+      "dateCreationNotice": "20190906",
+      "dewey": [
+        "340"
+      ],
+      "domain": [
+        "570",
+        "600",
+        "580",
+        "630",
+        "330",
+        "577"
+      ],
+      "expLanguage": [
+        "fre"
+      ],
+      "keyword": [
+        "Écologie des forêts",
+        "Forêts",
+        "Développement économique",
+        "Écosystème forestier",
+        "Mécaniques juridiques de protection",
+        "Développement socio-Économique",
+        "Appareil politico-Administratif",
+        "Coopération international au développement",
+        "Instruments juridiques internationaux"
+      ],
+      "mesh": [],
+      "personName": [
+        {
+          "appellation": "Garcia, Thierry"
+        }
+      ],
+      "pubDate": "2019",
+      "publisher": [
+        
+      ],
+      "role": [
+        "thesis_advisor"
+      ],
+      "title": [
+        "La protection des écosystèmes forestiers d'Afrique centrale à l'épreuve des nécessités de développement socio-économique : cas du Cameroun"
+      ]
+    },
+	"hal-01588526": {
+      "cocontributor": [
+        {
+          "cocontributor": "Myoupo, Jean Frédéric",
+          "idcocontrib": "XXX",
+          "person": "hal-01588526"
+        },
+        {
+          "cocontributor": "Semé, David",
+          "idcocontrib": "XXX",
+          "person": "hal-01588526"
+        }
+      ],
+      "corporateBody": [
+        "Laboratoire d'Informatique Parallélisme Réseaux Algorithmes Distribués"
+      ],
+      "domain": [
+        "004"
+      ],
+      "expLanguage": [
+        "eng"
+      ],
+      "personName": [
+        {
+          "appellation": "Garcia, Thierry"
+        }
+      ],
+      "pubDate": "2001",
+      "publisher": [
+        
+      ],
+      "role": [
+        "author"
+      ],
+      "title": [
+        "A work-optimal CGM algorithm for the LIS problem"
+      ]
+    },
+	"hal-00688400": {
+      "cocontributor": [
+        {
+          "cocontributor": "Chau, Ming",
+          "idcocontrib": "XXX",
+          "person": "hal-00688400"
+        },
+        {
+          "cocontributor": 	"Nguyen, The Tung",
+          "idcocontrib": "XXX",
+          "person": "hal-00688400"
+        },
+		{
+          "cocontributor": "El Baz, Didier",
+          "idcocontrib": "XXX",
+          "person": "hal-00688400"
+        },
+        {
+          "cocontributor": 	"Spiteri, Pierre",
+          "idcocontrib": "XXX",
+          "person": "hal-00688400"
+        }
+      ],
+      "corporateBody": [
+        "Institut de recherche en informatique de Toulouse"
+      ],
+      "domain": [
+        "004"
+      ],
+      "expLanguage": [
+        "eng"
+      ],
+      "personName": [
+        {
+          "appellation": "Garcia, Thierry"
+        }
+      ],
+      "pubDate": "2011",
+      "publisher": ["IEEE"],
+      "role": [
+        "author"
+      ],
+      "title": [
+        "Asynchronous peer-to-peer distributed computing for financial applications"
+      ]
+    },
+	"hal-01588523": {
+      "cocontributor": [
+        {
+          "cocontributor": "Semé, David",
+          "idcocontrib": "XXX",
+          "person": "hal-01588523"
+        }
+      ],
+      "corporateBody": [
+        "Laboratoire d'Informatique Parallélisme Réseaux Algorithmes Distribués"
+      ],
+      "domain": [
+        "004"
+      ],
+      "expLanguage": [
+        "eng"
+      ],
+      "personName": [
+        {
+          "appellation": "Garcia, Thierry"
+        }
+      ],
+      "pubDate": "2005",
+      "role": [
+        "author"
+      ],
+      "title": [
+        "A Coarse-Grained Multicomputer algorithm for the detection of repetitions"
+      ]
+    },
+	"hal-01942342": {
+	  "keyword": [
+        "Etat voyou"
+      ],
+      "corporateBody": [
+        "Centre d'études sur la sécurité internationale et les coopérations européennes","Université Grenoble Alpes"
+      ],
+      "domain": [
+        "340"
+      ],
+      "expLanguage": [
+        "eng"
+      ],
+      "personName": [
+        {
+          "appellation": "Garcia, Thierry"
+        }
+      ],
+      "pubDate": "2018",
+      "role": [
+        "author"
+      ],
+      "title": [
+        "Rogues states"
+      ]
+    },
+	"hal-01942232": {
+      "domain": [
+        "340"
+      ],
+      "expLanguage": [
+        "fre"
+      ],
+      "personName": [
+        {
+          "appellation": "Garcia, Thierry"
+        }
+      ],
+	  "keyword": [
+        "Catastophes naturelles",
+		"Droit - Union européenne"
+      ],
+	  "corporateBody": [
+        "Centre d'études sur la sécurité internationale et les coopérations européennes","Université Grenoble Alpes"
+      ],
+      "pubDate": "2019",
+      "role": [
+        "author"
+      ],
+      "title": [
+        "Les catastrophes naturelles appréhendées par le droit de l'Union européenne"
+      ]
+    },
+	"hal-01942284": {
+      "domain": [
+        "340"
+      ],
+      "expLanguage": [
+        "fre"
+      ],
+      "personName": [
+        {
+          "appellation": "Garcia, Thierry"
+        }
+      ],
+	  "keyword": [
+        "Brexit",
+		"Droit des traités",
+		"Droit des organisations internationales"
+      ],
+	  "corporateBody": [
+        "Centre d'études sur la sécurité internationale et les coopérations européennes","Université Grenoble Alpes"
+      ],
+      "pubDate": "2018",
+      "role": [
+        "author"
+      ],
+      "title": [
+        "Brexit : à faire ou à défaire ? Perspectives comparée, européenne et internationale"
+      ]
+    }
+  },
+  "initialLinks": [
+    {
+      "source": "hal-01588523",
+      "target": "hal:12822",
+      "type": "sameAs"
+    },
+	{
+      "source": "hal-00688400",
+      "target": "hal:12822",
+      "type": "sameAs"
+    },
+	{
+      "source": "hal-01588526",
+      "target": "hal:12822",
+      "type": "sameAs"
+    },
+    {
+      "source": "hal-01942342",
+      "target": "hal:170536",
+      "type": "sameAs"
+    },
+	{
+      "source": "hal-01942232",
+      "target": "hal:170536",
+      "type": "sameAs"
+    },
+	{
+      "source": "hal-01942284",
+      "target": "hal:170536",
+      "type": "sameAs"
+    },
+
+    {
+      "source": "sudoc:078641497-1",
+      "target": "idref:078642426",
+      "type": "sameAs"
+    },
+    {
+      "source": "sudoc:226377288-1",
+      "target": "idref:078642426",
+      "type": "sameAs"
+    },
+    {
+      "source": "sudoc:199702675-1",
+      "target": "idref:094187797",
+      "type": "sameAs"
+    },
+    {
+      "source": "sudoc:041548205-1",
+      "target": "idref:094187797",
+      "type": "sameAs"
+    },
+    {
+      "source": "sudoc:094186367-2",
+      "target": "idref:094187797",
+      "type": "sameAs"
+    },
+    {
+      "source": "sudoc:097096237-1",
+      "target": "idref:094187797",
+      "type": "sameAs"
+    },
+    {
+      "source": "sudoc:099275562-2",
+      "target": "idref:094187797",
+      "type": "sameAs"
+    },
+    {
+      "source": "sudoc:101872542-2",
+      "target": "idref:094187797",
+      "type": "sameAs"
+    },
+    {
+      "source": "sudoc:102225982-2",
+      "target": "idref:094187797",
+      "type": "sameAs"
+    },
+    {
+      "source": "sudoc:111204224-2",
+      "target": "idref:094187797",
+      "type": "sameAs"
+    },
+    {
+      "source": "sudoc:120892480-2",
+      "target": "idref:094187797",
+      "type": "sameAs"
+    },
+    {
+      "source": "sudoc:127433198-2",
+      "target": "idref:094187797",
+      "type": "sameAs"
+    },
+    {
+      "source": "sudoc:127490116-2",
+      "target": "idref:094187797",
+      "type": "sameAs"
+    },
+    {
+      "source": "sudoc:129118508-2",
+      "target": "idref:094187797",
+      "type": "sameAs"
+    },
+    {
+      "source": "sudoc:150731671-2",
+      "target": "idref:094187797",
+      "type": "sameAs"
+    },
+    {
+      "source": "sudoc:158805348-1",
+      "target": "idref:094187797",
+      "type": "sameAs"
+    },
+    {
+      "source": "sudoc:158957997-1",
+      "target": "idref:094187797",
+      "type": "sameAs"
+    },
+    {
+      "source": "sudoc:166532622-3",
+      "target": "idref:094187797",
+      "type": "sameAs"
+    },
+    {
+      "source": "sudoc:167473387-2",
+      "target": "idref:094187797",
+      "type": "sameAs"
+    },
+    {
+      "source": "sudoc:170584828-3",
+      "target": "idref:094187797",
+      "type": "sameAs"
+    },
+    {
+      "source": "sudoc:17522921X-2",
+      "target": "idref:094187797",
+      "type": "sameAs"
+    },
+    {
+      "source": "sudoc:178934763-2",
+      "target": "idref:094187797",
+      "type": "sameAs"
+    },
+    {
+      "source": "sudoc:190697016-6",
+      "target": "idref:094187797",
+      "type": "sameAs"
+    },
+    {
+      "source": "sudoc:191623318-1",
+      "target": "idref:094187797",
+      "type": "sameAs"
+    },
+    {
+      "source": "sudoc:191793833-2",
+      "target": "idref:094187797",
+      "type": "sameAs"
+    },
+    {
+      "source": "sudoc:191878987-2",
+      "target": "idref:094187797",
+      "type": "sameAs"
+    },
+    {
+      "source": "sudoc:193282747-2",
+      "target": "idref:094187797",
+      "type": "sameAs"
+    },
+    {
+      "source": "sudoc:194963713-1",
+      "target": "idref:094187797",
+      "type": "sameAs"
+    },
+    {
+      "source": "sudoc:195971981-5",
+      "target": "idref:094187797",
+      "type": "sameAs"
+    },
+    {
+      "source": "sudoc:197907202-2",
+      "target": "idref:094187797",
+      "type": "sameAs"
+    },
+    {
+      "source": "sudoc:198583109-2",
+      "target": "idref:094187797",
+      "type": "sameAs"
+    },
+    {
+      "source": "sudoc:199611483-4",
+      "target": "idref:094187797",
+      "type": "sameAs"
+    },
+    {
+      "source": "sudoc:204677513-3",
+      "target": "idref:094187797",
+      "type": "sameAs"
+    },
+    {
+      "source": "sudoc:22013958X-4",
+      "target": "idref:094187797",
+      "type": "sameAs"
+    },
+    {
+      "source": "sudoc:224528521-5",
+      "target": "idref:094187797",
+      "type": "sameAs"
+    },
+    {
+      "source": "sudoc:229736920-4",
+      "target": "idref:094187797",
+      "type": "sameAs"
+    },
+    {
+      "source": "sudoc:230700659-1",
+      "target": "idref:094187797",
+      "type": "sameAs"
+    },
+    {
+      "source": "sudoc:233759921-2",
+      "target": "idref:094187797",
+      "type": "sameAs"
+    },
+    {
+      "source": "sudoc:234438991-1",
+      "target": "idref:094187797",
+      "type": "sameAs"
+    },
+    {
+      "source": "sudoc:234462892-1",
+      "target": "idref:094187797",
+      "type": "sameAs"
+    },
+    {
+      "source": "sudoc:235757411-3",
+      "target": "idref:094187797",
+      "type": "sameAs"
+    },
+    {
+      "source": "sudoc:237752387-2",
+      "target": "idref:094187797",
+      "type": "sameAs"
+    },
+    {
+      "source": "sudoc:155686313-1",
+      "target": "idref:155686259",
+      "type": "sameAs"
+    },
+    {
+      "source": "sudoc:043461980-1",
+      "target": "idref:145268004",
+      "type": "sameAs"
+    }
+  ],
+  "safeLinks": [
+    {
+      "source": "hal-01588523",
+      "target": "hal:12822",
+      "type": "sameAs"
+    },
+	{
+      "source": "hal-00688400",
+      "target": "hal:12822",
+      "type": "sameAs"
+    },
+	{
+      "source": "hal-01588526",
+      "target": "hal:12822",
+      "type": "sameAs"
+    },
+    {
+      "source": "hal-01942342",
+      "target": "hal:170536",
+      "type": "sameAs"
+    },
+	{
+      "source": "hal-01942232",
+      "target": "hal:170536",
+      "type": "sameAs"
+    },
+	{
+      "source": "hal-01942284",
+      "target": "hal:170536",
+      "type": "sameAs"
+    },
+    {
+      "source": "sudoc:22887405X-8",
+      "target": "hal:078642426",
+      "type": "sameAs"
+    },
+    {
+      "source": "sudoc:078641497-1",
+      "target": "idref:078642426",
+      "type": "sameAs"
+    },
+    {
+      "source": "sudoc:226377288-1",
+      "target": "idref:078642426",
+      "type": "sameAs"
+    },
+    {
+      "source": "sudoc:199702675-1",
+      "target": "idref:094187797",
+      "type": "sameAs"
+    },
+    {
+      "source": "sudoc:041548205-1",
+      "target": "idref:094187797",
+      "type": "sameAs"
+    },
+    {
+      "source": "sudoc:094186367-2",
+      "target": "idref:094187797",
+      "type": "sameAs"
+    },
+    {
+      "source": "sudoc:097096237-1",
+      "target": "idref:094187797",
+      "type": "sameAs"
+    },
+    {
+      "source": "sudoc:099275562-2",
+      "target": "idref:094187797",
+      "type": "sameAs"
+    },
+    {
+      "source": "sudoc:101872542-2",
+      "target": "idref:094187797",
+      "type": "sameAs"
+    },
+    {
+      "source": "sudoc:102225982-2",
+      "target": "idref:094187797",
+      "type": "sameAs"
+    },
+    {
+      "source": "sudoc:111204224-2",
+      "target": "idref:094187797",
+      "type": "sameAs"
+    },
+    {
+      "source": "sudoc:120892480-2",
+      "target": "idref:094187797",
+      "type": "sameAs"
+    },
+    {
+      "source": "sudoc:127433198-2",
+      "target": "idref:094187797",
+      "type": "sameAs"
+    },
+    {
+      "source": "sudoc:127490116-2",
+      "target": "idref:094187797",
+      "type": "sameAs"
+    },
+    {
+      "source": "sudoc:129118508-2",
+      "target": "idref:094187797",
+      "type": "sameAs"
+    },
+    {
+      "source": "sudoc:150731671-2",
+      "target": "idref:094187797",
+      "type": "sameAs"
+    },
+    {
+      "source": "sudoc:158805348-1",
+      "target": "idref:094187797",
+      "type": "sameAs"
+    },
+    {
+      "source": "sudoc:158957997-1",
+      "target": "idref:094187797",
+      "type": "sameAs"
+    },
+    {
+      "source": "sudoc:166532622-3",
+      "target": "idref:094187797",
+      "type": "sameAs"
+    },
+    {
+      "source": "sudoc:167473387-2",
+      "target": "idref:094187797",
+      "type": "sameAs"
+    },
+    {
+      "source": "sudoc:170584828-3",
+      "target": "idref:094187797",
+      "type": "sameAs"
+    },
+    {
+      "source": "sudoc:17522921X-2",
+      "target": "idref:094187797",
+      "type": "sameAs"
+    },
+    {
+      "source": "sudoc:178934763-2",
+      "target": "idref:094187797",
+      "type": "sameAs"
+    },
+    {
+      "source": "sudoc:190697016-6",
+      "target": "idref:094187797",
+      "type": "sameAs"
+    },
+    {
+      "source": "sudoc:191623318-1",
+      "target": "idref:094187797",
+      "type": "sameAs"
+    },
+    {
+      "source": "sudoc:191793833-2",
+      "target": "idref:094187797",
+      "type": "sameAs"
+    },
+    {
+      "source": "sudoc:191878987-2",
+      "target": "idref:094187797",
+      "type": "sameAs"
+    },
+    {
+      "source": "sudoc:193282747-2",
+      "target": "idref:094187797",
+      "type": "sameAs"
+    },
+    {
+      "source": "sudoc:194963713-1",
+      "target": "idref:094187797",
+      "type": "sameAs"
+    },
+    {
+      "source": "sudoc:195971981-5",
+      "target": "idref:094187797",
+      "type": "sameAs"
+    },
+    {
+      "source": "sudoc:197907202-2",
+      "target": "idref:094187797",
+      "type": "sameAs"
+    },
+    {
+      "source": "sudoc:198583109-2",
+      "target": "idref:094187797",
+      "type": "sameAs"
+    },
+    {
+      "source": "sudoc:199611483-4",
+      "target": "idref:094187797",
+      "type": "sameAs"
+    },
+    {
+      "source": "sudoc:204677513-3",
+      "target": "idref:094187797",
+      "type": "sameAs"
+    },
+    {
+      "source": "sudoc:22013958X-4",
+      "target": "idref:094187797",
+      "type": "sameAs"
+    },
+    {
+      "source": "sudoc:224528521-5",
+      "target": "idref:094187797",
+      "type": "sameAs"
+    },
+    {
+      "source": "sudoc:229736920-4",
+      "target": "idref:094187797",
+      "type": "sameAs"
+    },
+    {
+      "source": "sudoc:230700659-1",
+      "target": "idref:094187797",
+      "type": "sameAs"
+    },
+    {
+      "source": "sudoc:233759921-2",
+      "target": "idref:094187797",
+      "type": "sameAs"
+    },
+    {
+      "source": "sudoc:234438991-1",
+      "target": "idref:094187797",
+      "type": "sameAs"
+    },
+    {
+      "source": "sudoc:234462892-1",
+      "target": "idref:094187797",
+      "type": "sameAs"
+    },
+    {
+      "source": "sudoc:235757411-3",
+      "target": "idref:094187797",
+      "type": "sameAs"
+    },
+    {
+      "source": "sudoc:237752387-2",
+      "target": "idref:094187797",
+      "type": "sameAs"
+    },
+    {
+      "source": "sudoc:155686313-1",
+      "target": "idref:155686259",
+      "type": "sameAs"
+    },
+    {
+      "source": "sudoc:043461980-1",
+      "target": "idref:145268004",
+      "type": "sameAs"
+    }
+  ],
+  "scenario-ra-ra": "sudoc-sra-sra",
+  "scenario-rc-rc": "sudoc-rc-rc",
+  "sources": [
+	"hal:170536",
+	"hal:12822"
+  ],
+  "supports": [
+    "sudoc:22887405X-8",
+    "sudoc:078641497-1",
+    "sudoc:226377288-1",
+    "sudoc:199702675-1",
+    "sudoc:041548205-1",
+    "sudoc:094186367-2",
+    "sudoc:097096237-1",
+    "sudoc:099275562-2",
+    "sudoc:101872542-2",
+    "sudoc:102225982-2",
+    "sudoc:111204224-2",
+    "sudoc:120892480-2",
+    "sudoc:127433198-2",
+    "sudoc:127490116-2",
+    "sudoc:129118508-2",
+    "sudoc:150731671-2",
+    "sudoc:158805348-1",
+    "sudoc:158957997-1",
+    "sudoc:166532622-3",
+    "sudoc:167473387-2",
+    "sudoc:170584828-3",
+    "sudoc:17522921X-2",
+    "sudoc:178934763-2",
+    "sudoc:190697016-6",
+    "sudoc:191623318-1",
+    "sudoc:191793833-2",
+    "sudoc:191878987-2",
+    "sudoc:193282747-2",
+    "sudoc:194963713-1",
+    "sudoc:195971981-5",
+    "sudoc:197907202-2",
+    "sudoc:198583109-2",
+    "sudoc:199611483-4",
+    "sudoc:204677513-3",
+    "sudoc:22013958X-4",
+    "sudoc:224528521-5",
+    "sudoc:229736920-4",
+    "sudoc:230700659-1",
+    "sudoc:233759921-2",
+    "sudoc:234438991-1",
+    "sudoc:234462892-1",
+    "sudoc:235757411-3",
+    "sudoc:237752387-2",
+    "sudoc:155686313-1",
+    "sudoc:043461980-1",
+	"hal-01588526",
+	"hal-00688400",
+	"hal-01588523",
+	"hal-01942342",
+	"hal-01942232",
+	"hal-01942284"
+  ],
+  "targets": [
+    "idref:078642426",
+    "idref:094187797",
+    "idref:155686259",
+    "idref:145268004"
+  ]
+}

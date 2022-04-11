@@ -1,0 +1,1524 @@
+{
+	"features": {
+		"http://www.sudoc.abes.fr/158507649-2": {
+			"expLanguage": [
+				"fre"
+			],
+			"personName": [
+				{
+					"person": "http://www.sudoc.abes.fr/158507649-2",
+					"appellation": "Bessière, Christian"
+				}
+			],
+			"role": [
+				"illustrator"
+			],
+			"cocontributor": [
+				{
+					"cocontributor": "Judic, Anna",
+					"person": "http://www.sudoc.abes.fr/158507649-2",
+					"idcocontrib": "http://www.sudoc.abes.fr/158507649-3"
+				},
+				{
+					"cocontributor": "Bessière, Christian",
+					"person": "http://www.sudoc.abes.fr/158507649-2",
+					"idcocontrib": "http://www.sudoc.abes.fr/158507649-2"
+				},
+				{
+					"cocontributor": "Chrétien de Troyes, ",
+					"person": "http://www.sudoc.abes.fr/158507649-2",
+					"idcocontrib": "http://www.sudoc.abes.fr/158507649-1"
+				}
+			],
+			"genre":"http://www.sudoc.abes.fr/Fiction_roman"
+			,
+			"publisher": [
+				"Larousse"
+			],
+			"collection": [
+				"Classiques junior"
+			],
+			"title": [
+				"Yvain, le chevalier au lion"
+			],
+			"type": [
+				"http://www.sudoc.abes.fr/Autres"
+			],
+			"pubDate":"1988"
+			,
+			"assertedLink": [
+				"http://www.idref.fr/082030936/id"
+			],
+			"dateCreationNotice":"20120216"
+			
+		},
+		"http://www.sudoc.abes.fr/17907671X-2": {
+			"role": [
+				"illustrator"
+			],
+			"rameau": [
+				"Encyclopédies et dictionnaires pour la jeunesse français"
+			],
+			"title": [
+				"Ma première encyclopédie"
+			],
+			"type": [
+				"http://www.sudoc.abes.fr/Autres"
+			],
+			"pubDate":"1989"
+			,
+			"expLanguage": [
+				"fre"
+			],
+			"personName": [
+				{
+					"person": "http://www.sudoc.abes.fr/17907671X-2",
+					"appellation": "Bessière, Christian"
+				}
+			],
+			"cocontributor": [
+				{
+					"cocontributor": "Lamblin, Simone",
+					"person": "http://www.sudoc.abes.fr/17907671X-2",
+					"idcocontrib": "http://www.sudoc.abes.fr/17907671X-1"
+				},
+				{
+					"cocontributor": "Bessière, Christian",
+					"person": "http://www.sudoc.abes.fr/17907671X-2",
+					"idcocontrib": "http://www.sudoc.abes.fr/17907671X-2"
+				}
+			],
+			"domain": [
+				"020"
+			],
+			"genre":"http://www.sudoc.abes.fr/Texte_non_litteraire"
+			,
+			"publisher": [
+				"Larousse"
+			],
+			"assertedLink": [],
+			"dateCreationNotice":"20140626"
+			
+		},
+		"http://www.sudoc.abes.fr/164230181-2": {
+			"role": [
+				"illustrator"
+			],
+			"rameau": [
+				"Littérature pour la jeunesse"
+			],
+			"collection": [
+				"Classiques junior"
+			],
+			"title": [
+				"Yvain et la fontaine merveilleuse"
+			],
+			"type": [
+				"http://www.sudoc.abes.fr/Autres"
+			],
+			"pubDate":"1988"
+			,
+			"expLanguage": [
+				"fre"
+			],
+			"personName": [
+				{
+					"person": "http://www.sudoc.abes.fr/164230181-2",
+					"appellation": "Bessière, Christian"
+				}
+			],
+			"cocontributor": [
+				{
+					"cocontributor": "Judic, Anna",
+					"person": "http://www.sudoc.abes.fr/164230181-2",
+					"idcocontrib": "http://www.sudoc.abes.fr/164230181-3"
+				},
+				{
+					"cocontributor": "Bessière, Christian",
+					"person": "http://www.sudoc.abes.fr/164230181-2",
+					"idcocontrib": "http://www.sudoc.abes.fr/164230181-2"
+				},
+				{
+					"cocontributor": "Chrétien de Troyes, ",
+					"person": "http://www.sudoc.abes.fr/164230181-2",
+					"idcocontrib": "http://www.sudoc.abes.fr/164230181-1"
+				}
+			],
+			"domain": [
+				"801"
+			],
+			"genre":"http://www.sudoc.abes.fr/Fiction_roman"
+			,
+			"publisher": [
+				"Larousse"
+			],
+			"assertedLink": [
+				"http://www.idref.fr/082030936/id"
+			],
+			"dateCreationNotice":"20120925"
+			
+		},
+		"http://www.sudoc.abes.fr/160221811-2": {
+			"role": [
+				"illustrator"
+			],
+			"rameau": [
+				"Encyclopédies et dictionnaires pour la jeunesse"
+			],
+			"title": [
+				"Ma première encyclopédie"
+			],
+			"type": [
+				"http://www.sudoc.abes.fr/Encyclopedie"
+			],
+			"pubDate":"1981"
+			,
+			"expLanguage": [
+				"fre"
+			],
+			"personName": [
+				{
+					"person": "http://www.sudoc.abes.fr/160221811-2",
+					"appellation": "Bessière, Christian"
+				}
+			],
+			"cocontributor": [
+				{
+					"cocontributor": "Bessière, Christian",
+					"person": "http://www.sudoc.abes.fr/160221811-2",
+					"idcocontrib": "http://www.sudoc.abes.fr/160221811-2"
+				},
+				{
+					"cocontributor": "Lamblin, Simone",
+					"person": "http://www.sudoc.abes.fr/160221811-2",
+					"idcocontrib": "http://www.sudoc.abes.fr/160221811-1"
+				}
+			],
+			"domain": [
+				"010"
+			],
+			"genre":"http://www.sudoc.abes.fr/Texte_non_litteraire"
+			,
+			"publisher": [
+				"Larousse "
+			],
+			"assertedLink": [
+				"http://www.idref.fr/082030936/id"
+			],
+			"dateCreationNotice":"20120410"
+			
+		},
+		"http://www.sudoc.abes.fr/189316632-3": {
+			"role": [
+				"thesis_advisor"
+			],
+			"rameau": [
+				"Contraintes (intelligence artificielle) -- Thèses et écrits académiques",
+				"Réseaux neuronaux (informatique) -- Thèses et écrits académiques"
+			],
+			"title": [
+				"Strong consistencies for weighted constraint satisfaction problems"
+			],
+			"type": [
+				"http://www.sudoc.abes.fr/These",
+				"http://www.sudoc.abes.fr/Bibliographie"
+			],
+			"pubDate":"2015"
+			,
+			"scientificWork": [
+				"http://www.sudoc.abes.fr/TheseDeDoctorat"
+			],
+			"expLanguage": [
+				"eng"
+			],
+			"personName": [
+				{
+					"person": "http://www.sudoc.abes.fr/189316632-3",
+					"appellation": "Bessière, Christian"
+				}
+			],
+			"cocontributor": [
+				{
+					"cocontributor": "Bessière, Christian",
+					"person": "http://www.sudoc.abes.fr/189316632-3",
+					"idcocontrib": "http://www.sudoc.abes.fr/189316632-3"
+				},
+				{
+					"cocontributor": "Schiex, Thomas",
+					"person": "http://www.sudoc.abes.fr/189316632-3",
+					"idcocontrib": "http://www.sudoc.abes.fr/189316632-2"
+				},
+				{
+					"cocontributor": "Nguyen, Thi Hong Hiep",
+					"person": "http://www.sudoc.abes.fr/189316632-3",
+					"idcocontrib": "http://www.sudoc.abes.fr/189316632-1"
+				}
+			],
+			"domain": [
+				"004"
+			],
+			"genre":"http://www.sudoc.abes.fr/Texte_non_litteraire"
+			,
+			"publisher": [
+				"[éditeur inconnu]"
+			],
+			"keyword": [
+				"Cohérence d'arc virtuelle",
+				"Cohérences locales fortes",
+				"Cohérence d'arc dynamique",
+				"CSP pondéré",
+				"Réseaux de fonctions de coûts"
+			],
+			"corporateBody": [
+				"École Doctorale Mathématiques, Informatique et Télécommunications",
+				"Université Paul Sabatier"
+			],
+			"assertedLink": [
+				"http://www.idref.fr/070947155/id"
+			],
+			"dateCreationNotice":"20151105"
+			
+		},
+		"http://www.sudoc.abes.fr/126318859-1": {
+			"expLanguage": [
+				"fre"
+			],
+			"personName": [
+				{
+					"person": "http://www.sudoc.abes.fr/126318859-1",
+					"appellation": "Bessiere, Christian"
+				}
+			],
+			"role": [
+				"author"
+			],
+			"cocontributor": [
+				{
+					"cocontributor": "Bessiere, Christian",
+					"person": "http://www.sudoc.abes.fr/126318859-1",
+					"idcocontrib": "http://www.sudoc.abes.fr/126318859-1"
+				}
+			],
+			"publisher": [
+				"[s.n.]"
+			],
+			"title": [
+				"Systemes a contraintes evolutifs en intelligence artificielle"
+			],
+			"type": [
+				"http://www.sudoc.abes.fr/These_ou_memoire"
+			],
+			"pubDate":"1992"
+			,
+			"assertedLink": [],
+			"scientificWork": [
+				"http://www.sudoc.abes.fr/TheseDeDoctorat"
+			],
+			"dateCreationNotice":"20080723"
+			
+		},
+		"http://www.sudoc.abes.fr/123176867-2": {
+			"role": [
+				"author"
+			],
+			"rameau": [
+				"Peinture latino-américaine -- Histoire"
+			],
+			"collection": [
+				"Le Recours à la méthode"
+			],
+			"title": [
+				"La peinture hispano-américaine : histoire et méthodologie par l'analyse de tableaux du XVIe siècle au XXIe siècle"
+			],
+			"type": [
+				"http://www.sudoc.abes.fr/Bibliographie"
+			],
+			"pubDate":"2008"
+			,
+			"expLanguage": [
+				"fre"
+			],
+			"personName": [
+				{
+					"person": "http://www.sudoc.abes.fr/123176867-2",
+					"appellation": "Bessière, Christiane"
+				}
+			],
+			"cocontributor": [
+				{
+					"cocontributor": "Ponce, Néstor",
+					"person": "http://www.sudoc.abes.fr/123176867-2",
+					"idcocontrib": "http://www.sudoc.abes.fr/123176867-4"
+				},
+				{
+					"cocontributor": "Mégevand, Sylvie",
+					"person": "http://www.sudoc.abes.fr/123176867-2",
+					"idcocontrib": "http://www.sudoc.abes.fr/123176867-3"
+				},
+				{
+					"cocontributor": "Bessière, Christiane",
+					"person": "http://www.sudoc.abes.fr/123176867-2",
+					"idcocontrib": "http://www.sudoc.abes.fr/123176867-2"
+				},
+				{
+					"cocontributor": "Bessière, Bernard",
+					"person": "http://www.sudoc.abes.fr/123176867-2",
+					"idcocontrib": "http://www.sudoc.abes.fr/123176867-1"
+				}
+			],
+			"domain": [
+				"750"
+			],
+			"genre":"http://www.sudoc.abes.fr/Texte_non_litteraire"
+			,
+			"publisher": [
+				"Éd. du temps"
+			],
+			"dewey": [
+				"759.972",
+				"759.98"
+			],
+			"assertedLink": [
+				"http://www.idref.fr/055768113/id"
+			],
+			"dateCreationNotice":"20080411"
+			
+		},
+		"http://www.sudoc.abes.fr/123728525-1": {
+			"role": [
+				"editor"
+			],
+			"rameau": [
+				"Informatique",
+				"Logique mathématique",
+				"Intelligence artificielle",
+				"Ordinateurs -- Programmation",
+				"Langages de programmation",
+				"Informatique -- Recherche",
+				"Programmation par contraintes"
+			],
+			"collection": [
+				"Lecture notes in computer science"
+			],
+			"title": [
+				"Principles and Practice of Constraint Programming \u2013 CP 2007 : 13th International Conference, CP 2007, Providence, RI, USA, September 23-27, 2007. Proceedings"
+			],
+			"pubDate":"2007"
+			,
+			"expLanguage": [
+				"eng"
+			],
+			"personName": [
+				{
+					"person": "http://www.sudoc.abes.fr/123728525-1",
+					"appellation": "Bessière, Christian"
+				}
+			],
+			"cocontributor": [
+				{
+					"cocontributor": "Bessière, Christian",
+					"person": "http://www.sudoc.abes.fr/123728525-1",
+					"idcocontrib": "http://www.sudoc.abes.fr/123728525-1"
+				}
+			],
+			"domain": [
+				"621",
+				"004",
+				"510"
+			],
+			"publisher": [
+				"Springer e-books",
+				"Springer Berlin Heidelberg"
+			],
+			"dewey": [
+				"005.11",
+				"004"
+			],
+			"keyword": [
+				"Programming and Operating Systems",
+				"Programming Techniques",
+				"Compilers",
+				"Artificial Intelligence (incl",
+				" Interpreters",
+				"Software engineering",
+				" in Administrative Data Processing",
+				"Computer Science",
+				"Software Engineering",
+				"Artificial intelligence",
+				"Computer logic",
+				"Computer Appl",
+				"Mathematical Logic and Formal Languages",
+				" Robotics)",
+				"Logics and Meanings of Programs",
+				"Computer science",
+				"Programming languages (Electronic computers)",
+				"Mathematical logic",
+				"Programming Languages",
+				"Information systems",
+				"Computer programming",
+				"Logic design"
+			],
+			"assertedLink": [
+				"http://www.idref.fr/070947155/id"
+			],
+			"dateCreationNotice":"20080505"
+			
+		},
+		"http://www.sudoc.abes.fr/15816993X-3": {
+			"role": [
+				"illustrator"
+			],
+			"rameau": [
+				"Contes de fées -- Ouvrages pour la jeunesse",
+				"Magie -- Contes -- Ouvrages pour la jeunesse"
+			],
+			"collection": [
+				"Classiques junior"
+			],
+			"title": [
+				"Abeille"
+			],
+			"type": [
+				"http://www.sudoc.abes.fr/Autres"
+			],
+			"pubDate":"1987"
+			,
+			"expLanguage": [
+				"fre"
+			],
+			"personName": [
+				{
+					"person": "http://www.sudoc.abes.fr/15816993X-3",
+					"appellation": "Bessière, Christian"
+				}
+			],
+			"cocontributor": [
+				{
+					"cocontributor": "Daumas, Jean",
+					"person": "http://www.sudoc.abes.fr/15816993X-3",
+					"idcocontrib": "http://www.sudoc.abes.fr/15816993X-2"
+				},
+				{
+					"cocontributor": "Bessière, Christian",
+					"person": "http://www.sudoc.abes.fr/15816993X-3",
+					"idcocontrib": "http://www.sudoc.abes.fr/15816993X-3"
+				},
+				{
+					"cocontributor": "France, Anatole",
+					"person": "http://www.sudoc.abes.fr/15816993X-3",
+					"idcocontrib": "http://www.sudoc.abes.fr/15816993X-1"
+				}
+			],
+			"domain": [
+				"801",
+				"391",
+				"130"
+			],
+			"genre":"http://www.sudoc.abes.fr/Fiction_roman"
+			,
+			"publisher": [
+				"Larousse"
+			],
+			"assertedLink": [
+				"http://www.idref.fr/082030936/id"
+			],
+			"dateCreationNotice":"20120206"
+			
+		},
+		"http://www.sudoc.abes.fr/12795600X-1": {
+			"expLanguage": [
+				"fre"
+			],
+			"personName": [
+				{
+					"person": "http://www.sudoc.abes.fr/12795600X-1",
+					"appellation": "Bessière, C."
+				}
+			],
+			"role": [
+				"author"
+			],
+			"cocontributor": [
+				{
+					"cocontributor": "Maurel, Patrick",
+					"person": "http://www.sudoc.abes.fr/12795600X-1",
+					"idcocontrib": "http://www.sudoc.abes.fr/12795600X-4"
+				},
+				{
+					"cocontributor": "Fourcade, Sylvie",
+					"person": "http://www.sudoc.abes.fr/12795600X-1",
+					"idcocontrib": "http://www.sudoc.abes.fr/12795600X-3"
+				},
+				{
+					"cocontributor": "Soulié, Berthe",
+					"person": "http://www.sudoc.abes.fr/12795600X-1",
+					"idcocontrib": "http://www.sudoc.abes.fr/12795600X-2"
+				},
+				{
+					"cocontributor": "Bessière, C.",
+					"person": "http://www.sudoc.abes.fr/12795600X-1",
+					"idcocontrib": "http://www.sudoc.abes.fr/12795600X-1"
+				}
+			],
+			"genre":"http://www.sudoc.abes.fr/Texte_non_litteraire"
+			,
+			"title": [
+				"Etude biochimique et antigénique de quelques souches de staphylocoques récemment isolées"
+			],
+			"keyword": [
+				"Staphylocoques"
+			],
+			"pubDate":"1971"
+			,
+			"assertedLink": [],
+			"dateCreationNotice":"20081006"
+			
+		},
+		"http://www.sudoc.abes.fr/070949719-2": {
+			"role": [
+				"thesis_advisor"
+			],
+			"rameau": [
+				"Algorithmes -- Thèses et écrits académiques",
+				"Contraintes (intelligence artificielle) -- Thèses et écrits académiques"
+			],
+			"title": [
+				"Modélisation et algorithmes de résolution de problèmes sur-contraints"
+			],
+			"type": [
+				"http://www.sudoc.abes.fr/These"
+			],
+			"pubDate":"2002"
+			,
+			"scientificWork": [
+				"http://www.sudoc.abes.fr/TheseDeDoctorat"
+			],
+			"expLanguage": [
+				"fre"
+			],
+			"personName": [
+				{
+					"person": "http://www.sudoc.abes.fr/070949719-2",
+					"appellation": "Bessière, Christian"
+				}
+			],
+			"cocontributor": [
+				{
+					"cocontributor": "Régin, Jean-Charles",
+					"person": "http://www.sudoc.abes.fr/070949719-2",
+					"idcocontrib": "http://www.sudoc.abes.fr/070949719-3"
+				},
+				{
+					"cocontributor": "Bessière, Christian",
+					"person": "http://www.sudoc.abes.fr/070949719-2",
+					"idcocontrib": "http://www.sudoc.abes.fr/070949719-2"
+				},
+				{
+					"cocontributor": "Petit, Thierry",
+					"person": "http://www.sudoc.abes.fr/070949719-2",
+					"idcocontrib": "http://www.sudoc.abes.fr/070949719-1"
+				}
+			],
+			"domain": [
+				"510",
+				"004"
+			],
+			"genre":"http://www.sudoc.abes.fr/Texte_non_litteraire"
+			,
+			"publisher": [
+				"[s.n.]"
+			],
+			"corporateBody": [
+				"Université des sciences et techniques de Montpellier 2"
+			],
+			"assertedLink": [
+				"http://www.idref.fr/070947155/id"
+			],
+			"dateCreationNotice":"20030505"
+			
+		},
+		"http://www.sudoc.abes.fr/006851312-1": {
+			"expLanguage": [
+				"fre"
+			],
+			"personName": [
+				{
+					"person": "http://www.sudoc.abes.fr/006851312-1",
+					"appellation": "Bessière, Christian"
+				}
+			],
+			"role": [
+				"author"
+			],
+			"cocontributor": [
+				{
+					"cocontributor": "Bessière, Christian",
+					"person": "http://www.sudoc.abes.fr/006851312-1",
+					"idcocontrib": "http://www.sudoc.abes.fr/006851312-1"
+				}
+			],
+			"title": [
+				"Maintenance de l'arc-consistance dans une suite de problèmes de satisfaction de contraintes"
+			],
+			"type": [
+				"http://www.sudoc.abes.fr/Autres_travaux_universitaires"
+			],
+			"pubDate":"1989"
+			,
+			"assertedLink": [
+				"http://www.idref.fr/070947155/id"
+			],
+			"scientificWork": [
+				"http://www.sudoc.abes.fr/AutreTravailUniversitaire"
+			],
+			"dateCreationNotice":"19891214"
+			
+		},
+		"http://www.idref.fr/082030936/id": {
+			"personName": [
+				{
+					"person": "http://www.idref.fr/082030936/id",
+					"last_name": "Bessière",
+					"first_name": "Christian"
+				}
+			],
+			"source": [
+				"Hépatite virale C ; ça craint ! / Dr Guy Bellaïche, Dr Jean-Luc Delassus, Christian Bessière, 2003"
+			],
+			"dateCreationNotice":"20041202"
+			
+		},
+		"http://www.idref.fr/055768113/id": {
+			"personName": [
+				{
+					"person": "http://www.idref.fr/055768113/id",
+					"last_name": "Bessière",
+					"first_name": "Christiane"
+				}
+			],
+			"source": [
+				"La peinture espagnole : histoire et méthodologie par l'analyse de quarante tableaux du XVIe au XXe siècle / Bernard Bessière, Christiane Bessière. - Paris : Ed. du temps, 2000."
+			],
+			"dateCreationNotice":"20010612"
+			
+		},
+		"http://www.idref.fr/070947155/id": {
+			"personName": [
+				{
+					"person": "http://www.idref.fr/070947155/id",
+					"last_name": "Bessière",
+					"first_name": "Christian"
+				}
+			],
+			"source": [
+				"Modélisation et algorithmes de résolution de problèmes sur-contraints / Thierry Petit"
+			],
+			"dateCreationNotice":"20030502"
+			
+		},
+		"http://www.sudoc.abes.fr/054198143-2": {
+			"role": [
+				"author"
+			],
+			"rameau": [
+				"Peinture moderne -- Espagne",
+				"Peinture -- Espagne -- Histoire"
+			],
+			"collection": [
+				"Le Recours à la méthode"
+			],
+			"title": [
+				"La peinture espagnole : histoire et méthodologie par l'analyse de quarante tableaux du XVIe au XXe siècle"
+			],
+			"type": [
+				"http://www.sudoc.abes.fr/Bibliographie"
+			],
+			"pubDate":"2000"
+			,
+			"expLanguage": [
+				"fre"
+			],
+			"personName": [
+				{
+					"person": "http://www.sudoc.abes.fr/054198143-2",
+					"appellation": "Bessière, Christiane"
+				}
+			],
+			"cocontributor": [
+				{
+					"cocontributor": "Bessière, Christiane",
+					"person": "http://www.sudoc.abes.fr/054198143-2",
+					"idcocontrib": "http://www.sudoc.abes.fr/054198143-2"
+				},
+				{
+					"cocontributor": "Bessière, Bernard",
+					"person": "http://www.sudoc.abes.fr/054198143-2",
+					"idcocontrib": "http://www.sudoc.abes.fr/054198143-1"
+				}
+			],
+			"domain": [
+				"750"
+			],
+			"genre":"http://www.sudoc.abes.fr/Texte_non_litteraire"
+			,
+			"publisher": [
+				"Éditions du temps"
+			],
+			"dewey": [
+				"759.6"
+			],
+			"assertedLink": [
+				"http://www.idref.fr/055768113/id"
+			],
+			"dateCreationNotice":"20010119"
+			
+		},
+		"http://www.sudoc.abes.fr/177343893-2": {
+			"role": [
+				"editor"
+			],
+			"rameau": [
+				"Intelligence artificielle -- Actes de congrès"
+			],
+			"collection": [
+				"Frontiers in artificial intelligence and applications (Print)"
+			],
+			"title": [
+				"ECAI 2012 : 20th European Conference on Artificial Intelligence, 27-31 August 2012, Montpellier, France : including Prestigious Applications of Artificial Intelligence (PAIS-2012), Systems Demonstrations Track : proceedings"
+			],
+			"type": [
+				"http://www.sudoc.abes.fr/Bibliographie"
+			],
+			"pubDate":"2012"
+			,
+			"expLanguage": [
+				"eng"
+			],
+			"personName": [
+				{
+					"person": "http://www.sudoc.abes.fr/177343893-2",
+					"appellation": "Bessière, Christian"
+				}
+			],
+			"cocontributor": [
+				{
+					"cocontributor": "Bessière, Christian",
+					"person": "http://www.sudoc.abes.fr/177343893-2",
+					"idcocontrib": "http://www.sudoc.abes.fr/177343893-2"
+				},
+				{
+					"cocontributor": "Dubois, Didier",
+					"person": "http://www.sudoc.abes.fr/177343893-2",
+					"idcocontrib": "http://www.sudoc.abes.fr/177343893-3"
+				},
+				{
+					"cocontributor": "De Raedt, Luc",
+					"person": "http://www.sudoc.abes.fr/177343893-2",
+					"idcocontrib": "http://www.sudoc.abes.fr/177343893-1"
+				}
+			],
+			"domain": [
+				"004"
+			],
+			"genre":"http://www.sudoc.abes.fr/Texte_non_litteraire"
+			,
+			"publisher": [
+				"IOS Press"
+			],
+			"keyword": [
+				"Congresses",
+				"Artificial intelligence"
+			],
+			"corporateBody": [
+				"Association française pour l'intelligence artificielle",
+				"European coordinating committee for artificial intelligence",
+				"Conference on prestigious applications of intelligent systems",
+				"European Conference on Artificial Intelligence"
+			],
+			"assertedLink": [
+				"http://www.idref.fr/070947155/id"
+			],
+			"dateCreationNotice":"20140403"
+			
+		},
+		"http://www.sudoc.abes.fr/012673838-1": {
+			"role": [
+				"author"
+			],
+			"rameau": [
+				"Réseaux logiques programmables -- Thèses et écrits académiques",
+				"Résolution de problème -- Informatique -- Thèses et écrits académiques",
+				"Graphes, Théorie des -- Thèses et écrits académiques",
+				"Algorithmes -- Thèses et écrits académiques",
+				"Polynômes -- Informatique -- Thèses et écrits académiques",
+				"Déduction (logique) -- Thèses et écrits académiques",
+				"Formes binaires -- Thèses et écrits académiques",
+				"Langages de programmation -- Thèses et écrits académiques"
+			],
+			"title": [
+				"Systèmes à contraintes évolutifs en intelligence artificielle"
+			],
+			"type": [
+				"http://www.sudoc.abes.fr/These"
+			],
+			"pubDate":"1992"
+			,
+			"scientificWork": [
+				"http://www.sudoc.abes.fr/TheseDeDoctorat"
+			],
+			"expLanguage": [
+				"fre"
+			],
+			"personName": [
+				{
+					"person": "http://www.sudoc.abes.fr/012673838-1",
+					"appellation": "Bessière, Christian"
+				}
+			],
+			"cocontributor": [
+				{
+					"cocontributor": "Habib, Michel",
+					"person": "http://www.sudoc.abes.fr/012673838-1",
+					"idcocontrib": "http://www.sudoc.abes.fr/012673838-2"
+				},
+				{
+					"cocontributor": "Bessière, Christian",
+					"person": "http://www.sudoc.abes.fr/012673838-1",
+					"idcocontrib": "http://www.sudoc.abes.fr/012673838-1"
+				}
+			],
+			"domain": [
+				"150",
+				"510",
+				"621",
+				"600",
+				"004",
+				"100"
+			],
+			"genre":"http://www.sudoc.abes.fr/Texte_non_litteraire"
+			,
+			"publisher": [
+				"[s.n.]"
+			],
+			"keyword": [
+				"SCIENCES APPLIQUEES",
+				"Représentation des connaissances (théorie de l'information)",
+				"thèses",
+				"INFORMATIQUE",
+				"CSP DYNAMIQUES",
+				"DEDUCTION",
+				"INCREMENTALITE",
+				"Codage (Informatique)",
+				"CSP(RESEAUX DE CONTRAINTES)",
+				"CLASSE POLYNOMIALE",
+				"PROPAGATION DE CONTRAINTES",
+				"TMS",
+				"AUTOMATIQUE THEORIQUE",
+				" SYSTEMES"
+			],
+			"corporateBody": [
+				"Université des sciences et techniques de Montpellier 2"
+			],
+			"assertedLink": [
+				"http://www.idref.fr/070947155/id"
+			],
+			"dateCreationNotice":"19921210"
+			
+		},
+		"http://www.sudoc.abes.fr/187424195-3": {
+			"role": [
+				"thesis_advisor"
+			],
+			"rameau": [
+				"Contraintes (intelligence artificielle) -- Thèses et écrits académiques",
+				"Réseaux neuronaux (informatique) -- Thèses et écrits académiques"
+			],
+			"title": [
+				"Strong consistencies for weighted constraint satisfaction problems"
+			],
+			"type": [
+				"http://www.sudoc.abes.fr/Bibliographie",
+				"http://www.sudoc.abes.fr/These_ou_memoire"
+			],
+			"pubDate":"2015"
+			,
+			"scientificWork": [
+				"http://www.sudoc.abes.fr/TheseDeDoctorat"
+			],
+			"expLanguage": [
+				"eng"
+			],
+			"personName": [
+				{
+					"person": "http://www.sudoc.abes.fr/187424195-3",
+					"appellation": "Bessière, Christian"
+				}
+			],
+			"cocontributor": [
+				{
+					"cocontributor": "Bessière, Christian",
+					"person": "http://www.sudoc.abes.fr/187424195-3",
+					"idcocontrib": "http://www.sudoc.abes.fr/187424195-3"
+				},
+				{
+					"cocontributor": "Schiex, Thomas",
+					"person": "http://www.sudoc.abes.fr/187424195-3",
+					"idcocontrib": "http://www.sudoc.abes.fr/187424195-2"
+				},
+				{
+					"cocontributor": "Nguyen, Thi Hong Hiep",
+					"person": "http://www.sudoc.abes.fr/187424195-3",
+					"idcocontrib": "http://www.sudoc.abes.fr/187424195-1"
+				}
+			],
+			"domain": [
+				"004"
+			],
+			"genre":"http://www.sudoc.abes.fr/Texte_non_litteraire"
+			,
+			"publisher": [
+				"Université Paul Sabatier, Toulouse 3"
+			],
+			"keyword": [
+				"Cohérence d'arc virtuelle",
+				"CSP pondéré",
+				"Cohérences locales fortes",
+				"Réseaux de fonctions de coûts",
+				"Cohérence d'arc dynamique"
+			],
+			"corporateBody": [
+				"Université Paul Sabatier"
+			],
+			"assertedLink": [
+				"http://www.idref.fr/070947155/id"
+			],
+			"dateCreationNotice":"20150721"
+			
+		},
+		"http://www.sudoc.abes.fr/164099050-2": {
+			"role": [
+				"thesis_advisor"
+			],
+			"rameau": [
+				"Contraintes (intelligence artificielle) -- Thèses et écrits académiques",
+				"Systèmes experts (informatique) -- Thèses et écrits académiques",
+				"Intelligence artificielle répartie -- Thèses et écrits académiques",
+				"Ordonnancement (gestion) -- Informatique -- Thèses et écrits académiques"
+			],
+			"title": [
+				"Algorithms and ordering heuristics for distributed constraint satisfaction problems"
+			],
+			"type": [
+				"http://www.sudoc.abes.fr/Bibliographie",
+				"http://www.sudoc.abes.fr/These"
+			],
+			"pubDate":"2012"
+			,
+			"scientificWork": [
+				"http://www.sudoc.abes.fr/TheseDeDoctorat"
+			],
+			"expLanguage": [
+				"eng"
+			],
+			"personName": [
+				{
+					"person": "http://www.sudoc.abes.fr/164099050-2",
+					"appellation": "Bessière, Christian"
+				}
+			],
+			"cocontributor": [
+				{
+					"cocontributor": "Bessière, Christian",
+					"person": "http://www.sudoc.abes.fr/164099050-2",
+					"idcocontrib": "http://www.sudoc.abes.fr/164099050-2"
+				},
+				{
+					"cocontributor": "Bouyakhf, El-Houssine",
+					"person": "http://www.sudoc.abes.fr/164099050-2",
+					"idcocontrib": "http://www.sudoc.abes.fr/164099050-3"
+				},
+				{
+					"cocontributor": "Wahbi, Mohamed",
+					"person": "http://www.sudoc.abes.fr/164099050-2",
+					"idcocontrib": "http://www.sudoc.abes.fr/164099050-1"
+				}
+			],
+			"domain": [
+				"004",
+				"510"
+			],
+			"genre":"http://www.sudoc.abes.fr/Texte_non_litteraire"
+			,
+			"publisher": [
+				"[s.n.]"
+			],
+			"keyword": [
+				"Intelligence Artificielle distribuée",
+				"Heuristiques d'ordonnancement",
+				"Problèmes de satisfaction de contraintes distribués (DisCSP)",
+				"Maintenance de la consistance d'arc",
+				"Intelligence Artificielle",
+				"DisChoco"
+			],
+			"corporateBody": [
+				"Université des sciences et techniques de Montpellier 2",
+				"Université Mohammed V-Agdal",
+				"Information, Structures, Systèmes"
+			],
+			"assertedLink": [
+				"http://www.idref.fr/070947155/id"
+			],
+			"dateCreationNotice":"20120919"
+			
+		},
+		"http://www.sudoc.abes.fr/187413304-3": {
+			"role": [
+				"thesis_advisor"
+			],
+			"rameau": [
+				"Contraintes (intelligence artificielle) -- Thèses et écrits académiques",
+				"Réseaux neuronaux (informatique) -- Thèses et écrits académiques"
+			],
+			"title": [
+				"Strong consistencies for weighted constraint satisfaction problems"
+			],
+			"type": [
+				"http://www.sudoc.abes.fr/Bibliographie",
+				"http://www.sudoc.abes.fr/These_ou_memoire"
+			],
+			"pubDate":"2015"
+			,
+			"scientificWork": [
+				"http://www.sudoc.abes.fr/TheseDeDoctorat"
+			],
+			"expLanguage": [
+				"eng"
+			],
+			"personName": [
+				{
+					"person": "http://www.sudoc.abes.fr/187413304-3",
+					"appellation": "Bessière, Christian"
+				}
+			],
+			"cocontributor": [
+				{
+					"cocontributor": "Bessière, Christian",
+					"person": "http://www.sudoc.abes.fr/187413304-3",
+					"idcocontrib": "http://www.sudoc.abes.fr/187413304-3"
+				},
+				{
+					"cocontributor": "Schiex, Thomas",
+					"person": "http://www.sudoc.abes.fr/187413304-3",
+					"idcocontrib": "http://www.sudoc.abes.fr/187413304-2"
+				},
+				{
+					"cocontributor": "Nguyen, Thi Hong Hiep",
+					"person": "http://www.sudoc.abes.fr/187413304-3",
+					"idcocontrib": "http://www.sudoc.abes.fr/187413304-1"
+				}
+			],
+			"domain": [
+				"004"
+			],
+			"genre":"http://www.sudoc.abes.fr/Texte_non_litteraire"
+			,
+			"publisher": [
+				"[s.n.]"
+			],
+			"keyword": [
+				"CSP pondéré",
+				"Réseaux de fonctions de coûts",
+				"Cohérences locales fortes",
+				"Cohérence d'arc dynamique",
+				"Cohérence d'arc virtuelle"
+			],
+			"corporateBody": [
+				"Université Paul Sabatier"
+			],
+			"assertedLink": [
+				"http://www.idref.fr/070947155/id"
+			],
+			"dateCreationNotice":"20150720"
+			
+		},
+		"http://www.sudoc.abes.fr/119359979-1": {
+			"role": [
+				"editor"
+			],
+			"rameau": [
+				"Programmation par contraintes -- Actes de congrès",
+				"Informatique -- Recherche -- Actes de congrès"
+			],
+			"collection": [
+				"Lecture notes in computer science"
+			],
+			"title": [
+				"Principles and practice of constraint programming : CP 2007 : 13th  International conference, CP 2007, Providence, RI, USA, September 23-27, 2007 : proceedings"
+			],
+			"type": [
+				"http://www.sudoc.abes.fr/Bibliographie"
+			],
+			"pubDate":"2007"
+			,
+			"expLanguage": [
+				"eng"
+			],
+			"personName": [
+				{
+					"person": "http://www.sudoc.abes.fr/119359979-1",
+					"appellation": "Bessière, Christian"
+				}
+			],
+			"cocontributor": [
+				{
+					"cocontributor": "Bessière, Christian",
+					"person": "http://www.sudoc.abes.fr/119359979-1",
+					"idcocontrib": "http://www.sudoc.abes.fr/119359979-1"
+				}
+			],
+			"domain": [
+				"004"
+			],
+			"genre":"http://www.sudoc.abes.fr/Texte_non_litteraire"
+			,
+			"publisher": [
+				"Springer"
+			],
+			"corporateBody": [
+				"International conference on principles and practice of constraint programming"
+			],
+			"assertedLink": [
+				"http://www.idref.fr/070947155/id"
+			],
+			"dateCreationNotice":"20071120"
+			
+		},
+		"http://www.sudoc.abes.fr/082030243-3": {
+			"role": [
+				"illustrator"
+			],
+			"rameau": [
+				"Hépatite C -- Bandes dessinées"
+			],
+			"title": [
+				"Hépatite virale C : ça craint !"
+			],
+			"type": [
+				"http://www.sudoc.abes.fr/Bande_dessinee"
+			],
+			"pubDate":"2003"
+			,
+			"expLanguage": [
+				"fre"
+			],
+			"personName": [
+				{
+					"person": "http://www.sudoc.abes.fr/082030243-3",
+					"appellation": "Bessière, Christian"
+				}
+			],
+			"cocontributor": [
+				{
+					"cocontributor": "Bessière, Christian",
+					"person": "http://www.sudoc.abes.fr/082030243-3",
+					"idcocontrib": "http://www.sudoc.abes.fr/082030243-3"
+				},
+				{
+					"cocontributor": "Delassus, Jean-Luc",
+					"person": "http://www.sudoc.abes.fr/082030243-3",
+					"idcocontrib": "http://www.sudoc.abes.fr/082030243-2"
+				},
+				{
+					"cocontributor": "Bellaïche, Guy",
+					"person": "http://www.sudoc.abes.fr/082030243-3",
+					"idcocontrib": "http://www.sudoc.abes.fr/082030243-1"
+				}
+			],
+			"domain": [
+				"610"
+			],
+			"genre":"http://www.sudoc.abes.fr/Texte_non_litteraire"
+			,
+			"publisher": [
+				"Réseau Aulnay 93"
+			],
+			"assertedLink": [
+				"http://www.idref.fr/082030936/id"
+			],
+			"dateCreationNotice":"20041202"
+			
+		},
+		"http://www.sudoc.abes.fr/053655818-1": {
+			"role": [
+				"author"
+			],
+			"rameau": [
+				"Formation en alternance",
+				"Industrie et éducation",
+				"Représentations sociales",
+				"Enseignement agricole"
+			],
+			"title": [
+				"CONTRIBUTION A L'ETUDE DE L'EVOLUTION ET DE LA STRUCTURATION DES REPRESENTATIONS DANS LA FORMATION LE CAS D'UN GROUPE D'ETUDIANTS EN B.T.S."
+			],
+			"type": [
+				"http://www.sudoc.abes.fr/These"
+			],
+			"pubDate":"1998"
+			,
+			"scientificWork": [
+				"http://www.sudoc.abes.fr/TheseDeDoctorat"
+			],
+			"expLanguage": [
+				"fre"
+			],
+			"personName": [
+				{
+					"person": "http://www.sudoc.abes.fr/053655818-1",
+					"appellation": "Bessière, Christian"
+				}
+			],
+			"cocontributor": [
+				{
+					"cocontributor": "SALLABERRY, JEAN CLAUDE",
+					"person": "http://www.sudoc.abes.fr/053655818-1",
+					"idcocontrib": "http://www.sudoc.abes.fr/053655818-2"
+				},
+				{
+					"cocontributor": "Bessière, Christian",
+					"person": "http://www.sudoc.abes.fr/053655818-1",
+					"idcocontrib": "http://www.sudoc.abes.fr/053655818-1"
+				}
+			],
+			"domain": [
+				"370",
+				"330",
+				"150"
+			],
+			"genre":"http://www.sudoc.abes.fr/Texte_non_litteraire"
+			,
+			"publisher": [
+				"[s.n.]"
+			],
+			"keyword": [
+				"ENSEIGNEMENT AGRICOLE",
+				"SCIENCES DE L'EDUCATION",
+				"ENSEIGNEMENT EN ALTERNANCE",
+				"INDUSTRIE ET EDUCATION",
+				"REPRESENTATIONS SOCIALES",
+				" FORMATION"
+			],
+			"assertedLink": [
+				"http://www.idref.fr/070947155/id"
+			],
+			"dateCreationNotice":"20001218"
+			
+		},
+		"http://www.idref.fr/15568244X/id": {
+			"personName": [
+				{
+					"person": "http://www.idref.fr/15568244X/id",
+					"last_name": "Bessière",
+					"first_name": "Christian"
+				}
+			],
+			"source": [
+				"Contribution à l'étude de l'évolution et de la structuration des représentations dans la formation le cas d'un groupe d'étudiants en B.T.S. / Christian Bessière ; sous la direction de Jean-Claude Sallaberry, 1998"
+			],
+			"dateCreationNotice":"20111017"
+			
+		},
+		"http://www.sudoc.abes.fr/049633031-1": {
+			"role": [
+				"author"
+			],
+			"rameau": [
+				"Industrie et éducation",
+				"Enseignement en alternance",
+				"Enseignement agricole",
+				"Représentations sociales"
+			],
+			"title": [
+				"Contribution à l'étude de l'évolution et de la structuration des représentations dans la formation le cas d'un groupe d'étudiants en B.T.S."
+			],
+			"type": [
+				"http://www.sudoc.abes.fr/These"
+			],
+			"pubDate":"1998"
+			,
+			"scientificWork": [
+				"http://www.sudoc.abes.fr/TheseDeDoctorat"
+			],
+			"expLanguage": [
+				"fre"
+			],
+			"personName": [
+				{
+					"person": "http://www.sudoc.abes.fr/049633031-1",
+					"appellation": "Bessière, Christian"
+				}
+			],
+			"cocontributor": [
+				{
+					"cocontributor": "Sallaberry, Jean-Claude",
+					"person": "http://www.sudoc.abes.fr/049633031-1",
+					"idcocontrib": "http://www.sudoc.abes.fr/049633031-2"
+				},
+				{
+					"cocontributor": "Bessière, Christian",
+					"person": "http://www.sudoc.abes.fr/049633031-1",
+					"idcocontrib": "http://www.sudoc.abes.fr/049633031-1"
+				}
+			],
+			"domain": [
+				"150",
+				"370",
+				"330"
+			],
+			"publisher": [
+				"[s.n.]"
+			],
+			"keyword": [
+				"Sciences de l'éducation",
+				" formation"
+			],
+			"corporateBody": [
+				"Université François Rabelais"
+			],
+			"assertedLink": [
+				"http://www.idref.fr/070947155/id"
+			],
+			"dateCreationNotice":"20000508"
+			
+		}
+	},
+	"initialLinks": [
+		{
+			"source": "http://www.sudoc.abes.fr/158507649-2",
+			"type": "sameAs",
+			"target": "http://www.idref.fr/082030936/id"
+		},
+		{
+			"source": "http://www.sudoc.abes.fr/160221811-2",
+			"type": "sameAs",
+			"target": "http://www.idref.fr/082030936/id"
+		},
+		{
+			"source": "http://www.sudoc.abes.fr/082030243-3",
+			"type": "sameAs",
+			"target": "http://www.idref.fr/082030936/id"
+		},
+		{
+			"source": "http://www.sudoc.abes.fr/164230181-2",
+			"type": "sameAs",
+			"target": "http://www.idref.fr/082030936/id"
+		},
+		{
+			"source": "http://www.sudoc.abes.fr/15816993X-3",
+			"type": "sameAs",
+			"target": "http://www.idref.fr/082030936/id"
+		},
+		{
+			"source": "http://www.sudoc.abes.fr/054198143-2",
+			"type": "sameAs",
+			"target": "http://www.idref.fr/055768113/id"
+		},
+		{
+			"source": "http://www.sudoc.abes.fr/123176867-2",
+			"type": "sameAs",
+			"target": "http://www.idref.fr/055768113/id"
+		},
+		{
+			"source": "http://www.sudoc.abes.fr/070949719-2",
+			"type": "sameAs",
+			"target": "http://www.idref.fr/070947155/id"
+		},
+		{
+			"source": "http://www.sudoc.abes.fr/164099050-2",
+			"type": "sameAs",
+			"target": "http://www.idref.fr/070947155/id"
+		},
+		{
+			"source": "http://www.sudoc.abes.fr/177343893-2",
+			"type": "sameAs",
+			"target": "http://www.idref.fr/070947155/id"
+		},
+		{
+			"source": "http://www.sudoc.abes.fr/189316632-3",
+			"type": "sameAs",
+			"target": "http://www.idref.fr/070947155/id"
+		},
+		{
+			"source": "http://www.sudoc.abes.fr/049633031-1",
+			"type": "sameAs",
+			"target": "http://www.idref.fr/070947155/id"
+		},
+		{
+			"source": "http://www.sudoc.abes.fr/187424195-3",
+			"type": "sameAs",
+			"target": "http://www.idref.fr/070947155/id"
+		},
+		{
+			"source": "http://www.sudoc.abes.fr/119359979-1",
+			"type": "sameAs",
+			"target": "http://www.idref.fr/070947155/id"
+		},
+		{
+			"source": "http://www.sudoc.abes.fr/012673838-1",
+			"type": "sameAs",
+			"target": "http://www.idref.fr/070947155/id"
+		},
+		{
+			"source": "http://www.sudoc.abes.fr/187413304-3",
+			"type": "sameAs",
+			"target": "http://www.idref.fr/070947155/id"
+		},
+		{
+			"source": "http://www.sudoc.abes.fr/123728525-1",
+			"type": "sameAs",
+			"target": "http://www.idref.fr/070947155/id"
+		},
+		{
+			"source": "http://www.sudoc.abes.fr/006851312-1",
+			"type": "sameAs",
+			"target": "http://www.idref.fr/070947155/id"
+		},
+		{
+			"source": "http://www.sudoc.abes.fr/053655818-1",
+			"type": "sameAs",
+			"target": "http://www.idref.fr/070947155/id"
+		}
+	],
+	"sources": [
+		"http://www.sudoc.abes.fr/158507649-2",
+		"http://www.sudoc.abes.fr/17907671X-2",
+		"http://www.sudoc.abes.fr/164230181-2",
+		"http://www.sudoc.abes.fr/160221811-2",
+		"http://www.sudoc.abes.fr/189316632-3",
+		"http://www.sudoc.abes.fr/054198143-2",
+		"http://www.sudoc.abes.fr/177343893-2",
+		"http://www.sudoc.abes.fr/126318859-1",
+		"http://www.sudoc.abes.fr/123176867-2",
+		"http://www.sudoc.abes.fr/123728525-1",
+		"http://www.sudoc.abes.fr/012673838-1",
+		"http://www.sudoc.abes.fr/15816993X-3",
+		"http://www.sudoc.abes.fr/12795600X-1",
+		"http://www.sudoc.abes.fr/006851312-1",
+		"http://www.sudoc.abes.fr/187424195-3",
+		"http://www.sudoc.abes.fr/070949719-2",
+		"http://www.sudoc.abes.fr/164099050-2",
+		"http://www.sudoc.abes.fr/187413304-3",
+		"http://www.sudoc.abes.fr/053655818-1",
+		"http://www.sudoc.abes.fr/119359979-1",
+		"http://www.sudoc.abes.fr/082030243-3",
+		"http://www.sudoc.abes.fr/049633031-1"
+	],
+	"scenario": "sudoc-rc-ra",
+	"supports": "sources",
+	"targets": [
+		"http://www.idref.fr/055768113/id",
+		"http://www.idref.fr/070947155/id",
+		"http://www.idref.fr/082030936/id",
+		"http://www.idref.fr/15568244X/id"
+	]
+}

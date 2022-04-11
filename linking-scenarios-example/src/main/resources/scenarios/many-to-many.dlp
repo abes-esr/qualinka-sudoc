@@ -1,0 +1,14 @@
+dim_mandatory(S,T,1) :- name(S,T,1).
+
+sameAs(S,T,5) :- dim_mandatory(S,T,1), domain(S,T,1), titleWordsRCRC(S,T,1).
+sameAs(S,T,5) :- dim_mandatory(S,T,1), publicationDateRCRC(S,T,3), titleWordsRCRC(S,T,1).
+sameAs(S,T,3) :- dim_mandatory(S,T,1), publicationDateRCRC(S,T,2), titleWordsRCRC(S,T,1).
+
+
+diffFrom(S,T,always) :- publicationDateRCRC(S,T,never).
+diffFrom(S,T,5) :- publicationDateRCRC(S,T,-3).
+diffFrom(S,T,5) :- domain(S,T,-1).
+
+
+
+

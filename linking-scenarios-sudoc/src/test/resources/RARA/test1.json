@@ -1,0 +1,43 @@
+{
+	"scenario": "sudoc-ra-ra",
+	"sources": [
+		"ra1",
+		"ra2",
+		"ra3",
+		"ra4",
+		"ra5",
+		"ra6"
+	],
+	"targets": "sources",
+	"features": {
+		"ra1": {
+			"source": ["le réseau secret de l'abes / abes blabla, 1994 "],
+			"personName": ["dupont, jean-marie"],
+			"birthDate": "19660707",
+			"deathDate": "2004",
+			"externalId": ["hal:3", "haribo:pik"]
+		},
+		"ra2": {
+			"personName": ["dupont, jean-marie"],
+			"externalId": ["orcid:1", "hal:3"]
+		},
+		"ra3": {
+			"source": ["le reseau secret de l'ABES / abes blabla, 1994 "],
+			"personName": ["dupont, jean-marie"]
+		},
+		"ra4": {
+			"personName": ["dupont, jean-marie"],
+			"birthDate": "1966",
+			"deathDate": "2004"
+		},
+		"ra5": {
+			"personName": ["dupont, jean-marie"],
+			"birthDate": "19660707"
+		},
+		"ra6": {
+			"personName": ["dupont, jean-marie"],
+			"birthDate": "19660707",
+			"deathDate": "2015"
+		}
+	}
+}

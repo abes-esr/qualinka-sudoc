@@ -1,0 +1,52 @@
+===============================
+=           TOTAL             =
+===============================
+
+          good: 256
+       careful: 92
+unsatisfactory: 94
+           bad: 0
+
+          warn: 2
+
+
+===============================
+=           TOTAL   (après modif sur traitement nom)         =
+===============================
+
+          good: 255
+       careful: 92
+unsatisfactory: 95
+           bad: 0
+
+          warn: 0
+
+===============================
+=           TOTAL             =
+===============================
+
+          good: 255
+       careful: 90
+unsatisfactory: 97
+           bad: 0
+
+          warn: 0
+
+
+===============================
+=           TOTAL             =
+===============================
+
+          good: 255
+       careful: 88
+unsatisfactory: 67
+           bad: 13
+           
+===============================
+=           TOTAL  (Test modif rules)           =
+===============================
+
+          good: 213 - 218
+       careful: 88 - 84
+       unsatisfactory: 79 - 78
+           bad: 0 - 0

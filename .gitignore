@@ -1,0 +1,41 @@
+*.jar
+
+#
+# Standard Maven .gitignore
+#
+target/
+pom.xml.tag
+pom.xml.releaseBackup
+pom.xml.versionsBackup
+pom.xml.next
+release.properties
+dependency-reduced-pom.xml
+buildNumber.properties
+.mvn/timing.properties
+
+#
+# GIT
+#
+*.rej
+*.orig
+
+#
+# IntelliJ
+#
+*.iml
+.idea/*
+!.idea/runConfigurations/
+
+#
+# Visual Studio Code
+#
+.settings/
+.classpath
+.project
+.vscode/
+
+#
+# Eclipse
+#
+.eclipse-pmd
+/bin/

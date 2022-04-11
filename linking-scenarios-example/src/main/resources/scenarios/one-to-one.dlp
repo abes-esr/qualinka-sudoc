@@ -1,0 +1,11 @@
+dim_mandatory(S,T,1) :- name(S,T,1).
+
+% document avec le titre identique + date de publication qui se touche
+sameAs(S,T,5) :- dim_mandatory(S,T,1), sameTitleRARA(S,T,always), publicationDateRARA(S,T,always).
+
+% même domain, titre proche, date de publication proche
+sameAs(S,T,5) :- dim_mandatory(S,T,1), domain(S,T,1), titleWordsRARA(S,T,1), publicationDateRARA(S,T,3).
+
+% titre très proche, date de publication proche
+sameAs(S,T,5) :- dim_mandatory(S,T,1), titleWordsRARA(S,T,2), publicationDateRARA(S,T,3).
+

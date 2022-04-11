@@ -1,0 +1,40 @@
+{
+	"scenario": "example-many-to-many",
+	"options": { "debug": false },
+	"sources": ["rc:1", "rc:2", "rc:3", "rc:4", "rc:5", "rc:6"],
+	"targets": "sources",
+	"features": {
+		"rc:1": {
+			"name": "Durant, Émilie",
+			"publicationDate": 1921,
+			"title": "Les fleurs du Moyen-Orient",
+			"domain": [ 580 ]
+		},
+		"rc:2": {
+			"name": "Durant, Émilie",
+			"publicationDate": 1924,
+			"title": "Les fleurs d'Europe"
+		},
+		"rc:3": {
+			"name": "Durant, Émilie",
+			"publicationDate": 1926,
+			"title": "Les fleurs d'Asie",
+			"domain": [ 580 ]
+		},
+		"rc:4": {
+			"name": "Durant, Émilie",
+			"publicationDate": 1928,
+			"title": "Les fleurs d'Amérique"
+		},
+		"rc:5": {
+			"name": "Durant, Émilie",
+			"publicationDate": 1858,
+			"title": "Les graphes conceptuels, un représentation graphique des connaissances"
+		},
+		"rc:6": {
+			"name": "Durant, Émilie",
+			"publicationDate": 1865,
+			"title": "Graphes et représentation des connaissances"
+		}
+	}
+}

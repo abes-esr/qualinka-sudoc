@@ -1,0 +1,15 @@
+
+sameAs(S,T,5) :- personName(S,T,2), sourceAA(S,T,always).
+sameAs(S,T,5) :- personName(S,T,2), externalIdAA(S,T,1).
+
+sameAs(S,T,5) :- personName(S,T,2), birthDateAA(S,T,5).
+sameAs(S,T,5) :- personName(S,T,2), deathDateAA(S,T,5).
+
+sameAs(S,T,5) :- personName(S,T,2), birthDateAA(S,T,3), deathDateAA(S,T,3).
+
+% règle diffFrom commentées car désaccord 
+% Aline: potentiels erreurs de saisis
+% 1950 vs 1951 pourrait plutôt être un indice "faible" de sameAs
+diffFrom(S,T,5) :- birthDateAA(S,T,-1).
+diffFrom(S,T,5) :- deathDateAA(S,T,-1).
+

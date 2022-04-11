@@ -1,0 +1,663 @@
+{
+	"input": {
+		"features": {
+			"http:\/\/www.idref.fr\/174121555\/id": {
+				"personName": [
+					{
+						"person": "http:\/\/www.idref.fr\/174121555\/id",
+						"last_name": "Baget",
+						"first_name": "Jean-François"
+					}
+				],
+				"rc": [
+					"http:\/\/www.sudoc.abes.fr\/227350324-6",
+					"http:\/\/www.sudoc.abes.fr\/197738532-6",
+					"http:\/\/www.sudoc.abes.fr\/187182183-3"
+				],
+				"source": [
+					"Internet: http:\/\/www2.lirmm.fr\/~baget\/ (13\/11\/2013)"
+				],
+				"dateCreationNotice":"20131113"
+				
+			},
+			"http:\/\/www.idref.fr\/177106743\/id": {
+				"personName": [
+					{
+						"person": "http:\/\/www.idref.fr\/177106743\/id",
+						"last_name": "Baget",
+						"first_name": "J.-J."
+					}
+				],
+				"rc": [
+					"http:\/\/www.sudoc.abes.fr\/177307404-1",
+					"http:\/\/www.sudoc.abes.fr\/12706530X-1"
+				],
+				"source": [
+					"Leçons élémentaires d'arithmétique raisonnée à l'usage des écoles primaires, des classes élémentaires et des aspirants aux brevets de capacité pour l'institution primaire : méthode théorie-pratique \/ J.-J. Baget, 1836"
+				],
+				"dateCreationNotice":"20140321"
+				
+			},
+			"http:\/\/www.sudoc.abes.fr\/197738532-6": {
+				"role": [
+					"opponent"
+				],
+				"rameau": [
+					"Answer Set Programming (informatique) -- Thèses et écrits académiques",
+					"Décidabilité (logique mathématique) -- Thèses et écrits académiques",
+					"Langages d'interrogation -- Thèses et écrits académiques",
+					"Ontologies (informatique) -- Thèses et écrits académiques",
+					"Inconsistance (logique) -- Thèses et écrits académiques"
+				],
+				"title": [
+					"Extension d'ASP pour couvrir des fragments DL traitables : étude théorique et implémentation"
+				],
+				"type": [
+					"http:\/\/www.sudoc.abes.fr\/These",
+					"http:\/\/www.sudoc.abes.fr\/Bibliographie"
+				],
+				"pubDate":"2016"
+				,
+				"scientificWork": [
+					"http:\/\/www.sudoc.abes.fr\/TheseDeDoctorat"
+				],
+				"expLanguage": [
+					"fre"
+				],
+				"personName": [
+					{
+						"person": "http:\/\/www.sudoc.abes.fr\/197738532-6",
+						"appellation": "Baget, Jean-François"
+					}
+				],
+				"cocontributor": [
+					{
+						"cocontributor": "Papini, Odile",
+						"person": "http:\/\/www.sudoc.abes.fr\/197738532-6",
+						"idcocontrib": "http:\/\/www.sudoc.abes.fr\/197738532-3"
+					},
+					{
+						"cocontributor": "Baget, Jean-François",
+						"person": "http:\/\/www.sudoc.abes.fr\/197738532-6",
+						"idcocontrib": "http:\/\/www.sudoc.abes.fr\/197738532-6"
+					},
+					{
+						"cocontributor": "Stephan, Igor",
+						"person": "http:\/\/www.sudoc.abes.fr\/197738532-6",
+						"idcocontrib": "http:\/\/www.sudoc.abes.fr\/197738532-2"
+					},
+					{
+						"cocontributor": "Garcia, Laurent",
+						"person": "http:\/\/www.sudoc.abes.fr\/197738532-6",
+						"idcocontrib": "http:\/\/www.sudoc.abes.fr\/197738532-7"
+					},
+					{
+						"cocontributor": "Herzig, Andréas",
+						"person": "http:\/\/www.sudoc.abes.fr\/197738532-6",
+						"idcocontrib": "http:\/\/www.sudoc.abes.fr\/197738532-4"
+					},
+					{
+						"cocontributor": "Lamarre, Philippe",
+						"person": "http:\/\/www.sudoc.abes.fr\/197738532-6",
+						"idcocontrib": "http:\/\/www.sudoc.abes.fr\/197738532-5"
+					},
+					{
+						"cocontributor": "Garreau, Fabien",
+						"person": "http:\/\/www.sudoc.abes.fr\/197738532-6",
+						"idcocontrib": "http:\/\/www.sudoc.abes.fr\/197738532-1"
+					}
+				],
+				"domain": [
+					"100",
+					"020",
+					"510",
+					"004",
+					"650",
+					"621"
+				],
+				"genre":"http:\/\/www.sudoc.abes.fr\/Texte_non_litteraire"
+				,
+				"dewey": [
+					"004"
+				],
+				"keyword": [
+					"Interrogation",
+					"Règles existentielles"
+				],
+				"corporateBody": [
+					"École doctorale Sciences et technologies de l'information et mathématiques",
+					"Université d'Angers",
+					"Laboratoire d'Etudes et de Recherche en Informatique d'Angers"
+				],
+				"assertedLink": [
+					"http:\/\/www.idref.fr\/174121555\/id"
+				],
+				"dateCreationNotice":"20170119"
+				
+			},
+			"http:\/\/www.sudoc.abes.fr\/122672577-1": {
+				"expLanguage": [
+					"fre"
+				],
+				"personName": [
+					{
+						"person": "http:\/\/www.sudoc.abes.fr\/122672577-1",
+						"appellation": "Baget, J.-J."
+					}
+				],
+				"role": [
+					"author"
+				],
+				"cocontributor": [
+					{
+						"cocontributor": "Lecointe, Alexandre",
+						"person": "http:\/\/www.sudoc.abes.fr\/122672577-1",
+						"idcocontrib": "http:\/\/www.sudoc.abes.fr\/122672577-2"
+					},
+					{
+						"cocontributor": "Baget, J.-J.",
+						"person": "http:\/\/www.sudoc.abes.fr\/122672577-1",
+						"idcocontrib": "http:\/\/www.sudoc.abes.fr\/122672577-1"
+					}
+				],
+				"genre":"http:\/\/www.sudoc.abes.fr\/Texte_non_litteraire"
+				,
+				"publisher": [
+					"Lecointe"
+				],
+				"title": [
+					"Dictionnaire des communes du département de l'Aisne, précédé d'un aperçu statistique"
+				],
+				"keyword": [
+					" municipalités et Communes",
+					"Aisne"
+				],
+				"pubDate":"1837"
+				,
+				"assertedLink": [],
+				"dateCreationNotice":"20080328"
+				
+			},
+			"http:\/\/www.sudoc.abes.fr\/227350324-6": {
+				"role": [
+					"opponent"
+				],
+				"rameau": [
+					"Intelligence artificielle -- Thèses et écrits académiques",
+					"Ontologies (informatique) -- Thèses et écrits académiques",
+					"Datalog (langage de programmation) -- Thèses et écrits académiques"
+				],
+				"title": [
+					"Querying existential rule knowledge bases : decidability and complexity"
+				],
+				"type": [
+					"http:\/\/www.sudoc.abes.fr\/These",
+					"http:\/\/www.sudoc.abes.fr\/Bibliographie"
+				],
+				"pubDate":"2016"
+				,
+				"scientificWork": [
+					"http:\/\/www.sudoc.abes.fr\/TheseDeDoctorat"
+				],
+				"expLanguage": [
+					"eng"
+				],
+				"personName": [
+					{
+						"person": "http:\/\/www.sudoc.abes.fr\/227350324-6",
+						"appellation": "Baget, Jean-François"
+					}
+				],
+				"cocontributor": [
+					{
+						"cocontributor": "Paul, Christophe",
+						"person": "http:\/\/www.sudoc.abes.fr\/227350324-6",
+						"idcocontrib": "http:\/\/www.sudoc.abes.fr\/227350324-3"
+					},
+					{
+						"cocontributor": "Mugnier, Marie-Laure",
+						"person": "http:\/\/www.sudoc.abes.fr\/227350324-6",
+						"idcocontrib": "http:\/\/www.sudoc.abes.fr\/227350324-2"
+					},
+					{
+						"cocontributor": "Baget, Jean-François",
+						"person": "http:\/\/www.sudoc.abes.fr\/227350324-6",
+						"idcocontrib": "http:\/\/www.sudoc.abes.fr\/227350324-6"
+					},
+					{
+						"cocontributor": "Pieris, Andreas",
+						"person": "http:\/\/www.sudoc.abes.fr\/227350324-6",
+						"idcocontrib": "http:\/\/www.sudoc.abes.fr\/227350324-7"
+					},
+					{
+						"cocontributor": "Rudolph, Sebastian",
+						"person": "http:\/\/www.sudoc.abes.fr\/227350324-6",
+						"idcocontrib": "http:\/\/www.sudoc.abes.fr\/227350324-4"
+					},
+					{
+						"cocontributor": "Rousset, Marie-Christine",
+						"person": "http:\/\/www.sudoc.abes.fr\/227350324-6",
+						"idcocontrib": "http:\/\/www.sudoc.abes.fr\/227350324-5"
+					},
+					{
+						"cocontributor": "Rocher, Swan",
+						"person": "http:\/\/www.sudoc.abes.fr\/227350324-6",
+						"idcocontrib": "http:\/\/www.sudoc.abes.fr\/227350324-1"
+					}
+				],
+				"domain": [
+					"510",
+					"004",
+					"020",
+					"650",
+					"621"
+				],
+				"genre":"http:\/\/www.sudoc.abes.fr\/Texte_non_litteraire"
+				,
+				"keyword": [
+					"Représentation des connaissances et raisonnement",
+					"-",
+					"Requêtes conjonctives",
+					"Règles existentielles",
+					"Datalog+"
+				],
+				"corporateBody": [
+					"Laboratoire d'informatique, de robotique et de micro-électronique",
+					"Université de Montpellier",
+					"École Doctorale Information, Structures, Systèmes"
+				],
+				"assertedLink": [
+					"http:\/\/www.idref.fr\/174121555\/id"
+				],
+				"dateCreationNotice":"20180605"
+				
+			},
+			"http:\/\/www.sudoc.abes.fr\/103692665-1": {
+				"expLanguage": [
+					"fre"
+				],
+				"personName": [
+					{
+						"person": "http:\/\/www.sudoc.abes.fr\/103692665-1",
+						"appellation": "Baget, J. E. P."
+					}
+				],
+				"role": [
+					"author"
+				],
+				"cocontributor": [
+					{
+						"cocontributor": "Baget, J. E. P.",
+						"person": "http:\/\/www.sudoc.abes.fr\/103692665-1",
+						"idcocontrib": "http:\/\/www.sudoc.abes.fr\/103692665-1"
+					}
+				],
+				"genre":"http:\/\/www.sudoc.abes.fr\/Texte_non_litteraire"
+				,
+				"publisher": [
+					"Impr. Rignoux"
+				],
+				"title": [
+					"Questions : 1° Des causes de la nymphomanie et de son siège. 2° Quelles sont les circonstances qui influent sur la gravité des brûlures ? Le traitement est-il le même dans les divers degrés de cette maladie ? 3° Des caractères particuliers de la circulation abdominale. 4° Des préparations qui ont pour base la ciguë"
+				],
+				"type": [
+					"http:\/\/www.sudoc.abes.fr\/These_ou_memoire"
+				],
+				"pubDate":"1839"
+				,
+				"assertedLink": [],
+				"scientificWork": [
+					"http:\/\/www.sudoc.abes.fr\/TheseDeDoctorat"
+				],
+				"dateCreationNotice":"20060619"
+				
+			},
+			"http:\/\/www.sudoc.abes.fr\/01091384X-1": {
+				"expLanguage": [
+					"fre"
+				],
+				"personName": [
+					{
+						"person": "http:\/\/www.sudoc.abes.fr\/01091384X-1",
+						"appellation": "Baget, Jean-François"
+					}
+				],
+				"role": [
+					"author"
+				],
+				"cocontributor": [
+					{
+						"cocontributor": "Baget, Jean-François",
+						"person": "http:\/\/www.sudoc.abes.fr\/01091384X-1",
+						"idcocontrib": "http:\/\/www.sudoc.abes.fr\/01091384X-1"
+					}
+				],
+				"publisher": [
+					"Université Montpellier II Sciences et Techniques du Languedoc"
+				],
+				"title": [
+					"Propositions pour l'extension du modèle des graphes conceptuels : emboîtement, co-référence et règles de graphes"
+				],
+				"type": [
+					"http:\/\/www.sudoc.abes.fr\/Autres_travaux_universitaires"
+				],
+				"pubDate":"1998"
+				,
+				"assertedLink": [],
+				"scientificWork": [
+					"http:\/\/www.sudoc.abes.fr\/AutreTravailUniversitaire"
+				],
+				"dateCreationNotice":"19981125"
+				
+			},
+			"http:\/\/www.sudoc.abes.fr\/187182183-3": {
+				"role": [
+					"thesis_advisor"
+				],
+				"rameau": [
+					"Algorithmes -- Thèses et écrits académiques",
+					"Intelligence artificielle -- Thèses et écrits académiques",
+					"Bases de données -- Interrogation -- Thèses et écrits académiques"
+				],
+				"title": [
+					"Conjunctive query answering under existential rules : decidability, complexity and algorithms"
+				],
+				"type": [
+					"http:\/\/www.sudoc.abes.fr\/Bibliographie",
+					"http:\/\/www.sudoc.abes.fr\/These"
+				],
+				"pubDate":"2013"
+				,
+				"scientificWork": [
+					"http:\/\/www.sudoc.abes.fr\/TheseDeDoctorat"
+				],
+				"expLanguage": [
+					"eng"
+				],
+				"personName": [
+					{
+						"person": "http:\/\/www.sudoc.abes.fr\/187182183-3",
+						"appellation": "Baget, Jean-François"
+					}
+				],
+				"cocontributor": [
+					{
+						"cocontributor": "Paul, Christophe",
+						"person": "http:\/\/www.sudoc.abes.fr\/187182183-3",
+						"idcocontrib": "http:\/\/www.sudoc.abes.fr\/187182183-4"
+					},
+					{
+						"cocontributor": "Mugnier, Marie-Laure",
+						"person": "http:\/\/www.sudoc.abes.fr\/187182183-3",
+						"idcocontrib": "http:\/\/www.sudoc.abes.fr\/187182183-2"
+					},
+					{
+						"cocontributor": "Baget, Jean-François",
+						"person": "http:\/\/www.sudoc.abes.fr\/187182183-3",
+						"idcocontrib": "http:\/\/www.sudoc.abes.fr\/187182183-3"
+					},
+					{
+						"cocontributor": "Gottlob, Georg",
+						"person": "http:\/\/www.sudoc.abes.fr\/187182183-3",
+						"idcocontrib": "http:\/\/www.sudoc.abes.fr\/187182183-5"
+					},
+					{
+						"cocontributor": "Rousset, Marie-Christine",
+						"person": "http:\/\/www.sudoc.abes.fr\/187182183-3",
+						"idcocontrib": "http:\/\/www.sudoc.abes.fr\/187182183-7"
+					},
+					{
+						"cocontributor": "Lutz, Carsten",
+						"person": "http:\/\/www.sudoc.abes.fr\/187182183-3",
+						"idcocontrib": "http:\/\/www.sudoc.abes.fr\/187182183-6"
+					},
+					{
+						"cocontributor": "Thomazo, Michaël",
+						"person": "http:\/\/www.sudoc.abes.fr\/187182183-3",
+						"idcocontrib": "http:\/\/www.sudoc.abes.fr\/187182183-1"
+					}
+				],
+				"domain": [
+					"510",
+					"020",
+					"621"
+				],
+				"genre":"http:\/\/www.sudoc.abes.fr\/Texte_non_litteraire"
+				,
+				"keyword": [
+					"Règles existentielles",
+					"Représentation des connaissances et raisonnement",
+					"Datalog+",
+					"Requêtes conjonctives",
+					"-"
+				],
+				"corporateBody": [
+					"Information, Structures, Systèmes",
+					"Laboratoire d'informatique, de robotique et de micro-électronique",
+					"Université des sciences et techniques de Montpellier 2"
+				],
+				"assertedLink": [
+					"http:\/\/www.idref.fr\/174121555\/id"
+				],
+				"dateCreationNotice":"20150709"
+				
+			},
+			"http:\/\/www.sudoc.abes.fr\/12706530X-1": {
+				"role": [
+					"author"
+				],
+				"rameau": [
+					"Arithmétique -- Manuels d'enseignement primaire"
+				],
+				"title": [
+					"Leçons élémentaires d'arithmétique raisonnée : à l'usage des écoles primaires, des classes élémentaires et des aspirants aux brevets de capacité pour l'institution primaire : méthode théorie-pratique, agréee par M. le recteur de l'académie d'Amiens"
+				],
+				"type": [
+					"http:\/\/www.sudoc.abes.fr\/Manuel_d_enseignement_programme"
+				],
+				"pubDate":"1836"
+				,
+				"expLanguage": [
+					"fre"
+				],
+				"personName": [
+					{
+						"person": "http:\/\/www.sudoc.abes.fr\/12706530X-1",
+						"appellation": "Baget, J.-J."
+					}
+				],
+				"cocontributor": [
+					{
+						"cocontributor": "Baget, J.-J.",
+						"person": "http:\/\/www.sudoc.abes.fr\/12706530X-1",
+						"idcocontrib": "http:\/\/www.sudoc.abes.fr\/12706530X-1"
+					}
+				],
+				"domain": [
+					"510"
+				],
+				"genre":"http:\/\/www.sudoc.abes.fr\/Texte_non_litteraire"
+				,
+				"publisher": [
+					"Hachette",
+					"l'auteur"
+				],
+				"assertedLink": [
+					"http:\/\/www.idref.fr\/177106743\/id"
+				],
+				"dateCreationNotice":"20080901"
+				
+			},
+			"http:\/\/www.sudoc.abes.fr\/177307404-1": {
+				"role": [
+					"author"
+				],
+				"rameau": [
+					"Arithmétique -- Manuels d'enseignement primaire"
+				],
+				"title": [
+					"Leçons élémentaires d'arithmétique raisonnée : à l'usage des écoles primaires, des classes élémentaires et des aspirants aux brevets de capacité pour l'institution primaire : méthode théorie-pratique, agréee par M. le recteur de l'académie d'Amiens"
+				],
+				"type": [
+					"http:\/\/www.sudoc.abes.fr\/Manuel_d_enseignement_programme"
+				],
+				"pubDate":"1836"
+				,
+				"expLanguage": [
+					"fre"
+				],
+				"personName": [
+					{
+						"person": "http:\/\/www.sudoc.abes.fr\/177307404-1",
+						"appellation": "Baget, J.-J."
+					}
+				],
+				"cocontributor": [
+					{
+						"cocontributor": "Baget, J.-J.",
+						"person": "http:\/\/www.sudoc.abes.fr\/177307404-1",
+						"idcocontrib": "http:\/\/www.sudoc.abes.fr\/177307404-1"
+					}
+				],
+				"domain": [
+					"510"
+				],
+				"genre":"http:\/\/www.sudoc.abes.fr\/Texte_non_litteraire"
+				,
+				"publisher": [
+					"Bibliothèque Diderot de Lyon"
+				],
+				"assertedLink": [
+					"http:\/\/www.idref.fr\/177106743\/id"
+				],
+				"dateCreationNotice":"20140402"
+				
+			}
+		},
+		"initialLinks": [
+			{
+				"source": "http:\/\/www.sudoc.abes.fr\/177307404-1",
+				"type": "sameAs",
+				"target": "http:\/\/www.idref.fr\/177106743\/id"
+			},
+			{
+				"source": "http:\/\/www.sudoc.abes.fr\/12706530X-1",
+				"type": "sameAs",
+				"target": "http:\/\/www.idref.fr\/177106743\/id"
+			},
+			{
+				"source": "http:\/\/www.sudoc.abes.fr\/227350324-6",
+				"type": "sameAs",
+				"target": "http:\/\/www.idref.fr\/174121555\/id"
+			},
+			{
+				"source": "http:\/\/www.sudoc.abes.fr\/197738532-6",
+				"type": "sameAs",
+				"target": "http:\/\/www.idref.fr\/174121555\/id"
+			},
+			{
+				"source": "http:\/\/www.sudoc.abes.fr\/187182183-3",
+				"type": "sameAs",
+				"target": "http:\/\/www.idref.fr\/174121555\/id"
+			}
+		],
+		"sources": [
+			"http:\/\/www.sudoc.abes.fr\/197738532-6",
+			"http:\/\/www.sudoc.abes.fr\/122672577-1",
+			"http:\/\/www.sudoc.abes.fr\/103692665-1",
+			"http:\/\/www.sudoc.abes.fr\/227350324-6",
+			"http:\/\/www.sudoc.abes.fr\/01091384X-1",
+			"http:\/\/www.sudoc.abes.fr\/187182183-3",
+			"http:\/\/www.sudoc.abes.fr\/12706530X-1",
+			"http:\/\/www.sudoc.abes.fr\/177307404-1"
+		],
+		"scenario": "sudoc-rc-ra",
+		"supports": "sources",
+		"targets": [
+			"http:\/\/www.idref.fr\/174121555\/id",
+			"http:\/\/www.idref.fr\/177106743\/id"
+		]
+	},
+	"expectedLinks": [
+		{
+			"source": "http:\/\/www.sudoc.abes.fr\/122672577-1",
+			"type": "diffFrom",
+			"target": "http:\/\/www.idref.fr\/174121555/id"
+		},
+		{
+			"source": "http:\/\/www.sudoc.abes.fr\/122672577-1",
+			"type": "diffFrom",
+			"target": "http:\/\/www.idref.fr\/177106743/id"
+		},
+		{
+			"source": "http:\/\/www.sudoc.abes.fr\/103692665-1",
+			"type": "diffFrom",
+			"target": "http:\/\/www.idref.fr\/174121555/id"
+		},
+		{
+			"source": "http:\/\/www.sudoc.abes.fr\/103692665-1",
+			"type": "diffFrom",
+			"target": "http:\/\/www.idref.fr\/177106743/id"
+		},
+		{
+			"source": "http:\/\/www.sudoc.abes.fr\/187182183-3",
+			"type": "sameAs",
+			"target": "http:\/\/www.idref.fr\/174121555/id"
+		},
+		{
+			"source": "http:\/\/www.sudoc.abes.fr\/187182183-3",
+			"type": "diffFrom",
+			"target": "http:\/\/www.idref.fr\/177106743/id"
+		},
+		{
+			"source": "http:\/\/www.sudoc.abes.fr\/197738532-6",
+			"type": "sameAs",
+			"target": "http:\/\/www.idref.fr\/174121555/id"
+		},
+		{
+			"source": "http:\/\/www.sudoc.abes.fr\/197738532-6",
+			"type": "diffFrom",
+			"target": "http:\/\/www.idref.fr\/177106743/id"
+		},
+		{
+			"source": "http:\/\/www.sudoc.abes.fr\/227350324-6",
+			"type": "sameAs",
+			"target": "http:\/\/www.idref.fr\/174121555/id"
+		},
+		{
+			"source": "http:\/\/www.sudoc.abes.fr\/227350324-6",
+			"type": "diffFrom",
+			"target": "http:\/\/www.idref.fr\/177106743/id"
+		},
+		{
+			"source": "http:\/\/www.sudoc.abes.fr\/01091384X-1",
+			"type": "sameAs",
+			"target": "http:\/\/www.idref.fr\/174121555/id"
+		},
+		{
+			"source": "http:\/\/www.sudoc.abes.fr\/01091384X-1",
+			"type": "diffFrom",
+			"target": "http:\/\/www.idref.fr\/177106743/id"
+		},
+		{
+			"source": "http:\/\/www.sudoc.abes.fr\/12706530X-1",
+			"type": "sameAs",
+			"target": "http:\/\/www.idref.fr\/177106743/id"
+		},
+		{
+			"source": "http:\/\/www.sudoc.abes.fr\/12706530X-1",
+			"type": "diffFrom",
+			"target": "http:\/\/www.idref.fr\/174121555/id"
+		},
+		{
+			"source": "http:\/\/www.sudoc.abes.fr\/177307404-1",
+			"type": "sameAs",
+			"target": "http:\/\/www.idref.fr\/177106743/id"
+		},
+		{
+			"source": "http:\/\/www.sudoc.abes.fr\/177307404-1",
+			"type": "diffFrom",
+			"target": "http:\/\/www.idref.fr\/174121555/id"
+		}
+	]
+}

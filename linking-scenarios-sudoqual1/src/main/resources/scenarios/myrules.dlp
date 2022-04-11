@@ -1,0 +1,2 @@
+
+sameAs(X,Y,always) :- datePubCriterionCA(X,Y,1).

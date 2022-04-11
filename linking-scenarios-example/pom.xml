@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+	<modelVersion>4.0.0</modelVersion>
+
+	<groupId>fr.abes.sudoqual</groupId>
+	<version>1.14.1-SNAPSHOT</version>
+	<artifactId>linking-scenarios-example</artifactId>
+	<name>fr.abes.sudoqual:linking-scenarios-example</name>
+
+	<properties>
+		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+		<maven.compiler.source>11</maven.compiler.source>
+		<maven.compiler.target>11</maven.compiler.target>
+		<!-- dependency versions -->
+		<sudoqual-framework.version>2.9.3</sudoqual-framework.version>
+		<org-json.version>20180813</org-json.version>
+		<junit5.version>5.3.1</junit5.version>
+	</properties>
+
+	<dependencies>
+		<dependency>
+			<groupId>fr.abes.sudoqual</groupId>
+			<artifactId>cli</artifactId>
+			<version>${sudoqual-framework.version}</version>
+		</dependency>
+		<dependency>
+			<groupId>fr.abes.sudoqual</groupId>
+			<artifactId>linking-module</artifactId>
+			<version>${sudoqual-framework.version}</version>
+		</dependency>
+		<dependency>
+			<groupId>org.json</groupId>
+			<artifactId>json</artifactId>
+			<version>${org-json.version}</version>
+		</dependency>
+		<!-- https://mvnrepository.com/artifact/uk.ac.shef.wit.simmetrics/simmetrics -->
+		<dependency>
+			<groupId>uk.ac.shef.wit.simmetrics</groupId>
+			<artifactId>simmetrics</artifactId>
+			<version>1.6.2.20070207</version>
+		</dependency>
+		<!-- Test -->
+		<dependency>
+			<groupId>org.junit.jupiter</groupId>
+			<artifactId>junit-jupiter-api</artifactId>
+			<version>${junit5.version}</version>
+			<scope>test</scope>
+		</dependency>
+		<dependency>
+			<groupId>org.junit.jupiter</groupId>
+			<artifactId>junit-jupiter-engine</artifactId>
+			<version>${junit5.version}</version>
+			<scope>test</scope>
+		</dependency>
+			<dependency>
+			<groupId>org.slf4j</groupId>
+			<artifactId>slf4j-api</artifactId>
+			<version>1.7.25</version>
+		</dependency>
+		<!-- optional -->
+		<dependency>
+			<groupId>ch.qos.logback</groupId>
+			<artifactId>logback-classic</artifactId>
+			<version>1.2.3</version>
+			<optional>true</optional>
+		</dependency>
+	</dependencies>
+
+	<distributionManagement>
+		<repository>
+			<id>artifactory-release</id>
+			<url>https://artifactory.abes.fr/artifactory/libs-release-local</url>
+		</repository>
+		<snapshotRepository>
+			<id>artifactory-snapshot</id>
+			<url>https://artifactory.abes.fr/artifactory/libs-snapshot-local</url>
+		</snapshotRepository>
+	</distributionManagement>
+
+	<repositories>
+		<repository>
+			<id>artifactory-public</id>
+			<name>artifactory-public</name>
+			<url>https://artifactory.abes.fr/artifactory/maven-public/</url>
+		</repository>
+		<repository>
+			<id>zoidberg.ukp.informatik.tu-darmstadt.de</id>
+			<url>https://zoidberg.ukp.informatik.tu-darmstadt.de/artifactory/public-releases/</url>
+		</repository>
+	</repositories>
+
+	<pluginRepositories>
+		<pluginRepository>
+			<id>artifactory-public</id>
+			<name>artifactory-public</name>
+			<url>https://artifactory.abes.fr/artifactory/maven-public/</url>
+		</pluginRepository>
+	</pluginRepositories>
+
+	<build>
+		<resources>
+			<resource>
+				<directory>src/main/resources</directory>
+				<filtering>false</filtering>
+				<targetPath>fr/abes/sudoqual/example/</targetPath>
+			</resource>
+		</resources>
+		<plugins>
+			<plugin>
+				<groupId>org.apache.maven.plugins</groupId>
+				<artifactId>maven-shade-plugin</artifactId>
+				<version>3.2.1</version>
+				<executions>
+					<!-- Run shade goal on package phase -->
+					<execution>
+						<phase>package</phase>
+						<goals>
+							<goal>shade</goal>
+						</goals>
+						<configuration>
+							<finalName>sudoqual-cli</finalName>
+							<transformers>
+								<!-- add Main-Class to manifest file -->
+								<transformer implementation="org.apache.maven.plugins.shade.resource.ManifestResourceTransformer">
+									<mainClass>fr.abes.sudoqual.sudoqual1.Sudoqual1Config</mainClass>
+									<manifestEntries>
+										<Built-On>${maven.build.timestamp}</Built-On>
+										<Specification-Vendor>Clément SIPIETER</Specification-Vendor>
+										<Specification-Title>${project.name}</Specification-Title>
+										<Specification-Version>${project.version}</Specification-Version>
+										<JDK-Target-Version>${maven.compiler.target}</JDK-Target-Version>
+									</manifestEntries>
+								</transformer>
+							</transformers>
+						</configuration>
+					</execution>
+				</executions>
+			</plugin>
+		</plugins>	
+	</build>
+</project>

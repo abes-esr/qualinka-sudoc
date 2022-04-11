@@ -1,0 +1,433 @@
+%
+% Codage des valeurs des indices de coréférence et de différence en anglais
+% sameAs : certain(=always=certain), veryLikely(=6=trés probable), likely(=5=probable), plausible(=4=plausible), conceivable(=3=concevable)
+% diffFrom : Certain(=always), veryLikely(=-5), likely(=-4), plausible(= -3)
+% sémantique : diffFrom = -4 signifie qu'il est likely que X et Y soient différents
+% ordre : certain > veryLikely > likely > plausible > conceivable  mais pas de comparaison entre sameAs et diffFrom (i.e. entre les + et les -)
+% QUESTION :
+% - devrait-on choisir des termes exprimant la force des indices plutôt que la "probabilité" de coréférence ou de différence 
+% et garder ces certitudes pour le résultat de la procédure de choix 
+% - on pourrait prendre un truc comme : veryStrong > strong >  medium > weak > poor ?
+% CRITERES ET DIMENSIONS
+% On pourrait prendre, comme pour coref et dif, des critéres positifs et des critéres négatifs mais Áa ne me semble pas naturel
+% Donc je propose qu'on ne garde que les "positifs" les valeurs négatives de ces "positifs" n'étant liées que par des négations
+% aux valeurs positives (pas d'héritage) qui me semble signifier le < sur l'ensemble des valeurs + et - ...
+% Ex. personName = 2 signifie appellation de X homonyme à une de Y et 
+% personName = -1 signifie Y n'a aucune appellation homonyme ou quasi-homonyme de celle de X
+% personName = homonyme -> personName = quasi-homonyme et Not(personName = quasi-homonyme) signifie n'importe quelle valeur < homonyme
+% mais pas homonyme. J'ai l'impression que le NOT est toujours utilisé comme un < ...
+% Pour chaque critére ou dimension on a des valeurs qui ne sont pas nécessairement les mêmes.
+% Par ex. on peut prendre les mêmes valeurs pour personName et cocontrib mais Áa ne colle plus avec dim_dates 
+% dont les valeurs sont plutôt compatible ou incompatible (ou conflicting)
+% On pourrait utiliser les mêmes termes pour une dimension et les critéres qui la concernent.
+% Voici des propositions pour les dimensions.
+% pour les 3 valeurs de envPubDim : veryStrong (=3) > strong(=2)> medium (=1) 
+% pour les 5 valeurs de datesDim : stronglyCompatible (2) > compatible (1) et totallyIncompatible (never) > stronglyIncompatible(-2)
+% > incompatible (-1) avec Not(compatible) signifiant les valeurs inférieures qui sont ici les "négatives" mais pas stronglyCompatible
+% pour les 6 valeurs de contenuDim : completelyIrrelevant (-2) > irrelevant (-1) ou irrelevant > distant ou unrelated > remote ou etc.
+% veryClose > close > related > relevant 
+% Pour avoir des idées il suffit de reprendre les commentaires.
+% Par ex. pour role et role2 les valeurs pourraient être same > related
+
+
+% 52 régles: 37 ID ??, 14 DI (pas de DI5)
+
+
+% Régles DI
+
+% DIn1
+% Il est impossible de publier avant d'être né.
+% RC(S)/RA(T) & dateviedatePubli(S,T,BeforeLife) -> Impossible(S,T)
+[DIn1] diffFrom(S,T,always):-dim_dates(S,T,never).
+
+% DI51
+% ALINE : doute (trop fort ?)
+% Il est trés peu probable que 2 références n'ayant que des appellations respectives non-homonymes représentent la même personne.
+% RC(S)/RA(T) & appellation(S,T,Distant) -> Trés Peu Probable(S,T)
+[DI51] diffFrom(S,T,5):-personName(S,T,-1).
+
+% DI52
+% Il est trés peu probable que 2 références ayant publié dans des domaines éloignés et à des périodes éloignées représentent la même personne.
+% RC(S)/RA(T) & domaine(S,T,Different) & periodepublidatepubli(S,T,Outper) -> Tres Peu Probable(S,T)
+[DI52]diffFrom(S,T,5):-dim_contenu(S,T,-1),dim_dates(S,T,-1).
+ 
+% DI53 
+% Il est trés peu probable que 2 références (même si elles sont quasi-homonymes) ayant publié à des périodes éloignées représentent la même personne.
+% RC(S)/RA(T) & (sauf si) appellation(S,T,Same) & periodepublidatepubli(S,T,Outper) -> Trés peu Probable(S,T)
+%[DI53] diffFrom(S,T,5):-not_personName(S,T,2),dim_dates(S,T,-1).
+
+% DI54
+% Il est trés peu probable que 2 références (même si elles sont quasi-homonymes) ayant publié dans des domaines éloignés représentent la même personne.
+% RC(S)/RA(T) & (sauf si) appellation(S,T,Same) & domaine(S,T,Different) -> trés peu Probable(S,T)
+%[DI54] diffFrom(S,T,5):-not_personName(S,T,2),dim_contenu(S,T,-1).
+
+% DI55
+% Dans la plupart des cas, une personne n'est auteur que d'une thése (peu probable seulement car quelques personnes ont plusieurs théses).
+% RC(S)/RA(T) & appellation(S,T,Same) & roleInUniWork(S,AuthorOfThesis) & roleInUniWork(T,AuthorOfThesis) -> peu Probable(S,T) 
+%[DI13] diffFrom(S,T,2):-personName(S,T,2).
+% PROPOSITION DE CORRECTION avec :
+%   - un filtre ´ authorOfThesis ª : le document est une thése et X en est l'auteur
+%   - un superattribut "thesisTitle" stockant le titre de sa thése (en supposant qu'il n'y en a qu'une).
+%   - un critére "thesisTitleCA" entre un titre de doc et un titre de thése (similaire au critere titre) mais renvoyant une valeur négative quand les titres sont suffisamments différents.
+% RC(S)/RA(T) & roleInUniWork(S,AuthorOfThesis) & thesisTitleCA(S,T,Different) -> peu Probable(S,T) 
+%[DI55] diffFrom(S,T,4):-authorOfThesisFilterRC(S),thesisTitleCA(S,T,-1).
+
+% DI41
+% Il est peu probable que 2 références (même si elles ont des appellations homonymes) ayant publié dans des langues différentes et à des périodes différents représentent la même personne.
+% RC(S)/RA(T) & (même si) appellation(S,T,Same) & langue(S,T,Different) & periodepublidatepubli(S,T,Outper)-> peu Probable(S,T)
+%[DI41] diffFrom(S,T,4):-expLanguageCA(S,T,-1),dim_dates(S,T,-1),not_personName(S,T,2). 
+
+% DI42
+% Il est peu probable que 2 références (même si elles sont homonymes) ayant publié des textes littéraires dans des langues différentes représentent la même personne.
+% RC(S)/RA(T) & (même si) appellation(S,T,Same) & genre(S,Litteraire) & langue(S,T,Different) & genre(T,Litteraire) -> Peu Probable(S,T)
+% Remplacer "genreCriterion" par un filtre "genreLittéraire" : à appliquer à X et à Y
+% sémantique du filtre si on a une publi de type genre littéraire, on posséde ce genre !
+%[DI6] diffFrom(S,T,2):-genreCA(S,T,1),expLanguageCA(S,T,-1).
+[DI42] diffFrom(S,T,4):-isLiteraryGenreRC(S),hasLiteraryGenreRA(T),expLanguageCA(S,T,-1).
+
+% DI43
+% Il est peu probable que 2 références ayant publié dans des périodes éloignées représentent la même personne.
+% RC(S)/RA(T) & periodepublidatepubli(S,T,Outper) -> Peu Probable(S,T)
+[DI43] diffFrom(S,T,4):-dim_contenu(S,T,-1),not_personName(S,T,2).
+
+% DI44
+% Il est peu probable que 2 références (même si elles sont homonymes) dont la date de publication de l'une est postérieure à la période de vie de l'autre représentent la même personne (peu probable seulement car probléme des rééditions)
+% RC(S)/RA(T) & (même si) appellation(S,T,Same) & dateviedatePubli(S,T,AfterLife) -> Peu Probable(S,T)
+[DI44] diffFrom(S,T,4):-dim_dates(S,T,-1),not_personName(S,T,2).
+
+% DI31
+% Il est plutôt peu probable que 2 références ayant publié dans des domaines éloignés représentent la même personne.
+% RC(S)/RA(T) & domaine(S,T,Different) -> Assez Peu Probable(S,T)
+%[DI31] diffFrom(S,T,1):-dim_contenu(S,T,-1).
+
+% ???????????
+%[DI31bis] diffFrom(S,T,3):-dim_dates(S,T,-1).
+
+% DI32
+% Une personne qui est directeur de thése à une date d  a peu de chances d'être auteur thése à une date postérieure à d
+% Avec le critére dateThesisCriterion qui renvoie -1 car la "pubDate" est antérieure à "thesisDefenseDate ª.
+[DI32] diffFrom(S,T,3):-isThesisAdvisorRC(S),isAuthorOfThesisRA(T),thesisDateCA(S,T,-1).
+
+% DI33
+% Une personne qui est auteur d'une thése à une date d a peu de chances d'être directeur de thése à une date antérieure à d 
+% Avec le critére dateThesisCriterion qui compare la date de soutenance de la thése de Y et vérifie que la date de soutenance de X lui est postérieure.
+% Attention thesisDateCA(S,T,1) est ien un critére négatif malgré les apparences
+[DI33] diffFrom(S,T,3):-isAuthorOfThesisRC(S),isThesisAdvisorRA(T),thesisDateCA(S,T,1).
+
+
+%Nouvelles régles septembre
+
+
+
+% A METTRE EN ID
+% 
+% Une personne qui est auteur d une these a une date d a des chances d'être directeur de thése les années suivant d si les appellations sont homonymes
+% RC(S)/RA(T) & appellation(S,T,Same) & roleInUniWork(S,AuthorOfThesis) & roleInUniWork(T,thesisAdvisorOfThesis) & pubDate(S,T,beforeThesisPubDate) -> Peu Probable(S,T)
+%[DI15] diffFrom(S,T,2):-rc(S),ra(T).
+% PROPOSITION DE CORRECTION avec :
+%       - un test de valeur d attribut role a "thesis-advisor"
+%   - un filtre "authorOfThesis"
+%   - un superattribut "thesisDefenseDate" stockant la date de soutenance de sa these (en supposant qu'il n'y en a qu'une).
+%   - un critére "dateThesisCriterion" de comparaison de l attribut "pubDate" et de l attribut "thesisDefenseDate" verifiant que la date du premier est postérieure à au moins 5 ans et au plus 50 ans à la date du second.
+%[ID??] sameAs(S,T,3):-personName(S,T,2),role(S,"thesis_advisor"),authorOfThesis(T),dim_contenu(S,T,1),dateThesisCriterion(S,T,1).
+%
+%
+%
+%[ID??] sameAs(S,T,3):-personName(S,T,2),role(T,"thesis_advisor"),authorOfThesis(S),dim_contenu(S,T,1),dateThesisCriterion(S,T,1).
+% Avec le critére dateThesisCriterion qui compare la date de soutenance de la thése de Y et vérifie que la date de soutenance de X lui est antérieure.
+
+
+
+
+% Régles ID
+
+%IDa1 // désactivée car sourceCA est utilisé pour initialiser les liens (cf. fr.lirmm.graphik.qualinca.quality_controller.QualityController.java)
+%Il est certain que 2 références dont l'une est la source de l'autre et qui sont liées par le catalogueur représentent la même personnne.
+[IDa1]sameAs(S,T,always):-sourceCA(S,T,always), initialLink(S,T,always).
+%IDa2 // désactivée car dateCreationNoticeCA est utilisé pour initialiser les liens (cf. fr.lirmm.graphik.qualinca.quality_controller.QualityController.java)
+%Il est certain que 2 références dont les notices ont été créées me même jour et qui sont liées par le catalogueur représentent la même personnne.
+[IDa2]sameAs(S,T,always):-dateCreationNotice(S,T,always), initialLink(S,T,always).
+%IDa3
+%Il est certain que 2 références dont les titres et les éditeurs sont identiques représentent la même personnne.
+[IDa3]sameAs(S,T,always):-personName(S,T,2),dim_contenu(S,T,4),dim_envPub(S,T,2).
+%IDa4
+%Il est certain que 2 références dont les titres sont identiques et qui ont des co-contributeurs homonymes représentent la même personnne.
+[IDa4]sameAs(S,T,always):-personName(S,T,2),dim_contenu(S,T,4),cocontribNameCA(S,T,2).
+
+%ID61
+%Il est quasiment certain que 2 références dont les titres sont identiques représentent la même personnne.
+%[ID61]sameAs(S,T,6):-personName(S,T,3),dim_contenu(S,T,4).
+%ID62
+%Il est quasiment certain que 2 références dont l'une est la source de l'autre représentent la même personnne.
+[ID62]sameAs(S,T,6):-personName(S,T,2),sourceCA(S,T,2).
+%ID63
+%Il est quasiment certain que 2 références qui ont des co-contributeurs homonymes représentent la même personnne.
+[ID63]sameAs(S,T,6):-personName(S,T,2),cocontribNameCA(S,T,2).
+%ID64
+%Il est quasiment certain que 2 références ayant publié avec la même organisation et décrites par les mêmes mots-clé représentent la même personnne.
+[ID64]sameAs(S,T,6):-personName(S,T,2),dim_envPub(S,T,2),dim_contenu(S,T,3).
+%ID64bis
+%Il est quasiment certain que 2 références ayant publié avec la même organisation et décrites par les mêmes concepts rameau représentent la même personnne.
+%[ID64bis]sameAs(S,T,6):-personName(S,T,2),dim_envPub(S,T,2),rameauCA(S,T,2).
+%ID65
+%Il est quasiment certain que 2 références quasi-homonymes dont les titres sont identiques et qui ont des co-contributeurs homonymes représentent la même personnne.
+[ID65]sameAs(S,T,6):-personName(S,T,1),dim_contenu(S,T,4),cocontribNameCA(S,T,2).
+%ID66
+%Il est quasiment certain que 2 références décrites par les mêmes mots-clé et qui ont des co-contributeurs homonymes représentent la même personnne.
+[ID66]sameAs(S,T,6):-personName(S,T,1),cocontribNameCA(S,T,2),dim_contenu(S,T,3).
+%ID66bis
+%Il est quasiment certain que 2 références quasi-homonymes décrites par les mêmes concepts rameau et qui ont des co-contributeurs homonymes représentent la même personnne.
+%[ID66bis]sameAs(S,T,6):-personName(S,T,1),cocontribNameCA(S,T,2),rameauCA(S,T,2).
+%ID67
+%Il est certain que 2 références quasi-homonymes dont les titres sont identiques et qui ont publié chez le même éditeur sont identiques représentent la même personnne.
+[ID67]sameAs(S,T,6):-personName(S,T,1),dim_contenu(S,T,4),dim_envPub(S,T,2).
+%ID68
+%Il est quasiment certain que 2 références quasi-homonymes qui ont des co-contributeurs homonymes et qui ont le même rôle représentent la même personnne.
+[ID68]sameAs(S,T,6):-personName(S,T,1),cocontribNameCA(S,T,2),roleCA(S,T,2).
+%ID69
+%Il est quasiment certain que 2 références quasi-homonymes qui ont des co-contributeurs homonymes, qui ont publié dans la même organisation et qui ont des rôles associés représentent la même personnne.
+%Il est quasiment certain que 2 références quasi-homonymes qui ont des co-contributeurs homonymes, qui ont publié chez le même éditeur et qui ont des rôles associés représentent la même personnne.
+[ID69]sameAs(S,T,6):-personName(S,T,1),cocontribNameCA(S,T,2),dim_envPub(S,T,2),roleCA(S,T,1).
+%ID610
+%Il est quasiment certain que 2 références quasi-homonymes qui ont des co-contributeurs homonymes, qui ont publié chez le même éditeur et qui ont des rôles associés représentent la même personnne.
+[ID610]sameAs(S,T,6):-personName(S,T,1),cocontribNameCA(S,T,2),dim_envPub(S,T,2),roleCA(S,T,1).
+%ID612
+[ID612]sameAs(S,T,6):-personName(S,T,2),roleCA(S,T,2),dim_contenu(S,T,3).
+%ID613
+[ID613]sameAs(S,T,6):-personName(S,T,2),dim_envPub(S,T,2),dim_contenu(S,T,3).
+
+%[ID51]
+%Il est trés trés probable que 2 références associées aux mêmes mots-clé représentent la même personnne.
+[ID51]sameAs(S,T,5):-personName(S,T,2),dim_contenu(S,T,4).
+%[ID51bis]
+%Il est trés trés probable que 2 références associées aux mêmes concepts rameau représentent la même personnne.
+%[ID51bis]sameAs(S,T,5):-personName(S,T,2),rameauCA(S,T,2).
+%[ID52]
+%Il est trés trés probable que 2 références quasi-homonymes qui ont des co-contributeurs homonymes et qui ont publié dans les mêmes domaines représentent la même personnne.
+%Il est trés trés probable que 2 références quasi-homonymes qui ont des co-contributeurs homonymes et qui sont associées aux mêmes codes dewey représentent la même personnne.
+%Il est trés trés probable que 2 références quasi-homonymes qui ont des co-contributeurs homonymes et dont les titres sont plutôt proches représentent la même personnne.
+[ID52]sameAs(S,T,5):-personName(S,T,1),cocontribNameCA(S,T,2),dim_contenu(S,T,2).
+%[ID53]
+%Il est trés trés probable que 2 références quasi-homonymes qui ont des co-contributeurs homonymes et qui sont associées aux mêmes codes dewey représentent la même personnne.
+[ID53]sameAs(S,T,5):-personName(S,T,1),cocontribNameCA(S,T,2),roleCA(S,T,1).
+%[ID54]
+%Il est trés trés probable que 2 références quasi-homonymes qui ont des co-contributeurs homonymes et qui ont publié dans la même organisation représentent la même personnne.
+%Il est trés trés probable que 2 références quasi-homonymes qui ont des co-contributeurs homonymes et qui ont publié chez le même éditeur représentent la même personnne.
+[ID54]sameAs(S,T,5):-personName(S,T,1),cocontribNameCA(S,T,2),dim_envPub(S,T,2).
+%[ID56] ENLEVER DATEPUBLIFE SI MAINTIENT DE ID311 = SUPPRESSION DE CETTE REGLE CAR REDONDANTE AVEC ID44
+%Il est trés trés probable que 2 références quasi-homonymes qui ont des co-contributeurs homonymes et dont la date de publication de l'une soit compatible avec la période de vie de l'autre représentent la même personnne.
+%Il est trés trés probable que 2 références quasi-homonymes qui ont des co-contributeurs homonymes et dont les dates de publication correspondent plutôt représentent la même personnne.
+[ID56]sameAs(S,T,5):-personName(S,T,1),cocontribNameCA(S,T,2),dim_dates(S,T,1).
+%[ID58]
+%Il est trés trés probable que 2 références quasi-homonymes qui ont des co-contributeurs homonymes et qui ont le même rôle représentent la même personnne.
+[ID58]sameAs(S,T,5):-personName(S,T,1),cocontribNameCA(S,T,2),roleCA(S,T,2).
+%[ID59]
+%Il est trés trés probable que 2 références quasi-homonymes qui ont des co-contributeurs quasi-homonymes, qui ont publié dans la même organisation et qui ont des rôles associés représentent la même personnne.
+%Il est trés trés probable que 2 références quasi-homonymes qui ont des co-contributeurs quasi-homonymes, qui ont publié chez le même éditeur et qui ont des rôles associés représentent la même personnne. 
+[ID59]sameAs(S,T,5):-personName(S,T,1),cocontribNameCA(S,T,1),dim_envPub(S,T,2),roleCA(S,T,1).
+%[ID510]
+%Il est trés trés probable que 2 références quasi-homonymes qui ont des co-contributeurs quasi-homonymes, qui ont publié chez le même éditeur et qui ont des rôles associés représentent la même personnne.
+[ID510]sameAs(S,T,5):-personName(S,T,1),cocontribNameCA(S,T,1),dim_envPub(S,T,2),roleCA(S,T,1).
+%[ID511]
+[ID511]sameAs(S,T,5):-personName(S,T,2),dim_envPub(S,T,2),dim_contenu(S,T,2).
+%[ID516]
+[ID516]sameAs(S,T,5):-personName(S,T,2),dim_contenu(S,T,3),dim_envPub(S,T,1).
+%[ID518]
+[ID518]sameAs(S,T,5):-personName(S,T,2),cocontribNameCA(S,T,1),dim_contenu(S,T,2).
+%[ID519]
+%Il est trés probable que 2 références quasi-homonymes qui ont publié chez le même éditeur et dans la même organisation et dans les mêmes domaines représentent la même personnne.
+%Il est trés probable que 2 références quasi-homonymes qui ont publié chez le même éditeur et dans la même organisation et qui sont associées aux mêmes codes dewey représentent la même personnne.
+%Il est trés probable que 2 références quasi-homonymes qui ont publié chez le même éditeur et dans la même organisation et dans les mêmes domaines représentent la même personnne.
+%Il est trés probable que 2 références quasi-homonymes qui ont publié chez le même éditeur et dans la même organisation et qui sont associées aux mêmes codes dewey représentent la même personnne.
+%NEW 30/11[ID519]sameAs(S,T,5):-personName(S,T,1),dim_envPub(S,T,3),dim_contenu(S,T,2).
+%[ID520]
+%Il est trés probable que 2 références homonymes qui ont publié chez le même éditeur des oeuvres littéraires représentent la même personnne. 
+%NEW 30/11[ID520]sameAs(S,T,5):-personName(S,T,2),dim_envPub(S,T,3),isLiteraryGenreRC(S),hasLiteraryGenreRA(T).
+%[ID521]
+%Il est trés probable que 2 références homonymes dont les titres sont proches représentent la même personnne.
+%PASSAGE ID48 DE 4 à 5[ID521]sameAs(S,T,5):-personName(S,T,2),dim_contenu(S,T,3).
+%NEW 30/11[ID413]sameAs(S,T,5):-personName(S,T,1),dim_contenu(S,T,4),cocontribNameCA(S,T,1).
+%NEW 30/11 ET A tester (peut-être mettre à 6)[ID414]sameAs(S,T,5):-personName(S,T,1),dim_contenu(S,T,4),dim_envPub(S,T,1).
+
+%[ID41]
+%Il est trés probable que 2 références homonymes et qui ont publié dans les mêmes domaines représentent la même personnne.
+%Il est trés probable que 2 références homonymes et qui sont associées aux mêmes codes dewey représentent la même personnne.
+%Il est trés trés probable que 2 références quasi-homonymes qui ont des co-contributeurs homonymes et dont les titres sont plutôt proches représentent la même personnne.
+[ID41]sameAs(S,T,4):-personName(S,T,2),dim_contenu(S,T,3).
+%[ID42]
+%Il est trés probable que 2 références quasi-homonymes qui ont publié chez le même éditeur et dans les mêmes domaines représentent la même personnne.
+%Il est trés probable que 2 références quasi-homonymes qui ont publié chez le même éditeur et qui sont associées aux mêmes codes dewey représentent la même personnne.
+%Il est trés probable que 2 références quasi-homonymes qui ont publié dans la même organisation et dans les mêmes domaines représentent la même personnne.
+%Il est trés probable que 2 références quasi-homonymes qui ont publié dans la même organisation et qui sont associées aux mêmes codes dewey représentent la même personnne.
+[ID42]sameAs(S,T,4):-personName(S,T,1),dim_envPub(S,T,2),dim_contenu(S,T,2).
+%[ID44]
+%Il est trés probable que 2 références quasi-homonymes qui ont des co-contributeurs homonymes représentent la même personnne.
+[ID44]sameAs(S,T,4):-personName(S,T,1),cocontribNameCA(S,T,2).
+%[ID45]
+%Il est trés probable que 2 références homonymes qui ont des co-contributeurs quasi-homonymes représentent la même personnne.
+[ID45]sameAs(S,T,4):-personName(S,T,2),cocontribNameCA(S,T,1).
+%[ID46]
+%Il est trés probable que 2 références homonymes qui ont le même rôle représentent la même personnne.
+[ID46]sameAs(S,T,4):-personName(S,T,2),roleCA(S,T,2).
+%[ID47]
+%Il est trés probable que 2 références homonymes qui ont publié chez le même éditeur des oeuvres littéraires représentent la même personnne. 
+[ID47]sameAs(S,T,4):-personName(S,T,2),dim_envPub(S,T,2),isLiteraryGenreRC(S),hasLiteraryGenreRA(T).
+%[ID49]
+%Il est trés probable que 2 références quasi-homonymes qui ont des co-contributeurs quasi-homonymes et qui ont des rôles associés représentent la même personnne.
+[ID49]sameAs(S,T,4):-personName(S,T,1),cocontribNameCA(S,T,1),roleCA(S,T,1).
+%[ID413]
+[ID413]sameAs(S,T,4):-personName(S,T,1),dim_contenu(S,T,3),cocontribNameCA(S,T,1).
+%[ID414] A tester (peut-être mettre à 5)
+[ID414]sameAs(S,T,4):-personName(S,T,1),dim_contenu(S,T,3),dim_envPub(S,T,1).
+%[ID418]
+[ID418]sameAs(S,T,4):-personName(S,T,1),roleCA(S,T,2),dim_contenu(S,T,2).
+%[ID419]
+[ID419]sameAs(S,T,4):-personName(S,T,2),cocontribNameCA(S,T,1),dim_contenu(S,T,1).
+%ID420
+%Il est plutôt probable que 2 références quasi-homonymes qui ont publié dans la même organisation et dans des domaines associés représentent la même personnne.
+%Il est plutôt probable que 2 références quasi-homonymes qui ont publié dans la même organisation et qui sont associés à des codes dewey associés représentent la même personnne.
+%NEW 30/11[ID420]sameAs(S,T,4):-personName(S,T,1),dim_envPub(S,T,3),dim_contenu(S,T,1).
+%ID421
+%Il est plutôt probable que 2 références dont les éditeurs sont identiques représentent la même personnne.
+[ID421]sameAs(S,T,4):-personName(S,T,2),dim_envPub(S,T,2).
+%ID422
+%Il est plutôt probable que 2 références quasi-homonymes qui ont publié chez le même éditeur des oeuvres littéraires représentent la même personnne.
+%NEW 30/11
+[ID422]sameAs(S,T,4):-personName(S,T,1),dim_envPub(S,T,2),isLiteraryGenreRC(S),hasLiteraryGenreRA(T).
+%ID423
+%Il est plutôt probable que 2 références homonymes qui ont publié dans la même organisation et dans des domaines associés représentent la même personnne.
+%Il est plutôt probable que 2 références homonymes qui ont publié dans la même organisation et qui sont associés à des codes dewey associés représentent la même personnne.
+[ID423]sameAs(S,T,4):-personName(S,T,2),dim_envPub(S,T,2),dim_contenu(S,T,1).
+%ID424
+%Il est plutôt probable que 2 références quasi-homonymes qui ont publié des oeuvres littéraires dans la même langue et dont la date de publication de l'une soit compatible avec la période de vie de l'autre représentent la même personnne.
+[ID424]sameAs(S,T,4):-personName(S,T,2),dim_dates(S,T,1),expLanguageCA(S,T,2),isLiteraryGenreRC(S),hasLiteraryGenreRA(T).
+
+
+%ID31
+%Il est plutôt probable que 2 références quasi-homonymes qui ont publié dans la même organisation et dans des domaines associés représentent la même personnne.
+%Il est plutôt probable que 2 références quasi-homonymes qui ont publié dans la même organisation et qui sont associés à des codes dewey associés représentent la même personnne.
+[ID31]sameAs(S,T,3):-personName(S,T,2),dim_contenu(S,T,2).
+[ID31b]sameAs(S,T,3):-personName(S,T,1),dim_envPub(S,T,2),dim_contenu(S,T,1).
+%ID32
+%Il est plutôt probable que 2 références quasi-homonymes dont la date de publication de l'une soit compatible avec la période de vie de l'autre et qui ont publié dans les mêmes domaines représentent la même personnne.
+%Il est plutôt probable que 2 références quasi-homonymes dont la date de publication de l'une soit compatible avec la période de vie de l'autre et qui sont associés aux mêmes codes dewey représentent la même personnne.
+[ID32]sameAs(S,T,3):-personName(S,T,1),dim_dates(S,T,1),dim_contenu(S,T,2).
+%ID32ter REDONDANT AVEC ID312ter
+%Il est plutôt probable que 2 références quasi-homonymes dont la date de publication de l'une soit compatible avec la période de vie de l'autre et qui sont décrites par les mêmes mots-clé représentent la même personnne.
+%[ID32ter]sameAs(S,T,3):-personName(S,T,1),dim_dates(S,T,1),dim_contenu(S,T,2).
+%ID32qua
+%Il est plutôt probable que 2 références quasi-homonymes dont la date de publication de l'une soit compatible avec la période de vie de l'autre et qui sont décrites par les mêmes concepts rameau représentent la même personnne.
+%[ID32qua]sameAs(S,T,3):-personName(S,T,1),dim_dates(S,T,1),rameauCA(S,T,1).
+%ID33
+%Il est plutôt probable que 2 références dont les éditeurs sont identiques représentent la même personnne.
+%PASSE EN ID 4[ID33]sameAs(S,T,3):-personName(S,T,2),dim_envPub(S,T,2).
+%ID34
+%Il est plutôt probable que 2 références quasi-homonymes qui ont des co-contributeurs quasi-homonymes représentent la même personnne.
+[ID34]sameAs(S,T,3):-personName(S,T,1),cocontribNameCA(S,T,1).
+%ID35
+%Il est plutôt probable que 2 références qui ont des rôles associés représentent la même personnne.
+[ID35]sameAs(S,T,3):-personName(S,T,2),roleCA(S,T,1).
+%ID36
+%Il est plutôt probable que 2 références qui ont les mêmes rôles représentent la même personnne.
+[ID36]sameAs(S,T,3):-personName(S,T,1),roleCA(S,T,2).
+%ID37
+%Il est plutôt probable que 2 références qui ont publié des oeuvres littéraires représentent la même personnne.
+%[ID37]sameAs(S,T,3):-personName(S,T,2),isLiteraryGenreRC(S),hasLiteraryGenreRA(T).
+%ID38
+%Il est plutôt probable que 2 références quasi-homonymes qui ont publié chez le même éditeur des oeuvres littéraires représentent la même personnne.
+[ID38]sameAs(S,T,3):-personName(S,T,1),dim_envPub(S,T,2),isLiteraryGenreRC(S),hasLiteraryGenreRA(T).
+%ID39
+%Il est plutôt probable que 2 références quasi-homonymes qui ont publié des oeuvres littéraires dans la même langue et dont la date de publication de l'une soit compatible avec la période de vie de l'autre représentent la même personnne.
+[ID39]sameAs(S,T,3):-personName(S,T,1),dim_dates(S,T,1),expLanguageCA(S,T,2),isLiteraryGenreRC(S),hasLiteraryGenreRA(T).
+%ID310
+%Il est plutôt probable que 2 références homonymes dont les dates de publication correspondent fortement représentent la même personnne.
+%[ID310]sameAs(S,T,3):-personName(S,T,2),dim_dates(S,T,2).
+%ID311
+%Il est juste probable que 2 références homonymes dont la date de publication de l'une est compatible avec la période de vie de l'autre représentent la même personnne.
+%[ID311]sameAs(S,T,2):-personName(S,T,2),dim_dates(S,T,1).
+%ID312
+%Il est plutôt probable que 2 références quasi-homonymes qui ont publié dans les mêmes domaines représentent la même personnne.
+%Il est plutôt probable que 2 références quasi-homonymes qui sont associés aux mêmes codes dewey représentent la même personnne.
+%Il est plutôt probable que 2 références quasi-homonymes qui sont associés à des mots-clé prochent représentent la même personnne.
+[ID21]sameAs(S,T,2):-personName(S,T,1),dim_contenu(S,T,2).
+%ID312qua
+%Il est plutôt probable que 2 références quasi-homonymes qui sont associés à des concepts rameau prochent représentent la même personnne.
+%[ID312qua]sameAs(S,T,3):-personName(S,T,1),rameauCA(S,T,1).
+[ID21b]sameAs(S,T,2):-personName(S,T,2),dim_contenu(S,T,1).
+
+
+
+%nouvelles régles juillet
+%CHANGER EN ID=6, SINON REDONDANT AVEC ID51[ID512]sameAs(S,T,5):-personName(S,T,2),dim_contenu(S,T,3),dim_envPub(S,T,1).
+%[ID515]
+% REDONDANT AVEC ID42[ID410]sameAs(S,T,4):-personName(S,T,1),dim_envPub(S,T,2),dim_contenu(S,T,2).
+%[ID411]
+%CHANGER EN ID=5, SINON REDONDANT AVEC ID41[ID411]sameAs(S,T,4):-personName(S,T,2),dim_contenu(S,T,2),dim_envPub(S,T,1).
+% FUSION ID33[ID313]sameAs(S,T,3):-personName(S,T,2),dim_envPub(S,T,2).
+% REDONDANT AVEC ID41[ID314]sameAs(S,T,3):-personName(S,T,2),dim_contenu(S,T,2).
+
+
+%nouvelles régles septembre
+%redondant avec ID516[ID515]sameAs(S,T,5):-personName(S,T,1),dim_contenu(S,T,3),dim_envPub(S,T,2).
+%FUSION ID52[ID517]sameAs(S,T,5):-personName(S,T,1),cocontribNameCA(S,T,2),dim_contenu(S,T,2).
+%redondant ID44[ID412]sameAs(S,T,4):-personName(S,T,1),cocontribNameCA(S,T,2),dim_contenu(S,T,1).
+%FUSION ID414[ID415]sameAs(S,T,4):-personName(S,T,1),dim_contenu(S,T,3),dim_envPub(S,T,1).
+%FUSION ID42[ID416]sameAs(S,T,4):-personName(S,T,1),dim_envPub(S,T,2),dim_contenu(S,T,2).
+%FUSION ID42[ID417]sameAs(S,T,4):-personName(S,T,1),dim_envPub(S,T,2),dim_contenu(S,T,2).
+%FUSION ID31[ID317]sameAs(S,T,3):-personName(S,T,1),dim_envPub(S,T,2),dim_contenu(S,T,1).
+%FUSION ID31[ID316]sameAs(S,T,3):-personName(S,T,1),dim_envPub(S,T,2),dim_contenu(S,T,1).
+
+%--------------------
+% dimensions
+%--------------------
+
+% dim_envPub: 1,2,3
+[PubDim1] dim_envPub(S,T,1) :- corporateBodyCA(S,T,1).
+[PubDim2] dim_envPub(S,T,2) :- corporateBodyCA(S,T,2).
+[PubDim3] dim_envPub(S,T,1) :- publisherCA(S,T,1).
+[PubDim4] dim_envPub(S,T,2) :- publisherCA(S,T,2).
+[PubDim5] dim_envPub(S,T,2) :- publisherCA(S,T,1),corporateBodyCA(S,T,1).
+[PubDim6] dim_envPub(S,T,2) :- publisherCA(S,T,1),corporateBodyCA(S,T,2).
+[PubDim7] dim_envPub(S,T,2) :- publisherCA(S,T,2),corporateBodyCA(S,T,1).
+[PubDim8] dim_envPub(S,T,3) :- publisherCA(S,T,2),corporateBodyCA(S,T,2).
+
+% dim_date: never, -2, -1, 1, 2
+[DateDim5] dim_dates(S,T,never):- datePubLifeCA(S,T,never).
+[DateDim7] dim_dates(S,T,-2):- datePubLifeCA(S,T,-1),datePubCA(S,T,-1).
+[DateDim1] dim_dates(S,T,-1):- datePubCA(S,T,-1).
+[DateDim6] dim_dates(S,T,-1):- datePubLifeCA(S,T,-1).
+[DateDim2] dim_dates(S,T,1):- datePubCA(S,T,1), datePubLifeCA(S,T,1).
+[DateDim3] dim_dates(S,T,1):- datePubLifeCA(S,T,1).
+[DateDim4] dim_dates(S,T,2):- datePubCA(S,T,2).
+
+% dim_contenu: -2, -1, 1, 2, 3, 4
+[ContDim12] dim_contenu(S,T,-2) :- hasIntellectualContributionRC(S), dim_domain(S,T,-2).
+[ContDim1]  dim_contenu(S,T,-1) :- hasIntellectualContributionRC(S), dim_domain(S,T,-1).
+[ContDim2]  dim_contenu(S,T,1) :- hasIntellectualContributionRC(S), dim_domain(S,T,1).
+[ContDim9]  dim_contenu(S,T,2) :- titleCA(S,T,1).
+[ContDim7]  dim_contenu(S,T,2) :- hasIntellectualContributionRC(S), rameauKeywordCA(S,T,1).
+[ContDim3]  dim_contenu(S,T,2) :- hasIntellectualContributionRC(S), dim_domain(S,T,2).
+[ContDim10] dim_contenu(S,T,3) :- titleCA(S,T,2).
+[ContDim8]  dim_contenu(S,T,3) :- hasIntellectualContributionRC(S), rameauKeywordCA(S,T,2).
+[ContDim15] dim_contenu(S,T,3) :- hasIntellectualContributionRC(S), rameauKeywordCA(S,T,1), titleCA(S,T,1).
+[ContDim19] dim_contenu(S,T,3) :- hasIntellectualContributionRC(S), dim_domain(S,T,2), titleCA(S,T,1).
+[ContDim16] dim_contenu(S,T,3) :- hasIntellectualContributionRC(S), dim_domain(S,T,2), rameauKeywordCA(S,T,1).
+[ContDim11] dim_contenu(S,T,4) :- titleCA(S,T,3).
+[ContDim20] dim_contenu(S,T,4) :- hasIntellectualContributionRC(S), rameauKeywordCA(S,T,2), titleCA(S,T,2).
+[ContDim21] dim_contenu(S,T,4) :- hasIntellectualContributionRC(S), rameauKeywordCA(S,T,1), dim_domain(S,T,1), titleCA(S,T,2).
+[ContDim23] dim_contenu(S,T,4) :- hasIntellectualContributionRC(S), rameauKeywordCA(S,T,2), dim_domain(S,T,1), titleCA(S,T,1).
+
+% dim_domain: -2, -1, 1, 2
+[DomDim1] dim_domain(S,T,-2) :- domainCA(S,T,-1), deweyCA(S,T,-1).
+[DomDim2] dim_domain(S,T,-1) :- deweyCA(S,T,-1).
+[DomDim2] dim_domain(S,T,-1) :- domainCA(S,T,-1).
+[DomDim4] dim_domain(S,T,1) :- deweyCA(S,T,1).
+[DomDim5] dim_domain(S,T,1) :- domainCA(S,T,1).
+[DomDim6] dim_domain(S,T,2) :- deweyCA(S,T,2).
+[DomDim7] dim_domain(S,T,2) :- domainCA(S,T,2).
+[DomDim8] dim_domain(S,T,2) :- domainCA(S,T,1),deweyCA(S,T,2).
+[DomDim8] dim_domain(S,T,2) :- domainCA(S,T,2),deweyCA(S,T,1).
+
+
+
+

@@ -1,0 +1,10 @@
+dim_mandatory(S,T,1) :- name(S,T,1).
+
+sameAs(S,T,always) :- dim_mandatory(S,T,1), sourceRCRA(S,T,1).
+sameAs(S,T,5) :- dim_mandatory(S,T,1), domain(S,T,1), titleWordsRCRA(S,T,1).
+sameAs(S,T,5) :- dim_mandatory(S,T,1), publicationDateRCRA(S,T,always), titleWordsRCRA(S,T,1).
+sameAs(S,T,3) :- dim_mandatory(S,T,1), publicationDateRCRA(S,T,2), titleWordsRCRA(S,T,1).
+
+
+diffFrom(S,T,always) :- not_birthBeforePublishRCRA(S,T,12).
+

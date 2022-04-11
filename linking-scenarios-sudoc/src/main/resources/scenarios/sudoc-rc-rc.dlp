@@ -1,0 +1,145 @@
+% RC/RC
+
+% IDalways
+% IDrca1
+% Il est certain que 2 références homonymes dont le contenu et l'environnement de publication sont identiques représentent la même personne.
+[IDrca1]sameAs(X,Y,always):-personName(X,Y,2),dim_contenu(X,Y,4),dim_envPub(X,Y,2).
+% IDrca2
+% Il est certain que 2 références homonymes dont le contenu est identiques et qui ont des co-contributeurs homonymes représentent la même personne.
+[IDrca2]sameAs(X,Y,always):-personName(X,Y,2),dim_contenu(X,Y,4),cocontribNameCC(X,Y,2).
+
+%ID6
+% IDrc61
+% Il est très probable que 2 références homonymes dont le contenu est identique représentent la même personnne.
+[IDrc61]sameAs(X,Y,6):-personName(X,Y,2),dim_contenu(X,Y,4).
+% IDrc62
+% Il est très probable que 2 références homonymes dont le contenu est très proche et l'environnement de publication identique représentent la même personnne.
+[IDrc62]sameAs(X,Y,6):-personName(X,Y,2),dim_contenu(X,Y,3),dim_envPub(X,Y,2).
+% IDrc63
+% Il est très probable que 2 références homonymes qui ont des co-contributeurs homonymes représentent la même personnne.
+[IDrc63]sameAs(X,Y,6):-personName(X,Y,2),cocontribNameCC(X,Y,2).
+% IDrc64
+% Il est très probable que 2 références quasi-homonymes dont le contenu est identique et qui ont des co-contributeurs homonymes représentent la même personnne.
+[IDrc64]sameAs(X,Y,6):-personName(X,Y,1),dim_contenu(X,Y,4),cocontribNameCC(X,Y,2).
+% IDrc65
+% Il est très probable que 2 références quasi-homonymes dont le contenu et l'environnement de publication sont identiques représentent la même personnne.
+[IDrc65]sameAs(X,Y,6):-personName(X,Y,1),dim_contenu(X,Y,4),dim_envPub(X,Y,2).
+% IDrc67
+% Il est très probable que 2 références quasi-homonymes qui ont des co-contributeurs homonymes et qui ont le même rôle représentent la même personnne.
+[IDrc67]sameAs(X,Y,6):-personName(X,Y,1),cocontribNameCC(X,Y,2),roleCC(X,Y,2).
+% IDrc68
+% Il est très probable que 2 références quasi-homonymes qui ont des co-contributeurs homonymes, dont l'environnement de publication est identique et qui ont des rôles associés représentent la même personnne.
+[IDrc68]sameAs(X,Y,6):-personName(X,Y,1),cocontribNameCC(X,Y,2),dim_envPub(X,Y,2),roleCC(X,Y,1).
+
+%ID5
+% IDrc51
+% Il est probable que 2 références homonymes dont le contenu est très proche représentent la même personnne.
+%[IDrc51]sameAs(X,Y,5):-personName(X,Y,2),dim_contenu(X,Y,3).
+% IDrc52
+% Il est probable que 2 références quasi-homonymes qui ont des co-contributeurs homonymes et dont le contenu est proche représentent la même personnne.
+[IDrc52]sameAs(X,Y,5):-personName(X,Y,1),cocontribNameCC(X,Y,2),dim_contenu(X,Y,2).
+% IDrc53
+% Il est probable que 2 références quasi-homonymes qui ont des co-contributeurs homonymes et qui ont des rôles associés représentent la même personnne.
+[IDrc53]sameAs(X,Y,5):-personName(X,Y,1),cocontribNameCC(X,Y,2),roleCC(X,Y,1).
+% IDrc54
+% Il est probable que 2 références quasi-homonymes qui ont des co-contributeurs homonymes et dont l'environnement de publication est identique représentent la même personnne.
+[IDrc54]sameAs(X,Y,5):-personName(X,Y,1),cocontribNameCC(X,Y,2),dim_envPub(X,Y,2).
+% IDrc55
+% Il est probable que 2 références quasi-homonymes qui ont des co-contributeurs homonymes et dont les dates de publication correspondent fortement représentent la même personnne.
+[IDrc55]sameAs(X,Y,5):-personName(X,Y,1),cocontribNameCC(X,Y,2),dim_dates(X,Y,2).
+% IDrc56
+% Il est probable que 2 références quasi-homonymes qui ont des co-contributeurs homonymes et qui ont le même rôle représentent la même personnne.
+[IDrc56]sameAs(X,Y,5):-personName(X,Y,1),cocontribNameCC(X,Y,1),roleCC(X,Y,2).
+% IDrc57
+% Il est probable que 2 références quasi-homonymes qui ont des co-contributeurs quasi-homonymes, dont l'environnement de publication est identique et qui ont des rôles associés représentent la même personnne.
+%!!!retirée au hasard !!![IDrc57]sameAs(X,Y,5):-personName(X,Y,1),cocontribNameCC(X,Y,1),dim_envPub(X,Y,2),roleCC(X,Y,1).
+
+
+% ID4
+% IDrc41
+% Il est plausible que 2 références homonymes dont le contenu est proche représentent la même personnne.
+%[IDrc41]sameAs(X,Y,4):-personName(X,Y,2),dim_contenu(X,Y,2).
+% % IDrc42
+% % Il est plausible que 2 références homonymes qui ont des co-contributeurs quasi-homonymes représentent la même personnne.
+%[IDrc42]sameAs(X,Y,4):-personName(X,Y,2),cocontribNameCC(X,Y,1).
+% % IDrc43
+% % Il est plausible que 2 références homonymes qui ont publié chez le même éditeur une oeuvre littércire représentent la même personnne. 
+%[IDrc43]sameAs(X,Y,4):-personName(X,Y,2),publisherCC(X,Y,2),genreFilterRC(X),genreFilterRC(Y).
+% % IDrc44
+% % Il est plausible que 2 références quasi-homonymes dont le contenu est proche et dont l'environnement de publication est identique représentent la même personnne.
+%[IDrc44]sameAs(X,Y,4):-personName(X,Y,1),dim_contenu(X,Y,2),dim_envPub(X,Y,2).
+% % IDrc45
+% % Il est plausible que 2 références quasi-homonymes qui ont des co-contributeurs homonymes représentent la même personnne.
+%[IDrc45]sameAs(X,Y,4):-personName(X,Y,1),cocontribNameCC(X,Y,2).
+% % IDrc46
+% % Il est plausible que 2 références quasi-homonymes qui ont des co-contributeurs quasi-homonymes et qui ont des rôles associés représentent la même personnne.
+%[IDrc46]sameAs(X,Y,4):-personName(X,Y,1),cocontribNameCC(X,Y,1),roleCC(X,Y,2).
+%
+% %ID3
+% % IDrc31
+% % Il est concevable que 2 références homonymes dont l'environnement de publication est identique représentent la même personnne.
+%[IDrc31]sameAs(X,Y,3):-personName(X,Y,2),dim_envPub(X,Y,2).
+% % IDrc32
+% % Il est concevable que 2 références homonymes qui ont le même rôle représentent la même personnne.
+%[IDrc32]sameAs(X,Y,3):-personName(X,Y,2),roleCC(X,Y,2).
+% % IDrc33
+% % Il est concevable que 2 références homonymes dont le contenu est plutôt proche représentent la même personnne.
+%[IDrc33]sameAs(X,Y,3):-personName(X,Y,2),dim_contenu(X,Y,1).
+% % IDrc34
+% % Il est concevable que 2 références homonymes qui ont publié des oeuvres littéraires représentent la même personnne.
+%[IDrc34]sameAs(X,Y,3):-personName(X,Y,2),genreFilterRC(X),genreFilterRC(Y).
+% % IDrc35
+% % Il est concevable que 2 références quasi-homonymes qui ont des co-contributeurs quasi-homonymes représentent la même personnne.
+%[IDrc35]sameAs(X,Y,3):-personName(X,Y,1),cocontribNameCC(X,Y,1).
+% % IDrc36
+% % Il est concevable que 2 références quasi-homonymes qui ont les mêmes rôles représentent la même personnne.
+%[IDrc36]sameAs(X,Y,3):-personName(X,Y,1),roleCC(X,Y,2).
+% % IDrc37
+% % Il est concevable que 2 références quasi-homonymes qui ont publié dans un environnement de publication identique des oeuvres littéraires représentent la même personnne.
+%[IDrc37]sameAs(X,Y,3):-personName(X,Y,1),publisherCC(X,Y,2),genreFilterRC(X),genreFilterRC(Y).
+% % IDrc38
+% % Il est concevable que 2 références quasi-homonymes dont le contenu est proche représentent la même personnne.
+%[IDrc38]sameAs(X,Y,3):-personName(X,Y,1),dim_contenu(X,Y,2).
+% % IDrc39
+% % Il est concevable que 2 références quasi-homonymes dont le contenu est plutôt proche et dont l'environnement de publication est identique représentent la même personnne.
+%[IDrc39]sameAs(X,Y,3):-personName(X,Y,1),dim_contenu(X,Y,1),dim_envPub(X,Y,2).
+
+
+%--------------------
+% dimensions
+%--------------------
+
+% dim_envPub 1,2,3
+[PubDim1] dim_envPub(X,Y,1) :- corporateBodyCC(X,Y,1).
+[PubDim3] dim_envPub(X,Y,1) :- publisherCC(X,Y,1).
+[PubDim2] dim_envPub(X,Y,2) :- corporateBodyCC(X,Y,2).
+[PubDim4] dim_envPub(X,Y,2) :- publisherCC(X,Y,2).
+[PubDim5] dim_envPub(X,Y,2) :- publisherCC(X,Y,1),corporateBodyCC(X,Y,1).
+[PubDim6] dim_envPub(X,Y,2) :- publisherCC(X,Y,1),corporateBodyCC(X,Y,2).
+[PubDim7] dim_envPub(X,Y,2) :- publisherCC(X,Y,2),corporateBodyCC(X,Y,1).
+[PubDim8] dim_envPub(X,Y,3) :- publisherCC(X,Y,2),corporateBodyCC(X,Y,2).
+
+% dim_dates -1, 1, 2
+[DateDim1] dim_dates(X,Y,-1):- datePubCC(X,Y,-1).
+[DateDim2] dim_dates(X,Y,1):- datePubCC(X,Y,1).
+[DateDim4] dim_dates(X,Y,2):- datePubCC(X,Y,2).
+
+% dim_contenu -1, 1, 2, 3, 4
+[ContDim1] dim_contenu(X,Y,-1) :- dim_domain(X,Y,-1).
+[ContDim2] dim_contenu(X,Y,1) :- dim_domain(X,Y,1).
+[ContDim3] dim_contenu(X,Y,2) :- dim_domain(X,Y,2).
+[ContDim9] dim_contenu(X,Y,2) :- titleCC(X,Y,1).
+[ContDim10] dim_contenu(X,Y,3) :- titleCC(X,Y,2).
+[ContDim13] dim_contenu(X,Y,2) :- dim_domain(X,Y,3).
+[ContDim19] dim_contenu(X,Y,3) :- dim_domain(X,Y,2),titleCC(X,Y,1).
+[ContDim11] dim_contenu(X,Y,4) :- titleCC(X,Y,3).
+
+dim_domain(X,Y,-1) :- hasIntellectualContributionRC(X), hasIntellectualContributionRC(Y), deweyCC(X,Y,-1).
+dim_domain(X,Y,1) :- hasIntellectualContributionRC(X), hasIntellectualContributionRC(Y), deweyCC(X,Y,1).
+dim_domain(X,Y,1) :- hasIntellectualContributionRC(X), hasIntellectualContributionRC(Y), domainCC(X,Y,1).
+dim_domain(X,Y,2) :- hasIntellectualContributionRC(X), hasIntellectualContributionRC(Y), deweyCC(X,Y,2).
+dim_domain(X,Y,2) :- hasIntellectualContributionRC(X), hasIntellectualContributionRC(Y), domainCC(X,Y,2).
+dim_domain(X,Y,2) :- hasIntellectualContributionRC(X), hasIntellectualContributionRC(Y), domainCC(X,Y,1),deweyCC(X,Y,1).
+dim_domain(X,Y,3) :- hasIntellectualContributionRC(X), hasIntellectualContributionRC(Y), domainCC(X,Y,1),deweyCC(X,Y,2).
+dim_domain(X,Y,3) :- hasIntellectualContributionRC(X), hasIntellectualContributionRC(Y), domainCC(X,Y,2),deweyCC(X,Y,1).
+

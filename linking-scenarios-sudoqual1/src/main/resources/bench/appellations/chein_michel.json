@@ -1,0 +1,1732 @@
+{
+	"input": {
+		"features": {
+			"http:\/\/www.sudoc.abes.fr\/011522968-1": {
+				"expLanguage": [
+					"fre"
+				],
+				"personName": [
+					{
+						"person": "http:\/\/www.sudoc.abes.fr\/011522968-1",
+						"appellation": "Chein, Michel"
+					}
+				],
+				"role": [
+					"author"
+				],
+				"cocontributor": [
+					{
+						"cocontributor": "Chein, Michel",
+						"person": "http:\/\/www.sudoc.abes.fr\/011522968-1",
+						"idcocontrib": "http:\/\/www.sudoc.abes.fr\/011522968-1"
+					}
+				],
+				"genre": [
+					"http:\/\/www.sudoc.abes.fr\/Texte_non_litteraire"
+				],
+				"publisher": [
+					"GRECO informatique"
+				],
+				"title": [
+					"Environnement de développement d'applications utilisant le modèle des \"graphes conceptuels\" de J. Sowa"
+				],
+				"keyword": [
+					"Graphes"
+				],
+				"pubDate": [
+					"1994"
+				],
+				"assertedLink": [
+					"http:\/\/www.idref.fr\/129493112\/id"
+				],
+				"dateCreationNotice": [
+					"19941220"
+				]
+			},
+			"http:\/\/www.sudoc.abes.fr\/01235127X-2": {
+				"role": [
+					"thesis_advisor"
+				],
+				"rameau": [
+					"Psychologie cognitive -- Thèses et écrits académiques",
+					"Interfaces (informatique) -- Thèses et écrits académiques",
+					"Traitement de l'information chez l'homme -- Thèses et écrits académiques",
+					"Systèmes homme-machine -- Thèses et écrits académiques",
+					"Ergonomie -- Thèses et écrits académiques",
+					"Circuits d'interface -- Thèses et écrits académiques",
+					"Interaction homme-ordinateur -- Thèses et écrits académiques"
+				],
+				"title": [
+					"La Manipulation directe en interface homme-machine"
+				],
+				"type": [
+					"http:\/\/www.sudoc.abes.fr\/These"
+				],
+				"pubDate": [
+					"1990"
+				],
+				"scientificWork": [
+					"http:\/\/www.sudoc.abes.fr\/TheseDeDoctorat"
+				],
+				"expLanguage": [
+					"fre"
+				],
+				"personName": [
+					{
+						"person": "http:\/\/www.sudoc.abes.fr\/01235127X-2",
+						"appellation": "Chein, Michel"
+					}
+				],
+				"cocontributor": [
+					{
+						"cocontributor": "Chein, Michel",
+						"person": "http:\/\/www.sudoc.abes.fr\/01235127X-2",
+						"idcocontrib": "http:\/\/www.sudoc.abes.fr\/01235127X-2"
+					},
+					{
+						"cocontributor": "Nanard, Jocelyne",
+						"person": "http:\/\/www.sudoc.abes.fr\/01235127X-2",
+						"idcocontrib": "http:\/\/www.sudoc.abes.fr\/01235127X-1"
+					}
+				],
+				"domain": [
+					"621",
+					"150",
+					"004",
+					"600"
+				],
+				"publisher": [
+					"[s.n.]"
+				],
+				"keyword": [
+					" CONCEPTION D'INTERFACE HOMME-MACHINE",
+					"VUE INTERACTIVE",
+					" SYSTEMES",
+					"MANIPULATION DIRECTE",
+					"ERGONOMIE",
+					"SPECIFICATION D'INTERFACE",
+					"AUTOMATIQUE THEORIQUE",
+					"INFORMATIQUE",
+					"MODELISATION D'UNE INTERFACE",
+					"SCIENCES APPLIQUEES",
+					"INTERFACE HOMME-MACHINE"
+				],
+				"assertedLink": [
+					"http:\/\/www.idref.fr\/129493112\/id"
+				],
+				"dateCreationNotice": [
+					"19920729"
+				]
+			},
+			"http:\/\/www.sudoc.abes.fr\/155198777-2": {
+				"role": [
+					"editor"
+				],
+				"rameau": [
+					"Graphes, Théorie des",
+					"Représentation des connaissances",
+					"Traitement automatique du langage naturel",
+					"Informatique",
+					"Logigrammes",
+					"Intelligence artificielle"
+				],
+				"title": [
+					"Conceptual Structures: Theory, Tools and Applications : 6th International Conference on Conceptual Structures, ICCS\u201998 Montpellier, France, August 10\u201312, 1998 Proceedings"
+				],
+				"pubDate": [
+					"2006"
+				],
+				"expLanguage": [
+					"eng"
+				],
+				"personName": [
+					{
+						"person": "http:\/\/www.sudoc.abes.fr\/155198777-2",
+						"appellation": "Chein, Michel"
+					}
+				],
+				"cocontributor": [
+					{
+						"cocontributor": "Chein, Michel",
+						"person": "http:\/\/www.sudoc.abes.fr\/155198777-2",
+						"idcocontrib": "http:\/\/www.sudoc.abes.fr\/155198777-2"
+					},
+					{
+						"cocontributor": "Mugnier, Marie-Laure",
+						"person": "http:\/\/www.sudoc.abes.fr\/155198777-2",
+						"idcocontrib": "http:\/\/www.sudoc.abes.fr\/155198777-1"
+					}
+				],
+				"domain": [
+					"621",
+					"004",
+					"000",
+					"510",
+					"100",
+					"401"
+				],
+				"publisher": [
+					"Springer e-books",
+					"Springer-Verlag"
+				],
+				"dewey": [
+					"004"
+				],
+				"keyword": [
+					"Artificial Intelligence (incl",
+					"Conceptual structures (Information theory)",
+					"Computer science",
+					"Natural language processing (Computer science)",
+					"Computer Science",
+					" Robotics)",
+					"Artificial intelligence"
+				],
+				"assertedLink": [
+					"http:\/\/www.idref.fr\/129493112\/id"
+				],
+				"dateCreationNotice": [
+					"20110927"
+				]
+			},
+			"http:\/\/www.sudoc.abes.fr\/145888193-1": {
+				"role": [
+					"author"
+				],
+				"rameau": [
+					"Fonctions booléennes",
+					"Thèses et écrits académiques"
+				],
+				"title": [
+					"Etude des décompositions d'un réseau : application à l'écriture des Fonctions Booléennes en sommes et en produits"
+				],
+				"type": [
+					"http:\/\/www.sudoc.abes.fr\/These_ou_memoire"
+				],
+				"pubDate": [
+					"1967"
+				],
+				"scientificWork": [
+					"http:\/\/www.sudoc.abes.fr\/TheseDeDoctorat"
+				],
+				"expLanguage": [
+					"fre"
+				],
+				"personName": [
+					{
+						"person": "http:\/\/www.sudoc.abes.fr\/145888193-1",
+						"appellation": "Chein, Michel"
+					}
+				],
+				"cocontributor": [
+					{
+						"cocontributor": "Kuntzmann, Jean",
+						"person": "http:\/\/www.sudoc.abes.fr\/145888193-1",
+						"idcocontrib": "http:\/\/www.sudoc.abes.fr\/145888193-2"
+					},
+					{
+						"cocontributor": "Chein, Michel",
+						"person": "http:\/\/www.sudoc.abes.fr\/145888193-1",
+						"idcocontrib": "http:\/\/www.sudoc.abes.fr\/145888193-1"
+					}
+				],
+				"domain": [
+					"370",
+					"510",
+					"020"
+				],
+				"genre": [
+					"http:\/\/www.sudoc.abes.fr\/Texte_non_litteraire"
+				],
+				"publisher": [
+					"Université Grenoble 1"
+				],
+				"corporateBody": [
+					"Institut d'informatique et mathématiques appliquées",
+					"Université de Grenoble. Faculté des sciences"
+				],
+				"assertedLink": [
+					"http:\/\/www.idref.fr\/129493112\/id"
+				],
+				"dateCreationNotice": [
+					"20100730"
+				]
+			},
+			"http:\/\/www.sudoc.abes.fr\/099350823-1": {
+				"expLanguage": [
+					"eng"
+				],
+				"personName": [
+					{
+						"person": "http:\/\/www.sudoc.abes.fr\/099350823-1",
+						"appellation": "Chein, Michel"
+					}
+				],
+				"role": [
+					"editor"
+				],
+				"cocontributor": [
+					{
+						"cocontributor": "Mugnier, Marie-Laure",
+						"person": "http:\/\/www.sudoc.abes.fr\/099350823-1",
+						"idcocontrib": "http:\/\/www.sudoc.abes.fr\/099350823-2"
+					},
+					{
+						"cocontributor": "Chein, Michel",
+						"person": "http:\/\/www.sudoc.abes.fr\/099350823-1",
+						"idcocontrib": "http:\/\/www.sudoc.abes.fr\/099350823-1"
+					}
+				],
+				"publisher": [
+					"Springer"
+				],
+				"collection": [
+					"Lecture notes in computer science"
+				],
+				"title": [
+					"Conceptual structures: theory, tools and applications : proceedings of the 6th International Conference on ..., ICCS'98, Montpellier, France, August 10-12, 1998"
+				],
+				"keyword": [
+					"representation connaissance",
+					"graphe conceptuel",
+					"logique",
+					"algorithme",
+					"complexite",
+					"epistemologie",
+					"ontologie",
+					"traitement langage naturel"
+				],
+				"corporateBody": [
+					"International Conference on Conceptual Structures"
+				],
+				"pubDate": [
+					"1998"
+				],
+				"assertedLink": [
+					"http:\/\/www.idref.fr\/129493112\/id"
+				],
+				"dateCreationNotice": [
+					"20051117"
+				]
+			},
+			"http:\/\/www.sudoc.abes.fr\/035977256-2": {
+				"role": [
+					"carried_out_by_role"
+				],
+				"rameau": [
+					"Graphes, Théorie des -- Actes de congrès",
+					"Représentation des connaissances -- Actes de congrès",
+					"Traitement automatique du langage naturel -- Actes de congrès"
+				],
+				"collection": [
+					"Lecture notes in computer science"
+				],
+				"title": [
+					"Conceptual structures : theory, tools, and applications : 6th International Conference on Conceptual Structures, ICCS'98, Montpellier, France, August 1998 : proceedings"
+				],
+				"type": [
+					"http:\/\/www.sudoc.abes.fr\/Bibliographie"
+				],
+				"pubDate": [
+					"1998"
+				],
+				"expLanguage": [
+					"eng"
+				],
+				"personName": [
+					{
+						"person": "http:\/\/www.sudoc.abes.fr\/035977256-2",
+						"appellation": "Chein, Michel"
+					}
+				],
+				"cocontributor": [
+					{
+						"cocontributor": "Chein, Michel",
+						"person": "http:\/\/www.sudoc.abes.fr\/035977256-2",
+						"idcocontrib": "http:\/\/www.sudoc.abes.fr\/035977256-2"
+					},
+					{
+						"cocontributor": "Mugnier, Marie-Laure",
+						"person": "http:\/\/www.sudoc.abes.fr\/035977256-2",
+						"idcocontrib": "http:\/\/www.sudoc.abes.fr\/035977256-1"
+					}
+				],
+				"domain": [
+					"000",
+					"621",
+					"401",
+					"510"
+				],
+				"publisher": [
+					"Springer Verlag"
+				],
+				"dewey": [
+					"006.3\/3"
+				],
+				"keyword": [
+					"ontologie",
+					"modélisation conceptuelle",
+					"Knowledge representation (Information theory)",
+					"Congresses",
+					"Natural language processing (Computer science)",
+					"complexité",
+					"Graph theory",
+					"traitement langage naturel",
+					"représentation connaissance",
+					"Logic diagrams",
+					"graphe conceptuel",
+					"épistémologie",
+					"Conceptual structures (Information theory)"
+				],
+				"corporateBody": [
+					"International Conference on Conceptual Structures"
+				],
+				"assertedLink": [
+					"http:\/\/www.idref.fr\/129493112\/id"
+				],
+				"dateCreationNotice": [
+					"19980706"
+				]
+			},
+			"http:\/\/www.sudoc.abes.fr\/161696139-2": {
+				"expLanguage": [
+					"fre"
+				],
+				"personName": [
+					{
+						"person": "http:\/\/www.sudoc.abes.fr\/161696139-2",
+						"appellation": "Chein, M."
+					}
+				],
+				"role": [
+					"thesis_advisor"
+				],
+				"cocontributor": [
+					{
+						"cocontributor": "Chein, M.",
+						"person": "http:\/\/www.sudoc.abes.fr\/161696139-2",
+						"idcocontrib": "http:\/\/www.sudoc.abes.fr\/161696139-2"
+					},
+					{
+						"cocontributor": "Lambert, Gérard",
+						"person": "http:\/\/www.sudoc.abes.fr\/161696139-2",
+						"idcocontrib": "http:\/\/www.sudoc.abes.fr\/161696139-1"
+					}
+				],
+				"publisher": [
+					"[S.n]"
+				],
+				"title": [
+					"Indice de C-partition des sommets d'un graphe algorithmes de recouvrement et application aux fichiers"
+				],
+				"type": [
+					"http:\/\/www.sudoc.abes.fr\/These"
+				],
+				"corporateBody": [
+					"Université de Paris 6"
+				],
+				"pubDate": [
+					"1975"
+				],
+				"assertedLink": [
+				],
+				"scientificWork": [
+					"http:\/\/www.sudoc.abes.fr\/TheseDeDoctorat"
+				],
+				"dateCreationNotice": [
+					"20120613"
+				]
+			},
+			"http:\/\/www.sudoc.abes.fr\/008264902-2": {
+				"role": [
+					"thesis_advisor"
+				],
+				"rameau": [
+					"Inférence -- Thèses et écrits académiques",
+					"Apprentissage des concepts -- Thèses et écrits académiques",
+					"Théorèmes -- Démonstration automatique -- Thèses et écrits académiques",
+					"Intelligence artificielle -- Thèses et écrits académiques",
+					"Graphes, Théorie des -- Thèses et écrits académiques"
+				],
+				"title": [
+					"Raisonner avec des opérations de graphes : graphes conceptuels et règles d'inférence"
+				],
+				"type": [
+					"http:\/\/www.sudoc.abes.fr\/These"
+				],
+				"pubDate": [
+					"1997"
+				],
+				"scientificWork": [
+					"http:\/\/www.sudoc.abes.fr\/TheseDeDoctorat"
+				],
+				"expLanguage": [
+					"fre"
+				],
+				"personName": [
+					{
+						"person": "http:\/\/www.sudoc.abes.fr\/008264902-2",
+						"appellation": "Chein, Michel"
+					}
+				],
+				"cocontributor": [
+					{
+						"cocontributor": "Chein, Michel",
+						"person": "http:\/\/www.sudoc.abes.fr\/008264902-2",
+						"idcocontrib": "http:\/\/www.sudoc.abes.fr\/008264902-2"
+					},
+					{
+						"cocontributor": "Salvat, Eric",
+						"person": "http:\/\/www.sudoc.abes.fr\/008264902-2",
+						"idcocontrib": "http:\/\/www.sudoc.abes.fr\/008264902-1"
+					}
+				],
+				"domain": [
+					"510",
+					"100",
+					"004",
+					"150"
+				],
+				"genre": [
+					"http:\/\/www.sudoc.abes.fr\/Texte_non_litteraire"
+				],
+				"publisher": [
+					"[s.n.]"
+				],
+				"keyword": [
+					"FIRST ORDER LOGIC",
+					"DEMONSTRATION AUTOMATIQUE",
+					"SCIENCES APPLIQUEES",
+					"DEDUCTION",
+					"INFERENCE RULE",
+					"RAISONNEMENT",
+					"REASONING",
+					"LOGIQUE ORDRE 1",
+					"GRAPHE CONCEPTUEL",
+					"AUTOMATIC PROVING",
+					"CONCEPTUAL GRAPH",
+					"ARTIFICIAL INTELLIGENCE",
+					"AUTOMATIQUE THEORIQUE",
+					"INFORMATIQUE",
+					"REGLE INFERENCE",
+					"BACKWARD CHAINING",
+					"FORWARD CHAINING",
+					" SYSTEMES",
+					"CHAINAGE ARRIERE",
+					"CHAINAGE AVANT",
+					"GRAPH THEORY",
+					"INTELLIGENCE ARTIFICIELLE",
+					"THEORIE GRAPHE"
+				],
+				"corporateBody": [
+					"Université des sciences et techniques de Montpellier 2"
+				],
+				"assertedLink": [
+					"http:\/\/www.idref.fr\/129493112\/id"
+				],
+				"dateCreationNotice": [
+					"19980422"
+				]
+			},
+			"http:\/\/www.sudoc.abes.fr\/004776321-2": {
+				"role": [
+					"thesis_advisor"
+				],
+				"rameau": [
+					"Classification -- Informatique -- Thèses et écrits académiques",
+					"Taxonomie numérique -- Thèses et écrits académiques",
+					"Graphes, Théorie des -- Thèses et écrits académiques",
+					"Représentation des connaissances -- Modèles mathématiques -- Thèses et écrits académiques"
+				],
+				"title": [
+					"Les connaissances du niveau terminologique du modèle des graphes conceptuels : construction et exploitation"
+				],
+				"type": [
+					"http:\/\/www.sudoc.abes.fr\/These"
+				],
+				"pubDate": [
+					"1995"
+				],
+				"scientificWork": [
+					"http:\/\/www.sudoc.abes.fr\/TheseDeDoctorat"
+				],
+				"expLanguage": [
+					"fre"
+				],
+				"personName": [
+					{
+						"person": "http:\/\/www.sudoc.abes.fr\/004776321-2",
+						"appellation": "Chein, Michel"
+					}
+				],
+				"cocontributor": [
+					{
+						"cocontributor": "Chein, Michel",
+						"person": "http:\/\/www.sudoc.abes.fr\/004776321-2",
+						"idcocontrib": "http:\/\/www.sudoc.abes.fr\/004776321-2"
+					},
+					{
+						"cocontributor": "Leclère, Michel",
+						"person": "http:\/\/www.sudoc.abes.fr\/004776321-2",
+						"idcocontrib": "http:\/\/www.sudoc.abes.fr\/004776321-1"
+					}
+				],
+				"domain": [
+					"000",
+					"510"
+				],
+				"genre": [
+					"http:\/\/www.sudoc.abes.fr\/Texte_non_litteraire"
+				],
+				"publisher": [
+					"[s.n.]"
+				],
+				"keyword": [
+					"CD",
+					"CLASSIFICATION",
+					"RAISONNEMENT",
+					"CONSTRUCTION",
+					"INFORMATIQUE",
+					"TYPING",
+					"KNOWLEDGE REPRESENTATION",
+					"GRAPHE CONCEPTUEL",
+					"SCIENCES APPLIQUEES",
+					"CONCEPTUEL GRAPH",
+					"SYSTEMATIQUE",
+					"PROJECTION",
+					"GRAPH THEORY",
+					" SYSTEMES",
+					"REASONING",
+					"AUTOMATIQUE THEORIQUE",
+					"REPRESENTATION CONNAISSANCES",
+					"THEORIE GRAPHE",
+					"TYPAGE",
+					"TAXONOMY"
+				],
+				"corporateBody": [
+					"Université des sciences et techniques de Montpellier 2"
+				],
+				"assertedLink": [
+					"http:\/\/www.idref.fr\/129493112\/id"
+				],
+				"dateCreationNotice": [
+					"19960226"
+				]
+			},
+			"http:\/\/www.sudoc.abes.fr\/054402190-2": {
+				"role": [
+					"thesis_advisor"
+				],
+				"rameau": [
+					"Graphes, Théorie des -- Thèses et écrits académiques",
+					"Recherche documentaire -- Informatique -- Modèles mathématiques -- Thèses et écrits académiques",
+					"Thésaurus -- Informatique -- Thèses et écrits académiques",
+					"Logiciels documentaires -- Thèses et écrits académiques",
+					"RAMEAU (système d'indexation) -- Thèses et écrits académiques"
+				],
+				"title": [
+					"Extension du modèle des graphes conceptuels pour la recherche d'informations"
+				],
+				"type": [
+					"http:\/\/www.sudoc.abes.fr\/These"
+				],
+				"pubDate": [
+					"2000"
+				],
+				"scientificWork": [
+					"http:\/\/www.sudoc.abes.fr\/TheseDeDoctorat"
+				],
+				"expLanguage": [
+					"fre"
+				],
+				"personName": [
+					{
+						"person": "http:\/\/www.sudoc.abes.fr\/054402190-2",
+						"appellation": "Chein, Michel"
+					}
+				],
+				"cocontributor": [
+					{
+						"cocontributor": "Chein, Michel",
+						"person": "http:\/\/www.sudoc.abes.fr\/054402190-2",
+						"idcocontrib": "http:\/\/www.sudoc.abes.fr\/054402190-2"
+					},
+					{
+						"cocontributor": "Genest, David",
+						"person": "http:\/\/www.sudoc.abes.fr\/054402190-2",
+						"idcocontrib": "http:\/\/www.sudoc.abes.fr\/054402190-1"
+					}
+				],
+				"domain": [
+					"020",
+					"510",
+					"621"
+				],
+				"genre": [
+					"http:\/\/www.sudoc.abes.fr\/Texte_non_litteraire"
+				],
+				"publisher": [
+					"[s.n.]"
+				],
+				"keyword": [
+					" SCIENCES DE LA TERRE",
+					"ESPACE",
+					"REPRESENTATION CONNAISSANCES",
+					"SCIENCES ET TECHNIQUES COMMUNES",
+					"GRAPHE CONCEPTUEL",
+					"RECHERCHE INFORMATION",
+					" DOCUMENTATION",
+					"SCIENCES DE L'INFORMATION",
+					"RESEAU SEMANTIQUE",
+					"RECHERCHE DOCUMENTAIRE",
+					"TERRE",
+					"OCEAN"
+				],
+				"corporateBody": [
+					"Université des sciences et techniques de Montpellier 2"
+				],
+				"assertedLink": [
+					"http:\/\/www.idref.fr\/129493112\/id"
+				],
+				"dateCreationNotice": [
+					"20010215"
+				]
+			},
+			"http:\/\/www.sudoc.abes.fr\/129028266-1": {
+				"role": [
+					"author"
+				],
+				"rameau": [
+					"Représentation des connaissances",
+					"Graphes, Théorie des"
+				],
+				"collection": [
+					"Advanced information and knowledge processing (Internet)"
+				],
+				"title": [
+					"Graph-based knowledge representation : computational foundations of conceptual graphs"
+				],
+				"type": [
+					"http:\/\/www.sudoc.abes.fr\/Bibliographie"
+				],
+				"pubDate": [
+					"2009"
+				],
+				"expLanguage": [
+					"eng"
+				],
+				"personName": [
+					{
+						"person": "http:\/\/www.sudoc.abes.fr\/129028266-1",
+						"appellation": "Chein, Michel"
+					}
+				],
+				"cocontributor": [
+					{
+						"cocontributor": "Mugnier, Marie-Laure",
+						"person": "http:\/\/www.sudoc.abes.fr\/129028266-1",
+						"idcocontrib": "http:\/\/www.sudoc.abes.fr\/129028266-2"
+					},
+					{
+						"cocontributor": "Chein, Michel",
+						"person": "http:\/\/www.sudoc.abes.fr\/129028266-1",
+						"idcocontrib": "http:\/\/www.sudoc.abes.fr\/129028266-1"
+					}
+				],
+				"domain": [
+					"000",
+					"510"
+				],
+				"genre": [
+					"http:\/\/www.sudoc.abes.fr\/Texte_non_litteraire"
+				],
+				"publisher": [
+					"Springer"
+				],
+				"dewey": [
+					"003.54"
+				],
+				"keyword": [
+					"Graph theory",
+					"graphe conceptuel",
+					"Conceptual structures (Information theory)"
+				],
+				"assertedLink": [
+					"http:\/\/www.idref.fr\/129493112\/id"
+				],
+				"dateCreationNotice": [
+					"20081112"
+				]
+			},
+			"http:\/\/www.sudoc.abes.fr\/099340682-1": {
+				"expLanguage": [
+					"fre"
+				],
+				"personName": [
+					{
+						"person": "http:\/\/www.sudoc.abes.fr\/099340682-1",
+						"appellation": "Chein, Michel"
+					}
+				],
+				"role": [
+					"author"
+				],
+				"cocontributor": [
+					{
+						"cocontributor": "Chein, Michel",
+						"person": "http:\/\/www.sudoc.abes.fr\/099340682-1",
+						"idcocontrib": "http:\/\/www.sudoc.abes.fr\/099340682-1"
+					}
+				],
+				"publisher": [
+					"Institut de programmation"
+				],
+				"collection": [
+					"Publications - Institut de programmation"
+				],
+				"title": [
+					"Traitement de données"
+				],
+				"keyword": [
+					"traitement liste"
+				],
+				"pubDate": [
+					"1973"
+				],
+				"assertedLink": [
+				],
+				"dateCreationNotice": [
+					"20051117"
+				]
+			},
+			"http:\/\/www.sudoc.abes.fr\/146229231-1": {
+				"role": [
+					"author"
+				],
+				"title": [
+					"Sur des problèmes de décomposition d'un graphe, liés à l'implantation"
+				],
+				"type": [
+					"http:\/\/www.sudoc.abes.fr\/These_ou_memoire"
+				],
+				"pubDate": [
+					"1970"
+				],
+				"scientificWork": [
+					"http:\/\/www.sudoc.abes.fr\/TheseDeDoctorat"
+				],
+				"expLanguage": [
+					"fre"
+				],
+				"personName": [
+					{
+						"person": "http:\/\/www.sudoc.abes.fr\/146229231-1",
+						"appellation": "Chein, Michel"
+					}
+				],
+				"cocontributor": [
+					{
+						"cocontributor": "Kuntzmann, Jean",
+						"person": "http:\/\/www.sudoc.abes.fr\/146229231-1",
+						"idcocontrib": "http:\/\/www.sudoc.abes.fr\/146229231-2"
+					},
+					{
+						"cocontributor": "Chein, Michel",
+						"person": "http:\/\/www.sudoc.abes.fr\/146229231-1",
+						"idcocontrib": "http:\/\/www.sudoc.abes.fr\/146229231-1"
+					}
+				],
+				"genre": [
+					"http:\/\/www.sudoc.abes.fr\/Texte_non_litteraire"
+				],
+				"publisher": [
+					"Université Grenoble 1"
+				],
+				"dewey": [
+					"500"
+				],
+				"keyword": [
+					"Décomposition",
+					"Graphes"
+				],
+				"corporateBody": [
+					"Institut d'informatique et mathématiques appliquées",
+					"Université de Grenoble. Faculté des sciences"
+				],
+				"assertedLink": [
+					"http:\/\/www.idref.fr\/129493112\/id"
+				],
+				"dateCreationNotice": [
+					"20100824"
+				]
+			},
+			"http:\/\/www.sudoc.abes.fr\/00480452X-2": {
+				"role": [
+					"thesis_advisor"
+				],
+				"rameau": [
+					"Algorithmes -- Thèses et écrits académiques",
+					"Raisonnement -- Thèses et écrits académiques",
+					"Systèmes, Conception de -- Thèses et écrits académiques",
+					"Questions et réponses, Systèmes de -- Thèses et écrits académiques",
+					"Représentation des connaissances -- Modèles mathématiques -- Thèses et écrits académiques",
+					"Programmation heuristique -- Thèses et écrits académiques",
+					"Graphes, Théorie des -- Thèses et écrits académiques"
+				],
+				"title": [
+					"Vers un système de représentation de connaissances et de raisonnement fondé sur les graphes conceptuels"
+				],
+				"type": [
+					"http:\/\/www.sudoc.abes.fr\/These"
+				],
+				"pubDate": [
+					"1996"
+				],
+				"scientificWork": [
+					"http:\/\/www.sudoc.abes.fr\/TheseDeDoctorat"
+				],
+				"expLanguage": [
+					"fre"
+				],
+				"personName": [
+					{
+						"person": "http:\/\/www.sudoc.abes.fr\/00480452X-2",
+						"appellation": "CHEIN, M."
+					}
+				],
+				"cocontributor": [
+					{
+						"cocontributor": "CHEIN, M.",
+						"person": "http:\/\/www.sudoc.abes.fr\/00480452X-2",
+						"idcocontrib": "http:\/\/www.sudoc.abes.fr\/00480452X-2"
+					},
+					{
+						"cocontributor": "Carbonneill, Boris",
+						"person": "http:\/\/www.sudoc.abes.fr\/00480452X-2",
+						"idcocontrib": "http:\/\/www.sudoc.abes.fr\/00480452X-1"
+					}
+				],
+				"domain": [
+					"004",
+					"000",
+					"510",
+					"100"
+				],
+				"genre": [
+					"http:\/\/www.sudoc.abes.fr\/Texte_non_litteraire"
+				],
+				"publisher": [
+					"[s.n.]"
+				],
+				"keyword": [
+					"SCIENCES APPLIQUEES",
+					"QUESTION",
+					"INFORMATIQUE",
+					"REASONING",
+					"CD",
+					"ALGORITHME RECHERCHE",
+					"REPONSE",
+					"RAISONNEMENT",
+					"ALGORITHME ADAPTATIF",
+					"CONCEPTUAL GRAPH",
+					"EXPERT SYSTEM",
+					"SEARCH ALGORITHM",
+					"SYSTEME EXPERT",
+					"REPRESENTATION CONNAISSANCES",
+					"AUTOMATIQUE THEORIQUE",
+					"KNOWLEDGE REPRESENTATION",
+					" SYSTEMES",
+					"ADAPTIVE ALGORITHM",
+					"GRAPHE CONCEPTUEL"
+				],
+				"corporateBody": [
+					"Université des sciences et techniques de Montpellier 2"
+				],
+				"assertedLink": [
+				],
+				"dateCreationNotice": [
+					"19960305"
+				]
+			},
+			"http:\/\/www.sudoc.abes.fr\/089072642-1": {
+				"role": [
+					"author"
+				],
+				"rameau": [
+					"Fonctions booléennes -- Thèses et écrits académiques",
+					"Réseaux d'information -- Thèses et écrits académiques"
+				],
+				"title": [
+					"Etude des décompositions d'un réseau : application à l'écriture des Fonctions Booléennes en sommes et en produits"
+				],
+				"type": [
+					"http:\/\/www.sudoc.abes.fr\/These"
+				],
+				"pubDate": [
+					"1967"
+				],
+				"scientificWork": [
+					"http:\/\/www.sudoc.abes.fr\/TheseDeDoctorat"
+				],
+				"expLanguage": [
+					"fre"
+				],
+				"personName": [
+					{
+						"person": "http:\/\/www.sudoc.abes.fr\/089072642-1",
+						"appellation": "Chein, Michel"
+					}
+				],
+				"cocontributor": [
+					{
+						"cocontributor": "Kuntzmann, Jean",
+						"person": "http:\/\/www.sudoc.abes.fr\/089072642-1",
+						"idcocontrib": "http:\/\/www.sudoc.abes.fr\/089072642-2"
+					},
+					{
+						"cocontributor": "Chein, Michel",
+						"person": "http:\/\/www.sudoc.abes.fr\/089072642-1",
+						"idcocontrib": "http:\/\/www.sudoc.abes.fr\/089072642-1"
+					}
+				],
+				"domain": [
+					"510",
+					"020"
+				],
+				"genre": [
+					"http:\/\/www.sudoc.abes.fr\/Texte_non_litteraire"
+				],
+				"publisher": [
+					"[s.n.]"
+				],
+				"corporateBody": [
+					"Université de Grenoble. Faculté des sciences"
+				],
+				"assertedLink": [
+					"http:\/\/www.idref.fr\/129493112\/id"
+				],
+				"dateCreationNotice": [
+					"20031201"
+				]
+			},
+			"http:\/\/www.sudoc.abes.fr\/099344041-1": {
+				"expLanguage": [
+					"fre"
+				],
+				"personName": [
+					{
+						"person": "http:\/\/www.sudoc.abes.fr\/099344041-1",
+						"appellation": "Chein, Michel"
+					}
+				],
+				"role": [
+					"author"
+				],
+				"cocontributor": [
+					{
+						"cocontributor": "Chein, Michel",
+						"person": "http:\/\/www.sudoc.abes.fr\/099344041-1",
+						"idcocontrib": "http:\/\/www.sudoc.abes.fr\/099344041-1"
+					}
+				],
+				"publisher": [
+					"PARIS 6"
+				],
+				"collection": [
+					"Institut de programmation . AEA fondements de la programmation 1972-1973"
+				],
+				"title": [
+					"Graphes et ordres : notes du cours de M. Chein"
+				],
+				"keyword": [
+					"transitivité",
+					"graphe",
+					"ordre"
+				],
+				"pubDate": [
+					"1973"
+				],
+				"assertedLink": [
+				],
+				"dateCreationNotice": [
+					"20051117"
+				]
+			},
+			"http:\/\/www.idref.fr\/129493112\/id": {
+				"personName": [
+					{
+						"person": "http:\/\/www.idref.fr\/129493112\/id",
+						"last_name": "Chein",
+						"first_name": "Michel"
+					}
+				],
+				"source": [
+					"Etude des décompositions d'un réseau : Application à l'écriture des fonctions booléennes en sommes et en produits (Thèse)"
+				],
+				"dateCreationNotice": [
+					"20081201"
+				]
+			},
+			"http:\/\/www.sudoc.abes.fr\/012175366-2": {
+				"role": [
+					"thesis_advisor"
+				],
+				"rameau": [
+					"Dimension, Théorie de la (algèbre) -- Thèses et écrits académiques",
+					"Modèles mathématiques -- Thèses et écrits académiques",
+					"Treillis, Théorie des -- Thèses et écrits académiques",
+					"Analyse combinatoire -- Thèses et écrits académiques",
+					"Isomorphismes (mathématiques) -- Thèses et écrits académiques",
+					"Ensembles ordonnés -- Thèses et écrits académiques",
+					"Algorithmes -- Thèses et écrits académiques"
+				],
+				"title": [
+					"Sur l'algorithmique combinatoire d'ordres finis"
+				],
+				"type": [
+					"http:\/\/www.sudoc.abes.fr\/These"
+				],
+				"pubDate": [
+					"1992"
+				],
+				"scientificWork": [
+					"http:\/\/www.sudoc.abes.fr\/TheseDeDoctorat"
+				],
+				"expLanguage": [
+					"fre"
+				],
+				"personName": [
+					{
+						"person": "http:\/\/www.sudoc.abes.fr\/012175366-2",
+						"appellation": "Chein, Michel"
+					}
+				],
+				"cocontributor": [
+					{
+						"cocontributor": "Chein, Michel",
+						"person": "http:\/\/www.sudoc.abes.fr\/012175366-2",
+						"idcocontrib": "http:\/\/www.sudoc.abes.fr\/012175366-2"
+					},
+					{
+						"cocontributor": "Bordat, Jean-Paul",
+						"person": "http:\/\/www.sudoc.abes.fr\/012175366-2",
+						"idcocontrib": "http:\/\/www.sudoc.abes.fr\/012175366-1"
+					}
+				],
+				"domain": [
+					"510"
+				],
+				"genre": [
+					"http:\/\/www.sudoc.abes.fr\/Texte_non_litteraire"
+				],
+				"publisher": [
+					"[s.n.]"
+				],
+				"keyword": [
+					"ENSEMBLE ORDONNE",
+					"SCIENCES ET TECHNIQUES COMMUNES",
+					"ISOMORPHISME",
+					" MATHEMATIQUES",
+					"LARGEUR BORNEE",
+					"TREILLIS DISTRIBUTIF",
+					"ALGORITHME",
+					"TREILLIS DES IDEAUX"
+				],
+				"corporateBody": [
+					"Université des sciences et techniques de Montpellier 2"
+				],
+				"assertedLink": [
+					"http:\/\/www.idref.fr\/129493112\/id"
+				],
+				"dateCreationNotice": [
+					"19920525"
+				]
+			},
+			"http:\/\/www.sudoc.abes.fr\/008524165-2": {
+				"role": [
+					"thesis_advisor"
+				],
+				"rameau": [
+					"Bases de données relationnelles",
+					"Programmation dynamique",
+					"Résolution de problème -- Informatique",
+					"Hypergraphes",
+					"Optimisation combinatoire"
+				],
+				"title": [
+					"Contribution à l'étude des problèmes de satisfaction de contraintes : algorithmes de propagation et de résolution : propagation de contraintes dans les réseaux dynamiques"
+				],
+				"type": [
+					"http:\/\/www.sudoc.abes.fr\/These"
+				],
+				"pubDate": [
+					"1991"
+				],
+				"scientificWork": [
+					"http:\/\/www.sudoc.abes.fr\/TheseDeDoctorat"
+				],
+				"expLanguage": [
+					"fre"
+				],
+				"personName": [
+					{
+						"person": "http:\/\/www.sudoc.abes.fr\/008524165-2",
+						"appellation": "Chein, Michel"
+					}
+				],
+				"cocontributor": [
+					{
+						"cocontributor": "Chein, Michel",
+						"person": "http:\/\/www.sudoc.abes.fr\/008524165-2",
+						"idcocontrib": "http:\/\/www.sudoc.abes.fr\/008524165-2"
+					},
+					{
+						"cocontributor": "Jégou, Philippe",
+						"person": "http:\/\/www.sudoc.abes.fr\/008524165-2",
+						"idcocontrib": "http:\/\/www.sudoc.abes.fr\/008524165-1"
+					}
+				],
+				"domain": [
+					"510",
+					"621",
+					"004",
+					"150"
+				],
+				"genre": [
+					"http:\/\/www.sudoc.abes.fr\/Texte_non_litteraire"
+				],
+				"publisher": [
+					"[s.n.]"
+				],
+				"keyword": [
+					"MAINTIEN DE CONSISTANCE PARTIELLE",
+					"RESEAUX DE CONTRAINTES DYNAMIQUES",
+					"AUTOMATIQUE THEORIQUE",
+					"Représentation des connaissances (théorie de l'information)",
+					"PROPAGATION DE CONTRAINTES",
+					"SCIENCES APPLIQUEES",
+					"RESOLUTION DE PROBLEMES",
+					"THEORIE DES HYPERGRAPHES",
+					" SYSTEMES",
+					"SATISFACTION DE CONTRAINTES",
+					"INFORMATIQUE",
+					"RESEAUX DE CONTRAINTES GENERAUX(CSP)"
+				],
+				"corporateBody": [
+					"Université des sciences et techniques de Montpellier 2"
+				],
+				"assertedLink": [
+					"http:\/\/www.idref.fr\/129493112\/id"
+				],
+				"dateCreationNotice": [
+					"19910227"
+				]
+			},
+			"http:\/\/www.sudoc.abes.fr\/151100373-1": {
+				"expLanguage": [
+					"fre"
+				],
+				"personName": [
+					{
+						"person": "http:\/\/www.sudoc.abes.fr\/151100373-1",
+						"appellation": "Cheinman, M."
+					}
+				],
+				"role": [
+					"author"
+				],
+				"cocontributor": [
+					{
+						"cocontributor": "Cheinman, M.",
+						"person": "http:\/\/www.sudoc.abes.fr\/151100373-1",
+						"idcocontrib": "http:\/\/www.sudoc.abes.fr\/151100373-1"
+					}
+				],
+				"genre": [
+					"http:\/\/www.sudoc.abes.fr\/Texte_non_litteraire"
+				],
+				"publisher": [
+					"Langues Etrangères"
+				],
+				"title": [
+					"Le Vatican contemporain"
+				],
+				"keyword": [
+					" Politique vaticane",
+					"Saint-Siège",
+					"Questions religieuses"
+				],
+				"pubDate": [
+					"1955"
+				],
+				"assertedLink": [
+				],
+				"dateCreationNotice": [
+					"20110328"
+				]
+			},
+			"http:\/\/www.sudoc.abes.fr\/008623562-2": {
+				"role": [
+					"thesis_advisor"
+				],
+				"rameau": [
+					"Médecine -- Informatique",
+					"Sciences de la santé -- Vedettes-matière",
+					"Traitement automatique du langage naturel",
+					"Indexation automatique",
+					"Analyse documentaire",
+					"Intelligence artificielle en médecine",
+					"Médecine -- Bases de données"
+				],
+				"title": [
+					"Analyse des énoncés médicaux en langage naturel : vers un prototype d'indexation automatique"
+				],
+				"type": [
+					"http:\/\/www.sudoc.abes.fr\/These"
+				],
+				"pubDate": [
+					"1990"
+				],
+				"scientificWork": [
+					"http:\/\/www.sudoc.abes.fr\/TheseDeDoctorat"
+				],
+				"expLanguage": [
+					"fre"
+				],
+				"personName": [
+					{
+						"person": "http:\/\/www.sudoc.abes.fr\/008623562-2",
+						"appellation": "Chein, Michel"
+					}
+				],
+				"cocontributor": [
+					{
+						"cocontributor": "Chein, Michel",
+						"person": "http:\/\/www.sudoc.abes.fr\/008623562-2",
+						"idcocontrib": "http:\/\/www.sudoc.abes.fr\/008623562-2"
+					},
+					{
+						"cocontributor": "Dujols, Pierre",
+						"person": "http:\/\/www.sudoc.abes.fr\/008623562-2",
+						"idcocontrib": "http:\/\/www.sudoc.abes.fr\/008623562-1"
+					}
+				],
+				"domain": [
+					"621",
+					"610",
+					"004",
+					"020",
+					"401"
+				],
+				"genre": [
+					"http:\/\/www.sudoc.abes.fr\/Texte_non_litteraire"
+				],
+				"publisher": [
+					"[s.n.]"
+				],
+				"keyword": [
+					"PARAPHRASE",
+					" NOMENCLATURES MEDICALES",
+					"INDEXATION AUTOMATIQUE",
+					"SCIENCES DE L'INFORMATION",
+					"Représentation des connaissances (théorie de l'information)",
+					"SEMANTIQUE",
+					"SCIENCES ET TECHNIQUES COMMUNES",
+					"MOTS COMPOSES",
+					" DOCUMENTATION"
+				],
+				"corporateBody": [
+					"Université des sciences et techniques de Montpellier 2"
+				],
+				"assertedLink": [
+					"http:\/\/www.idref.fr\/129493112\/id"
+				],
+				"dateCreationNotice": [
+					"19910328"
+				]
+			},
+			"http:\/\/www.sudoc.abes.fr\/004548507-1": {
+				"role": [
+					"author"
+				],
+				"title": [
+					"Sur des problèmes de décomposition d'un graphe, liés à l'implantation"
+				],
+				"type": [
+					"http:\/\/www.sudoc.abes.fr\/These",
+					"http:\/\/www.sudoc.abes.fr\/Bibliographie"
+				],
+				"pubDate": [
+					"1970"
+				],
+				"scientificWork": [
+					"http:\/\/www.sudoc.abes.fr\/TheseDeDoctorat"
+				],
+				"expLanguage": [
+					"fre"
+				],
+				"personName": [
+					{
+						"person": "http:\/\/www.sudoc.abes.fr\/004548507-1",
+						"appellation": "Chein, Michel"
+					}
+				],
+				"cocontributor": [
+					{
+						"cocontributor": "Kuntzmann, Jean",
+						"person": "http:\/\/www.sudoc.abes.fr\/004548507-1",
+						"idcocontrib": "http:\/\/www.sudoc.abes.fr\/004548507-2"
+					},
+					{
+						"cocontributor": "Chein, Michel",
+						"person": "http:\/\/www.sudoc.abes.fr\/004548507-1",
+						"idcocontrib": "http:\/\/www.sudoc.abes.fr\/004548507-1"
+					}
+				],
+				"genre": [
+					"http:\/\/www.sudoc.abes.fr\/Texte_non_litteraire"
+				],
+				"publisher": [
+					"[s.n.]"
+				],
+				"dewey": [
+					"500"
+				],
+				"keyword": [
+					"Décomposition",
+					"Graphes"
+				],
+				"corporateBody": [
+					"Université de Grenoble. Faculté des sciences"
+				],
+				"assertedLink": [
+					"http:\/\/www.idref.fr\/129493112\/id"
+				],
+				"dateCreationNotice": [
+					"19990302"
+				]
+			},
+			"http:\/\/www.sudoc.abes.fr\/008771545-2": {
+				"role": [
+					"thesis_advisor"
+				],
+				"rameau": [
+					"Irrigation -- Gestion -- Thèses et écrits académiques",
+					"Conception assistée par ordinateur -- Thèses et écrits académiques",
+					"Systèmes experts (informatique) -- Thèses et écrits académiques",
+					"Bases de données relationnelles -- Thèses et écrits académiques",
+					"Bases de données -- Gestion -- Logiciels -- Thèses et écrits académiques",
+					"Irrigation -- Simulation, Méthodes de -- Thèses et écrits académiques",
+					"Langages de programmation -- Thèses et écrits académiques",
+					"Intelligence artificielle -- Thèses et écrits académiques",
+					"Conception technique -- Informatique -- Thèses et écrits académiques"
+				],
+				"title": [
+					"Un système d'ingénierie assisté par ordinateur pour la conception des équipements d'irrigation : une application réalisée en langage SNARX"
+				],
+				"type": [
+					"http:\/\/www.sudoc.abes.fr\/These"
+				],
+				"pubDate": [
+					"1990"
+				],
+				"scientificWork": [
+					"http:\/\/www.sudoc.abes.fr\/TheseDeDoctorat"
+				],
+				"expLanguage": [
+					"fre"
+				],
+				"personName": [
+					{
+						"person": "http:\/\/www.sudoc.abes.fr\/008771545-2",
+						"appellation": "Chein, Michel"
+					}
+				],
+				"cocontributor": [
+					{
+						"cocontributor": "Chein, Michel",
+						"person": "http:\/\/www.sudoc.abes.fr\/008771545-2",
+						"idcocontrib": "http:\/\/www.sudoc.abes.fr\/008771545-2"
+					},
+					{
+						"cocontributor": "Granier, Jacques",
+						"person": "http:\/\/www.sudoc.abes.fr\/008771545-2",
+						"idcocontrib": "http:\/\/www.sudoc.abes.fr\/008771545-1"
+					}
+				],
+				"domain": [
+					"004",
+					"621",
+					"600",
+					"580",
+					"630"
+				],
+				"genre": [
+					"http:\/\/www.sudoc.abes.fr\/Texte_non_litteraire"
+				],
+				"publisher": [
+					"[s.n.]"
+				],
+				"keyword": [
+					"SYSTEME-EXPERT",
+					"RAISONNEMENT",
+					"BATIMENT",
+					"SCIENCES APPLIQUEES",
+					"INTELLIGENCE ARTIFICIELLE",
+					"INGENIERIE",
+					" TRAVAUX PUBLICS",
+					"REPRESENTATION DES CONNAISSANCES",
+					"RESEAU SEMANTIQUE",
+					"CONCEPTION ASSISTEE PAR ORDINATEUR",
+					"IRRIGATION"
+				],
+				"corporateBody": [
+					"Université des sciences et techniques de Montpellier 2"
+				],
+				"assertedLink": [
+					"http:\/\/www.idref.fr\/129493112\/id"
+				],
+				"dateCreationNotice": [
+					"19910610"
+				]
+			}
+		},
+		"sources": [
+			"http:\/\/www.sudoc.abes.fr\/011522968-1",
+			"http:\/\/www.sudoc.abes.fr\/01235127X-2",
+			"http:\/\/www.sudoc.abes.fr\/155198777-2",
+			"http:\/\/www.sudoc.abes.fr\/145888193-1",
+			"http:\/\/www.sudoc.abes.fr\/099350823-1",
+			"http:\/\/www.sudoc.abes.fr\/035977256-2",
+			"http:\/\/www.sudoc.abes.fr\/161696139-2",
+			"http:\/\/www.sudoc.abes.fr\/004776321-2",
+			"http:\/\/www.sudoc.abes.fr\/008264902-2",
+			"http:\/\/www.sudoc.abes.fr\/054402190-2",
+			"http:\/\/www.sudoc.abes.fr\/129028266-1",
+			"http:\/\/www.sudoc.abes.fr\/099340682-1",
+			"http:\/\/www.sudoc.abes.fr\/146229231-1",
+			"http:\/\/www.sudoc.abes.fr\/00480452X-2",
+			"http:\/\/www.sudoc.abes.fr\/089072642-1",
+			"http:\/\/www.sudoc.abes.fr\/099344041-1",
+			"http:\/\/www.sudoc.abes.fr\/012175366-2",
+			"http:\/\/www.sudoc.abes.fr\/008524165-2",
+			"http:\/\/www.sudoc.abes.fr\/008623562-2",
+			"http:\/\/www.sudoc.abes.fr\/151100373-1",
+			"http:\/\/www.sudoc.abes.fr\/004548507-1",
+			"http:\/\/www.sudoc.abes.fr\/008771545-2"
+		],
+		"scenario": "sudoqual1-rc-ra",
+		"supports": "sources",
+		"targets": [
+			"http:\/\/www.idref.fr\/129493112\/id"
+		],
+		"initialLinks": [
+			{
+				"source": "http:\/\/www.sudoc.abes.fr\/129028266-1",
+				"type": "sameAs",
+				"target": "http://www.idref.fr/129493112/id"
+			},
+			{
+				"source": "http:\/\/www.sudoc.abes.fr\/054402190-2",
+				"type": "sameAs",
+				"target": "http://www.idref.fr/129493112/id"
+			},
+			{
+				"source": "http:\/\/www.sudoc.abes.fr\/089072642-1",
+				"type": "sameAs",
+				"target": "http://www.idref.fr/129493112/id"
+			},
+			{
+				"source": "http:\/\/www.sudoc.abes.fr\/035977256-2",
+				"type": "sameAs",
+				"target": "http://www.idref.fr/129493112/id"
+			},
+			{
+				"source": "http:\/\/www.sudoc.abes.fr\/004548507-1",
+				"type": "sameAs",
+				"target": "http://www.idref.fr/129493112/id"
+			},
+			{
+				"source": "http:\/\/www.sudoc.abes.fr\/012175366-2",
+				"type": "sameAs",
+				"target": "http://www.idref.fr/129493112/id"
+			},
+			{
+				"source": "http:\/\/www.sudoc.abes.fr\/01235127X-2",
+				"type": "sameAs",
+				"target": "http://www.idref.fr/129493112/id"
+			},
+			{
+				"source": "http:\/\/www.sudoc.abes.fr\/099350823-1",
+				"type": "sameAs",
+				"target": "http://www.idref.fr/129493112/id"
+			},
+			{
+				"source": "http:\/\/www.sudoc.abes.fr\/146229231-1",
+				"type": "sameAs",
+				"target": "http://www.idref.fr/129493112/id"
+			},
+			{
+				"source": "http:\/\/www.sudoc.abes.fr\/011522968-1",
+				"type": "sameAs",
+				"target": "http://www.idref.fr/129493112/id"
+			},
+			{
+				"source": "http:\/\/www.sudoc.abes.fr\/008623562-2",
+				"type": "sameAs",
+				"target": "http://www.idref.fr/129493112/id"
+			},
+			{
+				"source": "http:\/\/www.sudoc.abes.fr\/008264902-2",
+				"type": "sameAs",
+				"target": "http://www.idref.fr/129493112/id"
+			},
+			{
+				"source": "http:\/\/www.sudoc.abes.fr\/145888193-1",
+				"type": "sameAs",
+				"target": "http://www.idref.fr/129493112/id"
+			},
+			{
+				"source": "http:\/\/www.sudoc.abes.fr\/004776321-2",
+				"type": "sameAs",
+				"target": "http://www.idref.fr/129493112/id"
+			},
+			{
+				"source": "http:\/\/www.sudoc.abes.fr\/008771545-2",
+				"type": "sameAs",
+				"target": "http://www.idref.fr/129493112/id"
+			},
+			{
+				"source": "http:\/\/www.sudoc.abes.fr\/155198777-2",
+				"type": "sameAs",
+				"target": "http://www.idref.fr/129493112/id"
+			},
+			{
+				"source": "http:\/\/www.sudoc.abes.fr\/008524165-2",
+				"type": "sameAs",
+				"target": "http://www.idref.fr/129493112/id"
+			}
+		]
+	},
+	"expectedLinks": [
+		{
+			"source": "http://www.sudoc.abes.fr/145888193-1",
+			"type": "sameAs",
+			"target": "http://www.idref.fr/129493112/id",
+			"step": 1
+		},
+		{
+			"source": "http://www.sudoc.abes.fr/089072642-1",
+			"type": "sameAs",
+			"target": "http://www.idref.fr/129493112/id",
+			"step": 1
+		},
+		{
+			"source": "http://www.sudoc.abes.fr/054402190-2",
+			"type": "sameAs",
+			"target": "http://www.idref.fr/129493112/id",
+			"step": 2
+		},
+		{
+			"source": "http://www.sudoc.abes.fr/146229231-1",
+			"type": "sameAs",
+			"target": "http://www.idref.fr/129493112/id",
+			"step": 2
+		},
+		{
+			"source": "http://www.sudoc.abes.fr/004548507-1",
+			"type": "sameAs",
+			"target": "http://www.idref.fr/129493112/id",
+			"step": 2
+		},
+		{
+			"source": "http://www.sudoc.abes.fr/011522968-1",
+			"type": "sameAs",
+			"target": "http://www.idref.fr/129493112/id",
+			"step": 3
+		},
+		{
+			"source": "http://www.sudoc.abes.fr/008264902-2",
+			"type": "sameAs",
+			"target": "http://www.idref.fr/129493112/id",
+			"step": 3
+		},
+		{
+			"source": "http://www.sudoc.abes.fr/004776321-2",
+			"type": "sameAs",
+			"target": "http://www.idref.fr/129493112/id",
+			"step": 3
+		},
+		{
+			"source": "http://www.sudoc.abes.fr/00480452X-2",
+			"type": "sameAs",
+			"target": "http://www.idref.fr/129493112/id",
+			"step": 3
+		},
+		{
+			"source": "http://www.sudoc.abes.fr/012175366-2",
+			"type": "sameAs",
+			"target": "http://www.idref.fr/129493112/id",
+			"step": 3
+		},
+		{
+			"source": "http://www.sudoc.abes.fr/008524165-2",
+			"type": "sameAs",
+			"target": "http://www.idref.fr/129493112/id",
+			"step": 3
+		},
+		{
+			"source": "http://www.sudoc.abes.fr/008623562-2",
+			"type": "sameAs",
+			"target": "http://www.idref.fr/129493112/id",
+			"step": 3
+		},
+		{
+			"source": "http://www.sudoc.abes.fr/008771545-2",
+			"type": "sameAs",
+			"target": "http://www.idref.fr/129493112/id",
+			"step": 3
+		},
+		{
+			"source": "http://www.sudoc.abes.fr/155198777-2",
+			"type": "sameAs",
+			"target": "http://www.idref.fr/129493112/id",
+			"step": 4
+		},
+		{
+			"source": "http://www.sudoc.abes.fr/099350823-1",
+			"type": "sameAs",
+			"target": "http://www.idref.fr/129493112/id",
+			"step": 5
+		},
+		{
+			"source": "http://www.sudoc.abes.fr/035977256-2",
+			"type": "sameAs",
+			"target": "http://www.idref.fr/129493112/id",
+			"step": 5
+		},
+		{
+			"source": "http://www.sudoc.abes.fr/129028266-1",
+			"type": "sameAs",
+			"target": "http://www.idref.fr/129493112/id",
+			"step": 5
+		},
+		{
+			"source": "http://www.sudoc.abes.fr/099344041-1",
+			"type": "suggestedSameAs",
+			"target": "http://www.idref.fr/129493112/id",
+			"step": 6
+		},
+		{
+			"source": "http://www.sudoc.abes.fr/01235127X-2",
+			"type": "suggestedSameAs",
+			"target": "http://www.idref.fr/129493112/id",
+			"step": 6
+		},
+		{
+			"source": "http://www.sudoc.abes.fr/161696139-2",
+			"type": "suggestedSameAs",
+			"target": "http://www.idref.fr/129493112/id",
+			"step": 6
+		}
+	]
+}

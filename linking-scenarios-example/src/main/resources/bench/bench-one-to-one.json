@@ -1,0 +1,85 @@
+{
+"input": {
+"scenario": "example-one-to-one",
+	"options": { "debug": false },
+	"sources": ["idhal:1", "idhal:2", "idhal:3"],
+	"targets": ["idref:1", "idref:2", "idref:3"],
+	"supports": ["hal:1", "hal:2", "hal:3", "sudoc:1", "sudoc:2", "sudoc:3"],
+	"features": {
+		"idhal:1": {
+			"name": "DURANT, EMILIE"
+		},
+		"idhal:2": {
+			"name": "DURAND, EMILIE",
+			"domain": [ 340 ]
+		},
+		"idhal:3": {
+			"name": "DURANT, EMILIE",
+			"birthDate": 1986
+		},
+		"idref:1": {
+			"name": "DURANT, EMILIE"
+		},
+		"idref:2": {
+			"name": "Durand, Émilie"
+		},
+		"idref:3": {
+			"name": "  dürànt, èmîlïè   "
+		},
+		"hal:1": {
+			"publicationDate": 1987,
+			"title": "Les fleurs du Moyen-Orient",
+			"domain": [ 580 ]
+		},
+		"sudoc:1": {
+			"publicationDate": 1989,
+			"title": "Les fleurs d'Europe",
+			"domain": [ 580 ]
+		},
+		"hal:2": {
+			"publicationDate": 1928,
+			"title": "Les fleurs d'hiver"
+		},
+		"sudoc:2": {
+			"publicationDate": 1928,
+			"title": "Les fleurs d'hiver"
+		},
+		"hal:3": {
+			"publicationDate": 2019,
+			"title": "Qualinka vers une aide au catalogage"
+		},
+		"sudoc:3": {
+			"publicationDate": 2018,
+			"title": "Paprika catalogage assisté par Qualinka"
+		}
+	},
+	"safeLinks": [
+		{ "type": "sameAs", "target": "idhal:1", "source": "hal:1" },
+		{ "type": "sameAs", "target": "idref:1", "source": "sudoc:1" },
+		{ "type": "sameAs", "target": "idhal:2", "source": "hal:2" },
+		{ "type": "sameAs", "target": "idref:2", "source": "sudoc:2" },
+		{ "type": "sameAs", "target": "idhal:3", "source": "hal:3" },
+		{ "type": "sameAs", "target": "idref:3", "source": "sudoc:3" }
+	]
+},
+"expectedLinks": [
+ {
+
+            "source": "idhal:1",
+            "type": "sameAs",
+            "target": "idref:1"
+        },
+        {
+
+            "source": "idhal:2",
+            "type": "sameAs",
+            "target": "idref:2"
+        },
+        {
+
+            "source": "idhal:3",
+            "type": "sameAs",
+            "target": "idref:3"
+        }
+
+]}

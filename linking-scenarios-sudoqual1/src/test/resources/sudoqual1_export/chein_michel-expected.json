@@ -1,0 +1,22 @@
+{ "expectedLinks": [
+{"source":"http://www.sudoc.abes.fr/145888193-1","type":"sameAs","target":"http://www.idref.fr/129493112/id","step":1},
+{"source":"http://www.sudoc.abes.fr/089072642-1","type":"sameAs","target":"http://www.idref.fr/129493112/id","step":1},
+{"source":"http://www.sudoc.abes.fr/054402190-2","type":"sameAs","target":"http://www.idref.fr/129493112/id","step":2},
+{"source":"http://www.sudoc.abes.fr/146229231-1","type":"sameAs","target":"http://www.idref.fr/129493112/id","step":2},
+{"source":"http://www.sudoc.abes.fr/004548507-1","type":"sameAs","target":"http://www.idref.fr/129493112/id","step":2},
+{"source":"http://www.sudoc.abes.fr/011522968-1","type":"sameAs","target":"http://www.idref.fr/129493112/id","step":3},
+{"source":"http://www.sudoc.abes.fr/008264902-2","type":"sameAs","target":"http://www.idref.fr/129493112/id","step":3},
+{"source":"http://www.sudoc.abes.fr/004776321-2","type":"sameAs","target":"http://www.idref.fr/129493112/id","step":3},
+{"source":"http://www.sudoc.abes.fr/00480452X-2","type":"sameAs","target":"http://www.idref.fr/129493112/id","step":3},
+{"source":"http://www.sudoc.abes.fr/012175366-2","type":"sameAs","target":"http://www.idref.fr/129493112/id","step":3},
+{"source":"http://www.sudoc.abes.fr/008524165-2","type":"sameAs","target":"http://www.idref.fr/129493112/id","step":3},
+{"source":"http://www.sudoc.abes.fr/008623562-2","type":"sameAs","target":"http://www.idref.fr/129493112/id","step":3},
+{"source":"http://www.sudoc.abes.fr/008771545-2","type":"sameAs","target":"http://www.idref.fr/129493112/id","step":3},
+{"source":"http://www.sudoc.abes.fr/155198777-2","type":"sameAs","target":"http://www.idref.fr/129493112/id","step":4},
+{"source":"http://www.sudoc.abes.fr/099350823-1","type":"sameAs","target":"http://www.idref.fr/129493112/id","step":5},
+{"source":"http://www.sudoc.abes.fr/035977256-2","type":"sameAs","target":"http://www.idref.fr/129493112/id","step":5},
+{"source":"http://www.sudoc.abes.fr/129028266-1","type":"sameAs","target":"http://www.idref.fr/129493112/id","step":5},
+{"source":"http://www.sudoc.abes.fr/099344041-1","type":"suggestedSameAs","target":"http://www.idref.fr/129493112/id","step":6},
+{"source":"http://www.sudoc.abes.fr/01235127X-2","type":"suggestedSameAs","target":"http://www.idref.fr/129493112/id","step":6},
+{"source":"http://www.sudoc.abes.fr/161696139-2","type":"suggestedSameAs","target":"http://www.idref.fr/129493112/id","step":6}
+]}

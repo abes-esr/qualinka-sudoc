@@ -1,0 +1,123 @@
+{
+	"input": {
+		"scenario": "example-many-to-many",
+		"options": { "debug": false },
+		"sources": ["rc:1", "rc:2", "rc:3", "rc:4", "rc:5", "rc:6"],
+		"targets": "sources",
+		"features": {
+			"rc:1": {
+				"name": "Durant, Émilie",
+				"publicationDate": 1921,
+				"title": "Les fleurs du Moyen-Orient",
+				"domain": [ 580 ]
+			},
+			"rc:2": {
+				"name": "Durant, Émilie",
+				"publicationDate": 1924,
+				"title": "Les fleurs d'Europe"
+			},
+			"rc:3": {
+				"name": "Durant, Émilie",
+				"publicationDate": 1926,
+				"title": "Les fleurs d'Asie",
+				"domain": [ 580 ]
+			},
+			"rc:4": {
+				"name": "Durant, Émilie",
+				"publicationDate": 1928,
+				"title": "Les fleurs d'Amérique"
+			},
+			"rc:5": {
+				"name": "Durant, Émilie",
+				"publicationDate": 1858,
+				"title": "Les graphes conceptuels, un représentation graphique des connaissances"
+			},
+			"rc:6": {
+				"name": "Durant, Émilie",
+				"publicationDate": 1865,
+				"title": "Graphes et représentation des connaissances"
+			}
+		}
+	},
+	"expectedLinks": [
+        {
+
+            "source": "rc:1",
+            "type": "diffFrom",
+            "target": "rc:5"
+        },
+        {
+
+            "source": "rc:2",
+            "type": "diffFrom",
+            "target": "rc:5"
+        },
+        {
+  
+            "source": "rc:3",
+            "type": "diffFrom",
+            "target": "rc:6"
+        },
+        {
+     
+            "source": "rc:3",
+            "type": "diffFrom",
+            "target": "rc:5"
+        },
+        {
+   
+            "source": "rc:4",
+            "type": "diffFrom",
+            "target": "rc:6"
+        },
+        {
+  
+            "source": "rc:4",
+            "type": "diffFrom",
+            "target": "rc:5"
+        },
+        {
+    
+            "source": "rc:1",
+            "type": "sameAs",
+            "target": "rc:3"
+        },
+        {
+     
+            "source": "rc:2",
+            "type": "sameAs",
+            "target": "rc:4"
+        },
+        {
+      
+            "source": "rc:3",
+            "type": "sameAs",
+            "target": "rc:4"
+        },
+        {
+   
+            "source": "rc:5",
+            "type": "sameAs",
+            "target": "rc:6"
+        },
+        {
+ 
+            "source": "rc:1",
+            "type": "sameAs",
+            "target": "rc:2"
+        },
+        {
+
+            "source": "rc:2",
+            "type": "sameAs",
+            "target": "rc:3"
+        },
+        {
+
+            "source": "rc:1",
+            "type": "suggestedSameAs",
+            "target": "rc:4"
+        }
+    ]
+}
+	

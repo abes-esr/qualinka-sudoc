@@ -1,0 +1,44 @@
+{
+	"scenario": "example-many-to-one",
+	"options": { "debug": true },
+	"sources": ["rc:1", "rc:2", "rc:3", "rc:4"],
+	"targets": ["ra:1", "ra:2", "ra:3"],
+	"supports": "sources",
+	"features": {
+		"rc:1": {
+			"name": "Durant, Émilie",
+			"publicationDate": 1921,
+			"title": "Les fleurs du Moyen-Orient",
+			"domain": [ 580 ]
+		},
+		"rc:2": {
+			"name": "Durant, Émilie",
+			"publicationDate": 1924,
+			"title": "Les fleurs d'Europe"
+		},
+		"rc:3": {
+			"name": "Durant, Émilie",
+			"publicationDate": 1926,
+			"title": "Les fleurs d'Asie",
+			"domain": [ 580 ]
+		},
+		"rc:4": {
+			"name": "Durant, Émilie",
+			"publicationDate": 1928,
+			"title": "Les fleurs d'Amérique"
+		},
+		"ra:1": {
+			"name": "DURANT, EMILIE",
+			"birthDate": 1963
+		},
+		"ra:2": {
+			"name": "Durant, Émilie",
+			"domain": [ 340 ]
+		},
+		"ra:3": {
+			"name": "  dürànt, èmîlïè   ",
+			"birthDate": 1900,
+			"source": "les fleurs du moyen-orient"
+		}
+	}
+}

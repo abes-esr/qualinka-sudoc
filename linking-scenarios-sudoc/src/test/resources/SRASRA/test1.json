@@ -1,0 +1,51 @@
+{
+	"scenario": "sudoc-sra-sra",
+	"sources": [
+		"idhal:1",
+		"idhal:2"
+	],
+	"targets": [
+		"idref:1",
+		"idref:2"
+	],
+	"supports": [
+		"hal:1",
+		"sudoc:1",
+		"hal:2",
+		"sudoc:2"
+	],
+	"safeLinks" : [
+		{"source":"idhal:1","type":"sameAs","target":"hal:1"},
+		{"source":"idhal:2","type":"sameAs","target":"hal:2"},
+		{"source":"idref:1","type":"sameAs","target":"sudoc:1"},
+		{"source":"idref:2","type":"sameAs","target":"sudoc:2"}
+	],
+	"features": {
+		"idhal:1": {
+			"personName": ["dupont, jean-marie"]
+		},
+		"idhal:2": {
+			"personName": ["dupont, jean-marie"]
+		},
+		"idref:1": {
+			"personName": ["dupont, jean-marie"]
+		},
+		"idref:2": {
+			"personName": ["dupont, jean-marie"]
+		},
+		"hal:1": {
+			"title": ["Ceci est un super titre"],
+			"corporateBody": ["Abes"]
+		},
+		"hal:2": {
+			"cocontributor": ["Chirac, Jacques"]
+		},
+		"sudoc:1": {
+			"title": ["Ceci est un super titre"],
+			"corporateBody": ["Abes"]
+		},
+		"sudoc:2": {
+			"cocontributor": ["Chirac, Jacques"]
+		}
+	}
+}
