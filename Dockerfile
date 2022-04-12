@@ -28,7 +28,7 @@ RUN mvn --batch-mode \
 ###
 # Image pour les services web de sudoqual-sudoc
 FROM tomcat:9-jdk11 as web-image
-COPY --from=build-image /build/web/target/*.war /usr/local/tomcat/webapps/ROOT.war
+COPY --from=build-image /build/web-services/target/*.war /usr/local/tomcat/webapps/ROOT.war
 # Installation et configuration de la locale FR
 RUN apt update && DEBIAN_FRONTEND=noninteractive apt -y install locales
 RUN sed -i '/fr_FR.UTF-8/s/^# //g' /etc/locale.gen && \
