@@ -89,6 +89,26 @@
 		<plugins>
 			<plugin>
 				<groupId>org.apache.maven.plugins</groupId>
+				<artifactId>maven-install-plugin</artifactId>
+				<executions>
+					<execution>
+						<id>AOCPoset-install</id>
+						<phase>initialize</phase>
+						<goals>
+							<goal>install-file</goal>
+						</goals>
+						<configuration>
+							<groupId>fr.lirmm.marel</groupId>
+							<artifactId>AOCPoset</artifactId>
+							<version>1.0-PROVIDED</version>
+							<packaging>jar</packaging>
+							<file>${basedir}/lib/AOCPosetBuilder.jar</file>
+						</configuration>
+					</execution>
+				</executions>
+			</plugin>
+			<plugin>
+				<groupId>org.apache.maven.plugins</groupId>
 				<artifactId>maven-shade-plugin</artifactId>
 				<version>3.2.1</version>
 				<executions>
