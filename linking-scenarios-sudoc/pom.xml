@@ -13,7 +13,7 @@
 		<maven.compiler.source>11</maven.compiler.source>
 		<maven.compiler.target>11</maven.compiler.target>
 		<!-- dependency versions -->
-		<sudoqual-framework.version>2.9.3</sudoqual-framework.version>
+		<sudoqual-framework.version>2.10.3-SNAPSHOT</sudoqual-framework.version>
 		<org-json.version>20180813</org-json.version>
 		<junit5.version>5.3.1</junit5.version>
 	</properties>
@@ -67,36 +67,16 @@
 		</dependency>
 	</dependencies>
 
-	<distributionManagement>
-		<repository>
-			<id>artifactory-release</id>
-			<url>https://artifactory.abes.fr/artifactory/libs-release-local</url>
-		</repository>
-		<snapshotRepository>
-			<id>artifactory-snapshot</id>
-			<url>https://artifactory.abes.fr/artifactory/libs-snapshot-local</url>
-		</snapshotRepository>
-	</distributionManagement>
-
 	<repositories>
 		<repository>
-			<id>artifactory-public</id>
-			<name>artifactory-public</name>
-			<url>https://artifactory.abes.fr/artifactory/maven-public/</url>
+			<id>ossrh</id>
+			<url>https://s01.oss.sonatype.org/content/repositories/snapshots</url>
 		</repository>
 		<repository>
 			<id>zoidberg.ukp.informatik.tu-darmstadt.de</id>
 			<url>https://zoidberg.ukp.informatik.tu-darmstadt.de/artifactory/public-releases/</url>
 		</repository>
 	</repositories>
-
-	<pluginRepositories>
-		<pluginRepository>
-			<id>artifactory-public</id>
-			<name>artifactory-public</name>
-			<url>https://artifactory.abes.fr/artifactory/maven-public/</url>
-		</pluginRepository>
-	</pluginRepositories>
 
 	<build>
 		<resources>
