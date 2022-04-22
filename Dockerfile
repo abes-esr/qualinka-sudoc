@@ -18,6 +18,7 @@ COPY ./linking-scenarios-example/  /build/linking-scenarios-example/
 COPY ./linking-scenarios-sudoc/   /build/linking-scenarios-sudoc/
 COPY ./linking-scenarios-sudoqual1/    /build/linking-scenarios-sudoqual1/
 COPY ./web-services/    /build/web-services/
+RUN mvn initialize
 RUN mvn --batch-mode \
         -Dmaven.test.skip=false \
         -Duser.timezone=Europe/Paris \
