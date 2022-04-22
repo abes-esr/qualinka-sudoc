@@ -46,8 +46,8 @@
 			<version>${org-json.version}</version>
 		</dependency>
 		<dependency>
-			<groupId>org.everit.json</groupId>
-			<artifactId>org.everit.json.schema</artifactId>
+			<groupId>com.github.erosb</groupId>
+			<artifactId>everit-json-schema</artifactId>
 			<version>${everit-json-schema.version}</version>
 		</dependency>
 		<!-- Dependency of org.everit.json.schema installed in local Artifactory
@@ -85,20 +85,10 @@
 			<version>3.1.0</version>
 			<scope>provided</scope>
 		</dependency>
-
 	</dependencies>
-
-	<repositories>
-		<repository>
-			<!-- provides com.github.everit-org.json-schema/org.everit.json.schema -->
-			<id>jitpack.io</id>
-			<url>https://jitpack.io</url>
-		</repository>
-	</repositories>
 
 	<build>
 		<finalName>sudoqualws</finalName>
-
 		<resources>
 			<resource>
 				<directory>src/main/resources</directory>
