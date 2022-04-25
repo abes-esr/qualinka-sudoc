@@ -1,6 +1,6 @@
 name: 'Create Release'
 
-on: 
+on:
   workflow_dispatch:
     inputs:
       releaseVersion:
@@ -36,22 +36,25 @@ jobs:
           NEW_TAG:  ${{ github.event.inputs.releaseVersion }}
         run: |
           [[ "$(git tag --list | grep $NEW_TAG)" == "" ]] && exit 0 || exit 1
-        
-        
-        
+
+
+
       - name: 'Generate the new version (patch few files + git tag)'
         env:
           NEW_TAG: ${{ github.event.inputs.releaseVersion }}
         run: |
+          # préparation de la release qui va :
+          # - modifier le numéro de version dans les pom.xml du projet
+          # - créer un tag git du numéro de version en question
+          # - pousser le tout sur le dépôt github
           git config --global user.email "github-action@noreply"
           git config --global user.name "Github Action"
-          npm config set tag-version-prefix ''
-          npm config set git-tag-version false
-          npm version $NEW_TAG
-          sed -i "s#Version: [0-9]+\.[0-9]+\.[0-9]+#Version: $NEW_TAG#g" README.md
-          git commit -m "Version $NEW_TAG" README.md package.json
-          git tag $NEW_TAG
-          git push && git push --tags
+          mvn initialize
+          mvn release:prepare \
+            --batch-mode \
+            -DreleaseVersion=$NEW_TAG \
+            -Darguments=-DskipTests \
+            -DtagNameFormat="@{project.version}"
           # merge la préparation de la nouvelle version sur develop
           # (version X.X.X-SNAPSHOT)
           # CURRENT_GIT_BRANCH vaut main ou master, c'est la où est créé la release
@@ -60,8 +63,11 @@ jobs:
           git merge $CURRENT_GIT_BRANCH
           git push
 
+
+
       - name: 'Create the github release'
         uses: softprops/action-gh-release@v1
         with:
           tag_name: ${{ github.event.inputs.releaseVersion }}
           generate_release_notes: true
+          token: ${{ secrets.TOKEN_GITHUB_FOR_GITHUB_ACTION }}
