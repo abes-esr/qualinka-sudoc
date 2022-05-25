@@ -7,7 +7,7 @@
 
 	<filter>
 		<filter-name>JSONStaticFileContentTypeAndEncodingFilter</filter-name>
-		<filter-class>fr.abes.sudoqual.ws.filters.ContentTypeAndEncodingFilter</filter-class>
+		<filter-class>fr.abes.qualinka.ws.filters.ContentTypeAndEncodingFilter</filter-class>
 		<init-param>
 			<param-name>contentType</param-name>
 			<param-value>application/json</param-value>
@@ -34,49 +34,49 @@
 	</filter-mapping>
 
 	<listener>
-		<listener-class>fr.abes.sudoqual.ws.ContextListener</listener-class>
+		<listener-class>fr.abes.qualinka.ws.ContextListener</listener-class>
 	</listener>
 
 	<servlet>
 		<servlet-name>status</servlet-name>
 		<display-name>status</display-name>
 		<description></description>
-		<servlet-class>fr.abes.sudoqual.ws.servlets.StatusServlet</servlet-class>
+		<servlet-class>fr.abes.qualinka.ws.servlets.StatusServlet</servlet-class>
 	</servlet>
 
 	<servlet>
 		<servlet-name>info</servlet-name>
 		<display-name>info</display-name>
 		<description></description>
-		<servlet-class>fr.abes.sudoqual.ws.servlets.InfoServlet</servlet-class>
+		<servlet-class>fr.abes.qualinka.ws.servlets.InfoServlet</servlet-class>
 	</servlet>
 
 	<servlet>
 		<servlet-name>schema</servlet-name>
 		<display-name>schema</display-name>
 		<description></description>
-		<servlet-class>fr.abes.sudoqual.ws.servlets.SchemaServlet</servlet-class>
+		<servlet-class>fr.abes.qualinka.ws.servlets.SchemaServlet</servlet-class>
 	</servlet>
 
 	<servlet>
 		<servlet-name>features</servlet-name>
 		<display-name>features</display-name>
 		<description></description>
-		<servlet-class>fr.abes.sudoqual.ws.servlets.FeaturesServlet</servlet-class>
+		<servlet-class>fr.abes.qualinka.ws.servlets.FeaturesServlet</servlet-class>
 	</servlet>
 
 	<servlet>
 		<servlet-name>service</servlet-name>
 		<display-name>service</display-name>
 		<description></description>
-		<servlet-class>fr.abes.sudoqual.ws.servlets.ServiceServlet</servlet-class>
+		<servlet-class>fr.abes.qualinka.ws.servlets.ServiceServlet</servlet-class>
 	</servlet>
 
 	<servlet>
 		<servlet-name>jobs</servlet-name>
 		<display-name>jobs</display-name>
 		<description></description>
-		<servlet-class>fr.abes.sudoqual.ws.servlets.JobServlet</servlet-class>
+		<servlet-class>fr.abes.qualinka.ws.servlets.JobServlet</servlet-class>
 	</servlet>
 
 

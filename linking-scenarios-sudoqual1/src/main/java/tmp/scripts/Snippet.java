@@ -22,7 +22,7 @@ import fr.abes.sudoqual.util.json.JSONObjects;
  */
 public class Snippet {
 	
-	private static final Set<String> dirs = Set.of("/fr/abes/sudoqual/sudoqual1/sudoqual1_export/", "/sudoqual1_export/");
+	private static final Set<String> dirs = Set.of("/fr/abes/qualinka/sudoqual1/sudoqual1_export/", "/sudoqual1_export/");
 
 	public static void convert(String appellation) {
 			try {

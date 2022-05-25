@@ -1,5 +1,5 @@
 ###
-# Image pour la compilation de sudoqual-sudoc
+# Image pour la compilation de qualinka-sudoc
 FROM maven:3-jdk-11 as build-image
 WORKDIR /build/
 # Installation et configuration de la locale FR
@@ -27,7 +27,7 @@ RUN mvn --batch-mode \
 
 
 ###
-# Image pour les services web de sudoqual-sudoc
+# Image pour les services web de qualinka-sudoc
 FROM tomcat:9-jdk11 as web-image
 COPY --from=build-image /build/web-services/target/*.war /usr/local/tomcat/webapps/ROOT.war
 # Installation et configuration de la locale FR

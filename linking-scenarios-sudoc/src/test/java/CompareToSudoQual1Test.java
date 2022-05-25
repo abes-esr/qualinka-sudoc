@@ -15,14 +15,14 @@ import org.junit.jupiter.api.Test;
 import fr.abes.sudoqual.linking_module.LinkingModule;
 import fr.abes.sudoqual.linking_module.exception.LinkingModuleException;
 import fr.abes.sudoqual.linking_module.util.OutputComparator;
-import fr.abes.sudoqual.sudoc.SudocConfig;
+import fr.abes.qualinka.sudoc.SudocConfig;
 import fr.abes.sudoqual.util.ResourceNotFoundException;
 import fr.abes.sudoqual.util.ResourceUtils;
 
 class CompareToSudoQual1Test {
 
 	private static LinkingModule module;
-	private static final Set<String> dirs = Set.of("/fr/abes/sudoqual/sudoqual1/sudoqual1_export/", "/sudoqual1_export/");
+	private static final Set<String> dirs = Set.of("/fr/abes/qualinka/sudoqual1/sudoqual1_export/", "/sudoqual1_export/");
 
 	@BeforeAll
 	static void beforeAll() throws Exception {

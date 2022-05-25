@@ -19,7 +19,7 @@ jobs:
         id: docker_tag_meta
         uses: docker/metadata-action@v3
         with:
-          images: abesesr/sudoqual-sudoc
+          images: abesesr/qualinka-sudoc
       - name: "Push: login to DockerHub"
         if: github.event_name != 'pull_request'
         run: |

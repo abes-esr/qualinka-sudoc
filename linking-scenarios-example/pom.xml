@@ -3,10 +3,10 @@
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
 	<modelVersion>4.0.0</modelVersion>
 
-	<groupId>fr.abes.sudoqual</groupId>
+	<groupId>fr.abes.qualinka</groupId>
 	<version>1.14.1-SNAPSHOT</version>
 	<artifactId>linking-scenarios-example</artifactId>
-	<name>fr.abes.sudoqual:linking-scenarios-example</name>
+	<name>fr.abes.qualinka:linking-scenarios-example</name>
 
 	<properties>
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
@@ -83,7 +83,7 @@
 			<resource>
 				<directory>src/main/resources</directory>
 				<filtering>false</filtering>
-				<targetPath>fr/abes/sudoqual/example/</targetPath>
+				<targetPath>fr/abes/qualinka/example/</targetPath>
 			</resource>
 		</resources>
 		<plugins>
@@ -103,7 +103,7 @@
 							<transformers>
 								<!-- add Main-Class to manifest file -->
 								<transformer implementation="org.apache.maven.plugins.shade.resource.ManifestResourceTransformer">
-									<mainClass>fr.abes.sudoqual.sudoqual1.Sudoqual1Config</mainClass>
+									<mainClass>Sudoqual1Config</mainClass>
 									<manifestEntries>
 										<Built-On>${maven.build.timestamp}</Built-On>
 										<Specification-Vendor>Clément SIPIETER</Specification-Vendor>

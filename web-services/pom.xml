@@ -3,18 +3,18 @@
 	<modelVersion>4.0.0</modelVersion>
 
 	<parent>
-		<groupId>fr.abes.sudoqual</groupId>
-		<artifactId>sudoqual-sudoc</artifactId>
+		<groupId>fr.abes.qualinka</groupId>
+		<artifactId>qualinka-sudoc</artifactId>
 		<version>1.14.1-SNAPSHOT</version>
 	</parent>
 
 	<artifactId>web-services</artifactId>
-	<name>SudoQual WS</name>
+	<name>QualinkaSudoc WS</name>
 	<packaging>war</packaging>
 
 	<dependencies>
 		<dependency>
-			<groupId>fr.abes.sudoqual</groupId>
+			<groupId>fr.abes.qualinka</groupId>
 			<artifactId>linking-scenarios-sudoc</artifactId>
 			<version>${project.version}</version>
 		</dependency>
@@ -88,11 +88,11 @@
 	</dependencies>
 
 	<build>
-		<finalName>sudoqualws</finalName>
+		<finalName>qualinkasudocws</finalName>
 		<resources>
 			<resource>
 				<directory>src/main/resources</directory>
-				<targetPath>fr/abes/sudoqual/ws/resources/</targetPath>
+				<targetPath>fr/abes/qualinka/ws/resources/</targetPath>
 				<filtering>true</filtering>
 			</resource>
 		</resources>

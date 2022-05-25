@@ -1,10 +1,10 @@
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
 
 	<modelVersion>4.0.0</modelVersion>
-	<groupId>fr.abes.sudoqual</groupId>
-	<artifactId>sudoqual-sudoc</artifactId>
+	<groupId>fr.abes.qualinka</groupId>
+	<artifactId>qualinka-sudoc</artifactId>
 	<version>1.14.1-SNAPSHOT</version>
-	<name>fr.abes.sudoqual:sudoqual-sudoc</name>
+	<name>fr.abes.qualinka:qualinka-sudoc</name>
 	<packaging>pom</packaging>
 
 	<inceptionYear>2018</inceptionYear>
@@ -12,7 +12,7 @@
 	<licenses>
 		<license>
 			<name>The MIT License</name>
-			<url>https://github.com/abes-esr/sudoqual-sudoc/blob/main/LICENSE</url>
+			<url>https://github.com/abes-esr/qualinka-sudoc/blob/main/LICENSE</url>
 		</license>
 	</licenses>
 
@@ -73,7 +73,7 @@
 	</dependencies>
 
 	<scm>
-		<connection>scm:git:https://github.com/abes-esr/sudoqual-sudoc.git</connection>
+		<connection>scm:git:https://github.com/abes-esr/qualinka-sudoc.git</connection>
 		<tag>HEAD</tag>
 	</scm>
 
