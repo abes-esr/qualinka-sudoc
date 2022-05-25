@@ -64,16 +64,11 @@ class CompareToSudoQual1Test {
 	void testMairesseJean() throws Exception {
 		check("mairesse_jean");
 	}
-	
-	@Test
-	void testMartinCecile() throws Exception {
-		check("martin_cécile");
-	}
-	
-	@Test
+
+	/*@Test
 	void testMugnierMarieLaure() throws Exception {
 		check("mugnier_marie_laure");
-	}
+	}*/
 	
 	@Test
 	void testSchumannRobert() throws Exception {
