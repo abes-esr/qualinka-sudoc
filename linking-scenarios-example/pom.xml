@@ -4,7 +4,7 @@
 	<modelVersion>4.0.0</modelVersion>
 
 	<groupId>fr.abes.qualinka</groupId>
-	<version>1.14.1</version>
+	<version>1.14.2-SNAPSHOT</version>
 	<artifactId>linking-scenarios-example</artifactId>
 	<name>fr.abes.qualinka:linking-scenarios-example</name>
 

@@ -3,7 +3,7 @@
 	<modelVersion>4.0.0</modelVersion>
 	<groupId>fr.abes.qualinka</groupId>
 	<artifactId>qualinka-sudoc</artifactId>
-	<version>1.14.1</version>
+	<version>1.14.2-SNAPSHOT</version>
 	<name>fr.abes.qualinka:qualinka-sudoc</name>
 	<packaging>pom</packaging>
 
@@ -74,7 +74,7 @@
 
 	<scm>
 		<connection>scm:git:https://github.com/abes-esr/qualinka-sudoc.git</connection>
-		<tag>1.14.1</tag>
+		<tag>HEAD</tag>
 	</scm>
 
 	<repositories>
