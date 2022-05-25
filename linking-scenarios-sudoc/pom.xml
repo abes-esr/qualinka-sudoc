@@ -4,7 +4,7 @@
 	<modelVersion>4.0.0</modelVersion>
 
 	<groupId>fr.abes.qualinka</groupId>
-	<version>1.14.1-SNAPSHOT</version>
+	<version>1.14.1</version>
 	<artifactId>linking-scenarios-sudoc</artifactId>
 	<name>fr.abes.qualinka:linking-scenarios-sudoc</name>
 
