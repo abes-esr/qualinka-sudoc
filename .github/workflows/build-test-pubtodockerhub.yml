@@ -1,6 +1,23 @@
 name: "build-test-pubtodockerhub"
 
-on: [push, pull_request, workflow_dispatch]
+
+# IMPORTANT : personnalisez cette variable pour que les images
+# de votre application soient pousées sur dockerhub
+# dans l'organisation/image docker ayant ce nom
+# exemple, si vous indiquez : abesesr/abes-hello
+#   alors l'image sera poussée sur https://hub.docker.com/r/abesesr/abes-hello
+env:
+  DOCKERHUB_IMAGE_PREFIX: abesesr/abes-hello
+
+
+on:
+  push:
+    paths-ignore:
+      - '**.md'
+      - '.github/**'
+  pull_request:
+  workflow_dispatch:
+
 
 jobs:
   build-test-pubtodockerhub:
@@ -14,12 +31,11 @@ jobs:
         run: |
           docker build . -t localimage:latest
 
-
       - name: "Push: prepare version from git tags/branchs"
         id: docker_tag_meta
         uses: docker/metadata-action@v3
         with:
-          images: abesesr/qualinka-sudoc
+          images: ${{ env.DOCKERHUB_IMAGE_PREFIX }}
       - name: "Push: login to DockerHub"
         if: github.event_name != 'pull_request'
         run: |
