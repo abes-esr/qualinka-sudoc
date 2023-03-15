@@ -1,0 +1,11 @@
+class.main=fr.abes.qualinka.sudoc.SudocConfig
+eclipse.preferences.version=1
+explorer.contentProvider.enable=true
+folder.bench=./src/main/resources/bench/
+folder.criterion=./src/main/java/fr/abes/qualinka/sudoc/criterion
+folder.feature=./src/main/java/fr/abes/qualinka/sudoc/feature
+folder.filter=./src/main/java/fr/abes/qualinka/sudoc/filter
+folder.heuristic=./src/main/java/fr/abes/qualinka/sudoc/heuristic
+folder.rule=./src/main/resources/scenarios/
+folder.scenario=./src/main/resources/scenarios/
+folder.util=./src/main/java/fr/abes/qualinka/sudoc/util
