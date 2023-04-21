@@ -6,7 +6,7 @@
 package fr.abes.qualinka.these.criterion.ca;
 
 import fr.abes.sudoqual.rule_engine.DiscretCompType;
-import fr.abes.qualinka.these.old.DefaultDiscretCompType;
+import fr.abes.sudoqual.rule_engine.impl.DiscretCompTypeImpl;
 import fr.abes.qualinka.these.old.ISimilarity;
 import fr.abes.qualinka.these.util.Utilities;
 import fr.abes.qualinka.these.util.adapter.DefaultCriterion2;
@@ -21,7 +21,7 @@ import java.util.HashMap;
 public class RameauCriterionCA extends DefaultCriterion2 {
 
     public RameauCriterionCA() {
-        super("rameauCriterionCA", new DefaultDiscretCompType(false, 0, true, 2, false), new String[]{"rameau", "role"}, new String[]{"rameauSA"});
+        super("rameauCriterionCA", new DiscretCompTypeImpl(false, 0, true, 2, false), new String[]{"rameau", "role"}, new String[]{"rameauSA"});
     }
 
     @Override

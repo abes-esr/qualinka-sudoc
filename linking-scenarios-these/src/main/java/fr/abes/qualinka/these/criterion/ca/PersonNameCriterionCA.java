@@ -6,7 +6,7 @@
 package fr.abes.qualinka.these.criterion.ca;
 
 import fr.abes.sudoqual.rule_engine.DiscretCompType;
-import fr.abes.qualinka.these.old.DefaultDiscretCompType;
+import fr.abes.sudoqual.rule_engine.impl.DiscretCompTypeImpl;
 import fr.abes.qualinka.these.util.NameComparison;
 import fr.abes.qualinka.these.util.adapter.DefaultCriterion2;
 import fr.abes.qualinka.these.util.adapter.IReference;
@@ -27,7 +27,7 @@ import org.json.JSONObject;
 public class PersonNameCriterionCA extends DefaultCriterion2 {
 
     public PersonNameCriterionCA() {
-        super("personNameCriterionCA", new DefaultDiscretCompType(false, -2, false, 2, false), new String[]{"personName"}, new String[]{"personName"});
+        super("personNameCriterionCA", new DiscretCompTypeImpl(false, -2, false, 2, false), new String[]{"personName"}, new String[]{"personName"});
     }
 
     @Override

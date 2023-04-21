@@ -3,7 +3,7 @@ package fr.abes.qualinka.these.criterion.ca;
 import fr.abes.sudoqual.rule_engine.DiscretCompType;
 import fr.abes.qualinka.these.feature.CoContributorFeature;
 import fr.abes.qualinka.these.old.CoContribNameCacheEntry;
-import fr.abes.qualinka.these.old.DefaultDiscretCompType;
+import fr.abes.sudoqual.rule_engine.impl.DiscretCompTypeImpl;
 import fr.abes.qualinka.these.util.NameComparison;
 import fr.abes.qualinka.these.util.adapter.DefaultCriterion2;
 import fr.abes.qualinka.these.util.adapter.IReference;
@@ -25,7 +25,7 @@ public class CoContribNameCriterionCA extends DefaultCriterion2 {
 	public HashMap<String, CoContribNameCacheEntry> cache = new HashMap<>(2048);
 
 	public CoContribNameCriterionCA() {
-		super("cocontribNameCriterionCA", new DefaultDiscretCompType(false, 0, true, 2, false),
+		super("cocontribNameCriterionCA", new DiscretCompTypeImpl(false, 0, true, 2, false),
 		      new String[] { CoContributorFeature.NAME }, new String[] { "cocontributorSA" });
 	}
 

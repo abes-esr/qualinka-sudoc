@@ -6,7 +6,7 @@
 package fr.abes.qualinka.these.criterion.ca;
 
 import fr.abes.sudoqual.rule_engine.DiscretCompType;
-import fr.abes.qualinka.these.old.DefaultDiscretCompType;
+import fr.abes.sudoqual.rule_engine.impl.DiscretCompTypeImpl;
 import fr.abes.qualinka.these.util.adapter.DefaultCriterion2;
 import fr.abes.qualinka.these.util.adapter.IReference;
 
@@ -14,7 +14,7 @@ import fr.abes.qualinka.these.util.adapter.IReference;
 public class DatePubLifeCriterionCA extends DefaultCriterion2 {
 
     public DatePubLifeCriterionCA() {
-        super("datePubLifeCriterionCA", new DefaultDiscretCompType(true, -1, true, 1, false), new String[]{"pubDate"}, new String[]{"birth", "death", "birthUncertain", "deathUncertain"});
+        super("datePubLifeCriterionCA", new DiscretCompTypeImpl(true, -1, true, 1, false), new String[]{"pubDate"}, new String[]{"birth", "death", "birthUncertain", "deathUncertain"});
     }
 
     @Override

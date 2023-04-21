@@ -6,7 +6,7 @@
 package fr.abes.qualinka.these.criterion.ca;
 
 import fr.abes.sudoqual.rule_engine.DiscretCompType;
-import fr.abes.qualinka.these.old.DefaultDiscretCompType;
+import fr.abes.sudoqual.rule_engine.impl.DiscretCompTypeImpl;
 import fr.abes.qualinka.these.util.adapter.DefaultCriterion2;
 import fr.abes.qualinka.these.util.adapter.IReference;
 import org.json.JSONArray;
@@ -19,7 +19,7 @@ import uk.ac.shef.wit.simmetrics.similaritymetrics.Levenshtein;
 public class CorporateBodyCriterionCA extends DefaultCriterion2 {
 
 	public CorporateBodyCriterionCA() {
-		super("corporateBodyCriterionCA", new DefaultDiscretCompType(false, 0, true, 2, false),
+		super("corporateBodyCriterionCA", new DiscretCompTypeImpl(false, 0, true, 2, false),
 		      new String[] { "corporateBody" }, new String[] { "corporateBodySA" });
 	}
 

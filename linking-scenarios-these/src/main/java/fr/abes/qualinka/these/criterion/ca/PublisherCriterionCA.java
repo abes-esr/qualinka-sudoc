@@ -6,7 +6,7 @@
 package fr.abes.qualinka.these.criterion.ca;
 
 import fr.abes.sudoqual.rule_engine.DiscretCompType;
-import fr.abes.qualinka.these.old.DefaultDiscretCompType;
+import fr.abes.sudoqual.rule_engine.impl.DiscretCompTypeImpl;
 import fr.abes.qualinka.these.util.adapter.DefaultCriterion2;
 import fr.abes.qualinka.these.util.adapter.IReference;
 import org.json.JSONArray;
@@ -17,7 +17,7 @@ import uk.ac.shef.wit.simmetrics.similaritymetrics.Levenshtein;
 public class PublisherCriterionCA extends DefaultCriterion2 {
 
     public PublisherCriterionCA() {
-        super("publisherCriterionCA", new DefaultDiscretCompType(false, 0, true, 2, false), new String[]{"publisher"}, new String[]{"publisherSA"});
+        super("publisherCriterionCA", new DiscretCompTypeImpl(false, 0, true, 2, false), new String[]{"publisher"}, new String[]{"publisherSA"});
     }
 
     @Override
@@ -55,7 +55,7 @@ public class PublisherCriterionCA extends DefaultCriterion2 {
 		JSONArray cbRc = first.getValue("publisher");
 		JSONArray cbRa = second.getValue("publisherSA");
 
-		if(cbRc==null || cbRa==null || cbRc.size()==0 || cbRa.size()==0) return DefaultDiscretCompType.NOT_COMPARABLE;	
+		if(cbRc==null || cbRa==null || cbRc.size()==0 || cbRa.size()==0) return DiscretCompTypeImpl.NOT_COMPARABLE;	
 		int bestComparisonValue = 0;
    		for(String cbc : cbRc)
     		{    		
@@ -68,7 +68,7 @@ public class PublisherCriterionCA extends DefaultCriterion2 {
     		}
     		switch(bestComparisonValue)
     		{
-    			case 0 : return DefaultDiscretCompType.NEUTRAL; 
+    			case 0 : return DiscretCompTypeImpl.NEUTRAL; 
     			case 1 : return 1;		
      	}
 	}

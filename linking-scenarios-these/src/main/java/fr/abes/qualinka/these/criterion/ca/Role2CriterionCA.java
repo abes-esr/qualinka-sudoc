@@ -6,7 +6,7 @@
 package fr.abes.qualinka.these.criterion.ca;
 
 import fr.abes.sudoqual.rule_engine.DiscretCompType;
-import fr.abes.qualinka.these.old.DefaultDiscretCompType;
+import fr.abes.sudoqual.rule_engine.impl.DiscretCompTypeImpl;
 import fr.abes.qualinka.these.util.adapter.DefaultCriterion2;
 import fr.abes.qualinka.these.util.adapter.IReference;
 import org.json.JSONArray;
@@ -16,7 +16,7 @@ import org.json.JSONObject;
 public class Role2CriterionCA extends DefaultCriterion2 {
 
     public Role2CriterionCA() {
-        super("role2CriterionCA", new DefaultDiscretCompType(false, -2, true, 2, false), new String[]{"role"}, new String[]{"roleSA", "grpRoleSA"});
+        super("role2CriterionCA", new DiscretCompTypeImpl(false, -2, true, 2, false), new String[]{"role"}, new String[]{"roleSA", "grpRoleSA"});
         // PVV
         //	ajouter l'attribut rc sur la ref 2   "initialLinks"});
     }

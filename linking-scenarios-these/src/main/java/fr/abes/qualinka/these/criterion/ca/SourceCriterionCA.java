@@ -6,7 +6,7 @@
 package fr.abes.qualinka.these.criterion.ca;
 
 import fr.abes.sudoqual.rule_engine.DiscretCompType;
-import fr.abes.qualinka.these.old.DefaultDiscretCompType;
+import fr.abes.sudoqual.rule_engine.impl.DiscretCompTypeImpl;
 import fr.abes.qualinka.these.util.adapter.DefaultCriterion2;
 import fr.abes.qualinka.these.util.adapter.IReference;
 import fr.abes.sudoqual.util.json.JSONArrays;
@@ -39,7 +39,7 @@ public class SourceCriterionCA extends DefaultCriterion2 {
     private static final String URI_KEY = "uri";
 
 	public SourceCriterionCA() {
-        super("sourceCriterionCA", new DefaultDiscretCompType(false, 0, true, 1, true), new String[]{"title", "pubDate"}, new String[]{"source", "initialLinks"});
+        super("sourceCriterionCA", new DiscretCompTypeImpl(false, 0, true, 1, true), new String[]{"title", "pubDate"}, new String[]{"source", "initialLinks"});
     }
 
     @Override

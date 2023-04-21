@@ -6,7 +6,7 @@
 package fr.abes.qualinka.these.criterion.ca;
 
 import fr.abes.sudoqual.rule_engine.DiscretCompType;
-import fr.abes.qualinka.these.old.DefaultDiscretCompType;
+import fr.abes.sudoqual.rule_engine.impl.DiscretCompTypeImpl;
 import fr.abes.qualinka.these.old.ISimilarity;
 import fr.abes.qualinka.these.util.DeweyRameauMap;
 import fr.abes.qualinka.these.util.DomainMap;
@@ -29,7 +29,7 @@ public class DomainCriterionCA extends DefaultCriterion2 {
     static Map<String, String> conversion = DeweyRameauMap.getDeweyRameauMap();
 
     public DomainCriterionCA() {
-        super("domainCriterionCA", new DefaultDiscretCompType(false, -1, true, 2, false), new String[]{"domain", "role", "dewey"}, new String[]{"domainDeweySA"});
+        super("domainCriterionCA", new DiscretCompTypeImpl(false, -1, true, 2, false), new String[]{"domain", "role", "dewey"}, new String[]{"domainDeweySA"});
     }
 
     @Override
@@ -57,7 +57,7 @@ public class DomainCriterionCA extends DefaultCriterion2 {
         // soit une liste (non pond?r?e) avec r?p?tition de domaines d'une rc
         // et une liste pond?r?e de domaines d'une ra (la somme des poids valant 1)
         //int representativeness = domSa.get("representativeness");
-        //if(representativeness < 2) return DefaultDiscretCompType.NEUTRAL;
+        //if(representativeness < 2) return DiscretCompTypeImpl.NEUTRAL;
         JSONArray domRa = (JSONArray) domSa.get("weightedDomain");
 
         // enlever les dewey non convertibles du d?compte

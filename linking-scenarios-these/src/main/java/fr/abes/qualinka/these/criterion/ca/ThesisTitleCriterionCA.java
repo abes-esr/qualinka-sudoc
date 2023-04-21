@@ -6,7 +6,7 @@
 package fr.abes.qualinka.these.criterion.ca;
 
 import fr.abes.sudoqual.rule_engine.DiscretCompType;
-import fr.abes.qualinka.these.old.DefaultDiscretCompType;
+import fr.abes.sudoqual.rule_engine.impl.DiscretCompTypeImpl;
 import fr.abes.qualinka.these.util.adapter.DefaultCriterion2;
 import fr.abes.qualinka.these.util.adapter.IReference;
 import org.json.JSONArray;
@@ -16,7 +16,7 @@ import uk.ac.shef.wit.simmetrics.similaritymetrics.Levenshtein;
 public class ThesisTitleCriterionCA extends DefaultCriterion2 {
 
 	public ThesisTitleCriterionCA() {
-		super("thesisTitleCriterionCA", new DefaultDiscretCompType(false, -1, true, 2, false), new String[] { "title" },
+		super("thesisTitleCriterionCA", new DiscretCompTypeImpl(false, -1, true, 2, false), new String[] { "title" },
 		      new String[] { "thesisTitleSA" });
 	}
 

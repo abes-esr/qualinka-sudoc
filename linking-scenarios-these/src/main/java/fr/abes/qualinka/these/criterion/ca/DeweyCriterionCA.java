@@ -6,7 +6,7 @@
 package fr.abes.qualinka.these.criterion.ca;
 
 import fr.abes.sudoqual.rule_engine.DiscretCompType;
-import fr.abes.qualinka.these.old.DefaultDiscretCompType;
+import fr.abes.sudoqual.rule_engine.impl.DiscretCompTypeImpl;
 import fr.abes.qualinka.these.old.ISimilarity;
 import fr.abes.qualinka.these.util.Utilities;
 import fr.abes.qualinka.these.util.adapter.DefaultCriterion2;
@@ -22,7 +22,7 @@ public class DeweyCriterionCA extends DefaultCriterion2 {
 
     //static Map deweyCompMatrix = createDeweyMap();
     public DeweyCriterionCA() {
-        super("deweyCriterionCA", new DefaultDiscretCompType(false, -1, true, 2, false), new String[]{"dewey", "role"}, new String[]{"deweySA"});
+        super("deweyCriterionCA", new DiscretCompTypeImpl(false, -1, true, 2, false), new String[]{"dewey", "role"}, new String[]{"deweySA"});
     }
 
     @Override
@@ -40,7 +40,7 @@ public class DeweyCriterionCA extends DefaultCriterion2 {
         }
 
         //int representativeness = deweyRaIn.get("representativeness");
-        //if(representativeness < 2) return DefaultDiscretCompType.NEUTRAL;
+        //if(representativeness < 2) return DiscretCompTypeImpl.NEUTRAL;
         JSONArray deweyRa = (JSONArray) deweyRaIn.get("weightedDewey");
 
         Map<String, Double> mapDeweyRc = new HashMap<>();

@@ -6,7 +6,7 @@
 package fr.abes.qualinka.these.criterion.ca;
 
 import fr.abes.sudoqual.rule_engine.DiscretCompType;
-import fr.abes.qualinka.these.old.DefaultDiscretCompType;
+import fr.abes.sudoqual.rule_engine.impl.DiscretCompTypeImpl;
 import fr.abes.qualinka.these.util.adapter.DefaultCriterion2;
 import fr.abes.qualinka.these.util.adapter.IReference;
 import org.json.JSONArray;
@@ -19,7 +19,7 @@ public class TitleCriterionCA extends DefaultCriterion2 {
 	final static int SEUIL2 = 6000;
 
 	public TitleCriterionCA() {
-		super("titleCriterionCA", new DefaultDiscretCompType(false, 0, true, 3, false), new String[] { "title" },
+		super("titleCriterionCA", new DiscretCompTypeImpl(false, 0, true, 3, false), new String[] { "title" },
 		      new String[] { "titleSA" });
 	}
 

@@ -6,7 +6,7 @@
 package fr.abes.qualinka.these.criterion.ca;
 
 import fr.abes.sudoqual.rule_engine.DiscretCompType;
-import fr.abes.qualinka.these.old.DefaultDiscretCompType;
+import fr.abes.sudoqual.rule_engine.impl.DiscretCompTypeImpl;
 import fr.abes.qualinka.these.util.adapter.DefaultCriterion2;
 import fr.abes.qualinka.these.util.adapter.IReference;
 import org.json.JSONArray;
@@ -23,7 +23,7 @@ import org.json.JSONArray;
 public class ThesisDateCriterionCA extends DefaultCriterion2 {
 
     public ThesisDateCriterionCA() {
-        super("thesisDateCriterionCA", new DefaultDiscretCompType(false, -1, true, 1, false), new String[]{"pubDate"}, new String[]{"thesisDateSA"});
+        super("thesisDateCriterionCA", new DiscretCompTypeImpl(false, -1, true, 1, false), new String[]{"pubDate"}, new String[]{"thesisDateSA"});
     }
 
     @Override

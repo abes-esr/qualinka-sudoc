@@ -6,7 +6,7 @@
 package fr.abes.qualinka.these.criterion.ca;
 
 import fr.abes.sudoqual.rule_engine.DiscretCompType;
-import fr.abes.qualinka.these.old.DefaultDiscretCompType;
+import fr.abes.sudoqual.rule_engine.impl.DiscretCompTypeImpl;
 import fr.abes.qualinka.these.util.adapter.DefaultCriterion2;
 import fr.abes.qualinka.these.util.adapter.IReference;
 import org.json.JSONArray;
@@ -15,7 +15,7 @@ import org.json.JSONObject;
 public class ExpLanguageCriterionCA extends DefaultCriterion2 {
 
     public ExpLanguageCriterionCA() {
-        super("expLanguageCriterionCA", new DefaultDiscretCompType(false, -1, true, 3, false), new String[]{"firstExpLanguage", "expLanguage", "role"}, new String[]{"allExpLanguageSA", "personLanguageSA"});
+        super("expLanguageCriterionCA", new DiscretCompTypeImpl(false, -1, true, 3, false), new String[]{"firstExpLanguage", "expLanguage", "role"}, new String[]{"allExpLanguageSA", "personLanguageSA"});
     }
 
     @Override
@@ -50,7 +50,7 @@ public class ExpLanguageCriterionCA extends DefaultCriterion2 {
         // If the role does not allow to give an indicator of the language expression of the contextual reference then the criterion value is NEUTRAL
         // Aline 10/07/14 : ajouter toutes les valeurs contenues dans attribut GroupeRole (? cr?er)
         //	if(!(roleRc.equals("author") || roleRc.equals("collaborator") || roleRc.equals("thesis_advisor") || roleRc.equals("editor") || roleRc.equals("secretary")))
-        //		return DefaultDiscretCompType.NEUTRAL;
+        //		return DiscretCompTypeImpl.NEUTRAL;
         int valp = 0;
         int vale = 0;
         if (plangSa != null) {

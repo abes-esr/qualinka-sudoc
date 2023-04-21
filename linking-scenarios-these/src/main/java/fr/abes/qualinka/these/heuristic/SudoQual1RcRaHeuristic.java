@@ -54,7 +54,7 @@ public class SudoQual1RcRaHeuristic extends BasicLinkHeuristic {
 		}
 	}
 
-	protected Set<Link> globalLinkDeduction(FeatureManager store, Set<Candidate> allCandidates, Set<Candidate> bestCandidates, int bestProximity, Reference source, int currentStep) {
+	protected Collection<Link> globalLinkDeduction(FeatureManager store, Set<Candidate> allCandidates, Set<Candidate> bestCandidates, int bestProximity, Reference source, int currentStep) {
 		Collection<Link> newLinks = new LinkedList<>();
 		
 		boolean sameAsFound = false;
@@ -62,7 +62,7 @@ public class SudoQual1RcRaHeuristic extends BasicLinkHeuristic {
 			assert (!bestCandidates.isEmpty());
 			if (bestCandidates.size() == 1) {
 				Candidate candidate = bestCandidates.iterator().next();
-				newLinks.add(Link.create(Link.Type.SAME_AS, source, candidate, currentStep));
+				newLinks.add(Link.create(Link.Type.SAME_AS, source, candidate));
 				sameAsFound = true;
 				if(LOGGER.isDebugEnabled()) {
 					LOGGER.debug("SameAs {}", candidate.target);
@@ -70,7 +70,7 @@ public class SudoQual1RcRaHeuristic extends BasicLinkHeuristic {
 			} else {
 				if(this.SUGGESTED_ENABLED) {
     				for (Candidate candidate : bestCandidates) {
-    					newLinks.add(Link.create(Link.Type.SUGGESTED, source, candidate, currentStep));
+    					newLinks.add(Link.create(Link.Type.SUGGESTED, source, candidate));
         				if(LOGGER.isDebugEnabled()) {
         					LOGGER.debug("Suggests {}", candidate.target);
         				}
@@ -90,13 +90,12 @@ public class SudoQual1RcRaHeuristic extends BasicLinkHeuristic {
 			if(LOGGER.isDebugEnabled()) {
 				LOGGER.debug(">>> CATCH UP RULE {} same as {}", source, candidate.target);
 			}
-			Link link = Link.create(Link.Type.SAME_AS, source, candidate, currentStep);
-			link.getWhy().add("It confirms an existing link.");
+			Link link = Link.create(Link.Type.SAME_AS, source, candidate,"It confirms an existing link.", null);
 			newLinks.add(link);
 			sameAsFound = true;
 		} else if (this.SUGGESTED_ENABLED && bestProximity >= super.SUGGESTED_THRESHOLD) {
 			for (Candidate candidate : bestCandidates) {
-				newLinks.add(Link.create(Link.Type.SUGGESTED, source, candidate, currentStep));
+				newLinks.add(Link.create(Link.Type.SUGGESTED, source, candidate));
 				if(LOGGER.isDebugEnabled()) {
 					LOGGER.debug("Suggests {}", candidate.target);
 				}
@@ -106,11 +105,10 @@ public class SudoQual1RcRaHeuristic extends BasicLinkHeuristic {
 		if(sameAsFound) {
 			// assert diffFrom for all candidate with negative proximityClue
 			for(Candidate cand : allCandidates) {
-				if(cand.proximityClue < 0 
-						&& !hardDiffFrom(cand.proximityClue)
+				if(cand.proximityClue < 0
+						&& !(cand.proximityClue <= super.DIFF_FROM_THRESHOLD)
 						&& cand.proximityClue != DiscretCompType.NOT_COMPARABLE) {
-					Link link = Link.create(Link.Type.DIFF_FROM, source, cand, currentStep);
-					link.getWhy().add("A sameAs was found");
+					Link link = Link.create(Link.Type.DIFF_FROM, source, cand, null, "A sameAs was found");
 					newLinks.add(link);
 				}
 			}

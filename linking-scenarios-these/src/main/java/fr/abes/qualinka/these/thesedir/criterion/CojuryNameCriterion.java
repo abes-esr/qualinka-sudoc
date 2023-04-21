@@ -3,7 +3,7 @@ package fr.abes.qualinka.these.thesedir.criterion;
 import fr.abes.sudoqual.rule_engine.DiscretCompType;
 import fr.abes.sudoqual.rule_engine.predicate.Criterion;
 import fr.abes.qualinka.these.old.CoContribNameCacheEntry;
-import fr.abes.qualinka.these.old.DefaultDiscretCompType;
+import fr.abes.sudoqual.rule_engine.impl.DiscretCompTypeImpl;
 import fr.abes.qualinka.these.util.NameComparison;
 import org.json.JSONArray;
 import org.json.JSONObject;
@@ -21,7 +21,7 @@ public class CojuryNameCriterion implements Criterion {
 
 		@Override
 		public DiscretCompType getComparisonType() {
-			return new DefaultDiscretCompType(false, 0, true, 2, false);
+			return new DiscretCompTypeImpl(false, 0, true, 2, false);
 		}
 
 		@Override

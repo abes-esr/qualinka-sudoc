@@ -6,7 +6,7 @@
 package fr.abes.qualinka.these.criterion.ca;
 
 import fr.abes.sudoqual.rule_engine.DiscretCompType;
-import fr.abes.qualinka.these.old.DefaultDiscretCompType;
+import fr.abes.sudoqual.rule_engine.impl.DiscretCompTypeImpl;
 import fr.abes.qualinka.these.util.adapter.DefaultCriterion2;
 import fr.abes.qualinka.these.util.adapter.IReference;
 import org.json.JSONObject;
@@ -17,7 +17,7 @@ import org.json.JSONObject;
  */
 public class DatePubCriterionCA extends DefaultCriterion2 {
 	public DatePubCriterionCA() {
-		super("datePubCriterionCA", new DefaultDiscretCompType(false, -2, true, 2, false), new String[] { "pubDate" },
+		super("datePubCriterionCA", new DiscretCompTypeImpl(false, -2, true, 2, false), new String[] { "pubDate" },
 		      new String[] { "datePubSA" });
 	}
 
@@ -52,7 +52,7 @@ public class DatePubCriterionCA extends DefaultCriterion2 {
 			return DiscretCompType.NEUTRAL;
 
 		/*
-		 * if (per>80) return DefaultDiscretCompType.NEUTRAL; // cas de r??dition else
+		 * if (per>80) return DiscretCompTypeImpl.NEUTRAL; // cas de r??dition else
 		 * if (datePubRC >= fdate && datePubRC <= ldate) return 2; else if (per<=10 &&
 		 * datePubRC >= fdate-3 && datePubRC <= ldate+3) return 2; else if (datePubRC >=
 		 * ldate-80 && datePubRC <= fdate+80) return 1; else return -1;

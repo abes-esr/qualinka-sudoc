@@ -6,7 +6,7 @@
 package fr.abes.qualinka.these.criterion.ca;
 
 import fr.abes.sudoqual.rule_engine.DiscretCompType;
-import fr.abes.qualinka.these.old.DefaultDiscretCompType;
+import fr.abes.sudoqual.rule_engine.impl.DiscretCompTypeImpl;
 import fr.abes.qualinka.these.util.adapter.DefaultCriterion2;
 import fr.abes.qualinka.these.util.adapter.IReference;
 import fr.abes.sudoqual.util.json.JSONArrays;
@@ -18,7 +18,7 @@ import org.json.JSONArray;
  */
 public class DateCreationNoticeCriterionCA extends DefaultCriterion2 {
 	public DateCreationNoticeCriterionCA() {
-		super("dateCreationNoticeCriterionCA", new DefaultDiscretCompType(false, 0, true, 0, true),
+		super("dateCreationNoticeCriterionCA", new DiscretCompTypeImpl(false, 0, true, 0, true),
 		      new String[] { "dateCreationNotice" }, new String[] { "dateCreationNotice", "initialLinks" });
 	}
 

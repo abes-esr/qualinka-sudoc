@@ -6,7 +6,7 @@
 package fr.abes.qualinka.these.criterion.ca;
 
 import fr.abes.sudoqual.rule_engine.DiscretCompType;
-import fr.abes.qualinka.these.old.DefaultDiscretCompType;
+import fr.abes.sudoqual.rule_engine.impl.DiscretCompTypeImpl;
 import fr.abes.qualinka.these.util.adapter.DefaultCriterion2;
 import fr.abes.qualinka.these.util.adapter.IReference;
 import org.json.JSONArray;
@@ -16,7 +16,7 @@ import org.json.JSONObject;
 public class ThesisCriterionCA extends DefaultCriterion2 {
 
     public ThesisCriterionCA() {
-        super("ThesisCriterionCA", new DefaultDiscretCompType(false, -2, true, 3, false), new String[]{"scientificWork", "role"}, new String[]{"initialLinks", "scientificWorkSA", "roleSA"});
+        super("ThesisCriterionCA", new DiscretCompTypeImpl(false, -2, true, 3, false), new String[]{"scientificWork", "role"}, new String[]{"initialLinks", "scientificWorkSA", "roleSA"});
         // PVV
         //	ajouter l'attribut rc sur la ref 2   "initialLinks"});
     }
@@ -74,7 +74,7 @@ public class ThesisCriterionCA extends DefaultCriterion2 {
         /* commented because the following code block is unreachable 
 
         if (representativeness < 3) {
-            return DefaultDiscretCompType.NEUTRAL;
+            return DiscretCompTypeImpl.NEUTRAL;
         } else if (representativeness < 5) {
             return -1;
         } else {
