@@ -54,6 +54,7 @@
 		<module>linking-scenarios-sudoc</module>
 		<module>linking-scenarios-example</module>
 		<module>linking-scenarios-sudoqual1</module>
+		<module>linking-scenarios-these</module>
 		<module>web-services</module>
 	</modules>
 

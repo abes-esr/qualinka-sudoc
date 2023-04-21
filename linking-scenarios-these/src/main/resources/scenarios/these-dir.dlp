@@ -1,0 +1,65 @@
+
+% Scenario directeur de thèses
+[SuperBeton]sameAs(X,Y,always) 	:- personNameCriterionCA(X,Y,1), thesisDateCriterion2 (X,Y,1), thesisAdvisorFilterRA(Y), datesDimension(X,Y,1),contenuDimension(X,Y,2), envPubDimension(X,Y,2).
+[Beton]sameAs(X,Y,9999) 	:- personNameCriterionCA(X,Y,1), thesisAdvisorFilterRA(Y), datesDimension(X,Y,1),contenuDimension(X,Y,2), envPubDimension(X,Y,2).
+[Ciment]sameAs(X,Y,9998) 	:- personNameCriterionCA(X,Y,1), thesisAdvisorFilterRA(Y), contenuDimension(X,Y,2), envPubDimension(X,Y,2).
+
+[Crepis]sameAs(X,Y,5) 	 	:- personNameCriterionCA(X,Y,1), thesisAdvisorFilterRA(Y), datesDimension(X,Y,1),contenuDimension(X,Y,2).
+
+[Peint]sameAs(X,Y,3) 	    :- personNameCriterionCA(X,Y,1), thesisAdvisorFilterRA(Y).
+sameAs(X,Y,1) 		:- personNameCriterionCA(X,Y,2), contenuDimension(X,Y,2).
+sameAs(X,Y,1)  		:- personNameCriterionCA(X,Y,1), isAuthorThesis(Y).
+sameAs(X,Y,3)	    :- personNameCriterionCA(X,Y,1), cojuryName(X,Y,1).
+sameAs(X,Y,2)	    :- personNameCriterionCA(X,Y,1), thesisDateCriterion2(X,Y,1).
+diffFrom(X,Y,5)		:- contenuDimension(X,Y,-1),datesDimension(X,Y,-1).
+diffFrom(X,Y,6) 	:- thesisDateCriterion2 (X,Y,-1).
+
+% regle sudoc
+%[ID31]sameAs(X,Y,3):-personNameCriterionCA(X,Y,2),contenuDimension(X,Y,2).
+[ID32]sameAs(X,Y,3):-personNameCriterionCA(X,Y,1),datesDimension(X,Y,1),contenuDimension(X,Y,2).
+[ID511]sameAs(X,Y,5):-personNameCriterionCA(X,Y,2),envPubDimension(X,Y,2),contenuDimension(X,Y,2).
+%[ID512]diffFrom(X,Y,-5) :- contenuDimension(X,Y,1),datesDimension(X,Y,-1).
+
+% dimensions
+[PubDim1] envPubDimension(X,Y,1) :- corporateBodyCriterionCA(X,Y,1).
+[PubDim2] envPubDimension(X,Y,2) :- corporateBodyCriterionCA(X,Y,2).
+[PubDim3] envPubDimension(X,Y,1) :- publisherCriterionCA(X,Y,1).
+[PubDim4] envPubDimension(X,Y,2) :- publisherCriterionCA(X,Y,2).
+[PubDim5] envPubDimension(X,Y,2) :- publisherCriterionCA(X,Y,1),corporateBodyCriterionCA(X,Y,1).
+[PubDim6] envPubDimension(X,Y,2) :- publisherCriterionCA(X,Y,1),corporateBodyCriterionCA(X,Y,2).
+[PubDim7] envPubDimension(X,Y,2) :- publisherCriterionCA(X,Y,2),corporateBodyCriterionCA(X,Y,1).
+[PubDim8] envPubDimension(X,Y,3) :- publisherCriterionCA(X,Y,2),corporateBodyCriterionCA(X,Y,2).
+
+[DateDim1] datesDimension(X,Y,-1):- datePubCriterionCA(X,Y,-1).
+[DateDim2] datesDimension(X,Y,1):- datePubCriterionCA(X,Y,1), datePubLifeCriterionCA(X,Y,1).
+[DateDim3] datesDimension(X,Y,1):- datePubLifeCriterionCA(X,Y,1).
+[DateDim4] datesDimension(X,Y,2):- datePubCriterionCA(X,Y,2).
+[DateDim5] datesDimension(X,Y,never):- datePubLifeCriterionCA(X,Y,never).
+[DateDim6] datesDimension(X,Y,-1):- datePubLifeCriterionCA(X,Y,-1).
+[DateDim7] datesDimension(X,Y,-2):- datePubLifeCriterionCA(X,Y,-1),datePubCriterionCA(X,Y,-1).
+
+[ContDim1] contenuDimension(X,Y,-1) :- deweyCriterionCA(X,Y,-1).
+[ContDim2] contenuDimension(X,Y,1) :- deweyCriterionCA(X,Y,1).
+[ContDim3] contenuDimension(X,Y,2) :- deweyCriterionCA(X,Y,2).
+[ContDim4] contenuDimension(X,Y,-1) :- domainCriterionCA(X,Y,-1).
+[ContDim5] contenuDimension(X,Y,1) :- domainCriterionCA(X,Y,1).
+[ContDim6] contenuDimension(X,Y,2) :- domainCriterionCA(X,Y,2).
+[ContDim7] contenuDimension(X,Y,2) :- rameauKeywordCriterionCA(X,Y,1).
+[ContDim8] contenuDimension(X,Y,3) :- rameauKeywordCriterionCA(X,Y,2).
+[ContDim9] contenuDimension(X,Y,2) :- titleCriterionCA(X,Y,1).
+[ContDim10] contenuDimension(X,Y,3) :- titleCriterionCA(X,Y,2).
+[ContDim11] contenuDimension(X,Y,4) :- titleCriterionCA(X,Y,3).
+[ContDim12] contenuDimension(X,Y,-2) :- domainCriterionCA(X,Y,-1),deweyCriterionCA(X,Y,-1).
+[ContDim13] contenuDimension(X,Y,2) :- domainCriterionCA(X,Y,1),deweyCriterionCA(X,Y,2).
+[ContDim14] contenuDimension(X,Y,2) :- domainCriterionCA(X,Y,2),deweyCriterionCA(X,Y,1).
+[ContDim15] contenuDimension(X,Y,3) :- titleCriterionCA(X,Y,1),rameauKeywordCriterionCA(X,Y,1).
+[ContDim16] contenuDimension(X,Y,3) :- deweyCriterionCA(X,Y,2),rameauKeywordCriterionCA(X,Y,1).
+[ContDim17] contenuDimension(X,Y,3) :- domainCriterionCA(X,Y,2),rameauKeywordCriterionCA(X,Y,1).
+[ContDim18] contenuDimension(X,Y,3) :- domainCriterionCA(X,Y,1),deweyCriterionCA(X,Y,1),rameauKeywordCriterionCA(X,Y,1).
+[ContDim19] contenuDimension(X,Y,3) :- domainCriterionCA(X,Y,1),deweyCriterionCA(X,Y,1),titleCriterionCA(X,Y,1).
+[ContDim20] contenuDimension(X,Y,4) :- titleCriterionCA(X,Y,2),rameauKeywordCriterionCA(X,Y,2).
+[ContDim21] contenuDimension(X,Y,4) :- titleCriterionCA(X,Y,2),rameauKeywordCriterionCA(X,Y,1),deweyCriterionCA(X,Y,1).
+[ContDim22] contenuDimension(X,Y,4) :- titleCriterionCA(X,Y,2),rameauKeywordCriterionCA(X,Y,1),domainCriterionCA(X,Y,1).
+[ContDim23] contenuDimension(X,Y,4) :- titleCriterionCA(X,Y,1),rameauKeywordCriterionCA(X,Y,2),deweyCriterionCA(X,Y,1).
+[ContDim24] contenuDimension(X,Y,4) :- titleCriterionCA(X,Y,1),rameauKeywordCriterionCA(X,Y,2),domainCriterionCA(X,Y,1).
+

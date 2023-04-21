@@ -1,0 +1,1038 @@
+{
+ "scenario": "these-dir", 
+ "supports": [
+  "sudoc:203698562-2",
+  "sudoc:203630815-2",
+  "sudoc:176229132-2",
+  "sudoc:110838203-2",
+  "sudoc:074626884-2",
+  "sudoc:180228358-1",
+  "sudoc:176614494-1",
+  "sudoc:202546055-1",
+  "sudoc:060032693-1",
+  "sudoc:17746402X-2",
+  "sudoc:174530455-2",
+  "sudoc:174530455-1",
+  "sudoc:227080378-1",
+  "sudoc:041823761-1"
+ ],
+ "targets": [
+  "idref:07462766X",
+  "idref:074645824",
+  "idref:176590714",
+  "idref:034819479",
+  "idref:23438557X",
+  "idref:172533708",
+  "idref:177465433"
+ ],
+ "sources": [
+  "star:2014PA11T039-dirthese"
+ ],
+ "safeLinks": [
+  {
+   "source": "sudoc:203698562-2",
+   "target": "idref:074645824",
+   "type": "sameAs"
+  },
+   {
+   "source": "sudoc:203630815-2",
+   "target": "idref:07462766X",
+   "type": "sameAs"
+  },
+  {
+   "source": "sudoc:176229132-2",
+   "target": "idref:07462766X",
+   "type": "sameAs"
+  },
+  {
+   "source": "sudoc:110838203-2",
+   "target": "idref:07462766X",
+   "type": "sameAs"
+  },
+  {
+   "source": "sudoc:074626884-2",
+   "target": "idref:07462766X",
+   "type": "sameAs"
+  },
+  {
+   "source": "sudoc:180228358-1",
+   "target": "idref:176590714",
+   "type": "sameAs"
+  },
+  {
+   "source": "sudoc:176614494-1",
+   "target": "idref:176590714",
+   "type": "sameAs"
+  },
+  {
+   "source": "sudoc:202546055-1",
+   "target": "idref:034819479",
+   "type": "sameAs"
+  },
+  {
+   "source": "sudoc:060032693-1",
+   "target": "idref:034819479",
+   "type": "sameAs"
+  },
+  {
+   "source": "sudoc:17746402X-2",
+   "target": "idref:23438557X",
+   "type": "sameAs"
+  },
+  {
+   "source": "sudoc:174530455-2",
+   "target": "idref:23438557X",
+   "type": "sameAs"
+  },
+  {
+   "source": "sudoc:174530455-1",
+   "target": "idref:23438557X",
+   "type": "sameAs"
+  },
+  {
+   "source": "sudoc:227080378-1",
+   "target": "idref:172533708",
+   "type": "sameAs"
+  },
+  {
+   "source": "sudoc:041823761-1",
+   "target": "idref:177465433",
+   "type": "sameAs"
+  }
+],
+ "features": {
+   "star:2014PA11T039-dirthese": {
+   "personName": [
+    {
+     "appellation": "Delattre, Olivier"
+    }
+   ],
+   "title": [
+    "Synthetic Lethality and Metabolism in Ewing Sarcoma : Knowledge Through Silence",
+	"LÃƒÂ©talitÃƒÂ© synthÃƒÂ©tique et MÃƒÂ©tabolisme dans le Sarcome d'Ewing : connaissance grÃƒÂ¢ce au Silence"
+   ],
+   "expLanguage": [
+    "eng"
+   ],
+   "pubDate": [
+    "2014"
+   ],
+   "keyword": [
+    "Sarcome d'Ewing",
+    "MÃƒÂ©tabolisme",
+    "Apoptose",
+    "Sarcome dÃ¢â‚¬â„¢Ewing",
+    "MÃƒÂ©tabolisme des cellules cancÃƒÂ©reuses",
+    "MÃƒÂ©tabolomiques",
+    "KynurÃƒÂ©nine",
+    "Effet de Warburg",
+    "LÃƒÂ©thalitÃƒÂ© synthÃƒÂ©tique",
+    "PKD1",
+    "EWS-FLI1",
+    "Ãƒâ€°tude ARNi",
+	"Ewing sarcoma",
+	"Cancer cell metabolism",
+	"Metabolomics",
+	"Kynurenine",
+	"WarburgÃ¢â‚¬â„¢ effect",
+	"Synthetic lethality",
+	"PKD1",
+	"EWS-FLI1",
+	"RNAi screen"
+   ],
+   "domain": [
+    "610",
+    "570"
+   ],
+   "docType": [
+	"thesis"
+   ],
+   "role": [
+    "thesis_advisor"
+   ],
+   "cocontributor": [
+    {
+     "cocontributor": "Jonker, Anneliene",
+     "person": "star:2014PA11T039-dirthese",
+     "idcocontrib": "XXX"
+    }
+   ],
+   "cojury": [
+	{
+     "cojury": "Perret, Christine",
+     "person": "sudoc:180756931-2",
+     "idcocontrib": "XXX"
+    },
+    {
+     "cojury": "Szuhai, KÃƒÂ¡roly",
+     "person": "sudoc:180756931-2",
+     "idcocontrib": "XXX"
+    },
+    {
+     "cojury": "Boletta, Alessandra",
+     "person": "sudoc:180756931-2",
+     "idcocontrib": "XXX"
+    },
+    {
+     "cojury": "Perez, Franck",
+     "person": "sudoc:180756931-2",
+     "idcocontrib": "XXX"
+    }
+   ],
+   "corporateBody": [
+    "UniversitÃƒÂ© Paris-Sud",
+    "Ecole doctorale CancÃƒÂ©rologie : Biologie, MÃƒÂ©decine, SantÃƒÂ©",
+    "UnitÃƒÂ© de gÃƒÂ©nÃƒÂ©tique et biologie des cancers"
+   ]
+  },
+    "sudoc:044202172-1": {
+   "personName": [
+    {
+     "appellation": "Delattre, Olivier"
+    }
+   ],
+   "title": [
+    "APPROCHE MOLECULAIRE DES REMANIEMENTS DU CHROMOSOME 22 HUMAIN OBSERVES DANS DES PATHOLOGIES TUMORALES NON HEMATOLOGIQUES  : CAS PARTICULIER DE LA T(11; 22) DU SARCOME"
+   ],
+   "pubDate": [
+    "1991"
+   ],
+   "keyword": [
+    "SCIENCES MEDICALES : PATHOLOGIE OSTEOARTICULAIRE",
+    "CHROMOSOME 22",
+    "NEUROEPITHELIOME",
+    "NEURINOME",
+    "TRANSLOCATION",
+    "SARCOME D'EWING",
+    "MENINGIOME",
+    "NEUROFIBROMATOSE",
+    "DELETIONS"
+   ],
+   "domain": [],
+   "docType": [
+	"thesis"
+   ],
+   "corporateBody": [
+    "UniversitÃƒÂ© Paris Diderot - Paris 7"
+   ],
+   "role": [
+    "author"
+   ],
+   "cocontributor": [
+    {
+     "cocontributor": "Thomas, Gilles",
+     "person": "sudoc:044202172-1",
+     "idcocontrib": "XXX"
+    }
+   ]
+  },
+  "idref:074645824": {
+   "personName": [
+    {
+     "last_name": "Delattre",
+     "first_name": "Olivier"
+    }
+   ],
+   "rc": ["sudoc:203698562-2"],
+   "source": []
+  },
+  "sudoc:203698562-2":{
+   "personName": [
+    {
+     "appellation": "Delattre, Olivier"
+    }
+   ],
+   "title": [
+    "La biologie humaine en question"
+   ],
+   "expLanguage": [
+    "fre"
+   ],
+   "pubDate": [
+    "2010"
+   ],
+   "keyword": [],
+   "domain": [
+    "610",
+    "570"
+   ],
+   "docType": [],
+   "role": [
+    "author"
+   ],
+   
+   "corporateBody": []
+  },
+  "idref:07462766X": {
+   "personName": [
+    {
+     "last_name": "Delattre",
+     "first_name": "Olivier"
+    }
+   ],
+   "rc": ["sudoc:203630815-2","sudoc:176229132-2","sudoc:110838203-2","sudoc:074626884-2"],
+   "source": [
+    "Evolution sous-clonale dans le neuroblastome / Paul Deveau ; sous la direction de Olivier Delattre et Valentina Boeva. ThÃƒÂ¨se de doctorat : Recherche clinique, innovation technologique, santÃƒÂ© publique : Paris Saclay : 2017",
+    "Etude des altÃƒÂ©rations de la polaritÃƒÂ© et de lÃ¢â‚¬â„¢adhÃƒÂ©sion cellulaire dans les cancers du sein / par NadÃƒÂ¨ge Gruel ; sous la direction de Olivier Delattre, UniversitÃƒÂ© Paris Sud, 2013 [ThÃƒÂ¨se de GÃƒÂ©nÃƒÂ©tique et cancÃƒÂ©rologie]",
+    "CaractÃƒÂ©risation d'un nouveau gÃƒÂ¨ne suppresseur de tumeur, hSNF5/INI1 impliquÃƒÂ© dans les tumeurs rhabdoiÃ�ï¿½ÃŒË†des malignes / Isabella Versteege ; sous la dir. d' Olivier Delattre. 2002",
+    "MÃƒÂ©canismes d'action du suppresseur de tumeur hSNF5/INI1 : ÃƒÂ©tude de l'homologie fonctionnelle et recherche de partenaires d'interaction / Vanessa Bonazzi ; sous la direction d' Olivier Delattre, 2005"
+   ]
+  },
+  "idref:176590714": {
+   "personName": [
+    {
+     "last_name": "Delattre",
+     "first_name": "Olivier"
+    }
+   ],
+   "rc": ["sudoc:180228358-1","sudoc:176614494-1"],
+   "source": [
+    "Cristallisation de fontes verriÃƒÂ¨res dÃ¢â‚¬â„¢intÃƒÂ©rÃƒÂªt nuclÃƒÂ©aire en prÃƒÂ©sence dÃ¢â‚¬â„¢un gradient thermique : application aux auto-creusets produits en creuset froid / Olivier Delattre ; Guy Matzen, 2013"
+   ]
+  },
+  "idref:034819479": {
+   "personName": [
+    {
+     "last_name": "Delattre",
+     "first_name": "Olivier"
+    }
+   ],
+   "rc": ["sudoc:202546055-1","sudoc:060032693-1"],
+   "source": [
+    "Les enjeux du CTI / Philippe Lafitte, Olivier Delattre, 1996"
+   ]
+  },
+  "idref:23438557X": {
+   "personName": [
+    {
+     "last_name": "Delattre",
+     "first_name": "Olivier"
+    }
+   ],
+   "rc": ["sudoc:17746402X-2","sudoc:174530455-2","sudoc:174530455-1"],
+   "source": [
+    "Suis moi  / Olivier Delattre, chant [acc. instr.] / [France] : O. Delattre , [DL 2013]"
+   ]
+  },
+  "idref:172533708": {
+   "personName": [
+    {
+     "last_name": "Delattre",
+     "first_name": "Olivier"
+    }
+   ],
+   "rc": ["sudoc:227080378-1"],
+   "source": [
+    "CoÃƒÂ©volution et reconnaissance sociale chez un parasite social et ses espÃƒÂ¨ces hÃƒÂ´tes : ÃƒÂ©tude de la fourmi esclavagiste Myrmoxenus ravouxi et d'espÃƒÂ¨ces sympatriques du genre Temnothorax / Delattre Olivier. [ThÃƒÂ¨se : Paris 13 : 2012]"
+   ]
+  },
+  "idref:177465433": {
+   "personName": [
+    {
+     "last_name": "Delattre",
+     "first_name": "Olivier"
+    }
+   ],
+   "rc": ["sudoc:041823761-1"],
+   "source": [
+    "Traitement de l'arthrose anvancÃƒÂ©e du poignet par arthrodÃƒÂ¨se trois os associÃƒÂ©e ÃƒÂ  une rÃƒÂ©section du scaphoÃƒÂ¯de et du triquetrum  / Gilles Goulon; sous la direction de O. Delattre, 2009 (ThÃƒÂ¨se)"
+   ]
+  },
+  "sudoc:224093088-1": {
+   "personName": [
+    {
+     "appellation": "Delattre, Olivier"
+    }
+   ],
+   "title": [
+    "Ordre public et libre circulation des personnes : (en droit communautaire) : (en droit communautaire)"
+   ],
+   "pubDate": [
+    "1992"
+   ],
+   "expLanguage": [
+    "fre"
+   ],
+   "keyword": [],
+   "domain": [],
+   "docType": [
+   ],
+   "corporateBody": [],
+   "role": [
+    "author"
+   ],
+   "cocontributor": []
+  },
+  "sudoc:190818530-1": {
+   "personName": [
+    {
+     "appellation": "Delattre, Olivier"
+    }
+   ],
+   "title": [
+    "Earthtalent : creative network for local accomplishments"
+   ],
+   "pubDate": [
+    "2015"
+   ],
+   "expLanguage": [
+    "eng"
+   ],
+   "keyword": [
+    "CoopÃƒÂ©ration internationale",
+    "MÃƒÂ©dias"
+   ],
+   "domain": [
+    "320",
+    "070"
+   ],
+   "corporateBody": [
+    "BollorÃƒÂ© technologies"
+   ],
+   "role": [
+    "director"
+   ],
+   "cocontributor": []
+  },
+  "sudoc:166547379-1": {
+   "personName": [
+    {
+     "appellation": "Delettre, Olivier"
+    }
+   ],
+   "title": [
+    "De l'amitiÃƒÂ© et de la fraternitÃƒÂ© ÃƒÂ  l'Ãƒâ€°cole de Rochefort : essai"
+   ],
+   "pubDate": [
+    "2012"
+   ],
+   "expLanguage": [
+    "fre"
+   ],
+   "keyword": [],
+   "domain": [],
+   "corporateBody": [],
+   "role": [
+    "author"
+   ],
+   "cocontributor": []
+  },
+  "sudoc:10993220X-1": {
+   "personName": [
+    {
+     "appellation": "Delettre, Olivier"
+    }
+   ],
+   "title": [
+    "Nouveau modÃƒÂ¨le hÃƒÂ©roiÃ�ï¿½ÃŒË†que ou anti-hÃƒÂ©ros, Corto Maltese"
+   ],
+   "pubDate": [
+    "2005"
+   ],
+   "expLanguage": [
+    "fre"
+   ],
+   "keyword": [],
+   "domain": [],
+   "corporateBody": [],
+   "role": [
+    "author"
+   ],
+   "cocontributor": []
+  },
+  "sudoc:107897229-1": {
+   "personName": [
+    {
+     "appellation": "Delettre, Olivier"
+    }
+   ],
+   "title": [
+    "La solution est dans la clef : nouvelle"
+   ],
+   "pubDate": [
+    "2005"
+   ],
+   "expLanguage": [
+    "fre"
+   ],
+   "keyword": [],
+   "domain": [],
+   "corporateBody": [],
+   "role": [
+    "author"
+   ],
+   "cocontributor": []
+  },
+  "sudoc:041865847-1": {
+   "personName": [
+    {
+     "appellation": "DELASTRE, OLIVIER"
+    }
+   ],
+   "title": [
+    "REDUCTION DE LA FIBRILLATION AURICULAIRE PAR CHOC ELECTRIQUE EXTERNE GUIDEE PAR ECHOCARDIOGRAPHIE TRANSOESOPHAGIENNE (DES PATHOLOGIE CARDIO-VASCULAIRE)"
+   ],
+   "pubDate": [
+    "1996"
+   ],
+   "expLanguage": [
+    "fre"
+   ],
+   "keyword": [
+    "MEDECINE : CARDIOVASCULAIRE",
+    "FIBRILLATION AURICULAIRE",
+    "CHOC ELECTRIQUE EXTERNE",
+    "ECHOCARDIOGRAPHIE TRANSOESOPHAGIENNE"
+   ],
+   "domain": [],
+   "docType": [
+	"thesis"
+   ],
+   "corporateBody": [],
+   "role": [
+    "author"
+   ],
+   "cocontributor": [
+    {
+     "cocontributor": "BEAUFILS, PHILIPPE",
+     "person": "sudoc:041865847-1",
+     "idcocontrib": "XXX"
+    }
+   ]
+  },
+  "sudoc:203630815-2": {
+   "personName": [
+    {
+     "appellation": "Delattre, Olivier"
+    }
+   ],
+   "title": [
+    "Evolution sous-clonale dans le neuroblastome"
+   ],
+   "pubDate": [
+    "2017"
+   ],
+   "expLanguage": [
+    "fre"
+   ],
+   "keyword": [
+    "GÃƒÂ©nomique",
+    "Neuroblastome",
+    "Evolution clonale"
+   ],
+   "domain": [
+    "570",
+    "610"
+   ],
+   "docType": [
+	"thesis"
+   ],
+   "corporateBody": [
+    "UniversitÃƒÂ© Paris-Saclay",
+    "Ãƒâ€°cole doctorale CancÃƒÂ©rologie, Biologie, MÃƒÂ©decine, SantÃƒÂ©",
+    "UnitÃƒÂ© de gÃƒÂ©nÃƒÂ©tique et biologie des cancers",
+    "Institut Cochin",
+    "UniversitÃƒÂ© Paris-Sud"
+   ],
+   "role": [
+    "thesis_advisor"
+   ],
+   "cocontributor": [
+    {
+     "cocontributor": "Deveau, Paul",
+     "person": "sudoc:203630815-2",
+     "idcocontrib": "XXX"
+    },
+    {
+     "cocontributor": "Boeva, Valentina",
+     "person": "sudoc:203630815-2",
+     "idcocontrib": "XXX"
+    }
+   ],
+   "cojury": [
+   {
+     "cojury": "Auclair, Christian",
+     "person": "sudoc:203630815-2",
+     "idcocontrib": "XXX"
+    },
+    {
+     "cojury": "Koster, Jan",
+     "person": "sudoc:203630815-2",
+     "idcocontrib": "XXX"
+    },
+    {
+     "cojury": "Roest Crollius, Hugues",
+     "person": "sudoc:203630815-2",
+     "idcocontrib": "XXX"
+    },
+    {
+     "cojury": "Schleiermacher, Gudrun",
+     "person": "sudoc:203630815-2",
+     "idcocontrib": "XXX"
+    },
+    {
+     "cojury": "Calvo, Fabien",
+     "person": "sudoc:203630815-2",
+     "idcocontrib": "XXX"
+    }
+   ]
+  },
+  "sudoc:176229132-2": {
+   "personName": [
+    {
+     "appellation": "Delattre, Olivier"
+    }
+   ],
+   "title": [
+    "Etude des altÃƒÂ©rations de la polaritÃƒÂ© et de l'adhÃƒÂ©sion cellulaire dans les cancers du sein"
+   ],
+   "pubDate": [
+    "2013"
+   ],
+   "expLanguage": [
+    "fre"
+   ],
+   "keyword": [
+    "Sein",
+    "PolaritÃƒÂ© (biologie)",
+    "GÃƒÂ©nomique",
+    "Cancer du sein",
+    "PolaritÃƒÂ© apico-basale",
+    "IMPC",
+    "ILC",
+    "SequenÃƒÂ§age massif"
+   ],
+   "domain": [
+    "610",
+    "570"
+   ],
+   "docType": [
+	"thesis"
+   ],
+   "corporateBody": [
+    "UniversitÃƒÂ© Paris-Sud",
+    "Ecole doctorale CancÃƒÂ©rologie : Biologie, MÃƒÂ©decine, SantÃƒÂ©",
+    "UnitÃƒÂ© de gÃƒÂ©nÃƒÂ©tique et biologie des cancers"
+   ],
+   "role": [
+    "thesis_advisor"
+   ],
+   "cocontributor": [
+    {
+     "cocontributor": "Gruel, NadÃƒÂ¨ge",
+     "person": "sudoc:176229132-2",
+     "idcocontrib": "XXX"
+    }
+   ]
+  },
+  "sudoc:110838203-2": {
+   "personName": [
+    {
+     "appellation": "Delattre, Olivier"
+    }
+   ],
+   "title": [
+    "MÃƒÂ©canismes d'action du suppresseur de tumeur hSNF5"
+   ],
+   "pubDate": [
+    "2005"
+   ],
+   "expLanguage": [
+    "fre"
+   ],
+   "keyword": [
+    "hSNF5",
+    "INI1",
+    "Complexe SWI",
+    "SNF",
+    "Cycle cellulaire",
+    "ComplÃƒÂ©mentation fonctionnelle",
+    "Partenaire d'interaction",
+    "Tumeur rhabdoide",
+    "GÃƒÂ¨ne suppresseur de tumeur  610 2#",
+    "Cancer"
+   ],
+   "domain": [],
+   "docType": [
+	"thesis"
+   ],
+   "corporateBody": [
+    "UniversitÃƒÂ© Paris Diderot - Paris 7"
+   ],
+   "role": [
+    "thesis_advisor"
+   ],
+   "cocontributor": [
+    {
+     "cocontributor": "Bonazzi, Vanessa",
+     "person": "sudoc:110838203-2",
+     "idcocontrib": "XXX"
+    }
+   ]
+  },
+  "sudoc:074626884-2": {
+   "personName": [
+    {
+     "appellation": "Delattre, Olivier"
+    }
+   ],
+   "title": [
+    "CaractÃƒÂ©risation d'un nouveau gÃƒÂ¨ne suppresseur de tumeur hSNF5"
+   ],
+   "pubDate": [
+    "2002"
+   ],
+   "expLanguage": [
+    "fre"
+   ],
+   "keyword": [
+    "Tumeurs rhabdoÃƒÂ¯des malignes [TRM]",
+    "Cancer",
+    "SWI",
+    "SNF [mating type SWItching ",
+    " Sucrose Non-fermenting]",
+    "Cycline A",
+    "hSNF5",
+    "INI1",
+    "Chromatine",
+    "Cycle cellulaire",
+    "Cdc6 [Cell division cycle]",
+    "GÃƒÂ¨ne suppresseur de tumeur",
+    "G1-S",
+    "E2F1"
+   ],
+   "domain": [],
+   "docType": [
+	"thesis"
+   ],
+   "corporateBody": [
+    "UniversitÃƒÂ© Paris Diderot - Paris 7"
+   ],
+   "role": [
+    "thesis_advisor"
+   ],
+   "cocontributor": [
+    {
+     "cocontributor": "Versteege, Isabella",
+     "person": "sudoc:074626884-2",
+     "idcocontrib": "XXX"
+    }
+   ]
+  },
+  "sudoc:180228358-1": {
+   "personName": [
+    {
+     "appellation": "Delattre, Olivier"
+    }
+   ],
+   "title": [
+    "Cristallisation de fontes verriÃƒÂ¨res d'intÃƒÂ©rÃƒÂªt nuclÃƒÂ©aire en prÃƒÂ©sence d'un gradient thermique : application aux auto-creusets produits en creuset froid"
+   ],
+   "pubDate": [
+    "2014"
+   ],
+   "expLanguage": [
+    "fre"
+   ],
+   "keyword": [],
+   "domain": [],
+   "docType": [
+	"thesis"
+   ],
+   "corporateBody": [],
+   "role": [
+    "author"
+   ],
+   "cocontributor": []
+  },
+  "sudoc:176614494-1": {
+   "personName": [
+    {
+     "appellation": "Delattre, Olivier"
+    }
+   ],
+   "title": [
+    "Cristallisation de fontes verriÃƒÂ¨res d'intÃƒÂ©rÃƒÂªt nuclÃƒÂ©aire en prÃƒÂ©sence d'un gradient thermique  : application aux auto-creusets produits en creuset froid"
+   ],
+   "pubDate": [
+    "2013"
+   ],
+   "expLanguage": [
+    "fre"
+   ],
+   "keyword": [
+    "DÃƒÂ©chets radioactifs",
+    "Verre",
+    "Cristallisation",
+    "Microtomographie",
+    "Verre nuclÃƒÂ©aire",
+    "Gradient thermique",
+    "Analyse dÃ¢â‚¬â„¢images",
+    "Creuset froid"
+   ],
+   "domain": [
+    "600",
+    "530",
+    "540"
+   ],
+   "docType": [
+	"thesis"
+   ],
+   "corporateBody": [
+    "UniversitÃƒÂ© d'OrlÃƒÂ©ans",
+    "Ãƒâ€°cole doctorale Ãƒâ€°nergie, MatÃƒÂ©riaux, Sciences de la Terre et de l'Univers",
+    "Conditions extrÃƒÂªmes et matÃƒÂ©riaux : haute tempÃƒÂ©rature et irradiation"
+   ],
+   "role": [
+    "author"
+   ],
+   "cocontributor": [
+    {
+     "cocontributor": "Matzen, Guy",
+     "person": "sudoc:176614494-1",
+     "idcocontrib": "XXX"
+    }
+   ]
+  },
+  "sudoc:202546055-1": {
+   "personName": [
+    {
+     "appellation": "Delattre, Olivier"
+    }
+   ],
+   "title": [
+    "L'entreprise en difficultÃƒÂ© face au droit communautaire"
+   ],
+   "pubDate": [
+    "1996"
+   ],
+   "expLanguage": [
+    "fre"
+   ],
+   "keyword": [
+    "Entreprises en difficultÃƒÂ© (droit)",
+    "Droit europÃƒÂ©en"
+   ],
+   "domain": [
+    "340"
+   ],
+   "docType": [
+	"thesis"
+   ],
+   "corporateBody": [],
+   "role": [
+    "author"
+   ],
+   "cocontributor": []
+  },
+  "sudoc:060032693-1": {
+   "personName": [
+    {
+     "appellation": "Delattre, Olivier"
+    }
+   ],
+   "title": [
+    "L'ENTREPRISE EN DIFFICULTE FACE AU DROIT COMMUNAUTAIRE."
+   ],
+   "pubDate": [
+    "1996"
+   ],
+   "expLanguage": [
+    "fre"
+   ],
+   "keyword": [
+    "Entreprises en difficultÃƒÂ© (droit)",
+    "Droit europÃƒÂ©en",
+    "DROIT SOCIAL/PAYS DE L'UNION EUROPEENNE",
+    "Concurrence",
+    "DROIT PUBLIC : DROIT PUBLIC EUROPEEN",
+    "ENTREPRISES EN DIFFICULTE (DROIT)",
+    "DROIT COMMUNAUTAIRE",
+    "DROIT SOCIAL ",
+    " PAYS DE L'UNION EUROPEENNE",
+    "CONCURRENCE ",
+    " DROIT EUROPEEN"
+   ],
+   "domain": [
+    "340"
+   ],
+   "docType": [
+	"thesis"
+   ],
+   "corporateBody": [
+    "UniversitÃƒÂ© du droit et de la santÃƒÂ©"
+   ],
+   "role": [
+    "author"
+   ],
+   "cocontributor": [
+    {
+     "cocontributor": "Coussirat-CoustÃƒÂ¨re, Vincent",
+     "person": "sudoc:060032693-1",
+     "idcocontrib": "XXX"
+    }
+   ]
+  },
+  "sudoc:17746402X-2": {
+   "personName": [
+    {
+     "appellation": "Delattre, Olivier"
+    }
+   ],
+   "title": [
+    "Traitement de l'arthrose avancÃƒÂ©e du poignet par arthrodÃƒÂ¨se trois os associÃƒÂ©e ÃƒÂ  une rÃƒÂ©section du scaphoÃƒÂ¯de et du triquetrum"
+   ],
+   "pubDate": [
+    "2009"
+   ],
+   "expLanguage": [
+    "fre"
+   ],
+   "keyword": [
+    "ArthrodÃƒÂ¨se",
+    "Poignet"
+   ],
+   "domain": [
+    "610",
+    "570"
+   ],
+   "docType": [
+	"thesis"
+   ],
+   "corporateBody": [
+    "UniversitÃƒÂ© des Antilles et de la Guyane. UFR des sciences mÃƒÂ©dicales"
+   ],
+   "role": [
+    "thesis_advisor"
+   ],
+   "cocontributor": [
+    {
+     "cocontributor": "Goulon, Gilles",
+     "person": "sudoc:17746402X-2",
+     "idcocontrib": "XXX"
+    }
+   ]
+  },
+  "sudoc:174530455-2": {
+   "personName": [
+    {
+     "appellation": "Delattre, Olivier"
+    }
+   ],
+   "title": [
+    "Tout va bien"
+   ],
+   "pubDate": [
+    "2013"
+   ],
+   "expLanguage": [
+    "fre"
+   ],
+   "keyword": [],
+   "domain": [],
+   "corporateBody": [],
+   "role": [
+    "publisher"
+   ],
+   "cocontributor": [
+    {
+     "cocontributor": "Delattre, Olivier",
+     "person": "sudoc:174530455-2",
+     "idcocontrib": "XXX"
+    }
+   ]
+  },
+  "sudoc:174530455-1": {
+   "personName": [
+    {
+     "appellation": "Delattre, Olivier"
+    }
+   ],
+   "title": [
+    "Tout va bien"
+   ],
+   "pubDate": [
+    "2013"
+   ],
+   "expLanguage": [
+    "fre"
+   ],
+   "keyword": [],
+   "domain": [],
+   "corporateBody": [],
+   "role": [
+    "singer"
+   ],
+   "cocontributor": [
+    {
+     "cocontributor": "Delattre, Olivier",
+     "person": "sudoc:174530455-1",
+     "idcocontrib": "XXX"
+    }
+   ]
+  },
+  "sudoc:227080378-1": {
+   "personName": [
+    {
+     "appellation": "Delattre, Olivier"
+    }
+   ],
+   "title": [
+    "La problÃƒÂ©matique de l'application de la directive 79"
+   ],
+   "pubDate": [
+    "1991"
+   ],
+   "expLanguage": [
+    "fre"
+   ],
+   "keyword": [],
+   "domain": [],
+   "corporateBody": [],
+   "role": [
+    "author"
+   ],
+   "cocontributor": [
+    {
+     "cocontributor": "Kiss, Alexandre Charles",
+     "person": "sudoc:227080378-1",
+     "idcocontrib": "XXX"
+    }
+   ]
+  },
+  "sudoc:041823761-1": {
+   "personName": [
+    {
+     "appellation": "Delattre, Olivier"
+    }
+   ],
+   "title": [
+    "INTERET DE L'HIRUDINE EN THERAPEUTIQUE"
+   ],
+   "pubDate": [
+    "1996"
+   ],
+   "expLanguage": [
+    "fre"
+   ],
+   "keyword": [
+    "PHARMACIE : HEMATOLOGIE",
+    "HIRUDINE",
+    "ANTICOAGULANT",
+    "ANTITHROMBOTIQUE"
+   ],
+   "domain": [],
+   "corporateBody": [],
+   "role": [
+    "author"
+   ],
+   "cocontributor": [
+    {
+     "cocontributor": "Javaudin, LoÃƒÂ¯c",
+     "person": "sudoc:041823761-1",
+     "idcocontrib": "XXX"
+    }
+   ]
+  }
+ }
+}

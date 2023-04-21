@@ -1,0 +1,5064 @@
+{
+ "scenario": "these-dir", 
+ "supports": [
+  "sudoc:035879149-1",
+  "sudoc:226605531-1",
+  "sudoc:082751528-1",
+  "sudoc:002606038-1",
+  "sudoc:229090095-2",
+  "sudoc:20041979X-7",
+  "sudoc:200288733-7",
+  "sudoc:195300343-5",
+  "sudoc:194384292-2",
+  "sudoc:181545551-7",
+  "sudoc:163539618-7",
+  "sudoc:162395558-3",
+  "sudoc:149362439-1",
+  "sudoc:137147392-3",
+  "sudoc:137140908-3",
+  "sudoc:088432548-1",
+  "sudoc:231645724-1",
+  "sudoc:226175308-2",
+  "sudoc:200410490-3",
+  "sudoc:194555593-3",
+  "sudoc:153753595-2",
+  "sudoc:139996079-2",
+  "sudoc:139737626-3",
+  "sudoc:139243186-1",
+  "sudoc:23149243X-2",
+  "sudoc:16007276X-2",
+  "sudoc:234104848-2",
+  "sudoc:23347806X-4",
+  "sudoc:231978022-2",
+  "sudoc:230436722-1",
+  "sudoc:227123484-4",
+  "sudoc:224457853-2",
+  "sudoc:223786969-3",
+  "sudoc:223541257-7",
+  "sudoc:203961161-4",
+  "sudoc:199778639-2",
+  "sudoc:199617600-1",
+  "sudoc:195599055-5",
+  "sudoc:192280139-4",
+  "sudoc:187458278-5",
+  "sudoc:182833674-12",
+  "sudoc:181811863-5",
+  "sudoc:176503102-1",
+  "sudoc:17438677X-1",
+  "sudoc:163549753-4",
+  "sudoc:161498256-3",
+  "sudoc:160972965-5",
+  "sudoc:159339928-4",
+  "sudoc:156742845-1",
+  "sudoc:149269358-1",
+  "sudoc:145555801-1",
+  "sudoc:145149285-2",
+  "sudoc:126554692-2",
+  "sudoc:120990717-3",
+  "sudoc:120495708-1",
+  "sudoc:106973487-1",
+  "sudoc:055222455-1",
+  "sudoc:224614908-1",
+  "sudoc:044032242-1",
+  "sudoc:236315021-3",
+  "sudoc:220056714-1",
+  "sudoc:193967650-2",
+  "sudoc:192889656-1",
+  "sudoc:191928224-1",
+  "sudoc:191458104-1",
+  "sudoc:190807814-1",
+  "sudoc:18412185X-2",
+  "sudoc:16515408X-3",
+  "sudoc:157541770-4",
+  "sudoc:14690205X-4",
+  "sudoc:139799699-2",
+  "sudoc:08167564X-3",
+  "sudoc:075717840-1",
+  "sudoc:235995355-1",
+  "sudoc:185663060-1",
+  "sudoc:183106504-1",
+  "sudoc:069995028-1",
+  "sudoc:069895929-1",
+  "sudoc:011839201-1",
+  "sudoc:164321314-3",
+  "sudoc:126716781-1",
+  "sudoc:103862889-1",
+  "sudoc:086931962-1"
+ ]
+ ,
+ "targets": [
+  "idref:056831722",
+  "idref:137139160",
+  "idref:088432351",
+  "idref:194850595",
+  "idref:231492901",
+  "idref:069990689",
+  "idref:224604414",
+  "idref:191995320",
+  "idref:075717824",
+  "idref:069895554",
+  "idref:08694729X"
+ ],
+ "sources": [
+  "star:2018LEMA1025-2"
+ ],
+ "initialLinks": [
+  {
+   "source": "sudoc:035879149-1",
+   "target": "idref:056831722",
+   "type": "sameAs"
+  },
+  {
+   "source": "sudoc:226605531-1",
+   "target": "idref:056831722",
+   "type": "sameAs"
+  },
+  {
+   "source": "sudoc:082751528-1",
+   "target": "idref:056831722",
+   "type": "sameAs"
+  },
+  {
+   "source": "sudoc:002606038-1",
+   "target": "idref:056831722",
+   "type": "sameAs"
+  },
+  {
+   "source": "sudoc:229090095-2",
+   "target": "idref:137139160",
+   "type": "sameAs"
+  },
+  {
+   "source": "sudoc:20041979X-7",
+   "target": "idref:137139160",
+   "type": "sameAs"
+  },
+  {
+   "source": "sudoc:200288733-7",
+   "target": "idref:137139160",
+   "type": "sameAs"
+  },
+  {
+   "source": "sudoc:195300343-5",
+   "target": "idref:137139160",
+   "type": "sameAs"
+  },
+  {
+   "source": "sudoc:194384292-2",
+   "target": "idref:137139160",
+   "type": "sameAs"
+  },
+  {
+   "source": "sudoc:181545551-7",
+   "target": "idref:137139160",
+   "type": "sameAs"
+  },
+  {
+   "source": "sudoc:163539618-7",
+   "target": "idref:137139160",
+   "type": "sameAs"
+  },
+  {
+   "source": "sudoc:162395558-3",
+   "target": "idref:137139160",
+   "type": "sameAs"
+  },
+  {
+   "source": "sudoc:149362439-1",
+   "target": "idref:137139160",
+   "type": "sameAs"
+  },
+  {
+   "source": "sudoc:137147392-3",
+   "target": "idref:137139160",
+   "type": "sameAs"
+  },
+  {
+   "source": "sudoc:137140908-3",
+   "target": "idref:137139160",
+   "type": "sameAs"
+  },
+  {
+   "source": "sudoc:088432548-1",
+   "target": "idref:088432351",
+   "type": "sameAs"
+  },
+  {
+   "source": "sudoc:231645724-1",
+   "target": "idref:194850595",
+   "type": "sameAs"
+  },
+  {
+   "source": "sudoc:226175308-2",
+   "target": "idref:194850595",
+   "type": "sameAs"
+  },
+  {
+   "source": "sudoc:200410490-3",
+   "target": "idref:194850595",
+   "type": "sameAs"
+  },
+  {
+   "source": "sudoc:194555593-3",
+   "target": "idref:194850595",
+   "type": "sameAs"
+  },
+  {
+   "source": "sudoc:153753595-2",
+   "target": "idref:194850595",
+   "type": "sameAs"
+  },
+  {
+   "source": "sudoc:139996079-2",
+   "target": "idref:194850595",
+   "type": "sameAs"
+  },
+  {
+   "source": "sudoc:139737626-3",
+   "target": "idref:194850595",
+   "type": "sameAs"
+  },
+  {
+   "source": "sudoc:139243186-1",
+   "target": "idref:194850595",
+   "type": "sameAs"
+  },
+  {
+   "source": "sudoc:23149243X-2",
+   "target": "idref:231492901",
+   "type": "sameAs"
+  },
+  {
+   "source": "sudoc:16007276X-2",
+   "target": "idref:231492901",
+   "type": "sameAs"
+  },
+  {
+   "source": "sudoc:234104848-2",
+   "target": "idref:069990689",
+   "type": "sameAs"
+  },
+  {
+   "source": "sudoc:23347806X-4",
+   "target": "idref:069990689",
+   "type": "sameAs"
+  },
+  {
+   "source": "sudoc:231978022-2",
+   "target": "idref:069990689",
+   "type": "sameAs"
+  },
+  {
+   "source": "sudoc:230436722-1",
+   "target": "idref:069990689",
+   "type": "sameAs"
+  },
+  {
+   "source": "sudoc:227123484-4",
+   "target": "idref:069990689",
+   "type": "sameAs"
+  },
+  {
+   "source": "sudoc:224457853-2",
+   "target": "idref:069990689",
+   "type": "sameAs"
+  },
+  {
+   "source": "sudoc:223786969-3",
+   "target": "idref:069990689",
+   "type": "sameAs"
+  },
+  {
+   "source": "sudoc:223541257-7",
+   "target": "idref:069990689",
+   "type": "sameAs"
+  },
+  {
+   "source": "sudoc:203961161-4",
+   "target": "idref:069990689",
+   "type": "sameAs"
+  },
+  {
+   "source": "sudoc:199778639-2",
+   "target": "idref:069990689",
+   "type": "sameAs"
+  },
+  {
+   "source": "sudoc:199617600-1",
+   "target": "idref:069990689",
+   "type": "sameAs"
+  },
+  {
+   "source": "sudoc:195599055-5",
+   "target": "idref:069990689",
+   "type": "sameAs"
+  },
+  {
+   "source": "sudoc:192280139-4",
+   "target": "idref:069990689",
+   "type": "sameAs"
+  },
+  {
+   "source": "sudoc:187458278-5",
+   "target": "idref:069990689",
+   "type": "sameAs"
+  },
+  {
+   "source": "sudoc:182833674-12",
+   "target": "idref:069990689",
+   "type": "sameAs"
+  },
+  {
+   "source": "sudoc:181811863-5",
+   "target": "idref:069990689",
+   "type": "sameAs"
+  },
+  {
+   "source": "sudoc:176503102-1",
+   "target": "idref:069990689",
+   "type": "sameAs"
+  },
+  {
+   "source": "sudoc:17438677X-1",
+   "target": "idref:069990689",
+   "type": "sameAs"
+  },
+  {
+   "source": "sudoc:163549753-4",
+   "target": "idref:069990689",
+   "type": "sameAs"
+  },
+  {
+   "source": "sudoc:161498256-3",
+   "target": "idref:069990689",
+   "type": "sameAs"
+  },
+  {
+   "source": "sudoc:160972965-5",
+   "target": "idref:069990689",
+   "type": "sameAs"
+  },
+  {
+   "source": "sudoc:159339928-4",
+   "target": "idref:069990689",
+   "type": "sameAs"
+  },
+  {
+   "source": "sudoc:156742845-1",
+   "target": "idref:069990689",
+   "type": "sameAs"
+  },
+  {
+   "source": "sudoc:149269358-1",
+   "target": "idref:069990689",
+   "type": "sameAs"
+  },
+  {
+   "source": "sudoc:145555801-1",
+   "target": "idref:069990689",
+   "type": "sameAs"
+  },
+  {
+   "source": "sudoc:145149285-2",
+   "target": "idref:069990689",
+   "type": "sameAs"
+  },
+  {
+   "source": "sudoc:126554692-2",
+   "target": "idref:069990689",
+   "type": "sameAs"
+  },
+  {
+   "source": "sudoc:120990717-3",
+   "target": "idref:069990689",
+   "type": "sameAs"
+  },
+  {
+   "source": "sudoc:120495708-1",
+   "target": "idref:069990689",
+   "type": "sameAs"
+  },
+  {
+   "source": "sudoc:106973487-1",
+   "target": "idref:069990689",
+   "type": "sameAs"
+  },
+  {
+   "source": "sudoc:055222455-1",
+   "target": "idref:069990689",
+   "type": "sameAs"
+  },
+  {
+   "source": "sudoc:224614908-1",
+   "target": "idref:224604414",
+   "type": "sameAs"
+  },
+  {
+   "source": "sudoc:044032242-1",
+   "target": "idref:191995320",
+   "type": "sameAs"
+  },
+  {
+   "source": "sudoc:236315021-3",
+   "target": "idref:075717824",
+   "type": "sameAs"
+  },
+  {
+   "source": "sudoc:220056714-1",
+   "target": "idref:075717824",
+   "type": "sameAs"
+  },
+  {
+   "source": "sudoc:193967650-2",
+   "target": "idref:075717824",
+   "type": "sameAs"
+  },
+  {
+   "source": "sudoc:192889656-1",
+   "target": "idref:075717824",
+   "type": "sameAs"
+  },
+  {
+   "source": "sudoc:191928224-1",
+   "target": "idref:075717824",
+   "type": "sameAs"
+  },
+  {
+   "source": "sudoc:191458104-1",
+   "target": "idref:075717824",
+   "type": "sameAs"
+  },
+  {
+   "source": "sudoc:190807814-1",
+   "target": "idref:075717824",
+   "type": "sameAs"
+  },
+  {
+   "source": "sudoc:18412185X-2",
+   "target": "idref:075717824",
+   "type": "sameAs"
+  },
+  {
+   "source": "sudoc:16515408X-3",
+   "target": "idref:075717824",
+   "type": "sameAs"
+  },
+  {
+   "source": "sudoc:157541770-4",
+   "target": "idref:075717824",
+   "type": "sameAs"
+  },
+  {
+   "source": "sudoc:14690205X-4",
+   "target": "idref:075717824",
+   "type": "sameAs"
+  },
+  {
+   "source": "sudoc:139799699-2",
+   "target": "idref:075717824",
+   "type": "sameAs"
+  },
+  {
+   "source": "sudoc:08167564X-3",
+   "target": "idref:075717824",
+   "type": "sameAs"
+  },
+  {
+   "source": "sudoc:075717840-1",
+   "target": "idref:075717824",
+   "type": "sameAs"
+  },
+  {
+   "source": "sudoc:235995355-1",
+   "target": "idref:069895554",
+   "type": "sameAs"
+  },
+  {
+   "source": "sudoc:185663060-1",
+   "target": "idref:069895554",
+   "type": "sameAs"
+  },
+  {
+   "source": "sudoc:183106504-1",
+   "target": "idref:069895554",
+   "type": "sameAs"
+  },
+  {
+   "source": "sudoc:069995028-1",
+   "target": "idref:069895554",
+   "type": "sameAs"
+  },
+  {
+   "source": "sudoc:069895929-1",
+   "target": "idref:069895554",
+   "type": "sameAs"
+  },
+  {
+   "source": "sudoc:011839201-1",
+   "target": "idref:069895554",
+   "type": "sameAs"
+  },
+  {
+   "source": "sudoc:164321314-3",
+   "target": "idref:08694729X",
+   "type": "sameAs"
+  },
+  {
+   "source": "sudoc:126716781-1",
+   "target": "idref:08694729X",
+   "type": "sameAs"
+  },
+  {
+   "source": "sudoc:103862889-1",
+   "target": "idref:08694729X",
+   "type": "sameAs"
+  },
+  {
+   "source": "sudoc:086931962-1",
+   "target": "idref:08694729X",
+   "type": "sameAs"
+  }
+ ],
+  "safeLinks": [
+  {
+   "source": "sudoc:035879149-1",
+   "target": "idref:056831722",
+   "type": "sameAs"
+  },
+  {
+   "source": "sudoc:226605531-1",
+   "target": "idref:056831722",
+   "type": "sameAs"
+  },
+  {
+   "source": "sudoc:082751528-1",
+   "target": "idref:056831722",
+   "type": "sameAs"
+  },
+  {
+   "source": "sudoc:002606038-1",
+   "target": "idref:056831722",
+   "type": "sameAs"
+  },
+  {
+   "source": "sudoc:229090095-2",
+   "target": "idref:137139160",
+   "type": "sameAs"
+  },
+  {
+   "source": "sudoc:20041979X-7",
+   "target": "idref:137139160",
+   "type": "sameAs"
+  },
+  {
+   "source": "sudoc:200288733-7",
+   "target": "idref:137139160",
+   "type": "sameAs"
+  },
+  {
+   "source": "sudoc:195300343-5",
+   "target": "idref:137139160",
+   "type": "sameAs"
+  },
+  {
+   "source": "sudoc:194384292-2",
+   "target": "idref:137139160",
+   "type": "sameAs"
+  },
+  {
+   "source": "sudoc:181545551-7",
+   "target": "idref:137139160",
+   "type": "sameAs"
+  },
+  {
+   "source": "sudoc:163539618-7",
+   "target": "idref:137139160",
+   "type": "sameAs"
+  },
+  {
+   "source": "sudoc:162395558-3",
+   "target": "idref:137139160",
+   "type": "sameAs"
+  },
+  {
+   "source": "sudoc:149362439-1",
+   "target": "idref:137139160",
+   "type": "sameAs"
+  },
+  {
+   "source": "sudoc:137147392-3",
+   "target": "idref:137139160",
+   "type": "sameAs"
+  },
+  {
+   "source": "sudoc:137140908-3",
+   "target": "idref:137139160",
+   "type": "sameAs"
+  },
+  {
+   "source": "sudoc:088432548-1",
+   "target": "idref:088432351",
+   "type": "sameAs"
+  },
+  {
+   "source": "sudoc:231645724-1",
+   "target": "idref:194850595",
+   "type": "sameAs"
+  },
+  {
+   "source": "sudoc:226175308-2",
+   "target": "idref:194850595",
+   "type": "sameAs"
+  },
+  {
+   "source": "sudoc:200410490-3",
+   "target": "idref:194850595",
+   "type": "sameAs"
+  },
+  {
+   "source": "sudoc:194555593-3",
+   "target": "idref:194850595",
+   "type": "sameAs"
+  },
+  {
+   "source": "sudoc:153753595-2",
+   "target": "idref:194850595",
+   "type": "sameAs"
+  },
+  {
+   "source": "sudoc:139996079-2",
+   "target": "idref:194850595",
+   "type": "sameAs"
+  },
+  {
+   "source": "sudoc:139737626-3",
+   "target": "idref:194850595",
+   "type": "sameAs"
+  },
+  {
+   "source": "sudoc:139243186-1",
+   "target": "idref:194850595",
+   "type": "sameAs"
+  },
+  {
+   "source": "sudoc:23149243X-2",
+   "target": "idref:231492901",
+   "type": "sameAs"
+  },
+  {
+   "source": "sudoc:16007276X-2",
+   "target": "idref:231492901",
+   "type": "sameAs"
+  },
+  {
+   "source": "sudoc:234104848-2",
+   "target": "idref:069990689",
+   "type": "sameAs"
+  },
+  {
+   "source": "sudoc:23347806X-4",
+   "target": "idref:069990689",
+   "type": "sameAs"
+  },
+  {
+   "source": "sudoc:231978022-2",
+   "target": "idref:069990689",
+   "type": "sameAs"
+  },
+  {
+   "source": "sudoc:230436722-1",
+   "target": "idref:069990689",
+   "type": "sameAs"
+  },
+  {
+   "source": "sudoc:227123484-4",
+   "target": "idref:069990689",
+   "type": "sameAs"
+  },
+  {
+   "source": "sudoc:224457853-2",
+   "target": "idref:069990689",
+   "type": "sameAs"
+  },
+  {
+   "source": "sudoc:223786969-3",
+   "target": "idref:069990689",
+   "type": "sameAs"
+  },
+  {
+   "source": "sudoc:223541257-7",
+   "target": "idref:069990689",
+   "type": "sameAs"
+  },
+  {
+   "source": "sudoc:203961161-4",
+   "target": "idref:069990689",
+   "type": "sameAs"
+  },
+  {
+   "source": "sudoc:199778639-2",
+   "target": "idref:069990689",
+   "type": "sameAs"
+  },
+  {
+   "source": "sudoc:199617600-1",
+   "target": "idref:069990689",
+   "type": "sameAs"
+  },
+  {
+   "source": "sudoc:195599055-5",
+   "target": "idref:069990689",
+   "type": "sameAs"
+  },
+  {
+   "source": "sudoc:192280139-4",
+   "target": "idref:069990689",
+   "type": "sameAs"
+  },
+  {
+   "source": "sudoc:187458278-5",
+   "target": "idref:069990689",
+   "type": "sameAs"
+  },
+  {
+   "source": "sudoc:182833674-12",
+   "target": "idref:069990689",
+   "type": "sameAs"
+  },
+  {
+   "source": "sudoc:181811863-5",
+   "target": "idref:069990689",
+   "type": "sameAs"
+  },
+  {
+   "source": "sudoc:176503102-1",
+   "target": "idref:069990689",
+   "type": "sameAs"
+  },
+  {
+   "source": "sudoc:17438677X-1",
+   "target": "idref:069990689",
+   "type": "sameAs"
+  },
+  {
+   "source": "sudoc:163549753-4",
+   "target": "idref:069990689",
+   "type": "sameAs"
+  },
+  {
+   "source": "sudoc:161498256-3",
+   "target": "idref:069990689",
+   "type": "sameAs"
+  },
+  {
+   "source": "sudoc:160972965-5",
+   "target": "idref:069990689",
+   "type": "sameAs"
+  },
+  {
+   "source": "sudoc:159339928-4",
+   "target": "idref:069990689",
+   "type": "sameAs"
+  },
+  {
+   "source": "sudoc:156742845-1",
+   "target": "idref:069990689",
+   "type": "sameAs"
+  },
+  {
+   "source": "sudoc:149269358-1",
+   "target": "idref:069990689",
+   "type": "sameAs"
+  },
+  {
+   "source": "sudoc:145555801-1",
+   "target": "idref:069990689",
+   "type": "sameAs"
+  },
+  {
+   "source": "sudoc:145149285-2",
+   "target": "idref:069990689",
+   "type": "sameAs"
+  },
+  {
+   "source": "sudoc:126554692-2",
+   "target": "idref:069990689",
+   "type": "sameAs"
+  },
+  {
+   "source": "sudoc:120990717-3",
+   "target": "idref:069990689",
+   "type": "sameAs"
+  },
+  {
+   "source": "sudoc:120495708-1",
+   "target": "idref:069990689",
+   "type": "sameAs"
+  },
+  {
+   "source": "sudoc:106973487-1",
+   "target": "idref:069990689",
+   "type": "sameAs"
+  },
+  {
+   "source": "sudoc:055222455-1",
+   "target": "idref:069990689",
+   "type": "sameAs"
+  },
+  {
+   "source": "sudoc:224614908-1",
+   "target": "idref:224604414",
+   "type": "sameAs"
+  },
+  {
+   "source": "sudoc:044032242-1",
+   "target": "idref:191995320",
+   "type": "sameAs"
+  },
+  {
+   "source": "sudoc:236315021-3",
+   "target": "idref:075717824",
+   "type": "sameAs"
+  },
+  {
+   "source": "sudoc:220056714-1",
+   "target": "idref:075717824",
+   "type": "sameAs"
+  },
+  {
+   "source": "sudoc:193967650-2",
+   "target": "idref:075717824",
+   "type": "sameAs"
+  },
+  {
+   "source": "sudoc:192889656-1",
+   "target": "idref:075717824",
+   "type": "sameAs"
+  },
+  {
+   "source": "sudoc:191928224-1",
+   "target": "idref:075717824",
+   "type": "sameAs"
+  },
+  {
+   "source": "sudoc:191458104-1",
+   "target": "idref:075717824",
+   "type": "sameAs"
+  },
+  {
+   "source": "sudoc:190807814-1",
+   "target": "idref:075717824",
+   "type": "sameAs"
+  },
+  {
+   "source": "sudoc:18412185X-2",
+   "target": "idref:075717824",
+   "type": "sameAs"
+  },
+  {
+   "source": "sudoc:16515408X-3",
+   "target": "idref:075717824",
+   "type": "sameAs"
+  },
+  {
+   "source": "sudoc:157541770-4",
+   "target": "idref:075717824",
+   "type": "sameAs"
+  },
+  {
+   "source": "sudoc:14690205X-4",
+   "target": "idref:075717824",
+   "type": "sameAs"
+  },
+  {
+   "source": "sudoc:139799699-2",
+   "target": "idref:075717824",
+   "type": "sameAs"
+  },
+  {
+   "source": "sudoc:08167564X-3",
+   "target": "idref:075717824",
+   "type": "sameAs"
+  },
+  {
+   "source": "sudoc:075717840-1",
+   "target": "idref:075717824",
+   "type": "sameAs"
+  },
+  {
+   "source": "sudoc:235995355-1",
+   "target": "idref:069895554",
+   "type": "sameAs"
+  },
+  {
+   "source": "sudoc:185663060-1",
+   "target": "idref:069895554",
+   "type": "sameAs"
+  },
+  {
+   "source": "sudoc:183106504-1",
+   "target": "idref:069895554",
+   "type": "sameAs"
+  },
+  {
+   "source": "sudoc:069995028-1",
+   "target": "idref:069895554",
+   "type": "sameAs"
+  },
+  {
+   "source": "sudoc:069895929-1",
+   "target": "idref:069895554",
+   "type": "sameAs"
+  },
+  {
+   "source": "sudoc:011839201-1",
+   "target": "idref:069895554",
+   "type": "sameAs"
+  },
+  {
+   "source": "sudoc:164321314-3",
+   "target": "idref:08694729X",
+   "type": "sameAs"
+  },
+  {
+   "source": "sudoc:126716781-1",
+   "target": "idref:08694729X",
+   "type": "sameAs"
+  },
+  {
+   "source": "sudoc:103862889-1",
+   "target": "idref:08694729X",
+   "type": "sameAs"
+  },
+  {
+   "source": "sudoc:086931962-1",
+   "target": "idref:08694729X",
+   "type": "sameAs"
+  }
+ ],
+ "features": {
+  "idref:056831722": {
+   "personName": [
+    {
+     "last_name": "Durant",
+     "first_name": "Stéphane"
+    }
+   ],
+   "source": [
+    "Propagation de la lumière en milieu aléatoire [Texte imprimé] : rôle de l'absorption, de la diffusion dépendante et du couplage surface-volume / par Stéphane Durant ; sous la direction de Jean-Jacques Greffet, 2003"
+   ]
+  },
+  "idref:137139160": {
+   "personName": [
+    {
+     "last_name": "Durand",
+     "first_name": "Stéphane"
+    }
+   ],
+   "birth": ["1967"],
+   "source": [
+    "Etude analytique, conception et microfabrication de microphones capacitifs miniatures / Thierry Le Van Suu ; sous la direction de Michel Bruneau et de Stéphane Durand (thèse de doctorat : Université du Maine : 2008)"
+   ]
+  },
+  "idref:088432351": {
+   "personName": [
+    {
+     "last_name": "Durand",
+     "first_name": "Stéphane"
+    }
+   ],
+   "birth": ["1974"],
+   "source": [
+    " Le Diamant de Gould et son élevage en captivité / Stéphane Durand [thèse], 2002"
+   ]
+  },
+  "idref:194850595": {
+   "personName": [
+    {
+     "last_name": "Durand",
+     "first_name": "Stéphane"
+    }
+   ],
+   "birth": ["1970"],
+   "source": [
+    "Le peuple migrateur [Multimédia multisupport] / dir. de publication, Pascal Nègre ; Jacques Perrin, réal. Universal music kiosks, 2002",
+    "Les oiseaux voyageurs / Stéphane Durand, 2003"
+   ]
+  },
+  "idref:231492901": {
+   "personName": [
+    {
+     "last_name": "Durand",
+     "first_name": "Stéphane"
+    }
+   ],
+   "birth": ["19"],
+   "source": [
+    "Machiavel [Enregistrement sonore] : en concert / Thierry Nouat, vielles acoutiques et électro-acoustiques ; Stéphane Durand, vielle acoustique. AMTA MG75080"
+   ]
+  },
+  "idref:069990689": {
+   "personName": [
+    {
+     "last_name": "Durand",
+     "first_name": "Stéphane"
+    }
+   ],
+   "birth": ["1969"],
+   "source": [
+    "Pouvoir municipal et société locale dans les petites villes de l'Hérault aux XVIIIe et XIXe siècles : le cas de Mèze de 1675 à 1815 ; sous la direction de François-Xavier Emmanuelli (Montpellier 3 : 2000) [Thèse]",
+    "Élites, pouvoirs et vie municipale à Brest, 1750-1820 / Bruno Baron ; [sous la direction de] Philippe Jarnoux, 2012 [Thèse]",
+    "Internet, http://catalogue.bnf.fr/ark:/12148/cb15089514r, 2016-02-29"
+   ]
+  },
+  "idref:224604414": {
+   "personName": [
+    {
+     "last_name": "Durand",
+     "first_name": "Stéphane"
+    }
+   ],
+   "birth": ["1985"],
+   "source": [
+    "Etude observationnelle du dosage de la troponine par les médecins généralistes d’Ile de France [thèse d’exercice] / Stéphane Durand ;  sous la direction de Romain Jouffroy , 2017"
+   ]
+  },
+  "idref:191995320": {
+   "personName": [
+    {
+     "last_name": "Durand",
+     "first_name": "Stéphane"
+    }
+   ],
+   "source": [
+    "TOM, une architecture connexionniste de traitement de séquences‎ : application à la reconnaissance de la parole / Stéphane Durand‎ ; sous la direction de J.-P. Haton. Thèse de doctorat : Informatique : Nancy 1 : 1995"
+   ]
+  },
+  "idref:075717824": {
+   "personName": [
+    {
+     "last_name": "Durand",
+     "first_name": "Stéphane"
+    }
+   ],
+   "birth": ["1970"],
+   "source": [
+    "Les oiseaux voyageurs : carnet de routes / Stéphane Durand ; dessins de Fred Bernard, 2003",
+    "Océans : d'après le film réalisé par Jacques Perrin et Jacques Cluzaud / textes de François Sarano et Stéphane Durand ; préfaces de Jacques Perrin et de Jacques Cluzaud, DL 2009"
+   ]
+  },
+  "idref:069895554": {
+   "personName": [
+    {
+     "last_name": "Durand",
+     "first_name": "Stéphane"
+    }
+   ],
+   "birth": ["1962"],
+   "source": [
+    "La relativité animée : comprendre Einstein en animant soi-même l'espace-temps / Stéphane Durand, 2003",
+    "Les hérésies scientifiques du professeur Durand : de la télépathie au voyage dans le futur, 32 prédictions qui pourraient bien se réaliser demain / Stéphane Durand ; illustrations de Lison Bernet, DL 2015",
+    "Internet, http://catalogue.bnf.fr/ (2015-07-01)"
+   ]
+  },
+  "idref:08694729X": {
+   "personName": [
+    {
+     "last_name": "Durand",
+     "first_name": "Stéphane"
+    }
+   ],
+   "birth": ["19.."],
+   "source": [
+    "Localisation précise en temps réel par mesures de phases des signaux GNSS / Stéphane Durand, François Peyret, 2004"
+   ]
+  },
+  "star:2018LEMA1025-2": {
+   "personName": [
+    {
+     "appellation": "Durand, Stéphane"
+    }
+   ],
+   "title": [
+    "Développement d'un étalon de pression acoustique de référence et d'une méthode d'étalonnage associée pour l'étalonnage de capteurs infrasonores à 1 Hz","Development of a sound pressure primary standard and an associated reference calibration method for the calibration of infrasound sensors at 1 Hz"
+   ],
+   "expLanguage": [
+    "fre","eng"
+   ],
+   "pubDate": [
+    "2018"
+   ],
+   "keyword": [
+    "Étalons de fréquence",
+    "Étalonnage",
+    "Pression acoustique",
+    "Infrasons",
+    "Ondes sonores",
+    "Infrason",
+    "Acoustique",
+    "Métrologie",
+    "Etalon",
+    "Pistonphone",
+    "Transition isotherme-adiabatique",
+	"Infrason",
+	"Acoustique",
+	"Métrologie",
+	"Etalon",
+	"Pistonphone",
+	"Transition isotherme-adiabatique",
+	"Infrasound",
+	"Acoustic",
+	"Metrology",
+	"Standard",
+	"Pistonphone",
+	"Isothermal to adiabatic transition"
+   ],
+   "domain": [
+    "530",
+    "500",
+    "600",
+    "530"
+   ],
+   "docType": [
+	"thesis"
+   ],
+   "corporateBody": [
+    "Le Mans Université",
+    "École doctorale Sciences pour l'ingénieur",
+    "Laboratoire d'acoustique de l'Université du Mans"
+   ],
+   "role": [
+    "thesis_advisor"
+   ],
+   "cocontributor": [
+    {
+     "cocontributor": "Vincent, Paul",
+     "person": "star:2018LEMA1025-2",
+     "idcocontrib": "XXX"
+    }
+   ],
+   "cojury": [
+    {
+     "cojury": "Rodrigues, Dominique",
+     "person": "star:2018LEMA1025-2",
+     "idcocontrib": "XXX"
+    },
+    {
+     "cojury": "Larsonnier, Franck",
+     "person": "star:2018LEMA1025-2",
+     "idcocontrib": "XXX"
+    }
+   ]
+  },
+  "sudoc:035879149-1": {
+   "personName": [
+    {
+     "appellation": "Durant, Stéphane"
+    }
+   ],
+   "title": [
+    "Guide Caujol : guide pratique de nutrition"
+   ],
+   "expLanguage": [
+    "fre"
+   ],
+   "pubDate": [
+    "1992"
+   ],
+   "keyword": [],
+   "domain": [
+   ],
+   "corporateBody": [],
+   "role": [],
+   "cocontributor": []
+  },
+  "sudoc:226605531-1": {
+   "personName": [
+    {
+     "appellation": "Durant, Stéphane"
+    }
+   ],
+   "title": [
+    "Propagation de la lumière en milieu aléatoire : rôle de l'absorption, de la diffusion dépendante et du couplage surface-volume"
+   ],
+   "expLanguage": [
+    "fre"
+   ],
+   "pubDate": [
+    "2004"
+   ],
+   "keyword": [
+    "Ondes électromagnétiques",
+    "Transfert radiatif",
+    "Radiométrie optique",
+    "Lumière",
+    "Milieu hétérogène",
+    "Méthode diagrammétrique"
+   ],
+   "domain": [
+    "530",
+    "530"
+   ],
+   "docType": [
+	"thesis"
+   ],
+   "corporateBody": [],
+   "role": [
+    "author"
+   ],
+   "cocontributor": []
+  },
+  "sudoc:082751528-1": {
+   "personName": [
+    {
+     "appellation": "Durant, Stéphane"
+    }
+   ],
+   "title": [
+    "Propagation de la lumière en milieu aléatoire : rôle de l'absorption, de la diffusion dépendante et du couplage surface-volume"
+   ],
+   "expLanguage": [
+    "fre"
+   ],
+   "pubDate": [
+    "2003"
+   ],
+   "keyword": [
+    "Ondes électromagnétiques",
+    "Transfert radiatif",
+    "Radiométrie optique",
+    "Lumière",
+    "Milieu hétérogène",
+    "Méthode diagrammétrique"
+   ],
+   "domain": [
+    "530",
+    "530"
+   ],
+   "docType": [
+	"thesis"
+   ],
+   "corporateBody": [
+    "École centrale Paris",
+    "Laboratoire d'énergétique moléculaire et macroscopique, combustion"
+   ],
+   "role": [
+    "author"
+   ],
+   "cocontributor": [
+    {
+     "cocontributor": "Greffet, Jean-Jacques",
+     "person": "sudoc:082751528-1",
+     "idcocontrib": "XXX"
+    }
+   ]
+  },
+  "sudoc:002606038-1": {
+   "personName": [
+    {
+     "appellation": "Durant, Stéphane"
+    }
+   ],
+   "title": [
+    "Guide Caujol : guide pratique de nutrition"
+   ],
+   "expLanguage": [
+    "fre"
+   ],
+   "pubDate": [
+    "1992"
+   ],
+   "keyword": [
+    "Aliments",
+    "Nutrition",
+    "Régimes alimentaires"
+   ],
+   "domain": [
+    "570",
+    "570",
+    "570",
+    "610"
+   ],
+   "corporateBody": [
+    "Caujol communications"
+   ],
+   "role": [
+    "secretary"
+   ],
+   "cocontributor": []
+  },
+  "sudoc:229090095-2": {
+   "personName": [
+    {
+     "appellation": "Durand, Stéphane"
+    }
+   ],
+   "title": [
+    "Conception et réalisation d'un transducteur acoustique miniature"
+   ],
+   "expLanguage": [
+    "fre"
+   ],
+   "pubDate": [
+    "2015"
+   ],
+   "keyword": [
+    "Transducteurs électroacoustiques",
+    "Microcapteurs",
+    "Systèmes microélectromécaniques",
+    "Systèmes d'identification par radiofréquence",
+    "Acoustique",
+    "RFID",
+    "Transducteur capacitif",
+    "Modélisation numérique",
+    "Modélisation analytique",
+    "MEMS"
+   ],
+   "domain": [
+    "600",
+    "600",
+    "600",
+    "600"
+   ],
+   "docType": [
+	"thesis"
+   ],
+   "corporateBody": [
+    "Le Mans Université",
+    "École doctorale Sciences pour l'ingénieur, Géosciences, Architecture",
+    "Laboratoire d'acoustique de l'Université du Mans"
+   ],
+   "role": [
+    "thesis_advisor"
+   ],
+   "cocontributor": [
+    {
+     "cocontributor": "Podkovskiy, Alexey",
+     "person": "sudoc:229090095-2",
+     "idcocontrib": "XXX"
+    },
+    {
+     "cocontributor": "Joly, Nicolas",
+     "person": "sudoc:229090095-2",
+     "idcocontrib": "XXX"
+    }
+   ]
+  },
+  "sudoc:20041979X-7": {
+   "personName": [
+    {
+     "appellation": "Durand, Stéphane"
+    }
+   ],
+   "title": [
+    "Optimisation d'un microcapteur GaAs à ondes acoustiques et de sa biointerface pour la détection de pathogènes en milieu liquide"
+   ],
+   "expLanguage": [
+    "fre"
+   ],
+   "pubDate": [
+    "2015"
+   ],
+   "keyword": [
+    "Biocapteurs",
+    "Arséniure de gallium",
+    "Micro-fabrication",
+    "Transducteurs piézoélectriques",
+    "Ondes acoustiques de volume",
+    "Microfabrication",
+    "Biointerface",
+    "FTIR"
+   ],
+   "domain": [
+    "540",
+    "600",
+    "600"
+   ],
+   "docType": [
+	"thesis"
+   ],
+   "corporateBody": [
+    "Université de Franche-Comté",
+    "Université de Sherbrooke",
+    "École doctorale Sciences pour l'ingénieur et microtechniques",
+    "FEMTO-ST : Franche-Comté Electronique Mécanique Thermique et Optique - Sciences et Technologies "
+   ],
+   "role": [
+    "opponent"
+   ],
+   "cojury": [
+    {
+     "cojury": "Leblois, Thérèse",
+     "person": "sudoc:20041979X-7",
+     "idcocontrib": "XXX"
+    },
+    {
+     "cojury": "Dubowski, Jan J.",
+     "person": "sudoc:20041979X-7",
+     "idcocontrib": "XXX"
+    },
+    {
+     "cojury": "Caille, Céline",
+     "person": "sudoc:20041979X-7",
+     "idcocontrib": "XXX"
+    },
+    {
+     "cojury": "Déjous, Corinne",
+     "person": "sudoc:20041979X-7",
+     "idcocontrib": "XXX"
+    },
+    {
+     "cojury": "Frost, Eric H.",
+     "person": "sudoc:20041979X-7",
+     "idcocontrib": "XXX"
+    },
+    {
+     "cojury": "Cloarec, Jean-Pierre",
+     "person": "sudoc:20041979X-7",
+     "idcocontrib": "XXX"
+    },
+    {
+     "cojury": "Bensebaa, Farid",
+     "person": "sudoc:20041979X-7",
+     "idcocontrib": "XXX"
+    }
+   ]
+  },
+  "sudoc:200288733-7": {
+   "personName": [
+    {
+     "appellation": "Durand, Stéphane"
+    }
+   ],
+   "title": [
+    "Optimisation d'un microcapteur GaAs à ondes acoustiques et de sa biointerface pour la détection de pathogènes en milieu liquide"
+   ],
+   "expLanguage": [
+    "fre"
+   ],
+   "pubDate": [
+    "2016"
+   ],
+   "keyword": [
+    "Biocapteurs",
+    "Arséniure de gallium",
+    "Micro-fabrication",
+    "Transducteurs piézoélectriques",
+    "Ondes acoustiques de volume",
+    "Microfabrication",
+    "Biointerface",
+    "FTIR"
+   ],
+   "domain": [
+    "540",
+    "600",
+    "600"
+   ],
+   "docType": [
+	"thesis"
+   ],
+   "corporateBody": [
+    "Université de Franche-Comté",
+    "Université de Sherbrooke",
+    "École doctorale Sciences pour l'ingénieur et microtechniques",
+    "FEMTO-ST : Franche-Comté Electronique Mécanique Thermique et Optique - Sciences et Technologies "
+   ],
+   "role": [
+    "opponent"
+   ],
+   "cojury": [
+    {
+     "cojury": "Leblois, Thérèse",
+     "person": "sudoc:200288733-7",
+     "idcocontrib": "XXX"
+    },
+    {
+     "cojury": "Dubowski, Jan J.",
+     "person": "sudoc:200288733-7",
+     "idcocontrib": "XXX"
+    },
+    {
+     "cojury": "Caille, Céline",
+     "person": "sudoc:200288733-7",
+     "idcocontrib": "XXX"
+    },
+    {
+     "cojury": "Déjous, Corinne",
+     "person": "sudoc:200288733-7",
+     "idcocontrib": "XXX"
+    },
+    {
+     "cojury": "Frost, Eric H.",
+     "person": "sudoc:200288733-7",
+     "idcocontrib": "XXX"
+    },
+    {
+     "cojury": "Cloarec, Jean-Pierre",
+     "person": "sudoc:200288733-7",
+     "idcocontrib": "XXX"
+    },
+    {
+     "cojury": "Bensebaa, Farid",
+     "person": "sudoc:200288733-7",
+     "idcocontrib": "XXX"
+    }
+   ]
+  },
+  "sudoc:195300343-5": {
+   "personName": [
+    {
+     "appellation": "Durand, Stéphane"
+    }
+   ],
+   "title": [
+    "Conception et évaluation d'une sonde CMUT mixte dédiée à la thérapie ciblée à guidage ultrasonore"
+   ],
+   "expLanguage": [
+    "fre"
+   ],
+   "pubDate": [
+    "2015"
+   ],
+   "keyword": [
+    "Transducteurs ultrasonores",
+    "Échographie",
+    "Transducteurs électroacoustiques",
+    "Thérapie moléculaire ciblée",
+    "Imagerie médicale",
+    "CMUT",
+    "Ultrasons",
+    "Thérapie ciblée",
+    "USgFUS",
+    "Wafer bonding"
+   ],
+   "domain": [
+    "610",
+    "600",
+    "610",
+    "610"
+   ],
+   "docType": [
+	"thesis"
+   ],
+   "corporateBody": [
+    "Université de Tours",
+    "École doctorale Énergie, Matériaux, Sciences de la Terre et de l'Univers",
+    "Laboratoire GREMAN"
+   ],
+   "role": [
+   ],
+   "cojury": [
+    {
+     "cojury": "Certon, Dominique",
+     "person": "sudoc:195300343-5",
+     "idcocontrib": "XXX"
+    },
+    {
+     "cojury": "Aubry, Jean-François",
+     "person": "sudoc:195300343-5",
+     "idcocontrib": "XXX"
+    },
+    {
+     "cojury": "Basset, Olivierf1963-....",
+     "person": "sudoc:195300343-5",
+     "idcocontrib": "XXX"
+    },
+    {
+     "cojury": "Bouakaz, Ayache",
+     "person": "sudoc:195300343-5",
+     "idcocontrib": "XXX"
+    },
+    {
+     "cojury": "Savoia, Alessandro",
+     "person": "sudoc:195300343-5",
+     "idcocontrib": "XXX"
+    }
+   ]
+  },
+  "sudoc:194384292-2": {
+   "personName": [
+    {
+     "appellation": "Durand, Stéphane"
+    }
+   ],
+   "title": [
+    "Vers une paroi acoustique absorbante en technologie MEMS"
+   ],
+   "expLanguage": [
+    "fre"
+   ],
+   "pubDate": [
+    "2014"
+   ],
+   "keyword": [
+    "Son",
+    "Isolants acoustiques",
+    "Transducteurs",
+    "Systèmes microélectromécaniques",
+    "Technologie silicium sur isolant",
+    "Acoustique",
+    "Absorption",
+    "Transducteur",
+    "Méta-matériaux"
+   ],
+   "domain": [
+    "530",
+    "540",
+    "600"
+   ],
+   "docType": [
+	"thesis"
+   ],
+   "corporateBody": [
+    "Le Mans Université",
+    "École doctorale Sciences pour l'ingénieur, Géosciences, Architecture"
+   ],
+   "role": [
+    "thesis_advisor"
+   ],
+   "cocontributor": [
+    {
+     "cocontributor": "Houdouin, Alexandre",
+     "person": "sudoc:194384292-2",
+     "idcocontrib": "XXX"
+    },
+    {
+     "cocontributor": "Martincic, Emile",
+     "person": "sudoc:194384292-2",
+     "idcocontrib": "XXX"
+    }
+   ]
+  },
+  "sudoc:181545551-7": {
+   "personName": [
+    {
+     "appellation": "Durand, Stéphane"
+    }
+   ],
+   "title": [
+    "Microcapteur en arséniure de gallium pour la détection de molécules dans un fluide"
+   ],
+   "expLanguage": [
+    "fre"
+   ],
+   "pubDate": [
+    "2012"
+   ],
+   "keyword": [
+    "Arséniure de gallium",
+    "Micro ststem Electro Mécanique",
+    "Biocapteur",
+    "Résonnateur à onde de volume",
+    "Microfabrication par gravure humide",
+    "Arséniure de Gallium"
+   ],
+   "domain": [
+    "540"
+   ],
+   "docType": [
+	"thesis"
+   ],
+   "corporateBody": [
+    "Université de Franche-Comté",
+    "École doctorale Sciences pour l'ingénieur et microtechniques",
+    "FEMTO-ST : Franche-Comté Electronique Mécanique Thermique et Optique - Sciences et Technologies "
+   ],
+   "role": [
+    "opponent"
+   ],
+   "cojury": [
+    {
+     "cojury": "Leblois, Thérèse",
+     "person": "sudoc:181545551-7",
+     "idcocontrib": "XXX"
+    },
+    {
+     "cojury": "Caille, Céline",
+     "person": "sudoc:181545551-7",
+     "idcocontrib": "XXX"
+    },
+    {
+     "cojury": "De Coninck, Joël",
+     "person": "sudoc:181545551-7",
+     "idcocontrib": "XXX"
+    },
+    {
+     "cojury": "Sarry, Frédéric",
+     "person": "sudoc:181545551-7",
+     "idcocontrib": "XXX"
+    },
+    {
+     "cojury": "Dubowski, Jan J.",
+     "person": "sudoc:181545551-7",
+     "idcocontrib": "XXX"
+    },
+    {
+     "cojury": "Manceau, Jean-François",
+     "person": "sudoc:181545551-7",
+     "idcocontrib": "XXX"
+    }
+   ]
+  },
+  "sudoc:163539618-7": {
+   "personName": [
+    {
+     "appellation": "Durand, Stéphane"
+    }
+   ],
+   "title": [
+    "Vers des micro-haut-parleurs à hautes performances électroacoustiques en technologie silicium"
+   ],
+   "expLanguage": [
+    "fre"
+   ],
+   "pubDate": [
+    "2012"
+   ],
+   "keyword": [
+    "Haut-parleurs",
+    "Électrodynamique",
+    "Systèmes microélectromécaniques",
+    "Micro-haut-parleur",
+    "Electrodynamique",
+    "Acoustique",
+    "Microsystème",
+    "MEMS",
+    "Rendement",
+    "Distorsion harmonique",
+    "Intermodulation",
+    "Silicium"
+   ],
+   "domain": [
+    "600"
+   ],
+   "docType": [
+	"thesis"
+   ],
+   "corporateBody": [
+    "Université Paris-Sud",
+    "Ecole doctorale Sciences et Technologies de l'Information, des Télécommunications et des Systèmes",
+    "Institut d'électronique fondamentale"
+   ],
+   "role": [
+    "opponent"
+   ],
+   "cojury": [
+    {
+     "cojury": "Lefeuvre, Elie",
+     "person": "sudoc:163539618-7",
+     "idcocontrib": "XXX"
+    },
+    {
+     "cojury": "Oliveira Alves, Francisco De",
+     "person": "sudoc:163539618-7",
+     "idcocontrib": "XXX"
+    },
+    {
+     "cojury": "Nouet, Pascal",
+     "person": "sudoc:163539618-7",
+     "idcocontrib": "XXX"
+    },
+    {
+     "cojury": "Delamarre, Jérôme",
+     "person": "sudoc:163539618-7",
+     "idcocontrib": "XXX"
+    },
+    {
+     "cojury": "Dubus, Bertrand",
+     "person": "sudoc:163539618-7",
+     "idcocontrib": "XXX"
+    }
+   ]
+  },
+  "sudoc:162395558-3": {
+   "personName": [
+    {
+     "appellation": "Durand, Stéphane"
+    }
+   ],
+   "title": [
+    "Modélisation analytique et caractérisation expérimentale de microphones capacitifs en hautes fréquences : étude des couches limites thermiques, effets des perforations de l'électrode arrière sur la déformée de membrane"
+   ],
+   "expLanguage": [
+    "fre"
+   ],
+   "pubDate": [
+    "2011"
+   ],
+   "keyword": [
+    "Microphones",
+    "Transducteurs électroacoustiques",
+    "Son",
+    "Circuits équivalents",
+    "Vibromètre laser à balayage",
+    "Modélisation analytique",
+    "Microphone capacitif réciproque",
+    "Transducteur électrostatique",
+    "Fluide thermovisqueux",
+    "Couches limites thermique et visqueuse",
+    "Admittance spécifique équivalente",
+    "Conditions aux frontières inhomogènes",
+    "Développement modal",
+    "Sensibilité",
+    "Bruit thermo-mécanique",
+    "Circuit électrique équivalent"
+   ],
+   "domain": [
+    "600",
+    "600"
+   ],
+   "docType": [
+	"thesis"
+   ],
+   "corporateBody": [
+    "Université du Maine",
+    "Laboratoire d'acoustique de l'Université du Maine"
+   ],
+   "role": [
+    "thesis_advisor"
+   ],
+   "cocontributor": [
+    {
+     "cocontributor": "Lavergne, Thomas",
+     "person": "sudoc:162395558-3",
+     "idcocontrib": "XXX"
+    },
+    {
+     "cocontributor": "Joly, Nicolas",
+     "person": "sudoc:162395558-3",
+     "idcocontrib": "XXX"
+    }
+   ]
+  },
+  "sudoc:149362439-1": {
+   "personName": [
+    {
+     "appellation": "Durand, Stéphane"
+    }
+   ],
+   "title": [
+    "Éléments sensibles piézo-résistifs sur substrats silicium d'orientation non conventionnelle : Optimisation de la détection piézo-résistive et réalisation de corps d'épreuve par attaque chimique anisotrope"
+   ],
+   "expLanguage": [
+    "fre"
+   ],
+   "pubDate": [
+    "1995"
+   ],
+   "keyword": [
+    "Silicium",
+    "Piézomètres",
+    "Anisotropie",
+    "Micro-usinage",
+    "Piézorésistivité"
+   ],
+   "domain": [
+    "540",
+    "530",
+    "550",
+    "600"
+   ],
+   "docType": [
+	"thesis"
+   ],
+   "corporateBody": [
+    "Université de Franche-comté. UFR des sciences et techniques",
+    "Université de Franche-Comté"
+   ],
+   "role": [
+    "author"
+   ],
+   "cocontributor": [
+    {
+     "cocontributor": "Tellier, Colette",
+     "person": "sudoc:149362439-1",
+     "idcocontrib": "XXX"
+    }
+   ]
+  },
+  "sudoc:137147392-3": {
+   "personName": [
+    {
+     "appellation": "Durand, Stéphane"
+    }
+   ],
+   "title": [
+    "Etude analytique, conception et microfabrication de microphones capacitifs miniatures"
+   ],
+   "expLanguage": [
+    "fre"
+   ],
+   "pubDate": [
+    "2008"
+   ],
+   "keyword": [
+    "Microphones",
+    "Silicium",
+    "Systèmes microélectromécaniques",
+    "Acoustique",
+    "Microtechniques"
+   ],
+   "domain": [
+    "540",
+    "620",
+    "530",
+    "600"
+   ],
+   "docType": [
+	"thesis"
+   ],
+   "corporateBody": [
+    "Le Mans Université",
+    "Université du Maine. UFR de sciences exactes et naturelles"
+   ],
+   "role": [
+    "thesis_advisor"
+   ],
+   "cocontributor": [
+    {
+     "cocontributor": "Le Van Suu, Thierry",
+     "person": "sudoc:137147392-3",
+     "idcocontrib": "XXX"
+    },
+    {
+     "cocontributor": "Bruneau, Michel",
+     "person": "sudoc:137147392-3",
+     "idcocontrib": "XXX"
+    }
+   ]
+  },
+  "sudoc:137140908-3": {
+   "personName": [
+    {
+     "appellation": "Durand, Stéphane"
+    }
+   ],
+   "title": [
+    "Etude analytique, conception et microfabrication de microphones capacitifs miniatures"
+   ],
+   "expLanguage": [
+    "fre"
+   ],
+   "pubDate": [
+    "2008"
+   ],
+   "keyword": [
+    "Microphones",
+    "Silicium",
+    "Systèmes microélectromécaniques",
+    "Acoustique",
+    "Microtechniques"
+   ],
+   "domain": [
+    "540",
+    "620",
+    "530",
+    "600"
+   ],
+   "docType": [
+	"thesis"
+   ],
+   "corporateBody": [
+    "Le Mans Université",
+    "Université du Maine. UFR de sciences exactes et naturelles"
+   ],
+   "role": [
+    "thesis_advisor"
+   ],
+   "cocontributor": [
+    {
+     "cocontributor": "Le Van Suu, Thierry",
+     "person": "sudoc:137140908-3",
+     "idcocontrib": "XXX"
+    },
+    {
+     "cocontributor": "Bruneau, Michel",
+     "person": "sudoc:137140908-3",
+     "idcocontrib": "XXX"
+    }
+   ]
+  },
+  "sudoc:088432548-1": {
+   "personName": [
+    {
+     "appellation": "Durand, Stéphane"
+    }
+   ],
+   "title": [
+    "Le Diamant de Gould et son élevage en captivité"
+   ],
+   "expLanguage": [
+    "fre"
+   ],
+   "pubDate": [
+    "2002"
+   ],
+   "keyword": [
+    "Passériformes",
+    "Oiseaux",
+    "Aviculture",
+    "Diamant de Gould"
+   ],
+   "domain": [
+    "590",
+    "610",
+    "630",
+    "590",
+    "610",
+    "590"
+   ],
+   "docType": [
+	"thesis"
+   ],   
+   "corporateBody": [
+    "Université Claude Bernard"
+   ],
+   "role": [
+    "author"
+   ],
+   "cocontributor": [
+    {
+     "cocontributor": "Buronfosse, Thierry",
+     "person": "sudoc:088432548-1",
+     "idcocontrib": "XXX"
+    }
+   ]
+  },
+  "sudoc:231645724-1": {
+   "personName": [
+    {
+     "appellation": "Durand, Stéphane"
+    }
+   ],
+   "title": [
+    "20000 ans ou la grande histoire de la nature"
+   ],
+   "expLanguage": [
+    "fre"
+   ],
+   "pubDate": [
+    "2018"
+   ],
+   "keyword": [
+    "Restauration écologique",
+    "Conservation des ressources naturelles"
+   ],
+   "domain": [
+    "570",
+    "570"
+   ],
+   "corporateBody": [],
+   "role": [
+    "author"
+   ],
+   "cocontributor": []
+  },
+  "sudoc:226175308-2": {
+   "personName": [
+    {
+     "appellation": "Durand, Stéphane"
+    }
+   ],
+   "title": [
+    "Ré-ensauvageons la France : plaidoyer pour une nature sauvage et libre"
+   ],
+   "expLanguage": [
+    "fre"
+   ],
+   "pubDate": [
+    "2018"
+   ],
+   "keyword": [
+    "Écologie humaine",
+    "Espaces naturels",
+    "Animaux"
+   ],
+   "domain": [
+    "570",
+    "570",
+    "590"
+   ],
+   "corporateBody": [],
+   "role": [
+    "author"
+   ],
+   "cocontributor": [
+    {
+     "cocontributor": "Cochet, Gilbert",
+     "person": "sudoc:226175308-2",
+     "idcocontrib": "XXX"
+    }
+   ]
+  },
+  "sudoc:200410490-3": {
+   "personName": [
+    {
+     "appellation": "Durand, Stéphane"
+    }
+   ],
+   "title": [
+    "Le peuple des forêts"
+   ],
+   "expLanguage": [
+    "fre"
+   ],
+   "pubDate": [
+    "2017"
+   ],
+   "keyword": [
+    "Forêts",
+    "Animaux des forêts",
+    "Climat",
+    "Nature"
+   ],
+   "domain": [
+    "577",
+    "580",
+    "590",
+    "550",
+    "570"
+   ],
+   "corporateBody": [],
+   "role": [
+    "scenarist"
+   ],
+   "cocontributor": [
+    {
+     "cocontributor": "Perrin, Jacques",
+     "person": "sudoc:200410490-3",
+     "idcocontrib": "XXX"
+    },
+    {
+     "cocontributor": "Cluzaud, Jacques",
+     "person": "sudoc:200410490-3",
+     "idcocontrib": "XXX"
+    },
+    {
+     "cocontributor": "Cochet, Gilbert",
+     "person": "sudoc:200410490-3",
+     "idcocontrib": "XXX"
+    },
+    {
+     "cocontributor": "Coulais, Bruno",
+     "person": "sudoc:200410490-3",
+     "idcocontrib": "XXX"
+    }
+   ]
+  },
+  "sudoc:194555593-3": {
+   "personName": [
+    {
+     "appellation": "Durand, Stéphane"
+    }
+   ],
+   "title": [
+    "Les saisons : 20 000 ans d'histoire au coeur du monde sauvage"
+   ],
+   "expLanguage": [
+    "fre"
+   ],
+   "pubDate": [
+    "2016"
+   ],
+   "keyword": [
+    "Animaux",
+    "Climat",
+    "Nature",
+    "Animaux"
+   ],
+   "domain": [
+    "570",
+    "590",
+    "550",
+    "570",
+    "590"
+   ],
+   "corporateBody": [],
+   "role": [
+    "scenarist"
+   ],
+   "cocontributor": [
+    {
+     "cocontributor": "Perrin, Jacques",
+     "person": "sudoc:194555593-3",
+     "idcocontrib": "XXX"
+    },
+    {
+     "cocontributor": "Cluzaud, Jacques",
+     "person": "sudoc:194555593-3",
+     "idcocontrib": "XXX"
+    },
+    {
+     "cocontributor": "Coulais, Bruno",
+     "person": "sudoc:194555593-3",
+     "idcocontrib": "XXX"
+    }
+   ]
+  },
+  "sudoc:153753595-2": {
+   "personName": [
+    {
+     "appellation": "Durand, Stéphane"
+    }
+   ],
+   "title": [
+    "Nicostratos : le livre du film : l'aventure d'un tournage avec des pélicans"
+   ],
+   "expLanguage": [
+    "fre"
+   ],
+   "pubDate": [
+    "2011"
+   ],
+   "keyword": [],
+   "domain": [],
+   "corporateBody": [],
+   "role": [
+    "author"
+   ],
+   "cocontributor": [
+    {
+     "cocontributor": "Boisset, Eric",
+     "person": "sudoc:153753595-2",
+     "idcocontrib": "XXX"
+    },
+    {
+     "cocontributor": "Thurin-Nal, Laurent",
+     "person": "sudoc:153753595-2",
+     "idcocontrib": "XXX"
+    }
+   ]
+  },
+  "sudoc:139996079-2": {
+   "personName": [
+    {
+     "appellation": "Durand, Stéphane"
+    }
+   ],
+   "title": [
+    "Le peuple d'\"Océans\" : d'après le film \"Océans\" de Jacques Perrin et Jacques Cluzaud"
+   ],
+   "expLanguage": [
+    "fre"
+   ],
+   "pubDate": [
+    "2009"
+   ],
+   "keyword": [
+    "Animaux marins"
+   ],
+   "domain": [
+    "590"
+   ],
+   "corporateBody": [],
+   "role": [
+    "author"
+   ],
+   "cocontributor": [
+    {
+     "cocontributor": "Sarano, François",
+     "person": "sudoc:139996079-2",
+     "idcocontrib": "XXX"
+    }
+   ]
+  },
+  "sudoc:139737626-3": {
+   "personName": [
+    {
+     "appellation": "Durand, Stéphane"
+    }
+   ],
+   "title": [
+    "Cherche et trouve océans"
+   ],
+   "expLanguage": [
+    "fre"
+   ],
+   "pubDate": [
+    "2009"
+   ],
+   "keyword": [
+    "Animaux marins"
+   ],
+   "domain": [
+    "590"
+   ],
+   "corporateBody": [],
+   "role": [
+    "publishing_editor"
+   ],
+   "cocontributor": [
+    {
+     "cocontributor": "Laval, Thierry",
+     "person": "sudoc:139737626-3",
+     "idcocontrib": "XXX"
+    },
+    {
+     "cocontributor": "Sarano, François",
+     "person": "sudoc:139737626-3",
+     "idcocontrib": "XXX"
+    }
+   ]
+  },
+  "sudoc:139243186-1": {
+   "personName": [
+    {
+     "appellation": "Durand, Stéphane"
+    }
+   ],
+   "title": [
+    "Océans : petites histoires des fonds marins"
+   ],
+   "expLanguage": [
+    "fre"
+   ],
+   "pubDate": [
+    "2009"
+   ],
+   "keyword": [],
+   "domain": [],
+   "corporateBody": [],
+   "role": [
+    "author"
+   ],
+   "cocontributor": [
+    {
+     "cocontributor": "Boutavant, Marc",
+     "person": "sudoc:139243186-1",
+     "idcocontrib": "XXX"
+    },
+    {
+     "cocontributor": "Perrin, Jacques",
+     "person": "sudoc:139243186-1",
+     "idcocontrib": "XXX"
+    }
+   ]
+  },
+  "sudoc:23149243X-2": {
+   "personName": [
+    {
+     "appellation": "Durand, Stéphane"
+    }
+   ],
+   "title": [
+    "Vielles 96 : morceaux choisis d'une rencontre..."
+   ],
+   "expLanguage": [
+    "fre"
+   ],
+   "pubDate": [
+    "1996"
+   ],
+   "keyword": [
+    "Ethnomusicologie",
+    "Chansons traditionnelles françaises",
+    "Musique traditionnelle",
+    "Vielle à roue"
+   ],
+   "domain": [
+    "391",
+    "780",
+    "390",
+    "780",
+    "390",
+    "780",
+    "780"
+   ],
+   "corporateBody": [
+    "Bardane",
+    "Trio Patrick Bouffard",
+    "La Compagnie du bœuf noir"
+   ],
+   "role": [
+    "musician"
+   ],
+   "cocontributor": [
+    {
+     "cocontributor": "Heintzen, Jean-François",
+     "person": "sudoc:23149243X-2",
+     "idcocontrib": "XXX"
+    },
+    {
+     "cocontributor": "Anthony, Marc",
+     "person": "sudoc:23149243X-2",
+     "idcocontrib": "XXX"
+    }
+   ]
+  },
+  "sudoc:16007276X-2": {
+   "personName": [
+    {
+     "appellation": "Durand, Stéphane"
+    }
+   ],
+   "title": [
+    "Machiavel  : en concert"
+   ],
+   "expLanguage": [
+    "fre"
+   ],
+   "pubDate": [
+    "1998"
+   ],
+   "keyword": [],
+   "domain": [],
+   "corporateBody": [
+    "Agence Musiques traditionnelles d'Auvergne",
+    "Agence Musiques traditionnelles d'Auvergne",
+    "Agence Musiques traditionnelles d'Auvergne"
+   ],
+   "role": [
+    "musician"
+   ],
+   "cocontributor": [
+    {
+     "cocontributor": "Nouat, Thierry",
+     "person": "sudoc:16007276X-2",
+     "idcocontrib": "XXX"
+    }
+   ]
+  },
+  "sudoc:234104848-2": {
+   "personName": [
+    {
+     "appellation": "Durand, Stéphane"
+    }
+   ],
+   "title": [
+    "Les assemblées d'états à l'époque moderne"
+   ],
+   "expLanguage": [
+    "fre"
+   ],
+   "pubDate": [
+    "2018"
+   ],
+   "keyword": [
+    "Administration locale",
+    "États provinciaux"
+   ],
+   "domain": [
+    "350",
+    "944"
+   ],
+   "corporateBody": [],
+   "role": [
+    "publishing_editor"
+   ],
+   "cocontributor": [
+    {
+     "cocontributor": "Chareyre, Philippe",
+     "person": "sudoc:234104848-2",
+     "idcocontrib": "XXX"
+    }
+   ]
+  },
+  "sudoc:23347806X-4": {
+   "personName": [
+    {
+     "appellation": "Durand, Stéphane"
+    }
+   ],
+   "title": [
+    "Élites, pouvoirs et vie municipale à Brest, 1750-1820"
+   ],
+   "expLanguage": [
+    "fre"
+   ],
+   "pubDate": [
+    "2012"
+   ],
+   "keyword": [],
+   "domain": [
+    "320",
+    "350",
+    "320",
+    "350"
+   ],
+   "docType": [
+	"thesis"
+   ],
+   "corporateBody": [
+    "Université de Bretagne occidentale",
+    "École doctorale Sciences humaines et sociales",
+    "Centre de recherche bretonne et celtique"
+   ],
+   "role": [
+    "opponent"
+   ],
+   "cojury": [
+    {
+     "cojury": "Jarnoux, Philippe",
+     "person": "sudoc:23347806X-4",
+     "idcocontrib": "XXX"
+    },
+    {
+     "cojury": "Coste, Laurent",
+     "person": "sudoc:23347806X-4",
+     "idcocontrib": "XXX"
+    },
+    {
+     "cojury": "Leuwers, Hervé",
+     "person": "sudoc:23347806X-4",
+     "idcocontrib": "XXX"
+    },
+    {
+     "cojury": "Saupin, Guy",
+     "person": "sudoc:23347806X-4",
+     "idcocontrib": "XXX"
+    },
+    {
+     "cojury": "Tranvouez, Yvon",
+     "person": "sudoc:23347806X-4",
+     "idcocontrib": "XXX"
+    }
+   ]
+  },
+  "sudoc:231978022-2": {
+   "personName": [
+    {
+     "appellation": "Durand, Stéphane"
+    }
+   ],
+   "title": [
+    "Les faiseurs de notes : Pratiques professionnelles, identité sociale et mobilités des musiciens dans la Provence et les États pontificaux rhodaniens du XVIIIe siècle"
+   ],
+   "expLanguage": [
+    "fre"
+   ],
+   "pubDate": [
+    "2018"
+   ],
+   "keyword": [
+    "Prosopographie",
+    "Solistes (musiciens)",
+    "Musicien",
+    "Mobilité",
+    "Identité sociale",
+    "Provence",
+    "Avignon",
+    "Comtat Venaissin"
+   ],
+   "domain": [
+    "900",
+    "930",
+    "305",
+    "780"
+   ],
+   "docType": [
+	"thesis"
+   ],
+   "corporateBody": [
+    "Université d'Avignon et des Pays de Vaucluse",
+    "École doctorale 537 « Culture et patrimoine »",
+    "Agence régionale pour la coordination des activités musicales et chorégraphiques",
+    "Provence-Alpes-Côte d'Azur",
+    "Centre Norbert Elias"
+   ],
+   "role": [
+    "thesis_advisor"
+   ],
+   "cocontributor": [
+    {
+     "cocontributor": "Gras, Aurélien",
+     "person": "sudoc:231978022-2",
+     "idcocontrib": "XXX"
+    }
+   ],
+   "cojury": [
+    {
+     "cojury": "Coquery, Natacha",
+     "person": "sudoc:231978022-2",
+     "idcocontrib": "XXX"
+    },
+    {
+     "cojury": "Cerutti, Simona",
+     "person": "sudoc:231978022-2",
+     "idcocontrib": "XXX"
+    },
+    {
+     "cojury": "Boutier, Jean",
+     "person": "sudoc:231978022-2",
+     "idcocontrib": "XXX"
+    },
+    {
+     "cojury": "Dompnier, Bernard",
+     "person": "sudoc:231978022-2",
+     "idcocontrib": "XXX"
+    },
+    {
+     "cojury": "Granger, Sylvie",
+     "person": "sudoc:231978022-2",
+     "idcocontrib": "XXX"
+    },
+    {
+     "cojury": "Taïeb, Patrick",
+     "person": "sudoc:231978022-2",
+     "idcocontrib": "XXX"
+    }
+   ]
+  },
+  "sudoc:230436722-1": {
+   "personName": [
+    {
+     "appellation": "Durand, Stéphane"
+    }
+   ],
+   "title": [
+    "Brescou en Languedoc : une île, un fort, une histoire"
+   ],
+   "expLanguage": [
+    "fre"
+   ],
+   "pubDate": [
+    "2018"
+   ],
+   "keyword": [
+    "Châteaux forts",
+    "Fortifications",
+    "Châteaux forts"
+   ],
+   "domain": [
+    "355",
+    "690",
+    "720",
+    "355",
+    "690",
+    "720",
+    "355",
+    "690",
+    "720",
+    "930"
+   ],
+   "docType": [
+	"thesis"
+   ],
+   "corporateBody": [],
+   "role": [
+    "publishing_editor"
+   ],
+   "cocontributor": []
+  },
+  "sudoc:227123484-4": {
+   "personName": [
+    {
+     "appellation": "Durand, Stéphane"
+    }
+   ],
+   "title": [
+    "S'établir et travailler chez l'autre : les hommes de la Compagnie royale d'Afrique au XVIIIe siècle"
+   ],
+   "expLanguage": [
+    "fre"
+   ],
+   "pubDate": [
+    "2016"
+   ],
+   "keyword": [
+    "Commerce",
+    "Commerce",
+    "Méditerranée",
+    "Barbarie",
+    "Marseille",
+    "Concessions",
+    "Régences",
+    "La Calle",
+    "Bône",
+    "XVIIIe siècle",
+    "Compagnie",
+    "Monopole",
+    "Corail",
+    "Blé"
+   ],
+   "domain": [
+    "330",
+    "330"
+   ],
+   "docType": [
+	"thesis"
+   ],
+   "corporateBody": [
+    "Aix-Marseille Université",
+    "Ecole Doctorale Espaces, Cultures, Sociétés",
+    "Temps, espaces, langages, Europe méridionale-Méditerranée"
+   ],
+   "role": [
+   ],
+   "cocontributor": []
+  },
+  "sudoc:224457853-2": {
+   "personName": [
+    {
+     "appellation": "Durand, Stéphane"
+    }
+   ],
+   "title": [
+    "Pouvoir(s), conflits et recompositions sociopolitiques : L'exemple du couloir rhodanien (1750-1820)"
+   ],
+   "expLanguage": [
+    "fre"
+   ],
+   "pubDate": [
+    "2017"
+   ],
+   "keyword": [
+    "France",
+    "Historiographie",
+    "Micro-histoire",
+    "Prosopographie",
+    "Vallée du Rhône",
+    "Révolution",
+    "Politisation",
+    "Frontières",
+    "Recompositions"
+   ],
+   "domain": [
+    "944",
+    "320",
+    "900",
+    "900",
+    "900",
+    "930"
+   ],
+   "docType": [
+	"thesis"
+   ],
+   "corporateBody": [
+    "Université d'Avignon et des Pays de Vaucluse",
+    "École doctorale 537 « Culture et patrimoine »",
+    "Centre Norbert Elias"
+   ],
+   "role": [
+    "thesis_advisor"
+   ],
+   "cocontributor": [
+    {
+     "cocontributor": "Soulas, Nicolas",
+     "person": "sudoc:224457853-2",
+     "idcocontrib": "XXX"
+    }
+   ],
+   "cojury": [
+    {
+     "cojury": "Petiteau, Natalie",
+     "person": "sudoc:224457853-2",
+     "idcocontrib": "XXX"
+    },
+    {
+     "cojury": "Biard, Michel",
+     "person": "sudoc:224457853-2",
+     "idcocontrib": "XXX"
+    },
+    {
+     "cojury": "Sottocasa, Valérie",
+     "person": "sudoc:224457853-2",
+     "idcocontrib": "XXX"
+    },
+    {
+     "cojury": "Pélaquier, Élie",
+     "person": "sudoc:224457853-2",
+     "idcocontrib": "XXX"
+    }
+   ]
+  },
+  "sudoc:223786969-3": {
+   "personName": [
+    {
+     "appellation": "Durand, Stéphane"
+    }
+   ],
+   "title": [
+    "Hennebont de la lumière à l'ombre : 1660-1780"
+   ],
+   "expLanguage": [
+    "fre"
+   ],
+   "pubDate": [
+    "2017"
+   ],
+   "keyword": [
+    "Communauté de Ville d'Hennebont",
+    "Négociants Hennebontais"
+   ],
+   "domain": [
+    "330",
+    "330",
+    "330",
+    "600",
+    "330",
+    "600"
+   ],
+   "docType": [
+	"thesis"
+   ],
+   "corporateBody": [
+    "Université de Bretagne Sud",
+    "École doctorale Sciences humaines et sociales"
+   ],
+   "role": [
+   ],
+   "cocontributor": []
+  },
+  "sudoc:223541257-7": {
+   "personName": [
+    {
+     "appellation": "Durand, Stéphane"
+    }
+   ],
+   "title": [
+    "Rennes et la mer. Création, développement et fonctionnement d'une voie fluviomaritime  : la Vilaine (XVIe-XVIIe siècles)"
+   ],
+   "expLanguage": [
+    "fre"
+   ],
+   "pubDate": [
+    "2017"
+   ],
+   "keyword": [
+    "Vilaine (France ; cours d'eau)",
+    "Conflits d'usage",
+    "Commerce fluviomaritime"
+   ],
+   "domain": [
+    "330",
+    "330"
+   ],
+   "docType": [
+	"thesis"
+   ],
+   "corporateBody": [
+    "Université de Bretagne Sud",
+    "École doctorale Sciences humaines et sociales"
+   ],
+   "role": [
+    "opponent"
+   ],
+   "cojury": [
+    {
+     "cojury": "Le Bouëdec, Gérard",
+     "person": "sudoc:223541257-7",
+     "idcocontrib": "XXX"
+    },
+    {
+     "cojury": "Llinares, Sylviane",
+     "person": "sudoc:223541257-7",
+     "idcocontrib": "XXX"
+    },
+    {
+     "cojury": "Pourchasse, Pierrick",
+     "person": "sudoc:223541257-7",
+     "idcocontrib": "XXX"
+    },
+    {
+     "cojury": "Sauzeau, Thierry",
+     "person": "sudoc:223541257-7",
+     "idcocontrib": "XXX"
+    },
+    {
+     "cojury": "Buti, Gilbert",
+     "person": "sudoc:223541257-7",
+     "idcocontrib": "XXX"
+    }
+   ]
+  },
+  "sudoc:203961161-4": {
+   "personName": [
+    {
+     "appellation": "Durand, Stéphane"
+    }
+   ],
+   "title": [
+    "S'établir et travailler chez l'autre  : les hommes de la Compagnie royale d'Afrique au XVIIIe siècle"
+   ],
+   "expLanguage": [
+    "fre"
+   ],
+   "pubDate": [
+    "2016"
+   ],
+   "keyword": [
+    "Commerce",
+    "Commerce",
+    "Méditerranée",
+    "Barbarie",
+    "Marseille",
+    "Concessions",
+    "Régences",
+    "La Calle",
+    "Bône",
+    "XVIIIe siècle",
+    "Compagnie",
+    "Monopole",
+    "Corail",
+    "Blé"
+   ],
+   "domain": [
+    "330",
+    "330"
+   ],
+   "docType": [
+	"thesis"
+   ],
+   "corporateBody": [
+    "Aix-Marseille Université",
+    "Ecole Doctorale Espaces, Cultures, Sociétés",
+    "Temps, espaces, langages, Europe méridionale-Méditerranée"
+   ],
+   "role": [
+   ],
+   "cocontributor": []
+  },
+  "sudoc:199778639-2": {
+   "personName": [
+    {
+     "appellation": "Durand, Stéphane"
+    }
+   ],
+   "title": [
+    "Les Rohan, la Révolution française et l'Empire : un exemple atypique d'une émigration nobiliaire"
+   ],
+   "expLanguage": [
+    "fre"
+   ],
+   "pubDate": [
+    "2010"
+   ],
+   "keyword": [],
+   "domain": [],
+   "corporateBody": [],
+   "role": [
+    "research_team_head"
+   ],
+   "cocontributor": [
+    {
+     "cocontributor": "Castagnier, Stéphane",
+     "person": "sudoc:199778639-2",
+     "idcocontrib": "XXX"
+    }
+   ]
+  },
+  "sudoc:199617600-1": {
+   "personName": [
+    {
+     "appellation": "Durand, Stéphane"
+    }
+   ],
+   "title": [
+    "100 fiches d'histoire moderne"
+   ],
+   "expLanguage": [
+    "fre"
+   ],
+   "pubDate": [
+    "2017"
+   ],
+   "keyword": [
+    "Histoire moderne et contemporaine",
+    "Civilisation moderne"
+   ],
+   "domain": [
+    "900",
+    "900"
+   ],
+   "docType": [
+	"thesis"
+   ],
+   "corporateBody": [],
+   "role": [
+    "author"
+   ],
+   "cocontributor": [
+    {
+     "cocontributor": "Wenzel, Éric",
+     "person": "sudoc:199617600-1",
+     "idcocontrib": "XXX"
+    }
+   ]
+  },
+  "sudoc:195599055-5": {
+   "personName": [
+    {
+     "appellation": "Durand, Stéphane"
+    }
+   ],
+   "title": [
+    "« Vuyder la ville » : la fabrique de la citadinité dans un port méditerranéen (Marseille 1669-1714)"
+   ],
+   "expLanguage": [
+    "fre"
+   ],
+   "pubDate": [
+    "2016"
+   ],
+   "keyword": [
+    "Citoyenneté",
+    "Marseille",
+    "Ségrégation",
+    "Galères",
+    "Juifs",
+    "Conversion",
+    "Appartenance",
+    "Juridiction"
+   ],
+   "domain": [
+    "300",
+    "391",
+    "305",
+    "330",
+    "390",
+    "340",
+    "300"
+   ],
+   "docType": [
+	"thesis"
+   ],
+   "corporateBody": [
+    "École des hautes études en sciences sociales",
+    "École doctorale de l'École des hautes études en sciences sociales",
+    "Centre Norbert Elias"
+   ],
+   "role": [
+    "opponent"
+   ],
+   "cocontributor": []
+  },
+  "sudoc:192280139-4": {
+   "personName": [
+    {
+     "appellation": "Durand, Stéphane"
+    }
+   ],
+   "title": [
+    "L'ascension du Cardinal de Fleury (1653-1726)"
+   ],
+   "expLanguage": [
+    "fre"
+   ],
+   "pubDate": [
+    "2016"
+   ],
+   "keyword": [
+    "Éducation des princes",
+    "Jansénisme",
+    "Cardinal de Fleury",
+    "Ancien Régime",
+    "Ascension sociale",
+    "Financier",
+    "Languedoc",
+    "Évêque de Fréjus",
+    "Précepteur de Louis XV"
+   ],
+   "domain": [
+    "320",
+    "370"
+   ],
+   "docType": [
+	"thesis"
+   ],
+   "corporateBody": [
+    "Université Paris-Sorbonne",
+    "École doctorale Histoire moderne et contemporaine",
+    "Centre Roland Mousnier"
+   ],
+   "role": [
+    "opponent"
+   ],
+   "cocontributor": []
+  },
+  "sudoc:187458278-5": {
+   "personName": [
+    {
+     "appellation": "Durand, Stéphane"
+    }
+   ],
+   "title": [
+    "« Vuyder la ville » : la fabrique de la citadinité dans un port méditerranéen (Marseille 1669-1714)"
+   ],
+   "expLanguage": [
+    "fre"
+   ],
+   "pubDate": [
+    "2014"
+   ],
+   "keyword": [
+    "Citoyenneté",
+    "Marseille",
+    "Ségrégation",
+    "Galères",
+    "Juifs",
+    "Conversion",
+    "Appartenance",
+    "Juridiction"
+   ],
+   "domain": [
+    "300",
+    "391",
+    "305",
+    "330",
+    "390",
+    "340",
+    "300"
+   ],
+   "docType": [
+	"thesis"
+   ],
+   "corporateBody": [
+    "École des hautes études en sciences sociales",
+    "École doctorale de l'École des hautes études en sciences sociales",
+    "Centre Norbert Elias"
+   ],
+   "role": [
+    "opponent"
+   ],
+   "cocontributor": [
+    {
+     "cocontributor": "Xambo, Jean-Baptiste",
+     "person": "sudoc:187458278-5",
+     "idcocontrib": "XXX"
+    },
+    {
+     "cocontributor": "Boutier, Jean",
+     "person": "sudoc:187458278-5",
+     "idcocontrib": "XXX"
+    },
+    {
+     "cocontributor": "Buti, Gilbert",
+     "person": "sudoc:187458278-5",
+     "idcocontrib": "XXX"
+    },
+    {
+     "cocontributor": "Cerutti, Simona",
+     "person": "sudoc:187458278-5",
+     "idcocontrib": "XXX"
+    },
+    {
+     "cocontributor": "Raveux, Olivier",
+     "person": "sudoc:187458278-5",
+     "idcocontrib": "XXX"
+    },
+    {
+     "cocontributor": "Salvemini, Biagio",
+     "person": "sudoc:187458278-5",
+     "idcocontrib": "XXX"
+    }
+   ]
+  },
+  "sudoc:182833674-12": {
+   "personName": [
+    {
+     "appellation": "Durand, Stéphane"
+    }
+   ],
+   "title": [
+    "Contrôler les finances sous l'Ancien Régime : regards d'aujourd'hui sur les Chambres des comptes  :  colloque des 28, 29 et 30 novembre 2007"
+   ],
+   "expLanguage": [
+    "fre"
+   ],
+   "pubDate": [
+    "2011"
+   ],
+   "keyword": [
+    "Finances publiques",
+    "Finances publiques",
+    "Cours des comptes",
+    "Fonctionnaires",
+    "Contrôle financier"
+   ],
+   "domain": [
+    "300",
+    "350"
+   ],
+   "corporateBody": [
+    "Comité pour l'histoire économique et financière de la France",
+    "France. Ministère de l'économie, des finances et de l'industrie",
+    "France. Ministère du budget, des comptes publics et de la fonction publique"
+   ],
+   "role": [
+    "author"
+   ],
+   "cocontributor": [
+    {
+     "cocontributor": "Bayard, Françoise",
+     "person": "sudoc:182833674-12",
+     "idcocontrib": "XXX"
+    },
+    {
+     "cocontributor": "Bidouze, Frédéric",
+     "person": "sudoc:182833674-12",
+     "idcocontrib": "XXX"
+    }
+   ]
+  },
+  "sudoc:181811863-5": {
+   "personName": [
+    {
+     "appellation": "Durand, Stéphane"
+    }
+   ],
+   "title": [
+    "La construction du canal royal de la jonction des mers en Languedoc (Canal du Midi)"
+   ],
+   "expLanguage": [
+    "fre"
+   ],
+   "pubDate": [
+    "2011"
+   ],
+   "keyword": [
+    "Canaux",
+    "Canal du Midi",
+    "Canaux de Bourgogne",
+    "Languedoc",
+    "Golfe du Lion",
+    "Académie de Castres",
+    "Histoire des travaux publics"
+   ],
+   "domain": [
+    "600"
+   ],
+   "docType": [
+	"thesis"
+   ],
+   "corporateBody": [
+    "Université Paul Valéry",
+    "École doctorale 58, Langues, Littératures, Cultures, Civilisations",
+    "Centre de recherches interdisciplinaires en sciences humaines et sociales"
+   ],
+   "role": [
+    "opponent"
+   ],
+   "cocontributor": [
+    {
+     "cocontributor": "Adgé, Michel",
+     "person": "sudoc:181811863-5",
+     "idcocontrib": "XXX"
+    },
+    {
+     "cocontributor": "Michel, Henri",
+     "person": "sudoc:181811863-5",
+     "idcocontrib": "XXX"
+    },
+    {
+     "cocontributor": "Pélaquier, Élie",
+     "person": "sudoc:181811863-5",
+     "idcocontrib": "XXX"
+    },
+    {
+     "cocontributor": "Gazelle, François",
+     "person": "sudoc:181811863-5",
+     "idcocontrib": "XXX"
+    },
+    {
+     "cocontributor": "Thomas, Jack",
+     "person": "sudoc:181811863-5",
+     "idcocontrib": "XXX"
+    }
+   ]
+  },
+  "sudoc:176503102-1": {
+   "personName": [
+    {
+     "appellation": "Durand, Stéphane"
+    }
+   ],
+   "title": [
+    "Des États dans l'État : les États de Languedoc, de la Fronde à la Révolution"
+   ],
+   "expLanguage": [
+    "fre"
+   ],
+   "pubDate": [
+    "2014"
+   ],
+   "keyword": [],
+   "domain": [],
+   "corporateBody": [
+    "Centre de recherches interdisciplinaires en sciences humaines et sociales",
+    "Hérault. Archives départementales"
+   ],
+   "role": [
+    "author"
+   ],
+   "cocontributor": [
+    {
+     "cocontributor": "Jouanna, Arlette",
+     "person": "sudoc:176503102-1",
+     "idcocontrib": "XXX"
+    },
+    {
+     "cocontributor": "Pélaquier, Élie",
+     "person": "sudoc:176503102-1",
+     "idcocontrib": "XXX"
+    },
+    {
+     "cocontributor": "Donnadieu, Jean-Pierre",
+     "person": "sudoc:176503102-1",
+     "idcocontrib": "XXX"
+    },
+    {
+     "cocontributor": "Michel, Henri",
+     "person": "sudoc:176503102-1",
+     "idcocontrib": "XXX"
+    }
+   ]
+  },
+  "sudoc:17438677X-1": {
+   "personName": [
+    {
+     "appellation": "Durand, Stéphane"
+    }
+   ],
+   "title": [
+    "100 fiches d'histoire moderne"
+   ],
+   "expLanguage": [
+    "fre"
+   ],
+   "pubDate": [
+    "2013"
+   ],
+   "keyword": [
+    "Histoire moderne et contemporaine",
+    "Civilisation moderne"
+   ],
+   "domain": [
+    "900",
+    "900"
+   ],
+   "corporateBody": [],
+   "role": [
+    "author"
+   ],
+   "cocontributor": [
+    {
+     "cocontributor": "Wenzel, Éric",
+     "person": "sudoc:17438677X-1",
+     "idcocontrib": "XXX"
+    }
+   ]
+  },
+  "sudoc:163549753-4": {
+   "personName": [
+    {
+     "appellation": "Durand, Stéphane"
+    }
+   ],
+   "title": [
+    "Élites, pouvoirs et vie municipale à Brest, 1750-1820"
+   ],
+   "expLanguage": [
+    "fre"
+   ],
+   "pubDate": [
+    "2012"
+   ],
+   "keyword": [
+    "Ancien Régime",
+    "Brest",
+    "Consulat",
+    "Élites urbaines",
+    "Histoire urbaine",
+    "Institutions municipales",
+    "Municipalités",
+    "Notabilité",
+    "Premier Empire",
+    "Restauration",
+    "Révolution française"
+   ],
+   "domain": [
+    "320",
+    "350",
+    "320",
+    "350"
+   ],
+   "docType": [
+	"thesis"
+   ],
+   "corporateBody": [
+    "Université de Bretagne occidentale",
+    "École doctorale Sciences humaines et sociales",
+    "Centre de recherche bretonne et celtique"
+   ],
+   "role": [
+    "opponent"
+   ],
+   "cocontributor": [
+    {
+     "cocontributor": "Baron, Bruno",
+     "person": "sudoc:163549753-4",
+     "idcocontrib": "XXX"
+    },
+    {
+     "cocontributor": "Jarnoux, Philippe",
+     "person": "sudoc:163549753-4",
+     "idcocontrib": "XXX"
+    },
+    {
+     "cocontributor": "Coste, Laurent",
+     "person": "sudoc:163549753-4",
+     "idcocontrib": "XXX"
+    },
+    {
+     "cocontributor": "Leuwers, Hervé",
+     "person": "sudoc:163549753-4",
+     "idcocontrib": "XXX"
+    },
+    {
+     "cocontributor": "Saupin, Guy",
+     "person": "sudoc:163549753-4",
+     "idcocontrib": "XXX"
+    },
+    {
+     "cocontributor": "Tranvouez, Yvon",
+     "person": "sudoc:163549753-4",
+     "idcocontrib": "XXX"
+    }
+   ]
+  },
+  "sudoc:161498256-3": {
+   "personName": [
+    {
+     "appellation": "Durand, Stéphane"
+    }
+   ],
+   "title": [
+    "Hommes d'ordre, sources de désordre : conflits entre civils et militaires, l'exemple du port de Toulon (1715-1815)"
+   ],
+   "expLanguage": [
+    "fre"
+   ],
+   "pubDate": [
+    "2011"
+   ],
+   "keyword": [
+    "France",
+    "France"
+   ],
+   "domain": [],
+   "docType": [
+	"thesis"
+   ],
+   "corporateBody": [
+    "Université Paul Valéry",
+    "École doctorale 58, Langues, Littératures, Cultures, Civilisations"
+   ],
+   "role": [
+    "opponent"
+   ],
+   "cocontributor": [
+    {
+     "cocontributor": "Marras, Jean-Charles",
+     "person": "sudoc:161498256-3",
+     "idcocontrib": "XXX"
+    },
+    {
+     "cocontributor": "Peschot, Bernard",
+     "person": "sudoc:161498256-3",
+     "idcocontrib": "XXX"
+    },
+    {
+     "cocontributor": "Vergé-Franceschi, Michel",
+     "person": "sudoc:161498256-3",
+     "idcocontrib": "XXX"
+    },
+    {
+     "cocontributor": "Michel, Henri",
+     "person": "sudoc:161498256-3",
+     "idcocontrib": "XXX"
+    }
+   ]
+  },
+  "sudoc:160972965-5": {
+   "personName": [
+    {
+     "appellation": "Durand, Stéphane"
+    }
+   ],
+   "title": [
+    "Les compoix de Languedoc (XIVe-XVIIIe siècle) : pour une autre histoire de l'État, du territoire et de la société"
+   ],
+   "expLanguage": [
+    "fre"
+   ],
+   "pubDate": [
+    "2011"
+   ],
+   "keyword": [
+    "Cadastres",
+    "Politique fiscale",
+    "Institutions politiques",
+    "État",
+    "Compoix",
+    "Cadastre",
+    "Taille réelle",
+    "Fiscalité",
+    "Institutions",
+    "Territoire",
+    "Société"
+   ],
+   "domain": [
+    "320",
+    "330",
+    "320",
+    "340"
+   ],
+   "docType": [
+	"thesis"
+   ],
+   "corporateBody": [
+    "Université Paul Valéry",
+    "École doctorale 58, Langues, Littératures, Cultures, Civilisations"
+   ],
+   "role": [
+    "opponent"
+   ],
+   "cocontributor": [
+    {
+     "cocontributor": "Jaudon, Bruno",
+     "person": "sudoc:160972965-5",
+     "idcocontrib": "XXX"
+    },
+    {
+     "cocontributor": "Pélaquier, Élie",
+     "person": "sudoc:160972965-5",
+     "idcocontrib": "XXX"
+    },
+    {
+     "cocontributor": "Moriceau, Jean-Marc",
+     "person": "sudoc:160972965-5",
+     "idcocontrib": "XXX"
+    },
+    {
+     "cocontributor": "Abbé, Jean-Loup",
+     "person": "sudoc:160972965-5",
+     "idcocontrib": "XXX"
+    },
+    {
+     "cocontributor": "Antoine, Annie",
+     "person": "sudoc:160972965-5",
+     "idcocontrib": "XXX"
+    },
+    {
+     "cocontributor": "Brunet, Serge",
+     "person": "sudoc:160972965-5",
+     "idcocontrib": "XXX"
+    },
+    {
+     "cocontributor": "Follain, Antoine",
+     "person": "sudoc:160972965-5",
+     "idcocontrib": "XXX"
+    }
+   ]
+  },
+  "sudoc:159339928-4": {
+   "personName": [
+    {
+     "appellation": "Durand, Stéphane"
+    }
+   ],
+   "title": [
+    "Ville modèle, modèles de ville. Nîmes (1476-1789)"
+   ],
+   "expLanguage": [
+    "fre"
+   ],
+   "pubDate": [
+    "2011"
+   ],
+   "keyword": [
+    "Urbanisme",
+    "Fortifications",
+    "Histoire urbaine",
+    "Histoire moderne",
+    "Nîmes",
+    "Consulat",
+    "Paysage urbain",
+    "Romanité",
+    "Fortifications"
+   ],
+   "domain": [
+    "710",
+    "355",
+    "690",
+    "720"
+   ],
+   "docType": [
+	"thesis"
+   ],
+   "corporateBody": [
+    "Université Paul Valéry",
+    "École doctorale 58, Langues, Littératures, Cultures, Civilisations"
+   ],
+   "role": [
+    "opponent"
+   ],
+   "cocontributor": [
+    {
+     "cocontributor": "Caillat, Gérard",
+     "person": "sudoc:159339928-4",
+     "idcocontrib": "XXX"
+    },
+    {
+     "cocontributor": "Pélaquier, Élie",
+     "person": "sudoc:159339928-4",
+     "idcocontrib": "XXX"
+    },
+    {
+     "cocontributor": "Antoine, Annie",
+     "person": "sudoc:159339928-4",
+     "idcocontrib": "XXX"
+    },
+    {
+     "cocontributor": "Abbé, Jean-Loup",
+     "person": "sudoc:159339928-4",
+     "idcocontrib": "XXX"
+    },
+    {
+     "cocontributor": "Michel, Henri",
+     "person": "sudoc:159339928-4",
+     "idcocontrib": "XXX"
+    },
+    {
+     "cocontributor": "Saupin, Guy",
+     "person": "sudoc:159339928-4",
+     "idcocontrib": "XXX"
+    }
+   ]
+  },
+  "sudoc:156742845-1": {
+   "personName": [
+    {
+     "appellation": "Durand, Stéphane"
+    }
+   ],
+   "title": [
+    "Les villes en France : XVIe-XVIIIe siècle"
+   ],
+   "expLanguage": [
+    "fre"
+   ],
+   "pubDate": [
+    "2011"
+   ],
+   "keyword": [
+    "Vie urbaine",
+    "Villes"
+   ],
+   "domain": [
+    "300",
+    "391",
+    "300",
+    "710",
+    "910"
+   ],
+   "corporateBody": [],
+   "role": [
+    "author"
+   ],
+   "cocontributor": []
+  },
+  "sudoc:149269358-1": {
+   "personName": [
+    {
+     "appellation": "Durand, Stéphane"
+    }
+   ],
+   "title": [
+    "Finances, pouvoirs et territoires dans une perspective multiscalaire en France (XVIIe-XVIIIe siècles)"
+   ],
+   "expLanguage": [
+    "fre"
+   ],
+   "pubDate": [
+    "2009"
+   ],
+   "keyword": [
+    "Ports",
+    "Ports",
+    "Pouvoir (sciences sociales)",
+    "Élite (sciences sociales)",
+    "Petites villes"
+   ],
+   "domain": [],
+   "corporateBody": [],
+   "role": [
+    "author"
+   ],
+   "cocontributor": [
+    {
+     "cocontributor": "Pélaquier, Élie",
+     "person": "sudoc:149269358-1",
+     "idcocontrib": "XXX"
+    }
+   ]
+  },
+  "sudoc:145555801-1": {
+   "personName": [
+    {
+     "appellation": "Durand, Stéphane"
+    }
+   ],
+   "title": [
+    "Pouvoir municipal et société locale dans les petites villes de l' Hérault aux XVIIIe et XIXe siécles  : Le cas de Mèze de 1675 à 1815"
+   ],
+   "expLanguage": [
+    "fre"
+   ],
+   "pubDate": [
+    "2000"
+   ],
+   "keyword": [
+    "Petites villes",
+    "Petites villes"
+   ],
+   "domain": [],
+   "corporateBody": [],
+   "role": [
+    "author"
+   ],
+   "cocontributor": [
+    {
+     "cocontributor": "Emmanuelli, François-Xavier",
+     "person": "sudoc:145555801-1",
+     "idcocontrib": "XXX"
+    }
+   ]
+  },
+  "sudoc:145149285-2": {
+   "personName": [
+    {
+     "appellation": "Durand, Stéphane"
+    }
+   ],
+   "title": [
+    "L'olivier dans l'Europe méditerranéenne de l'Antiquité à nos jours  : terroir, paysage et économie  : actes du colloque tenu à Montpellier les 17 et 18 Mars 2006"
+   ],
+   "expLanguage": [
+    "fre"
+   ],
+   "pubDate": [
+    "2007"
+   ],
+   "keyword": [
+    "Olivier"
+   ],
+   "domain": [
+    "630"
+   ],
+   "corporateBody": [
+    "Centre d'histoire moderne et contemporaine de l'Europe méditerranéenne et de ses périphéries"
+   ],
+   "role": [
+    "editor"
+   ],
+   "cocontributor": [
+    {
+     "cocontributor": "Dumond, Lionel",
+     "person": "sudoc:145149285-2",
+     "idcocontrib": "XXX"
+    }
+   ]
+  },
+  "sudoc:126554692-2": {
+   "personName": [
+    {
+     "appellation": "Durand, Stéphane"
+    }
+   ],
+   "title": [
+    "Les ports dans l'Europe méditerranéenne : trafics et circulation, images et représentations (XVI-XXIe siècles)  : actes du colloque tenu à Montpellier les 19 et 20 mars 2004 en hommage à Louis Dermigny (1916-1974)"
+   ],
+   "expLanguage": [
+    "fre"
+   ],
+   "pubDate": [
+    "2007"
+   ],
+   "keyword": [
+    "Ports",
+    "Ports",
+    "Ports"
+   ],
+   "domain": [
+    "330",
+    "600",
+    "330",
+    "600",
+    "330",
+    "600"
+   ],
+   "corporateBody": [
+    "Centre d'histoire moderne et contemporaine de l'Europe méditerranéenne et de ses périphéries"
+   ],
+   "role": [
+    "editor"
+   ],
+   "cocontributor": [
+    {
+     "cocontributor": "Dumond, Lionel",
+     "person": "sudoc:126554692-2",
+     "idcocontrib": "XXX"
+    },
+    {
+     "cocontributor": "Thomas, Jérôme",
+     "person": "sudoc:126554692-2",
+     "idcocontrib": "XXX"
+    }
+   ]
+  },
+  "sudoc:120990717-3": {
+   "personName": [
+    {
+     "appellation": "Durand, Stéphane"
+    }
+   ],
+   "title": [
+    "Cadastres et paysages : actes"
+   ],
+   "expLanguage": [
+    "fre"
+   ],
+   "pubDate": [
+    "2007"
+   ],
+   "keyword": [
+    "Cadastres",
+    "Archéologie du paysage"
+   ],
+   "domain": [
+    "910",
+    "930"
+   ],
+   "corporateBody": [],
+   "role": [
+    "editor"
+   ],
+   "cocontributor": [
+    {
+     "cocontributor": "Pélaquier, Élie",
+     "person": "sudoc:120990717-3",
+     "idcocontrib": "XXX"
+    },
+    {
+     "cocontributor": "Dumond, Lionel",
+     "person": "sudoc:120990717-3",
+     "idcocontrib": "XXX"
+    }
+   ]
+  },
+  "sudoc:120495708-1": {
+   "personName": [
+    {
+     "appellation": "Durand, Stéphane"
+    }
+   ],
+   "title": [
+    "100 fiches d'histoire moderne"
+   ],
+   "expLanguage": [
+    "fre"
+   ],
+   "pubDate": [
+    "2007"
+   ],
+   "keyword": [
+    "Histoire moderne et contemporaine",
+    "Civilisation moderne"
+   ],
+   "domain": [
+    "900",
+    "900"
+   ],
+   "corporateBody": [],
+   "role": [
+    "author"
+   ],
+   "cocontributor": [
+    {
+     "cocontributor": "Wenzel, Éric",
+     "person": "sudoc:120495708-1",
+     "idcocontrib": "XXX"
+    }
+   ]
+  },
+  "sudoc:106973487-1": {
+   "personName": [
+    {
+     "appellation": "Durand, Stéphane"
+    }
+   ],
+   "title": [
+    "Les villes en France : XVIe-XVIIIe siècle"
+   ],
+   "expLanguage": [
+    "fre"
+   ],
+   "pubDate": [
+    "2006"
+   ],
+   "keyword": [
+    "Vie urbaine",
+    "Villes"
+   ],
+   "domain": [
+    "300",
+    "391",
+    "300",
+    "710"
+   ],
+   "corporateBody": [],
+   "role": [
+    "author"
+   ],
+   "cocontributor": []
+  },
+  "sudoc:055222455-1": {
+   "personName": [
+    {
+     "appellation": "Durand, Stéphane"
+    }
+   ],
+   "title": [
+    "Pouvoir municipal et société locale dans les petites villes de l' Hérault aux XVIIIe et XIXe siécles : le cas de Mèze de 1675 à 1815"
+   ],
+   "expLanguage": [
+    "fre"
+   ],
+   "pubDate": [
+    "2000"
+   ],
+   "keyword": [
+    "Petites villes",
+    "Petites villes"
+   ],
+   "domain": [
+    "710",
+    "710"
+   ],
+   "corporateBody": [
+    "Université Paul Valéry"
+   ],
+   "role": [
+    "author"
+   ],
+   "cocontributor": [
+    {
+     "cocontributor": "Emmanuelli, François-Xavier",
+     "person": "sudoc:055222455-1",
+     "idcocontrib": "XXX"
+    }
+   ]
+  },
+  "sudoc:224614908-1": {
+   "personName": [
+    {
+     "appellation": "Durand, Stéphane"
+    }
+   ],
+   "title": [
+    "Etude observationnelle du dosage de la troponine par les médecins généralistes d’Ile de France"
+   ],
+   "expLanguage": [
+    "fre"
+   ],
+   "pubDate": [
+    "2017"
+   ],
+   "keyword": [
+    "Troponine",
+    "Syndrome coronarien aigu",
+    "Soins médicaux ambulatoires",
+    "Médecins généralistes",
+    "Médecine générale"
+   ],
+   "domain": [
+    "570",
+    "610",
+    "610",
+    "300",
+    "610",
+    "610"
+   ],
+   "docType": [
+	"thesis"
+   ],
+   "corporateBody": [
+    "Université Pierre et Marie Curie. UFR de médecine Pierre et Marie Curie"
+   ],
+   "role": [
+    "author"
+   ],
+   "cocontributor": [
+    {
+     "cocontributor": "Jouffroy, Romain",
+     "person": "sudoc:224614908-1",
+     "idcocontrib": "XXX"
+    }
+   ]
+  },
+  "sudoc:044032242-1": {
+   "personName": [
+    {
+     "appellation": "Durand, Stéphane"
+    }
+   ],
+   "title": [
+    "TOM, une architecture connexionniste de traitement de séquences : application à la reconnaissance de la parole"
+   ],
+   "expLanguage": [
+    "fre"
+   ],
+   "pubDate": [
+    "1995"
+   ],
+   "keyword": [
+    "Réseaux neuronaux (informatique)",
+    "Reconnaissance automatique de la parole",
+    "Réseau neuronal",
+    "Connexionnisme",
+    "Reconnaissance parole",
+    "Traitement",
+    "Séquentiel",
+    "Classification"
+   ],
+   "domain": [
+    "004",
+    "401",
+    "621"
+   ],
+   "docType": [
+	"thesis"
+   ],
+   "corporateBody": [
+    "Université de Nancy I",
+    "Université Henri Poincaré Nancy 1. Faculté des sciences et techniques"
+   ],
+   "role": [
+    "author"
+   ],
+   "cocontributor": [
+    {
+     "cocontributor": "Haton, Jean-Paul",
+     "person": "sudoc:044032242-1",
+     "idcocontrib": "XXX"
+    }
+   ]
+  },
+  "sudoc:236315021-3": {
+   "personName": [
+    {
+     "appellation": "Durand, Stéphane"
+    }
+   ],
+   "title": [
+    "La mer autour de nous"
+   ],
+   "expLanguage": [
+    "fre"
+   ],
+   "pubDate": [
+    "2019"
+   ],
+   "keyword": [
+    "Biologie marine",
+    "Écologie marine",
+    "Organismes marins",
+    "Océanographie"
+   ],
+   "domain": [
+    "570",
+    "570",
+    "570",
+    "590",
+    "550"
+   ],
+   "corporateBody": [],
+   "role": [
+    "author_of_introduction_etc."
+   ],
+   "cocontributor": [
+    {
+     "cocontributor": "Carson, Rachel Louise",
+     "person": "sudoc:236315021-3",
+     "idcocontrib": "XXX"
+    },
+    {
+     "cocontributor": "Collin Delavaud, Henri",
+     "person": "sudoc:236315021-3",
+     "idcocontrib": "XXX"
+    },
+    {
+     "cocontributor": "Pauly, Daniel",
+     "person": "sudoc:236315021-3",
+     "idcocontrib": "XXX"
+    },
+    {
+     "cocontributor": "Karsenti, Éric",
+     "person": "sudoc:236315021-3",
+     "idcocontrib": "XXX"
+    },
+    {
+     "cocontributor": "Sardet, Christian",
+     "person": "sudoc:236315021-3",
+     "idcocontrib": "XXX"
+    }
+   ]
+  },
+  "sudoc:220056714-1": {
+   "personName": [
+    {
+     "appellation": "Durand, Stéphane"
+    }
+   ],
+   "title": [
+    "Mondes sauvages : pour une nouvelle alliance"
+   ],
+   "expLanguage": [
+    "fre"
+   ],
+   "pubDate": [
+    "2017"
+   ],
+   "keyword": [
+    "Nature"
+   ],
+   "domain": [
+    "500"
+   ],
+   "corporateBody": [],
+   "role": [
+    "publishing_editor"
+   ],
+   "cocontributor": []
+  },
+  "sudoc:193967650-2": {
+   "personName": [
+    {
+     "appellation": "Durand, Stéphane"
+    }
+   ],
+   "title": [
+    "La nuit des éléphants"
+   ],
+   "expLanguage": [
+    "fre"
+   ],
+   "pubDate": [
+    "2015"
+   ],
+   "keyword": [
+    "Éléphants"
+   ],
+   "domain": [
+    "590"
+   ],
+   "corporateBody": [],
+   "role": [
+    "scenarist"
+   ],
+   "cocontributor": [
+    {
+     "cocontributor": "Machado, Thierry",
+     "person": "sudoc:193967650-2",
+     "idcocontrib": "XXX"
+    },
+    {
+     "cocontributor": "Auffret, Jérôme Cécil",
+     "person": "sudoc:193967650-2",
+     "idcocontrib": "XXX"
+    },
+    {
+     "cocontributor": "Bini, René-Marc",
+     "person": "sudoc:193967650-2",
+     "idcocontrib": "XXX"
+    },
+    {
+     "cocontributor": "Perrin, Jacques",
+     "person": "sudoc:193967650-2",
+     "idcocontrib": "XXX"
+    }
+   ]
+  },
+  "sudoc:192889656-1": {
+   "personName": [
+    {
+     "appellation": "Durand, Stéphane"
+    }
+   ],
+   "title": [
+    "Les saisons : cahier d'activités"
+   ],
+   "expLanguage": [
+    "fre"
+   ],
+   "pubDate": [
+    "2015"
+   ],
+   "keyword": [
+    "Saisons",
+    "Animaux sauvages",
+    "Nature"
+   ],
+   "domain": [
+    "520",
+    "550",
+    "590"
+   ],
+   "corporateBody": [],
+   "role": [
+    "author"
+   ],
+   "cocontributor": [
+    {
+     "cocontributor": "Laurens, Claire",
+     "person": "sudoc:192889656-1",
+     "idcocontrib": "XXX"
+    },
+    {
+     "cocontributor": "Reynard, Guillaume",
+     "person": "sudoc:192889656-1",
+     "idcocontrib": "XXX"
+    }
+   ]
+  },
+  "sudoc:191928224-1": {
+   "personName": [
+    {
+     "appellation": "Durand, Stéphane"
+    }
+   ],
+   "title": [
+    "Les contes des saisons : d'après le film de Jacques Perrin et Jacques Cluzaud"
+   ],
+   "expLanguage": [
+    "fre"
+   ],
+   "pubDate": [
+    "2015"
+   ],
+   "keyword": [
+    "Animaux",
+    "Saisons"
+   ],
+   "domain": [
+    "520",
+    "550",
+    "570",
+    "590"
+   ],
+   "corporateBody": [],
+   "role": [
+    "author"
+   ],
+   "cocontributor": [
+    {
+     "cocontributor": "Perrin, Jacques",
+     "person": "sudoc:191928224-1",
+     "idcocontrib": "XXX"
+    },
+    {
+     "cocontributor": "Cluzaud, Jacques",
+     "person": "sudoc:191928224-1",
+     "idcocontrib": "XXX"
+    },
+    {
+     "cocontributor": "Gastold, Claire de",
+     "person": "sudoc:191928224-1",
+     "idcocontrib": "XXX"
+    }
+   ]
+  },
+  "sudoc:191458104-1": {
+   "personName": [
+    {
+     "appellation": "Durand, Stéphane"
+    }
+   ],
+   "title": [
+    "Les  saisons : d'après le film de Jacques Perrin & Jacques Cluzaud"
+   ],
+   "expLanguage": [
+    "fre"
+   ],
+   "pubDate": [
+    "2015"
+   ],
+   "keyword": [
+    "Nature",
+    "Animaux sauvages"
+   ],
+   "domain": [
+    "500",
+    "590"
+   ],
+   "corporateBody": [],
+   "role": [
+    "author"
+   ],
+   "cocontributor": [
+    {
+     "cocontributor": "Perrin, Jacques",
+     "person": "sudoc:191458104-1",
+     "idcocontrib": "XXX"
+    },
+    {
+     "cocontributor": "Cluzaud, Jacques",
+     "person": "sudoc:191458104-1",
+     "idcocontrib": "XXX"
+    }
+   ]
+  },
+  "sudoc:190807814-1": {
+   "personName": [
+    {
+     "appellation": "Durand, Stéphane"
+    }
+   ],
+   "title": [
+    "Les  saisons : d'après le film de Jacques Perrin & Jacques Cluzaud"
+   ],
+   "expLanguage": [
+    "fre"
+   ],
+   "pubDate": [
+    "2015"
+   ],
+   "keyword": [
+    "Nature",
+    "Animaux sauvages"
+   ],
+   "domain": [
+    "500",
+    "590"
+   ],
+   "corporateBody": [],
+   "role": [
+    "author"
+   ],
+   "cocontributor": [
+    {
+     "cocontributor": "Perrin, Jacques",
+     "person": "sudoc:190807814-1",
+     "idcocontrib": "XXX"
+    },
+    {
+     "cocontributor": "Cluzaud, Jacques",
+     "person": "sudoc:190807814-1",
+     "idcocontrib": "XXX"
+    }
+   ]
+  },
+  "sudoc:18412185X-2": {
+   "personName": [
+    {
+     "appellation": "Durand, Stéphane"
+    }
+   ],
+   "title": [
+    "La nuit des éléphants"
+   ],
+   "expLanguage": [
+    "fre"
+   ],
+   "pubDate": [
+    "2015"
+   ],
+   "keyword": [
+    "Éléphants"
+   ],
+   "domain": [
+    "590"
+   ],
+   "corporateBody": [],
+   "role": [
+    "scenarist"
+   ],
+   "cocontributor": [
+    {
+     "cocontributor": "Machado, Thierry",
+     "person": "sudoc:18412185X-2",
+     "idcocontrib": "XXX"
+    },
+    {
+     "cocontributor": "Auffret, Jérôme Cécil",
+     "person": "sudoc:18412185X-2",
+     "idcocontrib": "XXX"
+    },
+    {
+     "cocontributor": "Bini, René-Marc",
+     "person": "sudoc:18412185X-2",
+     "idcocontrib": "XXX"
+    },
+    {
+     "cocontributor": "Perrin, Jacques",
+     "person": "sudoc:18412185X-2",
+     "idcocontrib": "XXX"
+    }
+   ]
+  },
+  "sudoc:16515408X-3": {
+   "personName": [
+    {
+     "appellation": "Durand, Stéphane"
+    }
+   ],
+   "title": [
+    "La mer autour de nous"
+   ],
+   "expLanguage": [
+    "fre"
+   ],
+   "pubDate": [
+    "2012"
+   ],
+   "keyword": [
+    "Biologie marine",
+    "Écologie marine",
+    "Organismes marins",
+    "Océanographie"
+   ],
+   "domain": [
+    "570",
+    "570",
+    "570",
+    "590",
+    "550"
+   ],
+   "corporateBody": [],
+   "role": [
+    "author_of_introduction_etc."
+   ],
+   "cocontributor": [
+    {
+     "cocontributor": "Carson, Rachel Louise",
+     "person": "sudoc:16515408X-3",
+     "idcocontrib": "XXX"
+    },
+    {
+     "cocontributor": "Collin Delavaud, Henri",
+     "person": "sudoc:16515408X-3",
+     "idcocontrib": "XXX"
+    },
+    {
+     "cocontributor": "Karsenti, Éric",
+     "person": "sudoc:16515408X-3",
+     "idcocontrib": "XXX"
+    },
+    {
+     "cocontributor": "Sardet, Christian",
+     "person": "sudoc:16515408X-3",
+     "idcocontrib": "XXX"
+    }
+   ]
+  },
+  "sudoc:157541770-4": {
+   "personName": [
+    {
+     "appellation": "Durand, Stéphane"
+    }
+   ],
+   "title": [
+    "Le peuple des océans"
+   ],
+   "expLanguage": [
+    "fre"
+   ],
+   "pubDate": [
+    "2011"
+   ],
+   "keyword": [
+    "Animaux marins"
+   ],
+   "domain": [
+    "590"
+   ],
+   "corporateBody": [],
+   "role": [
+    "author"
+   ],
+   "cocontributor": [
+    {
+     "cocontributor": "Perrin, Jacques",
+     "person": "sudoc:157541770-4",
+     "idcocontrib": "XXX"
+    },
+    {
+     "cocontributor": "Cluzaud, Jacques",
+     "person": "sudoc:157541770-4",
+     "idcocontrib": "XXX"
+    },
+    {
+     "cocontributor": "Sarano, François",
+     "person": "sudoc:157541770-4",
+     "idcocontrib": "XXX"
+    },
+    {
+     "cocontributor": "Coulais, Bruno",
+     "person": "sudoc:157541770-4",
+     "idcocontrib": "XXX"
+    },
+    {
+     "cocontributor": "Perrin, Jacques",
+     "person": "sudoc:157541770-4",
+     "idcocontrib": "XXX"
+    }
+   ]
+  },
+  "sudoc:14690205X-4": {
+   "personName": [
+    {
+     "appellation": "Durand, Stéphane"
+    }
+   ],
+   "title": [
+    "Océans"
+   ],
+   "expLanguage": [
+    "fre"
+   ],
+   "pubDate": [
+    "2010"
+   ],
+   "keyword": [
+    "Mer",
+    "Animaux marins"
+   ],
+   "domain": [
+    "550",
+    "590"
+   ],
+   "corporateBody": [],
+   "role": [
+    "scenarist"
+   ],
+   "cocontributor": [
+    {
+     "cocontributor": "Perrin, Jacques",
+     "person": "sudoc:14690205X-4",
+     "idcocontrib": "XXX"
+    },
+    {
+     "cocontributor": "Cluzaud, Jacques",
+     "person": "sudoc:14690205X-4",
+     "idcocontrib": "XXX"
+    },
+    {
+     "cocontributor": "Sarano, François",
+     "person": "sudoc:14690205X-4",
+     "idcocontrib": "XXX"
+    },
+    {
+     "cocontributor": "Debas, Laurent",
+     "person": "sudoc:14690205X-4",
+     "idcocontrib": "XXX"
+    },
+    {
+     "cocontributor": "Coulais, Bruno",
+     "person": "sudoc:14690205X-4",
+     "idcocontrib": "XXX"
+    }
+   ]
+  },
+  "sudoc:139799699-2": {
+   "personName": [
+    {
+     "appellation": "Durand, Stéphane"
+    }
+   ],
+   "title": [
+    "Océans : d'après le film réalisé par Jacques Perrin et Jacques Cluzaud"
+   ],
+   "expLanguage": [
+    "fre"
+   ],
+   "pubDate": [
+    "2009"
+   ],
+   "keyword": [
+    "Mer",
+    "Animaux marins"
+   ],
+   "domain": [
+    "550",
+    "590"
+   ],
+   "corporateBody": [],
+   "role": [
+    "author"
+   ],
+   "cocontributor": [
+    {
+     "cocontributor": "Sarano, François",
+     "person": "sudoc:139799699-2",
+     "idcocontrib": "XXX"
+    },
+    {
+     "cocontributor": "Perrin, Jacques",
+     "person": "sudoc:139799699-2",
+     "idcocontrib": "XXX"
+    },
+    {
+     "cocontributor": "Cluzaud, Jacques",
+     "person": "sudoc:139799699-2",
+     "idcocontrib": "XXX"
+    }
+   ]
+  },
+  "sudoc:08167564X-3": {
+   "personName": [
+    {
+     "appellation": "Durand, Stéphane"
+    }
+   ],
+   "title": [
+    "Les ailes de la nature"
+   ],
+   "expLanguage": [
+    "fre"
+   ],
+   "pubDate": [
+    "2003"
+   ],
+   "keyword": [
+    "Oiseaux",
+    "Oiseaux migrateurs"
+   ],
+   "domain": [
+    "590"
+   ],
+   "corporateBody": [],
+   "role": [
+    "scenarist"
+   ],
+   "cocontributor": [
+    {
+     "cocontributor": "Perrin, Jacques",
+     "person": "sudoc:08167564X-3",
+     "idcocontrib": "XXX"
+    },
+    {
+     "cocontributor": "Cluzaud, Jacques",
+     "person": "sudoc:08167564X-3",
+     "idcocontrib": "XXX"
+    },
+    {
+     "cocontributor": "Coulais, Bruno",
+     "person": "sudoc:08167564X-3",
+     "idcocontrib": "XXX"
+    }
+   ]
+  },
+  "sudoc:075717840-1": {
+   "personName": [
+    {
+     "appellation": "Durand, Stéphane"
+    }
+   ],
+   "title": [
+    "Les oiseaux voyageurs : carnet de routes"
+   ],
+   "expLanguage": [
+    "fre"
+   ],
+   "pubDate": [
+    "2003"
+   ],
+   "keyword": [
+    "Oiseaux",
+    "Oiseaux migrateurs"
+   ],
+   "domain": [
+    "590"
+   ],
+   "corporateBody": [],
+   "role": [
+    "author"
+   ],
+   "cocontributor": [
+    {
+     "cocontributor": "Bernard, Frédéric",
+     "person": "sudoc:075717840-1",
+     "idcocontrib": "XXX"
+    }
+   ]
+  },
+  "sudoc:235995355-1": {
+   "personName": [
+    {
+     "appellation": "Durand, Stéphane"
+    }
+   ],
+   "title": [
+    "Comment voyager dans le temps : ces progrès scientifiques qui vont changer votre vie"
+   ],
+   "expLanguage": [
+    "fre"
+   ],
+   "pubDate": [
+    "2019"
+   ],
+   "keyword": [
+    "Utopies techniques"
+   ],
+   "domain": [
+    "100",
+    "300",
+    "320",
+    "600"
+   ],
+   "corporateBody": [],
+   "role": [
+    "author"
+   ],
+   "cocontributor": []
+  },
+  "sudoc:185663060-1": {
+   "personName": [
+    {
+     "appellation": "Durand, Stéphane"
+    }
+   ],
+   "title": [
+    "Les hérésies scientifiques du professeur Durand : de la télépathie au voyage dans le futur, 32 prédictions qui pourraient bien se réaliser demain"
+   ],
+   "expLanguage": [
+    "fre"
+   ],
+   "pubDate": [
+    "2015"
+   ],
+   "keyword": [
+    "Sciences",
+    "Prévision technologique",
+    "Curiosités et merveilles"
+   ],
+   "domain": [
+    "500",
+    "600"
+   ],
+   "corporateBody": [],
+   "role": [
+    "author"
+   ],
+   "cocontributor": [
+    {
+     "cocontributor": "Bernet, Lison",
+     "person": "sudoc:185663060-1",
+     "idcocontrib": "XXX"
+    }
+   ]
+  },
+  "sudoc:183106504-1": {
+   "personName": [
+    {
+     "appellation": "Durand, Stéphane"
+    }
+   ],
+   "title": [
+    "Comprendre Einstein en animant soi-même l'espace-temps"
+   ],
+   "expLanguage": [
+    "fre"
+   ],
+   "pubDate": [
+    "2014"
+   ],
+   "keyword": [
+    "Espace-temps"
+   ],
+   "domain": [],
+   "corporateBody": [],
+   "role": [
+    "author"
+   ],
+   "cocontributor": []
+  },
+  "sudoc:069995028-1": {
+   "personName": [
+    {
+     "appellation": "Durand, Stéphane"
+    }
+   ],
+   "title": [
+    "La relativité animée  : un livre interactif : comprendre Einstein en animant soi-même l'espace-temps"
+   ],
+   "expLanguage": [
+    "fre"
+   ],
+   "pubDate": [
+    "1999"
+   ],
+   "keyword": [
+    "Relativité (physique)",
+    "Espace et temps",
+    "Livres animés"
+   ],
+   "domain": [
+    "530",
+    "020",
+    "793"
+   ],
+   "corporateBody": [],
+   "role": [
+    "author"
+   ],
+   "cocontributor": []
+  },
+  "sudoc:069895929-1": {
+   "personName": [
+    {
+     "appellation": "Durand, Stéphane"
+    }
+   ],
+   "title": [
+    "La relativité animée : comprendre Einstein en animant soi-même l'espace-temps"
+   ],
+   "expLanguage": [
+    "fre"
+   ],
+   "pubDate": [
+    "2003"
+   ],
+   "keyword": [
+    "Espace-temps",
+    "Relativité (physique)"
+   ],
+   "domain": [
+    "510",
+    "530",
+    "530"
+   ],
+   "corporateBody": [],
+   "role": [
+    "author"
+   ],
+   "cocontributor": []
+  },
+  "sudoc:011839201-1": {
+   "personName": [
+    {
+     "appellation": "Durand, Stéphane"
+    }
+   ],
+   "title": [
+    "Synthèse de triglycérides modèles. Etude de la spécificité de certains biocatalyseurs enzymatiques"
+   ],
+   "expLanguage": [
+    "fre"
+   ],
+   "pubDate": [
+    "1994"
+   ],
+   "keyword": [],
+   "domain": [],
+   "corporateBody": [],
+   "role": [
+    "author"
+   ],
+   "cocontributor": []
+  },
+  "sudoc:164321314-3": {
+   "personName": [
+    {
+     "appellation": "Durand, Stéphane"
+    }
+   ],
+   "title": [
+    "Mesure de déformation par combinaison de techniques géodésiques : Auscultation par GPS et topométrie"
+   ],
+   "expLanguage": [
+    "fre"
+   ],
+   "pubDate": [
+    "2011"
+   ],
+   "keyword": [
+    "Géodésie",
+    "Terre",
+    "Topométrie",
+    "Tectonique",
+    "Gnss",
+    "Déformation",
+    "Précision",
+    "Combinaison",
+    "Matrices normales"
+   ],
+   "domain": [
+    "520",
+    "550",
+    "550",
+    "520",
+    "910",
+    "550"
+   ],
+   "corporateBody": [
+    "Conservatoire national des arts et métiers",
+    "Ecole doctorale Arts et Métiers",
+    "Laboratoire Géomatique et Foncier. Équipe de Géodésie et de Géomatique"
+   ],
+   "role": [
+    "thesis_advisor"
+   ],
+   "cocontributor": [
+    {
+     "cocontributor": "Legru, Benoît",
+     "person": "sudoc:164321314-3",
+     "idcocontrib": "XXX"
+    }
+   ],
+   "cojury": [
+
+    {
+     "cojury": "Polidori, Laurent",
+     "person": "sudoc:164321314-3",
+     "idcocontrib": "XXX"
+    },
+    {
+     "cojury": "Dauteuil, Olivier",
+     "person": "sudoc:164321314-3",
+     "idcocontrib": "XXX"
+    },
+    {
+     "cojury": "Briole, Pierre",
+     "person": "sudoc:164321314-3",
+     "idcocontrib": "XXX"
+    },
+    {
+     "cojury": "Kasser, Michel",
+     "person": "sudoc:164321314-3",
+     "idcocontrib": "XXX"
+    },
+    {
+     "cojury": "Cattin, Paul-Henri",
+     "person": "sudoc:164321314-3",
+     "idcocontrib": "XXX"
+    },
+    {
+     "cojury": "Delmas, Philippe",
+     "person": "sudoc:164321314-3",
+     "idcocontrib": "XXX"
+    }
+   ]
+  },
+  "sudoc:126716781-1": {
+   "personName": [
+    {
+     "appellation": "Durand, Stéphane"
+    }
+   ],
+   "title": [
+    "Amélioration de la précision de la localisation différentielle temps réel par mesure de phase des systèmes GNSS  : étude détaillée des équations d'observation et du problème de résolution des ambiguïtés entières"
+   ],
+   "expLanguage": [
+    "fre"
+   ],
+   "pubDate": [
+    "2003"
+   ],
+   "keyword": [
+    "Localisation par satellites",
+    "Graphes"
+   ],
+   "domain": [
+    "520",
+    "510"
+   ],
+   "corporateBody": [
+    "Observatoire de Paris",
+    "École doctorale Astronomie et astrophysique d'Île-de-France"
+   ],
+   "role": [
+    "author"
+   ],
+   "cocontributor": [
+    {
+     "cocontributor": "Willis, Pascal",
+     "person": "sudoc:126716781-1",
+     "idcocontrib": "XXX"
+    },
+    {
+     "cocontributor": "Peyret, François",
+     "person": "sudoc:126716781-1",
+     "idcocontrib": "XXX"
+    }
+   ]
+  },
+  "sudoc:103862889-1": {
+   "personName": [
+    {
+     "appellation": "Durand, Stéphane"
+    }
+   ],
+   "title": [
+    "Amélioration de la précision de la localisation différentielle temps réel par mesure de phase des systèmes GNSS  : étude détaillée des équations d'observation et du problème de résolution des ambiguïtés entières"
+   ],
+   "expLanguage": [
+    "fre"
+   ],
+   "pubDate": [
+    "2003"
+   ],
+   "keyword": [
+    "Localisation par satellites",
+    "Graphes"
+   ],
+   "domain": [
+    "510",
+    "520"
+   ],
+   "corporateBody": [
+    "Observatoire de Paris",
+    "École doctorale Astronomie et astrophysique d'Île-de-France"
+   ],
+   "role": [
+    "author"
+   ],
+   "cocontributor": [
+    {
+     "cocontributor": "Willis, Pascal",
+     "person": "sudoc:103862889-1",
+     "idcocontrib": "XXX"
+    },
+    {
+     "cocontributor": "Peyret, François",
+     "person": "sudoc:103862889-1",
+     "idcocontrib": "XXX"
+    }
+   ]
+  },
+  "sudoc:086931962-1": {
+   "personName": [
+    {
+     "appellation": "Durand, Stéphane"
+    }
+   ],
+   "title": [
+    "Localisation précise en temps réel par mesures de phases des signaux GNSS"
+   ],
+   "expLanguage": [
+    "fre"
+   ],
+   "pubDate": [
+    "2004"
+   ],
+   "keyword": [
+    "GPS"
+   ],
+   "domain": [
+    "520"
+   ],
+   "corporateBody": [],
+   "role": [
+    "author"
+   ],
+   "cocontributor": [
+    {
+     "cocontributor": "Peyret, François",
+     "person": "sudoc:086931962-1",
+     "idcocontrib": "XXX"
+    }
+   ]
+  }
+ }
+}

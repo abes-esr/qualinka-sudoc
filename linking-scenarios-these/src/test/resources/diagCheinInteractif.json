@@ -1,0 +1,270 @@
+{ "sources": [
+        "http:\/\/www.sudoc.abes.fr\/011522968-1",
+        "http:\/\/www.sudoc.abes.fr\/01235127X-2",
+        "http:\/\/www.sudoc.abes.fr\/155198777-2",
+        "http:\/\/www.sudoc.abes.fr\/145888193-1",
+        "http:\/\/www.sudoc.abes.fr\/099350823-1",
+        "http:\/\/www.sudoc.abes.fr\/035977256-2",
+        "http:\/\/www.sudoc.abes.fr\/161696139-2",
+        "http:\/\/www.sudoc.abes.fr\/004776321-2",
+        "http:\/\/www.sudoc.abes.fr\/008264902-2",
+        "http:\/\/www.sudoc.abes.fr\/054402190-2",
+        "http:\/\/www.sudoc.abes.fr\/129028266-1",
+        "http:\/\/www.sudoc.abes.fr\/099340682-1",
+        "http:\/\/www.sudoc.abes.fr\/146229231-1",
+        "http:\/\/www.sudoc.abes.fr\/00480452X-2",
+        "http:\/\/www.sudoc.abes.fr\/089072642-1",
+        "http:\/\/www.sudoc.abes.fr\/099344041-1",
+        "http:\/\/www.sudoc.abes.fr\/012175366-2",
+        "http:\/\/www.sudoc.abes.fr\/008524165-2",
+        "http:\/\/www.sudoc.abes.fr\/008623562-2",
+        "http:\/\/www.sudoc.abes.fr\/151100373-1",
+        "http:\/\/www.sudoc.abes.fr\/004548507-1",
+        "http:\/\/www.sudoc.abes.fr\/008771545-2"
+    ],
+    "targets": [
+        "http:\/\/www.idref.fr\/129493112\/id"
+    ],
+     "computedLinks": [
+        {
+            "confidence": 2147483647,
+            "why": [
+                "[ID64] sameAs(X0,X1,6) :- rc(X0),ra(X1),personNameCriterionCA(X0,X1,2),envPubDimension(X0,X1,2),contenuDimension(X0,X1,3).",
+                "[PubDim2] envPubDimension(X0,X1,2) :- corporateBodyCriterionCA(X0,X1,2).",
+                "[ContDim22] contenuDimension(X0,X1,4) :- titleCriterionCA(X0,X1,2),rameauKeywordCriterionCA(X0,X1,1),domainCriterionCA(X0,X1,1)."
+            ],
+            "step": 3,
+            "source": "http://www.sudoc.abes.fr/00480452X-2",
+            "type": "sameAs",
+            "target": "http://www.idref.fr/129493112/id"
+        },
+        {
+            "confidence": 5,
+            "why": [
+                "[ContDim7] contenuDimension(X0,X1,2) :- rameauKeywordCriterionCA(X0,X1,1).",
+                "[ID423] sameAs(X0,X1,4) :- rc(X0),ra(X1),personNameCriterionCA(X0,X1,2),envPubDimension(X0,X1,2),contenuDimension(X0,X1,1).",
+                "[PubDim2] envPubDimension(X0,X1,2) :- corporateBodyCriterionCA(X0,X1,2)."
+            ],
+            "step": 3,
+            "source": "http://www.sudoc.abes.fr/008771545-2",
+            "type": "sameAs",
+            "target": "http://www.idref.fr/129493112/id"
+        },
+        {
+            "confidence": 4,
+            "why": [
+                "[ContDim17] contenuDimension(X0,X1,3) :- domainCriterionCA(X0,X1,2),rameauKeywordCriterionCA(X0,X1,1).",
+                "[ID41] sameAs(X0,X1,4) :- rc(X0),ra(X1),personNameCriterionCA(X0,X1,2),contenuDimension(X0,X1,3).",
+                "It confirms an existing link."
+            ],
+            "step": 2,
+            "source": "http://www.sudoc.abes.fr/054402190-2",
+            "type": "sameAs",
+            "target": "http://www.idref.fr/129493112/id"
+        },
+        {
+            "confidence": 2147483647,
+            "why": [
+                "[ContDim22] contenuDimension(X0,X1,4) :- titleCriterionCA(X0,X1,2),rameauKeywordCriterionCA(X0,X1,1),domainCriterionCA(X0,X1,1).",
+                "[IDa4] sameAs(X0,X1,always) :- rc(X0),ra(X1),personNameCriterionCA(X0,X1,2),contenuDimension(X0,X1,4),cocontribNameCriterionCA(X0,X1,2)."
+            ],
+            "step": 5,
+            "source": "http://www.sudoc.abes.fr/129028266-1",
+            "type": "sameAs",
+            "target": "http://www.idref.fr/129493112/id"
+        },
+        {
+            "confidence": 2147483647,
+            "why": [
+                "[IDa4] sameAs(X0,X1,always) :- rc(X0),ra(X1),personNameCriterionCA(X0,X1,2),contenuDimension(X0,X1,4),cocontribNameCriterionCA(X0,X1,2).",
+                "[ContDim11] contenuDimension(X0,X1,4) :- titleCriterionCA(X0,X1,3)."
+            ],
+            "step": 1,
+            "source": "http://www.sudoc.abes.fr/089072642-1",
+            "type": "sameAs",
+            "target": "http://www.idref.fr/129493112/id"
+        },
+        {
+            "confidence": 2147483647,
+            "why": [
+                "[ID64] sameAs(X0,X1,6) :- rc(X0),ra(X1),personNameCriterionCA(X0,X1,2),envPubDimension(X0,X1,2),contenuDimension(X0,X1,3).",
+                "[PubDim2] envPubDimension(X0,X1,2) :- corporateBodyCriterionCA(X0,X1,2).",
+                "[ContDim22] contenuDimension(X0,X1,4) :- titleCriterionCA(X0,X1,2),rameauKeywordCriterionCA(X0,X1,1),domainCriterionCA(X0,X1,1)."
+            ],
+            "step": 3,
+            "source": "http://www.sudoc.abes.fr/004776321-2",
+            "type": "sameAs",
+            "target": "http://www.idref.fr/129493112/id"
+        },
+        {
+            "confidence": 6,
+            "why": [
+                "[ID613] sameAs(X0,X1,6) :- rc(X0),ra(X1),personNameCriterionCA(X0,X1,2),envPubDimension(X0,X1,2),contenuDimension(X0,X1,3).",
+                "[PubDim2] envPubDimension(X0,X1,2) :- corporateBodyCriterionCA(X0,X1,2).",
+                "[ContDim10] contenuDimension(X0,X1,3) :- titleCriterionCA(X0,X1,2)."
+            ],
+            "step": 3,
+            "source": "http://www.sudoc.abes.fr/008264902-2",
+            "type": "sameAs",
+            "target": "http://www.idref.fr/129493112/id"
+        },
+        {
+            "confidence": 3,
+            "why": [
+                "[ContDim7] contenuDimension(X0,X1,2) :- rameauKeywordCriterionCA(X0,X1,1).",
+                "[ID31] sameAs(X0,X1,3) :- rc(X0),ra(X1),personNameCriterionCA(X0,X1,2),contenuDimension(X0,X1,2)."
+            ],
+            "step": 6,
+            "source": "http://www.sudoc.abes.fr/01235127X-2",
+            "type": "suggestedSameAs",
+            "target": "http://www.idref.fr/129493112/id"
+        },
+        {
+            "confidence": 4,
+            "why": [
+                "[ID421] sameAs(X0,X1,4) :- rc(X0),ra(X1),personNameCriterionCA(X0,X1,2),envPubDimension(X0,X1,2).",
+                "[PubDim2] envPubDimension(X0,X1,2) :- corporateBodyCriterionCA(X0,X1,2).",
+                "It confirms an existing link."
+            ],
+            "step": 3,
+            "source": "http://www.sudoc.abes.fr/012175366-2",
+            "type": "sameAs",
+            "target": "http://www.idref.fr/129493112/id"
+        },
+        {
+            "confidence": 5,
+            "why": [
+                "[ContDim7] contenuDimension(X0,X1,2) :- rameauKeywordCriterionCA(X0,X1,1).",
+                "[ID423] sameAs(X0,X1,4) :- rc(X0),ra(X1),personNameCriterionCA(X0,X1,2),envPubDimension(X0,X1,2),contenuDimension(X0,X1,1).",
+                "[PubDim2] envPubDimension(X0,X1,2) :- corporateBodyCriterionCA(X0,X1,2)."
+            ],
+            "step": 3,
+            "source": "http://www.sudoc.abes.fr/008524165-2",
+            "type": "sameAs",
+            "target": "http://www.idref.fr/129493112/id"
+        },
+        {
+            "confidence": 4,
+            "why": [
+                "[ID41] sameAs(X0,X1,4) :- rc(X0),ra(X1),personNameCriterionCA(X0,X1,2),contenuDimension(X0,X1,3).",
+                "[ContDim10] contenuDimension(X0,X1,3) :- titleCriterionCA(X0,X1,2)."
+            ],
+            "step": 6,
+            "source": "http://www.sudoc.abes.fr/161696139-2",
+            "type": "suggestedSameAs",
+            "target": "http://www.idref.fr/129493112/id"
+        },
+        {
+            "confidence": 6,
+            "why": [
+                "[ID613] sameAs(X0,X1,6) :- rc(X0),ra(X1),personNameCriterionCA(X0,X1,2),envPubDimension(X0,X1,2),contenuDimension(X0,X1,3).",
+                "[PubDim2] envPubDimension(X0,X1,2) :- corporateBodyCriterionCA(X0,X1,2).",
+                "[ContDim10] contenuDimension(X0,X1,3) :- titleCriterionCA(X0,X1,2)."
+            ],
+            "step": 1,
+            "source": "http://www.sudoc.abes.fr/004548507-1",
+            "type": "sameAs",
+            "target": "http://www.idref.fr/129493112/id"
+        },
+        {
+            "confidence": 6,
+            "why": [
+                "[ID516] sameAs(X0,X1,5) :- rc(X0),ra(X1),personNameCriterionCA(X0,X1,2),contenuDimension(X0,X1,3),envPubDimension(X0,X1,1).",
+                "[PubDim6] envPubDimension(X0,X1,2) :- publisherCriterionCA(X0,X1,1),corporateBodyCriterionCA(X0,X1,2).",
+                "[ContDim10] contenuDimension(X0,X1,3) :- titleCriterionCA(X0,X1,2)."
+            ],
+            "step": 1,
+            "source": "http://www.sudoc.abes.fr/146229231-1",
+            "type": "sameAs",
+            "target": "http://www.idref.fr/129493112/id"
+        },
+        {
+            "confidence": 4,
+            "why": [
+                "[ContDim17] contenuDimension(X0,X1,3) :- domainCriterionCA(X0,X1,2),rameauKeywordCriterionCA(X0,X1,1).",
+                "[ID41] sameAs(X0,X1,4) :- rc(X0),ra(X1),personNameCriterionCA(X0,X1,2),contenuDimension(X0,X1,3).",
+                "It confirms an existing link."
+            ],
+            "step": 4,
+            "source": "http://www.sudoc.abes.fr/155198777-2",
+            "type": "sameAs",
+            "target": "http://www.idref.fr/129493112/id"
+        },
+        {
+            "confidence": 4,
+            "why": [
+                "[ID41] sameAs(X0,X1,4) :- rc(X0),ra(X1),personNameCriterionCA(X0,X1,2),contenuDimension(X0,X1,3).",
+                "[ContDim10] contenuDimension(X0,X1,3) :- titleCriterionCA(X0,X1,2).",
+                "It confirms an existing link."
+            ],
+            "step": 3,
+            "source": "http://www.sudoc.abes.fr/011522968-1",
+            "type": "sameAs",
+            "target": "http://www.idref.fr/129493112/id"
+        },
+        {
+            "confidence": 5,
+            "why": [
+                "[ContDim7] contenuDimension(X0,X1,2) :- rameauKeywordCriterionCA(X0,X1,1).",
+                "[ID423] sameAs(X0,X1,4) :- rc(X0),ra(X1),personNameCriterionCA(X0,X1,2),envPubDimension(X0,X1,2),contenuDimension(X0,X1,1).",
+                "[PubDim2] envPubDimension(X0,X1,2) :- corporateBodyCriterionCA(X0,X1,2)."
+            ],
+            "step": 3,
+            "source": "http://www.sudoc.abes.fr/008623562-2",
+            "type": "sameAs",
+            "target": "http://www.idref.fr/129493112/id"
+        },
+        {
+            "confidence": 6,
+            "why": [
+                "[ID66] sameAs(X0,X1,6) :- rc(X0),ra(X1),personNameCriterionCA(X0,X1,1),cocontribNameCriterionCA(X0,X1,2),contenuDimension(X0,X1,3).",
+                "[ContDim15] contenuDimension(X0,X1,3) :- titleCriterionCA(X0,X1,1),rameauKeywordCriterionCA(X0,X1,1)."
+            ],
+            "step": 5,
+            "source": "http://www.sudoc.abes.fr/099350823-1",
+            "type": "sameAs",
+            "target": "http://www.idref.fr/129493112/id"
+        },
+        {
+            "confidence": 2147483647,
+            "why": [
+                "[IDa4] sameAs(X0,X1,always) :- rc(X0),ra(X1),personNameCriterionCA(X0,X1,2),contenuDimension(X0,X1,4),cocontribNameCriterionCA(X0,X1,2).",
+                "[ContDim11] contenuDimension(X0,X1,4) :- titleCriterionCA(X0,X1,3)."
+            ],
+            "step": 5,
+            "source": "http://www.sudoc.abes.fr/035977256-2",
+            "type": "sameAs",
+            "target": "http://www.idref.fr/129493112/id"
+        },
+        {
+            "confidence": 4,
+            "why": [
+                "[ID41] sameAs(X0,X1,4) :- rc(X0),ra(X1),personNameCriterionCA(X0,X1,2),contenuDimension(X0,X1,3).",
+                "[ContDim10] contenuDimension(X0,X1,3) :- titleCriterionCA(X0,X1,2)."
+            ],
+            "step": 6,
+            "source": "http://www.sudoc.abes.fr/099344041-1",
+            "type": "suggestedSameAs",
+            "target": "http://www.idref.fr/129493112/id"
+        }
+    ],
+    "initialLinks" : [
+         { "source": "http:\/\/www.sudoc.abes.fr\/129028266-1", "target": "http:\/\/www.idref.fr\/129493112\/id", "type": "sameAs"},
+         { "source": "http:\/\/www.sudoc.abes.fr\/054402190-2", "target": "http:\/\/www.idref.fr\/129493112\/id", "type": "sameAs"},
+         { "source": "http:\/\/www.sudoc.abes.fr\/089072642-1", "target": "http:\/\/www.idref.fr\/129493112\/id", "type": "sameAs"},
+         { "source": "http:\/\/www.sudoc.abes.fr\/035977256-2", "target": "http:\/\/www.idref.fr\/129493112\/id", "type": "sameAs"},
+         { "source": "http:\/\/www.sudoc.abes.fr\/004548507-1", "target": "http:\/\/www.idref.fr\/129493112\/id", "type": "sameAs"},
+         { "source": "http:\/\/www.sudoc.abes.fr\/012175366-2", "target": "http:\/\/www.idref.fr\/129493112\/id", "type": "sameAs"},
+         { "source": "http:\/\/www.sudoc.abes.fr\/01235127X-2", "target": "http:\/\/www.idref.fr\/129493112\/id", "type": "sameAs"},
+         { "source": "http:\/\/www.sudoc.abes.fr\/099350823-1", "target": "http:\/\/www.idref.fr\/129493112\/id", "type": "sameAs"},
+         { "source": "http:\/\/www.sudoc.abes.fr\/146229231-1", "target": "http:\/\/www.idref.fr\/129493112\/id", "type": "sameAs"},
+         { "source": "http:\/\/www.sudoc.abes.fr\/011522968-1", "target": "http:\/\/www.idref.fr\/129493112\/id", "type": "sameAs"},
+         { "source": "http:\/\/www.sudoc.abes.fr\/008623562-2", "target": "http:\/\/www.idref.fr\/129493112\/id", "type": "sameAs"},
+         { "source": "http:\/\/www.sudoc.abes.fr\/008264902-2", "target": "http:\/\/www.idref.fr\/129493112\/id", "type": "sameAs"},
+         { "source": "http:\/\/www.sudoc.abes.fr\/145888193-1", "target": "http:\/\/www.idref.fr\/129493112\/id", "type": "sameAs"},
+         { "source": "http:\/\/www.sudoc.abes.fr\/004776321-2", "target": "http:\/\/www.idref.fr\/129493112\/id", "type": "sameAs"},
+         { "source": "http:\/\/www.sudoc.abes.fr\/008771545-2", "target": "http:\/\/www.idref.fr\/129493112\/id", "type": "sameAs"},
+         { "source": "http:\/\/www.sudoc.abes.fr\/155198777-2", "target": "http:\/\/www.idref.fr\/129493112\/id", "type": "sameAs"},
+         { "source": "http:\/\/www.sudoc.abes.fr\/008524165-2", "target": "http:\/\/www.idref.fr\/129493112\/id", "type": "sameAs"}
+    ]
+}

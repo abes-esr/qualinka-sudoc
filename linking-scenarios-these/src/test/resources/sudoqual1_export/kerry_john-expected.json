@@ -1,0 +1,14 @@
+{ "expectedLinks": [
+{"source":"http://www.sudoc.abes.fr/045240264-1","type":"sameAs","target":"http://www.idref.fr/081474342/id","step":1},
+{"source":"http://www.sudoc.abes.fr/045240264-1","type":"diffFrom","target":"http://www.idref.fr/08366985X/id","step":1},
+{"source":"http://www.sudoc.abes.fr/083669868-1","type":"sameAs","target":"http://www.idref.fr/08366985X/id","step":1},
+{"source":"http://www.sudoc.abes.fr/083669868-1","type":"diffFrom","target":"http://www.idref.fr/081474342/id","step":1},
+{"source":"http://www.sudoc.abes.fr/083669868-1","type":"diffFrom","target":"http://www.idref.fr/076083284/id","step":1},
+{"source":"http://www.sudoc.abes.fr/123618169-1","type":"diffFrom","target":"http://www.idref.fr/081474342/id","step":1},
+{"source":"http://www.sudoc.abes.fr/086153234-1","type":"diffFrom","target":"http://www.idref.fr/081474342/id","step":1},
+{"source":"http://www.sudoc.abes.fr/064934047-1","type":"diffFrom","target":"http://www.idref.fr/081474342/id","step":1},
+{"source":"http://www.sudoc.abes.fr/146087275-2","type":"suggestedSameAs","target":"http://www.idref.fr/081474342/id","step":2},
+{"source":"http://www.sudoc.abes.fr/096769130-1","type":"suggestedSameAs","target":"http://www.idref.fr/081474342/id","step":2},
+{"source":"http://www.sudoc.abes.fr/08026932X-1","type":"suggestedSameAs","target":"http://www.idref.fr/081474342/id","step":2},
+{"source":"http://www.sudoc.abes.fr/123618169-1","type":"suggestedSameAs","target":"http://www.idref.fr/08366985X/id","step":2}
+]}
