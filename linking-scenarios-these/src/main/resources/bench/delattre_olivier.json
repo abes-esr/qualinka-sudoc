@@ -980,6 +980,78 @@
    ]
   }
  },
+ "safeLinks": [
+  {
+   "source": "sudoc:203698562-2",
+   "target": "idref:074645824",
+   "type": "sameAs"
+  },
+  {
+   "source": "sudoc:203630815-2",
+   "target": "idref:07462766X",
+   "type": "sameAs"
+  },
+  {
+   "source": "sudoc:176229132-2",
+   "target": "idref:07462766X",
+   "type": "sameAs"
+  },
+  {
+   "source": "sudoc:110838203-2",
+   "target": "idref:07462766X",
+   "type": "sameAs"
+  },
+  {
+   "source": "sudoc:074626884-2",
+   "target": "idref:07462766X",
+   "type": "sameAs"
+  },
+  {
+   "source": "sudoc:180228358-1",
+   "target": "idref:176590714",
+   "type": "sameAs"
+  },
+  {
+   "source": "sudoc:176614494-1",
+   "target": "idref:176590714",
+   "type": "sameAs"
+  },
+  {
+   "source": "sudoc:202546055-1",
+   "target": "idref:034819479",
+   "type": "sameAs"
+  },
+  {
+   "source": "sudoc:060032693-1",
+   "target": "idref:034819479",
+   "type": "sameAs"
+  },
+  {
+   "source": "sudoc:17746402X-2",
+   "target": "idref:23438557X",
+   "type": "sameAs"
+  },
+  {
+   "source": "sudoc:174530455-2",
+   "target": "idref:23438557X",
+   "type": "sameAs"
+  },
+  {
+   "source": "sudoc:174530455-1",
+   "target": "idref:23438557X",
+   "type": "sameAs"
+  },
+  {
+   "source": "sudoc:227080378-1",
+   "target": "idref:172533708",
+   "type": "sameAs"
+  },
+  {
+   "source": "sudoc:041823761-1",
+   "target": "idref:177465433",
+   "type": "sameAs"
+  }
+ ],
  "initialLinks": [
   {
    "source": "sudoc:203698562-2",
