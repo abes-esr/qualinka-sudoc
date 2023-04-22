@@ -25,81 +25,6 @@
   "idref:172533708",
   "idref:177465433"
  ],
- "sources": [
-  "star:2014PA11T039-dirthese",
- ],
- "safeLinks": [
-  {
-   "source": "sudoc:203698562-2",
-   "target": "idref:074645824",
-   "type": "sameAs"
-  },
-  {
-   "source": "sudoc:203630815-2",
-   "target": "idref:07462766X",
-   "type": "sameAs"
-  },
-  {
-   "source": "sudoc:176229132-2",
-   "target": "idref:07462766X",
-   "type": "sameAs"
-  },
-  {
-   "source": "sudoc:110838203-2",
-   "target": "idref:07462766X",
-   "type": "sameAs"
-  },
-  {
-   "source": "sudoc:074626884-2",
-   "target": "idref:07462766X",
-   "type": "sameAs"
-  },
-  {
-   "source": "sudoc:180228358-1",
-   "target": "idref:176590714",
-   "type": "sameAs"
-  },
-  {
-   "source": "sudoc:176614494-1",
-   "target": "idref:176590714",
-   "type": "sameAs"
-  },
-  {
-   "source": "sudoc:202546055-1",
-   "target": "idref:034819479",
-   "type": "sameAs"
-  },
-  {
-   "source": "sudoc:060032693-1",
-   "target": "idref:034819479",
-   "type": "sameAs"
-  },
-  {
-   "source": "sudoc:17746402X-2",
-   "target": "idref:23438557X",
-   "type": "sameAs"
-  },
-  {
-   "source": "sudoc:174530455-2",
-   "target": "idref:23438557X",
-   "type": "sameAs"
-  },
-  {
-   "source": "sudoc:174530455-1",
-   "target": "idref:23438557X",
-   "type": "sameAs"
-  },
-  {
-   "source": "sudoc:227080378-1",
-   "target": "idref:172533708",
-   "type": "sameAs"
-  },
-  {
-   "source": "sudoc:041823761-1",
-   "target": "idref:177465433",
-   "type": "sameAs"
-  }
- ],
  "features": {
   "star:2014PA11T039-dirthese": {
    "personName": [
@@ -233,10 +158,12 @@
      "first_name": "Olivier"
     }
    ],
-   "rc": ["sudoc:203698562-2"],
+   "rc": [
+    "sudoc:203698562-2"
+   ],
    "source": []
   },
-  "sudoc:203698562-2":{
+  "sudoc:203698562-2": {
    "personName": [
     {
      "appellation": "Delattre, Olivier"
@@ -270,7 +197,12 @@
      "first_name": "Olivier"
     }
    ],
-   "rc": ["sudoc:203630815-2","sudoc:176229132-2","sudoc:110838203-2","sudoc:074626884-2"],
+   "rc": [
+    "sudoc:203630815-2",
+    "sudoc:176229132-2",
+    "sudoc:110838203-2",
+    "sudoc:074626884-2"
+   ],
    "source": [
     "Evolution sous-clonale dans le neuroblastome / Paul Deveau ; sous la direction de Olivier Delattre et Valentina Boeva. Thèse de doctorat : Recherche clinique, innovation technologique, santé publique : Paris Saclay : 2017",
     "Etude des altérations de la polarité et de l’adhésion cellulaire dans les cancers du sein / par Nadège Gruel ; sous la direction de Olivier Delattre, Université Paris Sud, 2013 [Thèse de Génétique et cancérologie]",
@@ -285,7 +217,10 @@
      "first_name": "Olivier"
     }
    ],
-   "rc": ["sudoc:180228358-1","sudoc:176614494-1"],
+   "rc": [
+    "sudoc:180228358-1",
+    "sudoc:176614494-1"
+   ],
    "source": [
     "Cristallisation de fontes verrières d’intérêt nucléaire en présence d’un gradient thermique : application aux auto-creusets produits en creuset froid / Olivier Delattre ; Guy Matzen, 2013"
    ]
@@ -297,7 +232,10 @@
      "first_name": "Olivier"
     }
    ],
-   "rc": ["sudoc:202546055-1","sudoc:060032693-1"],
+   "rc": [
+    "sudoc:202546055-1",
+    "sudoc:060032693-1"
+   ],
    "source": [
     "Les enjeux du CTI / Philippe Lafitte, Olivier Delattre, 1996"
    ]
@@ -309,7 +247,11 @@
      "first_name": "Olivier"
     }
    ],
-   "rc": ["sudoc:17746402X-2","sudoc:174530455-2","sudoc:174530455-1"],
+   "rc": [
+    "sudoc:17746402X-2",
+    "sudoc:174530455-2",
+    "sudoc:174530455-1"
+   ],
    "source": [
     "Suis moi  / Olivier Delattre, chant [acc. instr.] / [France] : O. Delattre , [DL 2013]"
    ]
@@ -321,7 +263,9 @@
      "first_name": "Olivier"
     }
    ],
-   "rc": ["sudoc:227080378-1"],
+   "rc": [
+    "sudoc:227080378-1"
+   ],
    "source": [
     "Coévolution et reconnaissance sociale chez un parasite social et ses espèces hôtes : étude de la fourmi esclavagiste Myrmoxenus ravouxi et d'espèces sympatriques du genre Temnothorax / Delattre Olivier. [Thèse : Paris 13 : 2012]"
    ]
@@ -333,7 +277,9 @@
      "first_name": "Olivier"
     }
    ],
-   "rc": ["sudoc:041823761-1"],
+   "rc": [
+    "sudoc:041823761-1"
+   ],
    "source": [
     "Traitement de l'arthrose anvancée du poignet par arthrodèse trois os associée à une résection du scaphoïde et du triquetrum  / Gilles Goulon; sous la direction de O. Delattre, 2009 (Thèse)"
    ]
@@ -355,8 +301,7 @@
    ],
    "keyword": [],
    "domain": [],
-   "docType": [
-   ],
+   "docType": [],
    "corporateBody": [],
    "role": [
     "author"
@@ -1034,5 +979,80 @@
     }
    ]
   }
- }
+ },
+ "initialLinks": [
+  {
+   "source": "sudoc:203698562-2",
+   "target": "idref:074645824",
+   "type": "sameAs"
+  },
+  {
+   "source": "sudoc:203630815-2",
+   "target": "idref:07462766X",
+   "type": "sameAs"
+  },
+  {
+   "source": "sudoc:176229132-2",
+   "target": "idref:07462766X",
+   "type": "sameAs"
+  },
+  {
+   "source": "sudoc:110838203-2",
+   "target": "idref:07462766X",
+   "type": "sameAs"
+  },
+  {
+   "source": "sudoc:074626884-2",
+   "target": "idref:07462766X",
+   "type": "sameAs"
+  },
+  {
+   "source": "sudoc:180228358-1",
+   "target": "idref:176590714",
+   "type": "sameAs"
+  },
+  {
+   "source": "sudoc:176614494-1",
+   "target": "idref:176590714",
+   "type": "sameAs"
+  },
+  {
+   "source": "sudoc:202546055-1",
+   "target": "idref:034819479",
+   "type": "sameAs"
+  },
+  {
+   "source": "sudoc:060032693-1",
+   "target": "idref:034819479",
+   "type": "sameAs"
+  },
+  {
+   "source": "sudoc:17746402X-2",
+   "target": "idref:23438557X",
+   "type": "sameAs"
+  },
+  {
+   "source": "sudoc:174530455-2",
+   "target": "idref:23438557X",
+   "type": "sameAs"
+  },
+  {
+   "source": "sudoc:174530455-1",
+   "target": "idref:23438557X",
+   "type": "sameAs"
+  },
+  {
+   "source": "sudoc:227080378-1",
+   "target": "idref:172533708",
+   "type": "sameAs"
+  },
+  {
+   "source": "sudoc:041823761-1",
+   "target": "idref:177465433",
+   "type": "sameAs"
+  }
+ ],
+ "sources": [
+  "star:2014PA11T039-dirthese"
+ ]
 }
