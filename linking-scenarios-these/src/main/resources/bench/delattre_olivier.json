@@ -1,5 +1,5 @@
 {
- "scenario": "these-dir", 
+ "scenario": "these-dir",
  "supports": [
   "sudoc:203698562-2",
   "sudoc:203630815-2",
@@ -26,7 +26,7 @@
   "idref:177465433"
  ],
  "sources": [
-  "star:2014PA11T039-dirthese"
+  "star:2014PA11T039-dirthese",
  ],
  "safeLinks": [
   {
@@ -34,7 +34,7 @@
    "target": "idref:074645824",
    "type": "sameAs"
   },
-   {
+  {
    "source": "sudoc:203630815-2",
    "target": "idref:07462766X",
    "type": "sameAs"
@@ -99,9 +99,9 @@
    "target": "idref:177465433",
    "type": "sameAs"
   }
-],
+ ],
  "features": {
-   "star:2014PA11T039-dirthese": {
+  "star:2014PA11T039-dirthese": {
    "personName": [
     {
      "appellation": "Delattre, Olivier"
@@ -109,7 +109,7 @@
    ],
    "title": [
     "Synthetic Lethality and Metabolism in Ewing Sarcoma : Knowledge Through Silence",
-	"LÃƒÂ©talitÃƒÂ© synthÃƒÂ©tique et MÃƒÂ©tabolisme dans le Sarcome d'Ewing : connaissance grÃƒÂ¢ce au Silence"
+    "Létalité synthétique et Métabolisme dans le Sarcome d'Ewing : connaissance grâce au Silence"
    ],
    "expLanguage": [
     "eng"
@@ -119,33 +119,33 @@
    ],
    "keyword": [
     "Sarcome d'Ewing",
-    "MÃƒÂ©tabolisme",
+    "Métabolisme",
     "Apoptose",
-    "Sarcome dÃ¢â‚¬â„¢Ewing",
-    "MÃƒÂ©tabolisme des cellules cancÃƒÂ©reuses",
-    "MÃƒÂ©tabolomiques",
-    "KynurÃƒÂ©nine",
+    "Sarcome d’Ewing",
+    "Métabolisme des cellules cancéreuses",
+    "Métabolomiques",
+    "Kynurénine",
     "Effet de Warburg",
-    "LÃƒÂ©thalitÃƒÂ© synthÃƒÂ©tique",
+    "Léthalité synthétique",
     "PKD1",
     "EWS-FLI1",
-    "Ãƒâ€°tude ARNi",
-	"Ewing sarcoma",
-	"Cancer cell metabolism",
-	"Metabolomics",
-	"Kynurenine",
-	"WarburgÃ¢â‚¬â„¢ effect",
-	"Synthetic lethality",
-	"PKD1",
-	"EWS-FLI1",
-	"RNAi screen"
+    "Étude ARNi",
+    "Ewing sarcoma",
+    "Cancer cell metabolism",
+    "Metabolomics",
+    "Kynurenine",
+    "Warburg’ effect",
+    "Synthetic lethality",
+    "PKD1",
+    "EWS-FLI1",
+    "RNAi screen"
    ],
    "domain": [
     "610",
     "570"
    ],
    "docType": [
-	"thesis"
+    "thesis"
    ],
    "role": [
     "thesis_advisor"
@@ -158,13 +158,13 @@
     }
    ],
    "cojury": [
-	{
+    {
      "cojury": "Perret, Christine",
      "person": "sudoc:180756931-2",
      "idcocontrib": "XXX"
     },
     {
-     "cojury": "Szuhai, KÃƒÂ¡roly",
+     "cojury": "Szuhai, Károly",
      "person": "sudoc:180756931-2",
      "idcocontrib": "XXX"
     },
@@ -180,12 +180,12 @@
     }
    ],
    "corporateBody": [
-    "UniversitÃƒÂ© Paris-Sud",
-    "Ecole doctorale CancÃƒÂ©rologie : Biologie, MÃƒÂ©decine, SantÃƒÂ©",
-    "UnitÃƒÂ© de gÃƒÂ©nÃƒÂ©tique et biologie des cancers"
+    "Université Paris-Sud",
+    "Ecole doctorale Cancérologie : Biologie, Médecine, Santé",
+    "Unité de génétique et biologie des cancers"
    ]
   },
-    "sudoc:044202172-1": {
+  "sudoc:044202172-1": {
    "personName": [
     {
      "appellation": "Delattre, Olivier"
@@ -210,10 +210,10 @@
    ],
    "domain": [],
    "docType": [
-	"thesis"
+    "thesis"
    ],
    "corporateBody": [
-    "UniversitÃƒÂ© Paris Diderot - Paris 7"
+    "Université Paris Diderot - Paris 7"
    ],
    "role": [
     "author"
@@ -260,7 +260,7 @@
    "role": [
     "author"
    ],
-   
+   "cocontributor": [],
    "corporateBody": []
   },
   "idref:07462766X": {
@@ -272,10 +272,10 @@
    ],
    "rc": ["sudoc:203630815-2","sudoc:176229132-2","sudoc:110838203-2","sudoc:074626884-2"],
    "source": [
-    "Evolution sous-clonale dans le neuroblastome / Paul Deveau ; sous la direction de Olivier Delattre et Valentina Boeva. ThÃƒÂ¨se de doctorat : Recherche clinique, innovation technologique, santÃƒÂ© publique : Paris Saclay : 2017",
-    "Etude des altÃƒÂ©rations de la polaritÃƒÂ© et de lÃ¢â‚¬â„¢adhÃƒÂ©sion cellulaire dans les cancers du sein / par NadÃƒÂ¨ge Gruel ; sous la direction de Olivier Delattre, UniversitÃƒÂ© Paris Sud, 2013 [ThÃƒÂ¨se de GÃƒÂ©nÃƒÂ©tique et cancÃƒÂ©rologie]",
-    "CaractÃƒÂ©risation d'un nouveau gÃƒÂ¨ne suppresseur de tumeur, hSNF5/INI1 impliquÃƒÂ© dans les tumeurs rhabdoiÃ�ï¿½ÃŒË†des malignes / Isabella Versteege ; sous la dir. d' Olivier Delattre. 2002",
-    "MÃƒÂ©canismes d'action du suppresseur de tumeur hSNF5/INI1 : ÃƒÂ©tude de l'homologie fonctionnelle et recherche de partenaires d'interaction / Vanessa Bonazzi ; sous la direction d' Olivier Delattre, 2005"
+    "Evolution sous-clonale dans le neuroblastome / Paul Deveau ; sous la direction de Olivier Delattre et Valentina Boeva. Thèse de doctorat : Recherche clinique, innovation technologique, santé publique : Paris Saclay : 2017",
+    "Etude des altérations de la polarité et de l’adhésion cellulaire dans les cancers du sein / par Nadège Gruel ; sous la direction de Olivier Delattre, Université Paris Sud, 2013 [Thèse de Génétique et cancérologie]",
+    "Caractérisation d'un nouveau gène suppresseur de tumeur, hSNF5/INI1 impliqué dans les tumeurs rhabdoi͏̈des malignes / Isabella Versteege ; sous la dir. d' Olivier Delattre. 2002",
+    "Mécanismes d'action du suppresseur de tumeur hSNF5/INI1 : étude de l'homologie fonctionnelle et recherche de partenaires d'interaction / Vanessa Bonazzi ; sous la direction d' Olivier Delattre, 2005"
    ]
   },
   "idref:176590714": {
@@ -287,7 +287,7 @@
    ],
    "rc": ["sudoc:180228358-1","sudoc:176614494-1"],
    "source": [
-    "Cristallisation de fontes verriÃƒÂ¨res dÃ¢â‚¬â„¢intÃƒÂ©rÃƒÂªt nuclÃƒÂ©aire en prÃƒÂ©sence dÃ¢â‚¬â„¢un gradient thermique : application aux auto-creusets produits en creuset froid / Olivier Delattre ; Guy Matzen, 2013"
+    "Cristallisation de fontes verrières d’intérêt nucléaire en présence d’un gradient thermique : application aux auto-creusets produits en creuset froid / Olivier Delattre ; Guy Matzen, 2013"
    ]
   },
   "idref:034819479": {
@@ -323,7 +323,7 @@
    ],
    "rc": ["sudoc:227080378-1"],
    "source": [
-    "CoÃƒÂ©volution et reconnaissance sociale chez un parasite social et ses espÃƒÂ¨ces hÃƒÂ´tes : ÃƒÂ©tude de la fourmi esclavagiste Myrmoxenus ravouxi et d'espÃƒÂ¨ces sympatriques du genre Temnothorax / Delattre Olivier. [ThÃƒÂ¨se : Paris 13 : 2012]"
+    "Coévolution et reconnaissance sociale chez un parasite social et ses espèces hôtes : étude de la fourmi esclavagiste Myrmoxenus ravouxi et d'espèces sympatriques du genre Temnothorax / Delattre Olivier. [Thèse : Paris 13 : 2012]"
    ]
   },
   "idref:177465433": {
@@ -335,7 +335,7 @@
    ],
    "rc": ["sudoc:041823761-1"],
    "source": [
-    "Traitement de l'arthrose anvancÃƒÂ©e du poignet par arthrodÃƒÂ¨se trois os associÃƒÂ©e ÃƒÂ  une rÃƒÂ©section du scaphoÃƒÂ¯de et du triquetrum  / Gilles Goulon; sous la direction de O. Delattre, 2009 (ThÃƒÂ¨se)"
+    "Traitement de l'arthrose anvancée du poignet par arthrodèse trois os associée à une résection du scaphoïde et du triquetrum  / Gilles Goulon; sous la direction de O. Delattre, 2009 (Thèse)"
    ]
   },
   "sudoc:224093088-1": {
@@ -379,15 +379,15 @@
     "eng"
    ],
    "keyword": [
-    "CoopÃƒÂ©ration internationale",
-    "MÃƒÂ©dias"
+    "Coopération internationale",
+    "Médias"
    ],
    "domain": [
     "320",
     "070"
    ],
    "corporateBody": [
-    "BollorÃƒÂ© technologies"
+    "Bolloré technologies"
    ],
    "role": [
     "director"
@@ -401,7 +401,7 @@
     }
    ],
    "title": [
-    "De l'amitiÃƒÂ© et de la fraternitÃƒÂ© ÃƒÂ  l'Ãƒâ€°cole de Rochefort : essai"
+    "De l'amitié et de la fraternité à l'École de Rochefort : essai"
    ],
    "pubDate": [
     "2012"
@@ -424,7 +424,7 @@
     }
    ],
    "title": [
-    "Nouveau modÃƒÂ¨le hÃƒÂ©roiÃ�ï¿½ÃŒË†que ou anti-hÃƒÂ©ros, Corto Maltese"
+    "Nouveau modèle héroi͏̈que ou anti-héros, Corto Maltese"
    ],
    "pubDate": [
     "2005"
@@ -486,7 +486,7 @@
    ],
    "domain": [],
    "docType": [
-	"thesis"
+    "thesis"
    ],
    "corporateBody": [],
    "role": [
@@ -516,7 +516,7 @@
     "fre"
    ],
    "keyword": [
-    "GÃƒÂ©nomique",
+    "Génomique",
     "Neuroblastome",
     "Evolution clonale"
    ],
@@ -525,14 +525,14 @@
     "610"
    ],
    "docType": [
-	"thesis"
+    "thesis"
    ],
    "corporateBody": [
-    "UniversitÃƒÂ© Paris-Saclay",
-    "Ãƒâ€°cole doctorale CancÃƒÂ©rologie, Biologie, MÃƒÂ©decine, SantÃƒÂ©",
-    "UnitÃƒÂ© de gÃƒÂ©nÃƒÂ©tique et biologie des cancers",
+    "Université Paris-Saclay",
+    "École doctorale Cancérologie, Biologie, Médecine, Santé",
+    "Unité de génétique et biologie des cancers",
     "Institut Cochin",
-    "UniversitÃƒÂ© Paris-Sud"
+    "Université Paris-Sud"
    ],
    "role": [
     "thesis_advisor"
@@ -550,7 +550,7 @@
     }
    ],
    "cojury": [
-   {
+    {
      "cojury": "Auclair, Christian",
      "person": "sudoc:203630815-2",
      "idcocontrib": "XXX"
@@ -584,7 +584,7 @@
     }
    ],
    "title": [
-    "Etude des altÃƒÂ©rations de la polaritÃƒÂ© et de l'adhÃƒÂ©sion cellulaire dans les cancers du sein"
+    "Etude des altérations de la polarité et de l'adhésion cellulaire dans les cancers du sein"
    ],
    "pubDate": [
     "2013"
@@ -594,32 +594,32 @@
    ],
    "keyword": [
     "Sein",
-    "PolaritÃƒÂ© (biologie)",
-    "GÃƒÂ©nomique",
+    "Polarité (biologie)",
+    "Génomique",
     "Cancer du sein",
-    "PolaritÃƒÂ© apico-basale",
+    "Polarité apico-basale",
     "IMPC",
     "ILC",
-    "SequenÃƒÂ§age massif"
+    "Sequençage massif"
    ],
    "domain": [
     "610",
     "570"
    ],
    "docType": [
-	"thesis"
+    "thesis"
    ],
    "corporateBody": [
-    "UniversitÃƒÂ© Paris-Sud",
-    "Ecole doctorale CancÃƒÂ©rologie : Biologie, MÃƒÂ©decine, SantÃƒÂ©",
-    "UnitÃƒÂ© de gÃƒÂ©nÃƒÂ©tique et biologie des cancers"
+    "Université Paris-Sud",
+    "Ecole doctorale Cancérologie : Biologie, Médecine, Santé",
+    "Unité de génétique et biologie des cancers"
    ],
    "role": [
     "thesis_advisor"
    ],
    "cocontributor": [
     {
-     "cocontributor": "Gruel, NadÃƒÂ¨ge",
+     "cocontributor": "Gruel, Nadège",
      "person": "sudoc:176229132-2",
      "idcocontrib": "XXX"
     }
@@ -632,7 +632,7 @@
     }
    ],
    "title": [
-    "MÃƒÂ©canismes d'action du suppresseur de tumeur hSNF5"
+    "Mécanismes d'action du suppresseur de tumeur hSNF5"
    ],
    "pubDate": [
     "2005"
@@ -646,18 +646,18 @@
     "Complexe SWI",
     "SNF",
     "Cycle cellulaire",
-    "ComplÃƒÂ©mentation fonctionnelle",
+    "Complémentation fonctionnelle",
     "Partenaire d'interaction",
     "Tumeur rhabdoide",
-    "GÃƒÂ¨ne suppresseur de tumeur  610 2#",
+    "Gène suppresseur de tumeur  610 2#",
     "Cancer"
    ],
    "domain": [],
    "docType": [
-	"thesis"
+    "thesis"
    ],
    "corporateBody": [
-    "UniversitÃƒÂ© Paris Diderot - Paris 7"
+    "Université Paris Diderot - Paris 7"
    ],
    "role": [
     "thesis_advisor"
@@ -677,7 +677,7 @@
     }
    ],
    "title": [
-    "CaractÃƒÂ©risation d'un nouveau gÃƒÂ¨ne suppresseur de tumeur hSNF5"
+    "Caractérisation d'un nouveau gène suppresseur de tumeur hSNF5"
    ],
    "pubDate": [
     "2002"
@@ -686,7 +686,7 @@
     "fre"
    ],
    "keyword": [
-    "Tumeurs rhabdoÃƒÂ¯des malignes [TRM]",
+    "Tumeurs rhabdoïdes malignes [TRM]",
     "Cancer",
     "SWI",
     "SNF [mating type SWItching ",
@@ -697,16 +697,16 @@
     "Chromatine",
     "Cycle cellulaire",
     "Cdc6 [Cell division cycle]",
-    "GÃƒÂ¨ne suppresseur de tumeur",
+    "Gène suppresseur de tumeur",
     "G1-S",
     "E2F1"
    ],
    "domain": [],
    "docType": [
-	"thesis"
+    "thesis"
    ],
    "corporateBody": [
-    "UniversitÃƒÂ© Paris Diderot - Paris 7"
+    "Université Paris Diderot - Paris 7"
    ],
    "role": [
     "thesis_advisor"
@@ -726,7 +726,7 @@
     }
    ],
    "title": [
-    "Cristallisation de fontes verriÃƒÂ¨res d'intÃƒÂ©rÃƒÂªt nuclÃƒÂ©aire en prÃƒÂ©sence d'un gradient thermique : application aux auto-creusets produits en creuset froid"
+    "Cristallisation de fontes verrières d'intérêt nucléaire en présence d'un gradient thermique : application aux auto-creusets produits en creuset froid"
    ],
    "pubDate": [
     "2014"
@@ -737,7 +737,7 @@
    "keyword": [],
    "domain": [],
    "docType": [
-	"thesis"
+    "thesis"
    ],
    "corporateBody": [],
    "role": [
@@ -752,7 +752,7 @@
     }
    ],
    "title": [
-    "Cristallisation de fontes verriÃƒÂ¨res d'intÃƒÂ©rÃƒÂªt nuclÃƒÂ©aire en prÃƒÂ©sence d'un gradient thermique  : application aux auto-creusets produits en creuset froid"
+    "Cristallisation de fontes verrières d'intérêt nucléaire en présence d'un gradient thermique  : application aux auto-creusets produits en creuset froid"
    ],
    "pubDate": [
     "2013"
@@ -761,13 +761,13 @@
     "fre"
    ],
    "keyword": [
-    "DÃƒÂ©chets radioactifs",
+    "Déchets radioactifs",
     "Verre",
     "Cristallisation",
     "Microtomographie",
-    "Verre nuclÃƒÂ©aire",
+    "Verre nucléaire",
     "Gradient thermique",
-    "Analyse dÃ¢â‚¬â„¢images",
+    "Analyse d’images",
     "Creuset froid"
    ],
    "domain": [
@@ -776,12 +776,12 @@
     "540"
    ],
    "docType": [
-	"thesis"
+    "thesis"
    ],
    "corporateBody": [
-    "UniversitÃƒÂ© d'OrlÃƒÂ©ans",
-    "Ãƒâ€°cole doctorale Ãƒâ€°nergie, MatÃƒÂ©riaux, Sciences de la Terre et de l'Univers",
-    "Conditions extrÃƒÂªmes et matÃƒÂ©riaux : haute tempÃƒÂ©rature et irradiation"
+    "Université d'Orléans",
+    "École doctorale Énergie, Matériaux, Sciences de la Terre et de l'Univers",
+    "Conditions extrêmes et matériaux : haute température et irradiation"
    ],
    "role": [
     "author"
@@ -801,7 +801,7 @@
     }
    ],
    "title": [
-    "L'entreprise en difficultÃƒÂ© face au droit communautaire"
+    "L'entreprise en difficulté face au droit communautaire"
    ],
    "pubDate": [
     "1996"
@@ -810,14 +810,14 @@
     "fre"
    ],
    "keyword": [
-    "Entreprises en difficultÃƒÂ© (droit)",
-    "Droit europÃƒÂ©en"
+    "Entreprises en difficulté (droit)",
+    "Droit européen"
    ],
    "domain": [
     "340"
    ],
    "docType": [
-	"thesis"
+    "thesis"
    ],
    "corporateBody": [],
    "role": [
@@ -841,8 +841,8 @@
     "fre"
    ],
    "keyword": [
-    "Entreprises en difficultÃƒÂ© (droit)",
-    "Droit europÃƒÂ©en",
+    "Entreprises en difficulté (droit)",
+    "Droit européen",
     "DROIT SOCIAL/PAYS DE L'UNION EUROPEENNE",
     "Concurrence",
     "DROIT PUBLIC : DROIT PUBLIC EUROPEEN",
@@ -857,17 +857,17 @@
     "340"
    ],
    "docType": [
-	"thesis"
+    "thesis"
    ],
    "corporateBody": [
-    "UniversitÃƒÂ© du droit et de la santÃƒÂ©"
+    "Université du droit et de la santé"
    ],
    "role": [
     "author"
    ],
    "cocontributor": [
     {
-     "cocontributor": "Coussirat-CoustÃƒÂ¨re, Vincent",
+     "cocontributor": "Coussirat-Coustère, Vincent",
      "person": "sudoc:060032693-1",
      "idcocontrib": "XXX"
     }
@@ -880,7 +880,7 @@
     }
    ],
    "title": [
-    "Traitement de l'arthrose avancÃƒÂ©e du poignet par arthrodÃƒÂ¨se trois os associÃƒÂ©e ÃƒÂ  une rÃƒÂ©section du scaphoÃƒÂ¯de et du triquetrum"
+    "Traitement de l'arthrose avancée du poignet par arthrodèse trois os associée à une résection du scaphoïde et du triquetrum"
    ],
    "pubDate": [
     "2009"
@@ -889,7 +889,7 @@
     "fre"
    ],
    "keyword": [
-    "ArthrodÃƒÂ¨se",
+    "Arthrodèse",
     "Poignet"
    ],
    "domain": [
@@ -897,10 +897,10 @@
     "570"
    ],
    "docType": [
-	"thesis"
+    "thesis"
    ],
    "corporateBody": [
-    "UniversitÃƒÂ© des Antilles et de la Guyane. UFR des sciences mÃƒÂ©dicales"
+    "Université des Antilles et de la Guyane. UFR des sciences médicales"
    ],
    "role": [
     "thesis_advisor"
@@ -978,7 +978,7 @@
     }
    ],
    "title": [
-    "La problÃƒÂ©matique de l'application de la directive 79"
+    "La problématique de l'application de la directive 79"
    ],
    "pubDate": [
     "1991"
@@ -1028,7 +1028,7 @@
    ],
    "cocontributor": [
     {
-     "cocontributor": "Javaudin, LoÃƒÂ¯c",
+     "cocontributor": "Javaudin, Loïc",
      "person": "sudoc:041823761-1",
      "idcocontrib": "XXX"
     }
