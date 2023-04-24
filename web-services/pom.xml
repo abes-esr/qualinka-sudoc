@@ -15,7 +15,7 @@
 	<dependencies>
 		<dependency>
 			<groupId>fr.abes.qualinka</groupId>
-			<artifactId>linking-scenarios-sudoc</artifactId>
+			<artifactId>linking-scenarios-these</artifactId>
 			<version>${project.version}</version>
 		</dependency>
 		<dependency>

@@ -20,7 +20,7 @@ import org.slf4j.LoggerFactory;
 import fr.abes.sudoqual.cli.SudoqualCommander;
 import fr.abes.sudoqual.cli.SudoqualConfig;
 import fr.abes.sudoqual.linking_module.LinkingModule;
-import fr.abes.qualinka.sudoc.SudocConfig;
+import fr.abes.qualinka.these.TheseConfig;
 import fr.abes.qualinka.ws.jobs.JobManager;
 
 public class ContextListener implements ServletContextListener {
@@ -53,7 +53,7 @@ public class ContextListener implements ServletContextListener {
 		Context.SERVER_INFO = Context.CONF.getString("project.name") + "/" + Context.CONF.getString("project.version");
 		Context.JOB_MANAGER = JobManager.create();
 		
-		SudoqualConfig config = new SudocConfig();
+		SudoqualConfig config = new TheseConfig();
 		
 		// create linking module
 		int nbThread = Runtime.getRuntime().availableProcessors();
