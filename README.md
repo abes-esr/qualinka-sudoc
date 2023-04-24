@@ -1,5 +1,5 @@
 /!\ Version Scenario Theses  
-=> Le pom.xml de web-services appelle le module linking-scenarios-these.
+=> Le pom.xml de web-services appelle le module linking-scenarios-these.  
 => Et le ContextListener instancie qualinka.these.TheseConfig  
 /!\
 

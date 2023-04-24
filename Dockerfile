@@ -17,6 +17,7 @@ COPY ./pom.xml /build/pom.xml
 COPY ./linking-scenarios-example/  /build/linking-scenarios-example/
 COPY ./linking-scenarios-sudoc/   /build/linking-scenarios-sudoc/
 COPY ./linking-scenarios-sudoqual1/    /build/linking-scenarios-sudoqual1/
+COPY ./linking-scenarios-these/    /build/linking-scenarios-these/
 COPY ./web-services/    /build/web-services/
 RUN mvn initialize
 RUN mvn --batch-mode \
