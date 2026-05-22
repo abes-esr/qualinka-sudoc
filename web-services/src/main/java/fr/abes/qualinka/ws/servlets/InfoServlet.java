@@ -15,7 +15,7 @@ import org.json.JSONObject;
 import fr.abes.qualinka.ws.Context;
 
 /**
- * This servlet provides application and services information.
+ * This servlet provides application and services information  .
  * 
  * @author Clément Sipieter {@literal <clement@6pi.fr>}
  */
