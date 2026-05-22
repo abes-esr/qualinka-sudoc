@@ -1,4 +1,4 @@
-name: "build-test-pubtodockerhub"
+name: "buildx-test-pubtodockerhub"
 
 
 # IMPORTANT : personnalisez cette variable pour que les images
@@ -20,7 +20,7 @@ on:
 
 
 jobs:
-  build-test-pubtodockerhub:
+  buildx-test-pubtodockerhub:
     permissions:
       id-token: write
       attestations: write
