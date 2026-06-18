@@ -14,7 +14,7 @@
 		<maven.compiler.target>11</maven.compiler.target>
 		<!-- dependency versions -->
 		<sudoqual-framework.version>2.10.4</sudoqual-framework.version>
-		<org-json.version>20180813</org-json.version>
+		<org-json.version>20230227</org-json.version>
 		<junit5.version>5.3.1</junit5.version>
 	</properties>
 
